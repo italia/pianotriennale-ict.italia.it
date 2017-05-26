@@ -36,10 +36,11 @@
       <h2 class="u-md-flexInline u-lg-flexInline u-text-p u-color-white u-textWeight-400
         u-hidden u-margin-r-right u-flexAlignSelfCenter">{{ t.follow_us | capitalize }}</h2>
       <ul class="Footer-socialIcons">
-        {% for social in site.data.social %}
+        {% assign socials = site.data.social | where: 'footer', true %}
+        {% for social in socials %}
           <li>
-            <a href="{{ social[1].link }}" title="{{ social[1].name }}" target="_blank"><span class="Icon-{{ social[0] }}"></span>
-            <span class="u-hiddenVisually">{{ social[1].name | capitalize }}</span></a>
+            <a href="{{ social.link }}" title="{{ social.name }}" target="_blank"><span class="Icon-{{ social.name }}"></span>
+            <span class="u-hiddenVisually">{{ social.name | capitalize }}</span></a>
           </li>
         {% endfor %}
       </ul>

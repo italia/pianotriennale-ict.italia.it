@@ -43,14 +43,24 @@ layout: default
         </a>
       </div>
       <div class="Prose">
-        <p class="u-padding-top-xxs">
+        <p>
           Breve descrizione del ruolo di AgID: Quisque placerat facilisis egestas cillum dolore. Contra legem facit qui id facit quod lex prohibet.
-          <br/>
-          <a href="{{ site.owner_link }}" title="{{ site.owner_full | escape }}" class="u-textWeight-600 u-linkClean u-color-teal-70">
-          <span class="Icon Icon-arrow-right u-margin-left-xs u-alignMiddle"></span>
-          <span class="u-textClean">www.agid.gov.it</span>
-          </a>
         </p>
+      </div>
+      <div>
+        <ul class="Footer-socialIcons u-margin-r-bottom">
+        {% assign socials = site.data.social | where: 'owner', 'agid' %}
+        {% for social in socials %}
+          <li>
+            <a href="{{ social.link }}" title="{{ social.name }}" target="_blank"><span class="Icon-{{ social.name }}"></span>
+            <span class="u-hiddenVisually">{{ social.name | capitalize }}</span></a>
+          </li>
+        {% endfor %}
+        </ul>
+        <a href="{{ site.owner_link }}" title="{{ site.owner_full | escape }}" class="u-textWeight-600 u-linkClean u-color-teal-70">
+        <span class="Icon Icon-arrow-right u-margin-left-xs u-alignMiddle"></span>
+        <span class="u-textClean">www.agid.gov.it</span>
+        </a>
       </div>
       <div class="Grid u-margin-top-xxl u-margin-bottom-xs ">
         <div class="u-inlineBlock">
@@ -67,12 +77,22 @@ layout: default
       <div class="Prose">
         <p class="u-padding-top-xxs">
           Breve descrizione del ruolo di TeamDigitale: Quisque placerat facilisis egestas cillum dolore. Contra legem facit qui id facit quod lex prohibet.
-          <br/>
+          </p>
+        </div>
+        <div>
+          <ul class="Footer-socialIcons u-margin-r-bottom">
+          {% assign socials = site.data.social | where: 'owner', 'teamdigitale' %}
+          {% for social in socials %}
+            <li>
+              <a href="{{ social.link }}" title="{{ social.name }}" target="_blank"><span class="Icon-{{ social.name }}"></span>
+              <span class="u-hiddenVisually">{{ social.name | capitalize }}</span></a>
+            </li>
+          {% endfor %}
+          </ul>
           <a href="{{ site.partner_link }}" title="{{ site.partner_full | escape }}" class="u-textWeight-600 u-linkClean u-color-teal-70">
           <span class="Icon Icon-arrow-right u-margin-left-xs u-alignMiddle"></span>
           <span class="u-textClean">teamdigitale.governo.it</span>
           </a>
-        </p>
       </div>
     </div>
     <div class="Grid-cell u-sizeFull u-md-before2of12 u-md-size4of12 u-lg-before2of12 u-lg-size4of12">
