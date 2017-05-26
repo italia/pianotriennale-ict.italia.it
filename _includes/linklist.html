@@ -1,0 +1,46 @@
+{% assign items = include.items  %}
+
+{% if include._internal %}
+{% assign current = '' %}
+  <ul>
+{% else %}
+  <ul class="Linklist Linklist--padded u-layout-prose u-text-r-xs {% if include.dynamic %}Treeview Treeview--default js-Treeview{% endif %}">
+{% endif %}
+
+  {% assign navurl = page.url | remove: 'index.html' %}
+  {% for item in items %}
+    {% unless include._internal %}
+    {% assign current = 'Megamenu-item' %}
+    {% if item.url == navurl %}
+      {% assign current = 'Megamenu-item is-current' %}
+    {% elsif item.subitems %}
+      {% for subitem in item.subitems %}
+        {% if subitem.url == navurl %}
+          {% assign current = 'Megamenu-item is-current' %}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+    {% endunless %}
+  	<li data-megamenu-class="{{ current }} {{ item.liClass }}{% if item.image %} u-inlineBlock u-alignTop u-textCenter{% endif %}"
+    {% if item.subtitle %}data-megamenu-subtitle="{{ item.subtitle }}"{% endif %}>
+      {% if item.url == "#" or item.url contains '//' %}
+        {% assign _url = item.url %}
+      {% else %}
+        {% assign _url = item.url | relative_url %}
+      {% endif %}
+
+  		<a href="{{ _url }}" class="{% if item.url == navurl %}is-current u-textWeight-700{% endif %} Linklist-link"
+        {% if item.image %}data-megamenu-class="Linklist--withImage"{% endif %}
+        {% if item.image %}style="background-image: url({{ item.image }})"{% endif %}
+      >
+        {{ item.markup_pre }}
+				{{ t[item.title] | default: item.title }}
+        {{ item.markup_post }}
+  		</a>
+      {% if item.subitems %}
+    		{% include linklist.html layout=item.layout items=item.subitems _internal=true %}
+    	{% endif %}
+  	</li>
+  {% endfor %}
+
+</ul>

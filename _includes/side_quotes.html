@@ -1,0 +1,13 @@
+{% for quote in include.quotes %}
+<div class="Side-quote u-color-grey-50 u-padding-r-all">
+  <div class="Side-quote-text u-margin-bottom-xl u-textItalic u-lineHeight-xl">
+    {{ quote[1].text | newline_to_br }}
+  </div>
+  <div class="Side-quote-text u-margin-bottom-xs u-text-r-m u-color-grey-90">
+    {{ quote[1].author_name }}
+  </div>
+  <div class="Side-quote-text u-text-r-xxs">
+    {{ quote[1].author_role }}
+  </div>
+</div>
+{% endfor %}

@@ -1,0 +1,88 @@
+<header class="Header u-hiddenPrint js-Headroom Headroom">
+
+  <div class="Header-banner u-background-50 Headroom-hideme">
+    <div class="Header-owner u-border-bottom-xxs">
+      <div class="Header-slim-toggle u-md-hidden u-lg-hidden u-floatLeft u-border-right-xxs u-margin-right-xs u-padding-right-xs">
+        <a class="js-fr-offcanvas-open u-nojsDisplayInlineBlock" href="#network" aria-controls="network" aria-label="{{ t.toggle_network_menu_label }}" title="{{ t.toggle_network_menu_label }}"><span class="Icon Icon-small-burger u-color-white u-alignMiddle"></span></a>
+      </div>
+      <a href="{{ site.owner_link }}"><span class="u-inline">{{ site.owner_short }}</span></a>
+      <span class="u-color-white">&nbsp;+&nbsp;</span>
+      <a href="{{ site.partner_link }}"><span class="u-inline">{{ site.partner_short }}</span></a>
+      {% include lang_switch.html %}
+      <div class="u-hidden u-md-block u-lg-block u-floatRight">
+      {% include slim_header.html %}
+      </div>
+    </div>
+  </div>
+
+  <div class="Header-navbar u-background-50">
+    <div class="u-layout-wide Grid Grid--alignMiddle u-layoutCenter">
+      <div class="Header-logo Grid-cell" aria-hidden="true">
+        <a href="{{ '/' | relative_url }}" tabindex="-1">
+          <img src="{{ site.logo | relative_url }}" alt="">
+        </a>
+      </div>
+
+      <div class="Header-title Grid-cell">
+        <h1 class="Header-titleLink">
+          <a href="{{ '/' | relative_url }}" class="u-linkClean">{{ t.site_title | default: site.title | escape }}
+            {% if site.pill %}
+              <span class="u-text-xxs u-alignMiddle u-padding-right-xs u-padding-left-xs u-borderRadius-xl u-background-70 u-textWeight-400">{{ site.pill }}</span>{%
+                endif %}<br><span class="Header-subtitle"><small>{{ t.site_subtitle | default: site.subtitle | escape }}</small></span></a>
+        </h1>
+      </div>
+
+      {% if include.hasSearch %}
+      <div class="Header-searchTrigger Grid-cell">
+        <button aria-controls="header-search" class="js-Header-search-trigger Icon Icon-search u-background-50" title="{{ t.search_form_on }}" aria-label="{{ t.search_form_on }}" aria-hidden="false">
+        </button>
+        <button aria-controls="header-search" class="js-Header-search-trigger Icon Icon-close u-hidden u-background-50" title="{{ t.search_form_off }}" aria-label="{{ t.search_form_off }}" aria-hidden="true">
+        </button>
+      </div>
+      {% endif %}
+
+      <div class="Header-utils Grid-cell">
+        <div class="Header-social">
+          <p>{{ t.follow_us | capitalize }}</p>
+          <ul class="Header-socialIcons">
+            {% for social in site.data.social %}
+            <li><a href="{{ social[1].link }}" title="{{ social[1].name }}" target="_blank"><span class="Icon-{{ social[0] }}"></span>
+                <span class="u-hiddenVisually">{{ social[1].name | capitalize }}</span></a></li>
+            {% endfor %}
+          </ul>
+        </div>
+
+        {% if include.hasSearch %}
+        <div class="Header-search" id="header-search">
+          {% include search_form.html %}
+        </div>
+        {% endif %}
+
+        {% if include.hasButton %}
+        <div class="Header-button">
+          <a role="button" href="{{ include.headerButtonLink }}" class="Button Button--default Button--shadow-dark Button--round u-text-r-xxs u-padding-r-all" target="_blank">
+              {{ include.headerButtonText | upcase }}
+            </a>
+        </div>
+        {% endif %}
+
+      </div>
+
+      <div class="Header-toggle Grid-cell u-flexExpandLeft">
+        <a class="Hamburger-toggleContainer js-fr-offcanvas-open u-nojsDisplayInlineBlock u-lg-hidden u-md-hidden" href="#menu" aria-controls="menu" aria-label="{{ t.toggle_menu_label }}" title="{{ t.toggle_menu_label }}">
+          <span class="Hamburger-toggle" role="presentation"></span>
+          <span class="Header-toggleText" role="presentation">Menu</span>
+        </a>
+      </div>
+
+    </div>
+  </div>
+  <!-- Header-navbar -->
+
+
+  <div class="Headroom-hideme u-textCenter u-hidden u-sm-hidden u-md-block u-lg-block">
+    <nav class="Megamenu Megamenu--default js-megamenu u-background-50 u-color-white" data-rel=".Offcanvas.Offcanvas--right .Treeview"></nav>
+  </div>
+
+
+</header>

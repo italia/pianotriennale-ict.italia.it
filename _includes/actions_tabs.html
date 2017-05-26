@@ -1,0 +1,179 @@
+{% capture newLine %}
+{% endcapture %}
+{% capture newParagraph %}
+
+{% endcapture %}
+{% assign linee-azione = site.data.linee_azione | sort: "nome" %}
+<div class="Tabs tabpanel">
+  <ul class="tablist" role="tablist">
+    <li id="tab-0" class="tab selected" aria-controls="panel-0" role="tab" aria-selected="true" tabindex="-1">
+      <span class="Tab-label u-text-r-xxs">{{ t.amministrazioni_centrali }}</span>
+    </li>
+    <li id="tab-1" class="tab" aria-controls="panel-1" aria-selected="false" role="tab" tabindex="0">
+      <span class="Tab-label u-text-r-xxs">{{ t.amministrazioni_territoriali }}</span>
+    </li>
+  </ul>
+  <div id="panel-0" class="Linee-azione panel" aria-labelledby="tab-0" role="tabpanel">
+  {% assign counter = 0 %}
+  {% for linea-azione in linee-azione %}
+    {% assign not-yet-inserted = true %}
+    {% if linea-azione.chapter == page.chapter or page.linee-azione-all %}
+    {% if linea-azione.subchapter == page.subchapter or page.linee-azione-all %}
+    {% for attore in linea-azione.attori %}
+    {% if site.data.attori[attore].tipo == 'amministrazioni_centrali' or site.data.attori[attore].tipo == 'amministrazioni_centrali_e_territoriali' %}
+    {% if not-yet-inserted %}
+      {% assign not-yet-inserted = false %}
+      {% assign counter = counter | plus: 1 %}
+      <div class="Accordion Accordion--default fr-accordion js-fr-accordion" id="linea-azione-pac-{{ counter }}">
+          <h3 class="Accordion-header js-fr-accordion__header fr-accordion__header" id="accordion-header-pac-{{ counter }}">
+            <span class="Accordion-number">{{ counter }}</span>
+            <span class="Accordion-link u-text-r-xs u-flex u-flexAlignItemsCenter">
+            {{ linea-azione.nome }}
+            </span>
+          </h3>
+          <div id="accordion-panel-pac-{{ counter }}" class="Accordion-panel fr-accordion__panel js-fr-accordion__panel">
+              <div class="Grid u-padding-r-bottom">
+                <div class="Grid-cell u-sizeFull u-sm-size1of5 u-md-size1of5 u-lg-size1of5 u-padding-r-left u-padding-r-right u-padding-top-xs">
+                  <span class="u-textItalic u-color-grey-90">{{ t.tempi | capitalize }}:</span>
+                </div>
+                {% assign tempi = 'in corso' %}
+                {% if linea-azione.inizio %}
+                {% assign inizio = linea-azione.inizio | split: '/' %}
+                {% assign anno_inizio = inizio | last | preprend: '20' %}
+                {% assign mese_inizio = inizio | first | replace: '01', 'gennaio' | replace: '02', 'febbraio' | replace: '03', 'marzo' | replace: '04', 'aprile' | replace: '05', 'maggio' | replace: '06', 'giugno' | replace: '07', 'luglio' | replace: '08', 'agosto' | replace: '09', 'settembre' | replace: '10', 'ottobre' | replace: '11', 'novembre' | replace: '12', 'dicembre' %}
+                {% assign tempi = 'da ' | append: mese_inizio | append: ' ' | append: anno_inizio %}
+                {% endif %}
+                {% if linea-azione.fine %}
+                {% assign fine = linea-azione.fine | split: '/' %}
+                {% assign anno_fine = fine | last | preprend: '20' %}
+                {% assign mese_fine = fine | first | replace: '01', 'gennaio' | replace: '02', 'febbraio' | replace: '03', 'marzo' | replace: '04', 'aprile' | replace: '05', 'maggio' | replace: '06', 'giugno' | replace: '07', 'luglio' | replace: '08', 'agosto' | replace: '09', 'settembre' | replace: '10', 'ottobre' | replace: '11', 'novembre' | replace: '12', 'dicembre' %}
+                {% assign tempi = tempi | append: ' a ' | append: mese_fine | append: ' ' | append: anno_fine %}
+                {% endif %}
+                {% if linea-azione.a %}
+                {% assign a = linea-azione.a | split: '/' %}
+                {% assign anno = a | last | preprend: '20' %}
+                {% assign mese = a | first | replace: '01', 'gennaio' | replace: '02', 'febbraio' | replace: '03', 'marzo' | replace: '04', 'aprile' | replace: '05', 'maggio' | replace: '06', 'giugno' | replace: '07', 'luglio' | replace: '08', 'agosto' | replace: '09', 'settembre' | replace: '10', 'ottobre' | replace: '11', 'novembre' | replace: '12', 'dicembre' %}
+                {% assign tempi = 'a ' | append: mese | append: ' ' | append: anno %}
+                {% endif %}
+                {% if linea-azione.entro %}
+                {% assign entro = linea-azione.entro | split: '/' %}
+                {% assign anno = entro | last | preprend: '20' %}
+                {% assign mese = entro | first | replace: '01', 'gennaio' | replace: '02', 'febbraio' | replace: '03', 'marzo' | replace: '04', 'aprile' | replace: '05', 'maggio' | replace: '06', 'giugno' | replace: '07', 'luglio' | replace: '08', 'agosto' | replace: '09', 'settembre' | replace: '10', 'ottobre' | replace: '11', 'novembre' | replace: '12', 'dicembre' %}
+                {% assign tempi = 'entro ' | append: mese | append: ' ' | append: anno %}
+                {% endif %}
+                <div class="Grid-cell u-sizeFull u-sm-size4of5 u-md-size4of5 u-lg-size4of5 u-padding-r-left u-padding-r-right u-padding-top-xs u-padding-bottom-xs">
+                  <span class="u-color-grey-90">{{ tempi }}</span>
+                </div>
+                <div class="Grid-cell u-sizeFull u-sm-size1of5 u-md-size1of5 u-lg-size1of5 u-padding-r-left u-padding-r-right u-padding-top-xs">
+                  <span class="u-textItalic u-color-grey-90">{{ t.attori | capitalize }}:</span>
+                </div>
+                <div class="Grid-cell u-sizeFull u-sm-size4of5 u-md-size4of5 u-lg-size4of5 u-padding-r-left u-padding-r-right u-padding-top-xs u-padding-bottom-xs">
+                  {% for attore in linea-azione.attori %}
+                  <span class="u-color-grey-90">{{ site.data.attori[attore].nome }}{% unless forloop.last %} - {% endunless %}</span>
+                  {% endfor %}
+                </div>
+                <div class="Grid-cell u-sizeFull u-sm-size1of5 u-md-size1of5 u-lg-size1of5 u-padding-r-left u-padding-r-right u-padding-top-xs u-padding-bottom-xxs">
+                  <span class="u-textItalic u-color-grey-90">{{ t.descrizione | capitalize }}:</span>
+                </div>
+                <div class="Grid-cell u-sizeFull u-sm-size4of5 u-md-size4of5 u-lg-size4of5 u-padding-r-left u-padding-r-right u-padding-top-xs u-padding-bottom-xxs">
+                  <div class="u-color-grey-90">{{ linea-azione.descrizione | replace: newLine, newParagraph | markdownify }}</div>
+                </div>
+                <div class="Grid-cell u-sizeFull u-sm-size1of5 u-md-size1of5 u-lg-size1of5 u-padding-r-left u-padding-r-right u-padding-top-xs u-padding-bottom-xxs">
+                  <span class="u-textItalic u-color-grey-90">{{ t.risultati | capitalize }}:</span>
+                </div>
+                <div class="Grid-cell u-sizeFull u-sm-size4of5 u-md-size4of5 u-lg-size4of5 u-padding-r-left u-padding-r-right u-padding-top-xs u-padding-bottom-xxs">
+                  <span class="u-color-grey-90">{{ linea-azione.risultati | newline_to_br }}</span>
+                </div>
+              </div>
+          </div>
+        </div>
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+    {% endif %}
+    {% endif %}
+  {% endfor %}
+  </div>
+
+  <div id="panel-1" class="Linee-azione panel" aria-labelledby="tab-1" role="tabpanel">
+  {% assign counter = 0 %}
+  {% for linea-azione in linee-azione %}
+    {% assign not-yet-inserted = true %}
+    {% if linea-azione.chapter == page.chapter or page.linee-azione-all %}
+    {% if linea-azione.subchapter == page.subchapter or page.linee-azione-all %}
+    {% for attore in linea-azione.attori %}
+    {% if site.data.attori[attore].tipo == 'amministrazioni_territoriali' or site.data.attori[attore].tipo == 'amministrazioni_centrali_e_territoriali' %}
+    {% if not-yet-inserted %}
+      {% assign not-yet-inserted = false %}
+      {% assign counter = counter | plus: 1 %}
+      <div class="Accordion Accordion--default fr-accordion js-fr-accordion" id="linea-azione-pal-{{ counter }}">
+          <h3 class="Accordion-header js-fr-accordion__header fr-accordion__header" id="accordion-header-pal-{{ counter }}">
+            <span class="Accordion-number">{{ counter }}</span>
+            <span class="Accordion-link u-text-r-xs u-flex u-flexAlignItemsCenter">
+            {{ linea-azione.nome }}
+            </span>
+          </h3>
+          <div id="accordion-panel-pal-{{ counter }}" class="Accordion-panel fr-accordion__panel js-fr-accordion__panel">
+              <div class="Grid u-padding-r-bottom">
+                <div class="Grid-cell u-size1of3 u-sm-size1of5 u-md-size1of5 u-lg-size1of5 u-padding-r-left u-padding-r-right u-padding-top-xs u-padding-bottom-xxs">
+                  <span class="u-color-grey-90">Tempi:</span>
+                </div>
+                {% assign tempi = 'in corso' %}
+                {% if linea-azione.inizio %}
+                {% assign inizio = linea-azione.inizio | split: '/' %}
+                {% assign anno_inizio = inizio | last | preprend: '20' %}
+                {% assign mese_inizio = inizio | first | replace: '01', 'gennaio' | replace: '02', 'febbraio' | replace: '03', 'marzo' | replace: '04', 'aprile' | replace: '05', 'maggio' | replace: '06', 'giugno' | replace: '07', 'luglio' | replace: '08', 'agosto' | replace: '09', 'settembre' | replace: '10', 'ottobre' | replace: '11', 'novembre' | replace: '12', 'dicembre' %}
+                {% assign tempi = 'da ' | append: mese_inizio | append: ' ' | append: anno_inizio %}
+                {% endif %}
+                {% if linea-azione.fine %}
+                {% assign fine = linea-azione.fine | split: '/' %}
+                {% assign anno_fine = fine | last | preprend: '20' %}
+                {% assign mese_fine = fine | first | replace: '01', 'gennaio' | replace: '02', 'febbraio' | replace: '03', 'marzo' | replace: '04', 'aprile' | replace: '05', 'maggio' | replace: '06', 'giugno' | replace: '07', 'luglio' | replace: '08', 'agosto' | replace: '09', 'settembre' | replace: '10', 'ottobre' | replace: '11', 'novembre' | replace: '12', 'dicembre' %}
+                {% assign tempi = tempi | append: ' a ' | append: mese_fine | append: ' ' | append: anno_fine %}
+                {% endif %}
+                {% if linea-azione.a %}
+                {% assign a = linea-azione.a | split: '/' %}
+                {% assign anno = a | last | preprend: '20' %}
+                {% assign mese = a | first | replace: '01', 'gennaio' | replace: '02', 'febbraio' | replace: '03', 'marzo' | replace: '04', 'aprile' | replace: '05', 'maggio' | replace: '06', 'giugno' | replace: '07', 'luglio' | replace: '08', 'agosto' | replace: '09', 'settembre' | replace: '10', 'ottobre' | replace: '11', 'novembre' | replace: '12', 'dicembre' %}
+                {% assign tempi = 'a ' | append: mese | append: ' ' | append: anno %}
+                {% endif %}
+                {% if linea-azione.entro %}
+                {% assign entro = linea-azione.entro | split: '/' %}
+                {% assign anno = entro | last | preprend: '20' %}
+                {% assign mese = entro | first | replace: '01', 'gennaio' | replace: '02', 'febbraio' | replace: '03', 'marzo' | replace: '04', 'aprile' | replace: '05', 'maggio' | replace: '06', 'giugno' | replace: '07', 'luglio' | replace: '08', 'agosto' | replace: '09', 'settembre' | replace: '10', 'ottobre' | replace: '11', 'novembre' | replace: '12', 'dicembre' %}
+                {% assign tempi = 'entro ' | append: mese | append: ' ' | append: anno %}
+                {% endif %}
+                <div class="Grid-cell u-size2of3 u-sm-size4of5 u-md-size4of5 u-lg-size4of5 u-padding-r-left u-padding-r-right u-padding-top-xs u-padding-bottom-xxs">
+                  <span class="u-color-grey-90">{{ tempi }}</span>
+                </div>
+                <div class="Grid-cell u-size1of3 u-sm-size1of5 u-md-size1of5 u-lg-size1of5 u-padding-r-left u-padding-r-right u-padding-top-xs u-padding-bottom-xxs">
+                  <span class="u-color-grey-90">Attori:</span>
+                </div>
+                <div class="Grid-cell u-size2of3 u-sm-size4of5 u-md-size4of5 u-lg-size4of5 u-padding-r-left u-padding-r-right u-padding-top-xs u-padding-bottom-xxs">
+                  {% for attore in linea-azione.attori %}
+                  <span class="u-color-grey-90">{{ site.data.attori[attore].nome }}{% unless forloop.last %} - {% endunless %}</span>
+                  {% endfor %}
+                </div>
+                <div class="Grid-cell u-size1of3 u-sm-size1of5 u-md-size1of5 u-lg-size1of5 u-padding-r-left u-padding-r-right u-padding-top-xs u-padding-bottom-xxs">
+                  <span class="u-color-grey-90">Descrizione:</span>
+                </div>
+                <div class="Grid-cell u-size2of3 u-sm-size4of5 u-md-size4of5 u-lg-size4of5 u-padding-r-left u-padding-r-right u-padding-top-xs u-padding-bottom-xxs">
+                  <div class="u-color-grey-90">{{ linea-azione.descrizione | replace: newLine, newParagraph | markdownify }}</div>
+                </div>
+                <div class="Grid-cell u-size1of3 u-sm-size1of5 u-md-size1of5 u-lg-size1of5 u-padding-r-left u-padding-r-right u-padding-top-xs u-padding-bottom-xxs">
+                  <span class="u-color-grey-90">Risultati:</span>
+                </div>
+                <div class="Grid-cell u-size2of3 u-sm-size4of5 u-md-size4of5 u-lg-size4of5 u-padding-r-left u-padding-r-right u-padding-top-xs u-padding-bottom-xxs">
+                  <span class="u-color-grey-90">{{ linea-azione.risultati | newline_to_br }}</span>
+                </div>
+              </div>
+          </div>
+        </div>
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+    {% endif %}
+    {% endif %}
+  {% endfor %}
+  </div>
+</div>

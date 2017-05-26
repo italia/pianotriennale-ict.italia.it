@@ -1,0 +1,110 @@
+<div class="u-nbfc u-flexWrap u-flex u-xs-padding-all-none
+  {% if include.flat != true %}u-borderShadow-m u-xs-borderShadow-none u-borderRadius-m{% endif %}
+  {{ include.classes | default: 'u-background-white' }} u-sizeFill">
+  {% if include.hasImage %}
+  <div class="u-sizeFull">
+    <img src="{{ include.image | default: //placehold.it/400x220 }}" class="u-sizeFull" alt="{{ include.alt }}" />
+  </div>
+  {% endif %}
+  <div class="u-flexWrap u-flex u-flexAlignSelfStretch u-sizeFill {% if include.flat != true %}u-padding-r-all{% endif %}">
+
+    {% if include.date %}
+    <time datetime="{{ include.date | date_to_xmlschema }}"
+      class="{% if include.flat != true %}u-padding-r-all u-xs-padding-all-none{% endif %} u-padding-r-bottom u-text-r-xxs u-color-grey-50">
+        {{ include.date | date: "%b %-d, %Y" }}
+      </time>
+    {% endif %}
+
+    <div class="u-sizeFull {% if include.flat != true %}u-padding-r-all u-xs-padding-all-none{% endif %}">
+      <h3 class="u-padding-bottom-xs u-text-h3 {{ include.titleClasses | default: 'u-color-50' }}">
+        {% if include.title_link %}<a class="u-textClean u-textWeight-600 u-text-r-l u-color-teal-70" href="{{ include.titleLink }}">{% endif %}
+          {{ include.title }}
+        {% if include.title_link %}</a>{% endif %}
+      </h3>
+
+      {% if include.subtitle %}
+      <h4 class="u-textWeight-400 u-lineHeight-l u-text-r-xs u-color-grey-60 u-padding-bottom-xs">
+          {{ include.subtitle }}
+      </h4>
+      {% endif %}
+
+      {% if include.text.first %}
+        {% for section in include.text %}
+        <div class="Content {{ include.textClasses | default: 'u-text-p u-textSecondary' }} u-padding-r-bottom">
+        {{ section.text }}
+        </div>
+        {% if section.links.first %}
+          <div class="Grid u-padding-r-bottom">
+          {% for link in section.links %}
+            <div class="Grid-cell u-sizeFull u-sm-size1of{{ section.links.size }} u-md-size1of{{ section.links.size }} u-lg-size1of{{ section.links.size }}">
+            {% if link.type == 'button' %}
+            <a role="button" href="{{ link.href }}"
+               class="Button Button--default Button--shadow Button--round u-text-r-xxs u-padding-r-all u-block"
+               {% if link.target_blank %} target="_blank" {% endif %}>
+              {{ link.label | upcase }}
+            </a>
+            {% else %}
+            <a href="{{ link.href }}"
+               class="u-textCenter u-text-r-xxs u-textWeight-600 u-linkClean u-color-teal-70 u-block u-padding-r-all u-block"
+               {% if link.target_blank %} target="_blank" {% endif %}>
+              <span class="Icon Icon-{{ link.icon }} u-margin-left-xs u-alignMiddle u-text-r-m"></span>
+              <span class="u-text-r-xxs u-textClean">{{ link.label | upcase }}</span>
+            </a>
+            {% endif %}
+            </div>
+          {% endfor %}
+          </div>
+        {% endif %}
+        {% endfor %}
+      {% else %}
+        {% if include.text != '' %}
+        <div class="Content {{ include.textClasses | default: 'u-text-p u-textSecondary' }}">
+          {{ include.text | markdownify }}
+        </div>
+        {% endif %}
+      {% endif %}
+
+      {% if include.authorName %}
+        <div class="u-padding-r-bottom u-padding-r-top">
+          <p class="u-text-r-xs u-textWeight-600 u-padding-bottom-xs {{ include.textClasses | default: 'u-text-p u-textSecondary' }}">{{ include.authorName }}</p>
+          <p class="u-text-r-xxs u-textWeight-200 {{ include.textClasses | default: 'u-text-p u-textSecondary' }}">{{ include.authorRole }}</p>
+        </div>
+      {% endif %}
+
+    </div>
+
+    <div class="Grid u-sizeFull u-padding-r-top u-flexAlignSelfEnd
+      {% if include.flat != true %}u-margin-r-left u-margin-r-right u-xs-margin-all-none{% endif %}">
+
+        {% if include.hasMore %}
+        <p class="Grid-cell u-layout-centerLeft u-flexAlignItemsCenter u-padding-r-bottom">
+          <a href="{{ include.link }}" class="u-text-r-xxs u-textWeight-600 u-linkClean u-color-teal-70">
+          <span class="Icon Icon-arrow-right u-margin-left-xs u-alignMiddle"></span>
+          <span class="u-text-r-xxs u-textClean">{{ t.see_more | upcase }}</span>
+          </a>
+        </p>
+        {% endif %}
+
+        {% if include.hasSocial %}
+        <p class="Grid-cell u-layout-centerRight u-padding-r-bottom">
+          {% for social in include.socials %}
+
+          <a href="{{ social.link }}" class="u-linkClean" target="_blank">
+            <span class="Icon Icon-{{ social.icon }} u-inlineBlock u-text-r-xs u-padding-all-xxs u-borderRadius-circle
+            u-background-50 u-color-white u-margin-right-xs"></span><span class="u-hiddenVisually">{{ social.name }}</span></a>
+
+          {% endfor %}
+        </p>
+        {% endif %}
+
+    </div>
+
+    {% if include.categories %}
+    <div class="u-flex u-flexAlignItemsCenter u-flexAlignContentCenter u-margin-top-l">
+      <p class="u-color-grey-50 u-margin-r-right">{{ t.news_categories }}</p>
+      {% include pills.html items=include.categories small=true %}
+    </div>
+    {% endif %}
+
+  </div>
+</div>

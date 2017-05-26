@@ -1,0 +1,64 @@
+piano-triennale-index:
+  forum: 'https://forum.developers.italia.it/c/piano-triennale'
+  rtd: 'https://pianotriennale-ict.readthedocs.io/it/latest/'
+  pdf: '/assets/pdf/Piano_Triennale_per_l_informatica_nella_Pubblica_Amministrazione.pdf'
+piano-triennale:
+  forum: 'https://forum.developers.italia.it/c/piano-triennale'
+  rtd: 'https://pianotriennale-ict.readthedocs.io/it/latest/doc/01_piano-triennale-per-informatica-nella-pa.html'
+  pdf: '/assets/pdf/cap_1-Piano_triennale_per_l_informatica_nella_Pubblica_amministrazione.pdf'
+modello-strategico:
+  forum: 'https://forum.developers.italia.it/c/piano-triennale'
+  rtd: 'https://pianotriennale-ict.readthedocs.io/it/latest/doc/02_modello-strategico-di-evoluzione-dell-ict-della-pa.html'
+  pdf: '/assets/pdf/cap_2-Modello_strategico_di_evoluzione_del_sistema_informativo_della_Pubblica_amministrazione .pdf'
+data-center-e-cloud:
+  forum: 'https://forum.developers.italia.it/c/piano-triennale'
+  rtd: 'https://pianotriennale-ict.readthedocs.io/it/latest/doc/03_infrastrutture-fisiche.html#data-center-e-cloud'
+  pdf: '/assets/pdf/cap_3-Infrastrutture_fisiche.pdf'
+connettivita:
+  forum: 'https://forum.developers.italia.it/c/piano-triennale'
+  rtd: 'https://pianotriennale-ict.readthedocs.io/it/latest/doc/03_infrastrutture-fisiche.html#connettivita'
+  pdf: '/assets/pdf/cap_3-Infrastrutture_fisiche.pdf'
+dati-della-pa:
+  forum: 'https://forum.developers.italia.it/c/piano-triennale'
+  rtd: 'https://pianotriennale-ict.readthedocs.io/it/latest/doc/04_infrastrutture-immateriali.html#dati-della-pubblica-amministrazione'
+  pdf: '/assets/pdf/cap_4-Infrastrutture immateriali.pdf'
+piattaforme-abilitanti:
+  forum: 'https://forum.developers.italia.it/c/piano-triennale'
+  rtd: 'https://pianotriennale-ict.readthedocs.io/it/latest/doc/04_infrastrutture-immateriali.html#piattaforme-abilitanti'
+  pdf: '/assets/pdf/cap_4-Infrastrutture immateriali.pdf'
+modello-di-interoperabilita:
+  forum: 'https://forum.developers.italia.it/c/piano-triennale'
+  rtd: 'https://pianotriennale-ict.readthedocs.io/it/latest/doc/05_modello-di-interoperabilita.html'
+  pdf: '/assets/pdf/cap_5-Modello_di_interoperabilità .pdf'
+ecosistemi:
+  forum: 'https://forum.developers.italia.it/c/piano-triennale'
+  rtd: 'https://pianotriennale-ict.readthedocs.io/it/latest/doc/06_ecosistemi.html'
+  pdf: '/assets/pdf/cap_6-Ecosistemi.pdf'
+strumenti-per-la-generazione-e-la-diffusione-di-servizi-digitali:
+  forum: 'https://forum.developers.italia.it/c/piano-triennale'
+  rtd: 'https://pianotriennale-ict.readthedocs.io/it/latest/doc/07_strumenti-per-la-generazione-e-la-diffusione-di-servizi-digitali.html'
+  pdf: '/assets/pdf/cap_7-Strumenti_per_la_generazione_e_la_diffusione_di_servizi_digitali.pdf'
+sicurezza:
+  forum: 'https://forum.developers.italia.it/c/piano-triennale'
+  rtd: 'https://pianotriennale-ict.readthedocs.io/it/latest/doc/08_sicurezza.html'
+  pdf: '/assets/pdf/cap_8-Sicurezza.pdf'
+data-analytics-framework:
+  forum: 'https://forum.developers.italia.it/c/piano-triennale'
+  rtd: 'https://pianotriennale-ict.readthedocs.io/it/latest/doc/09_data-analytics-framework.html'
+  pdf: '/assets/pdf/cap_9-Data_&_Analytics_Framework.pdf'
+gestione-del-cambiamento:
+  forum: 'https://forum.developers.italia.it/c/piano-triennale'
+  rtd: 'https://pianotriennale-ict.readthedocs.io/it/latest/doc/10_gestione-del-cambiamento.html'
+  pdf: '/assets/pdf/cap_10-Gestione_del_cambiamento.pdf'
+razionalizzazione-della-spesa:
+  forum: 'https://forum.developers.italia.it/c/piano-triennale'
+  rtd: 'https://pianotriennale-ict.readthedocs.io/it/latest/doc/11_razionalizzazione-della-spesa.html'
+  pdf: '/assets/pdf/cap_11-Razionalizzazione_della_spesa.pdf'
+indicazioni-per-le-pa:
+  forum: 'https://forum.developers.italia.it/c/piano-triennale'
+  rtd: 'https://pianotriennale-ict.readthedocs.io/it/latest/doc/12_indicazioni-per-la-pa.html'
+  pdf: '/assets/pdf/cap_12-Indicazioni_per_le_Pubbliche_amministrazioni.pdf'
+principi-per-lo-sviluppo-di-progetti-digitali:
+  forum: 'https://forum.developers.italia.it/c/piano-triennale'
+  rtd: 'https://pianotriennale-ict.readthedocs.io/it/latest/doc/13_principi-per-lo-sviluppo-di-progetti-digitali.html'
+  pdf: '/assets/pdf/cap_13-Principi_per_lo_sviluppo_di_progetti_digitali.pdf'

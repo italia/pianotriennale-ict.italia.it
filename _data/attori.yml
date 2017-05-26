@@ -1,0 +1,93 @@
+﻿team-digitale:
+  nome: Team digitale
+  tipo: amministrazioni_centrali
+agid:
+  nome: AgID
+  tipo: amministrazioni_centrali
+consip:
+  nome: Consip
+  tipo: amministrazioni_centrali
+governo:
+  nome: Governo
+  tipo: amministrazioni_centrali
+pa:
+  nome: PA
+  tipo: amministrazioni_centrali_e_territoriali
+tutte-le-pa:
+  nome: tutte le PA
+  tipo: amministrazioni_centrali_e_territoriali
+pa-wifi:
+  nome: Tutte le Pubbliche Amministrazioni che gestiscono le reti Wi-Fi pubbliche
+  tipo: amministrazioni_centrali_e_territoriali
+comuni: 
+  nome: Comuni
+  tipo: amministrazioni_territoriali
+pa-basi-dati:
+  nome: Pubbliche Amministrazioni titolari di basi dati di interesse nazionale
+  tipo: amministrazioni_centrali_e_territoriali
+interno:
+  nome: Ministero dell'Interno
+  tipo: amministrazioni_centrali
+mit:
+  nome: Ministero delle Infrastrutture e dei Trasporti
+  tipo: amministrazioni_centrali
+mef:
+  nome: Ministero dell'Economia e delle Finanze
+  tipo: amministrazioni_centrali
+anac:
+  nome: Autorità Nazionale Anticorruzione
+  tipo: amministrazioni_centrali
+ade:
+  nome: Agenzia delle Entrate
+  tipo: amministrazioni_centrali
+mise:
+  nome: Ministero dello Sviluppo Economico 
+  tipo: amministrazioni_centrali
+regioni:
+  nome: Regioni
+  tipo: amministrazioni_territoriali
+unioncamere:
+  nome: Unioncamere
+  tipo: amministrazioni_centrali
+rgs:
+  nome: Ragioneria Generale dello Stato
+  tipo: amministrazioni_centrali
+bdi:
+  nome: Banca d'Italia
+  tipo: amministrazioni_centrali
+bdt-pa:
+  nome: Big Data Team della Pubblica Amministrazione
+  tipo: amministrazioni_centrali
+garante-privacy:
+  nome: Garante Privacy
+  tipo: amministrazioni_centrali
+daf:
+  nome: DAF
+  tipo: amministrazioni_centrali
+dfp:
+  nome: Dipartimento della Funzione Pubblica
+  tipo: amministrazioni_centrali
+sogei:
+  nome: Sogei
+  tipo: amministrazioni_centrali
+anci:
+  nome: Associazione Nazionale Comuni Italiani (ANCI)
+  tipo: amministrazioni_territoriali
+acs:
+  nome: Archivio Centrale dello Stato
+  tipo: amministrazioni_centrali
+salute:
+  nome: Ministero della Salute
+  tipo: amministrazioni_centrali
+asl:
+  nome: ASL
+  tipo: amministrazioni_territoriali
+istat:
+  nome: ISTAT
+  tipo: amministrazioni_centrali
+miur:
+  nome: Ministero dell'Istruzione, dell'Università e della Ricerca
+  tipo: amministrazioni_centrali
+altri-organismi-tecnici:
+  nome: Altri organismi tecnici
+  tipo: amministrazioni_centrali_e_territoriali
