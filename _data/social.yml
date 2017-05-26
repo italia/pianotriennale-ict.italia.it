@@ -1,7 +1,29 @@
-facebook:
-  name: facebook
+- name: facebook
+  owner: agid
   link: https://www.facebook.com/AgIDGovIT/
-twitter:
-  name: twitter
+  header: true
+  footer: true
+- name: twitter
+  owner: agid
   link: https://twitter.com/AgidGov
   sharelink: https://twitter.com/intent/tweet?url=<url>
+  header: true
+  footer: true
+- name: medium
+  owner: agid
+  link: https://twitter.com/AgidGov
+- name: linkedin
+  owner: agid
+  link: https://www.linkedin.com/company-beta/5147571/
+- name: twitter
+  owner: teamdigitale
+  link: hhttps://twitter.com/teamdigitaleIT
+- name: medium
+  owner: teamdigitale
+  link: https://medium.com/team-per-la-trasformazione-digitale
+- name: linkedin
+  owner: teamdigitale
+  link: https://www.linkedin.com/company/teamdigitale
+- name: behance
+  owner: teamdigitale
+  link: https://www.behance.net/
