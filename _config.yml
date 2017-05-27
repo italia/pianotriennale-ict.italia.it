@@ -19,7 +19,7 @@ description: Piano triennale per l'informatica nella pubblica amministrazione
 author: Team Digitale e AgID
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://trasformazionedigitale.italia.it"
+url: "https://pianotriennale-ict.italia.it"
 piwik_id: 3
 google_analytics: ''
 # Build settings
