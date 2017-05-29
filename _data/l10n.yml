@@ -62,6 +62,7 @@ it:
     home_pt_title: Cos'è il Piano Triennale
     home_pt_description: |
       È il documento di indirizzo strategico ed economico destinato a tutta la Pubblica amministrazione che accompagna la trasformazione digitale del Paese. 
+ 
       Il Piano definisce:
       - le linee operative di sviluppo dell’informatica pubblica;
       - il Modello strategico di evoluzione del sistema informativo della PA;
@@ -70,7 +71,7 @@ it:
     home_pt_howto:
       - text: |
          Nelle pagine di questo sito vengono riassunti i contenuti del Piano Triennale, suddivisi per [capitoli](/piano) e [azioni](/azioni).
-         Il documento completo è disponibile online in versione navigabile ottimizzata per i dispositivi mobili o in PDF. 
+         Il documento completo è disponibile online in versione navigabile ottimizzata per dispositivi mobili o in PDF. 
         links:
           - type: button
             icon: read
