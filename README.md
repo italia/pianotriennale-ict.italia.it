@@ -10,7 +10,7 @@ Se vuoi contribuire allo sviluppo del sito, è sufficiente aprire una pull-reque
 ## Sito tematico di presentazione del Piano Triennale
 [https://pianotriennale-ict.italia.it//](https://pianotriennale-ict.italia.it/)
 
-## Forum di discussione sui temi del Piano triennale
+## Forum di discussione sui temi del Piano Triennale
 [https://forum.italia.it/c/piano-triennale/](https://forum.italia.it/c/piano-triennale)
 
 ## Testo integrale del Piano Triennale
