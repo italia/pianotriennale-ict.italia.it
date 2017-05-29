@@ -47,7 +47,7 @@ it:
     on_: "su"
     actions: le azioni
     amministrazioni_centrali: amministrazioni centrali
-    amministrazioni_territoriali: amministrazioni territoriali
+    amministrazioni_locali: amministrazioni locali
     tempi: tempi
     attori: attori
     descrizione: descrizione

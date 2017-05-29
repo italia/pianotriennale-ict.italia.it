@@ -10,7 +10,7 @@
       <span class="Tab-label u-text-r-xxs">{{ t.amministrazioni_centrali }}</span>
     </li>
     <li id="tab-1" class="tab" aria-controls="panel-1" aria-selected="false" role="tab" tabindex="0">
-      <span class="Tab-label u-text-r-xxs">{{ t.amministrazioni_territoriali }}</span>
+      <span class="Tab-label u-text-r-xxs">{{ t.amministrazioni_locali }}</span>
     </li>
   </ul>
   <div id="panel-0" class="Linee-azione panel" aria-labelledby="tab-0" role="tabpanel">
@@ -20,7 +20,7 @@
     {% if linea-azione.chapter == page.chapter or page.linee-azione-all %}
     {% if linea-azione.subchapter == page.subchapter or page.linee-azione-all %}
     {% for attore in linea-azione.attori %}
-    {% if site.data.attori[attore].tipo == 'amministrazioni_centrali' or site.data.attori[attore].tipo == 'amministrazioni_centrali_e_territoriali' %}
+    {% if site.data.attori[attore].tipo == 'amministrazioni_centrali' or site.data.attori[attore].tipo == 'amministrazioni_centrali_e_locali' %}
     {% if not-yet-inserted %}
       {% assign not-yet-inserted = false %}
       {% assign counter = counter | plus: 1 %}
@@ -102,7 +102,7 @@
     {% if linea-azione.chapter == page.chapter or page.linee-azione-all %}
     {% if linea-azione.subchapter == page.subchapter or page.linee-azione-all %}
     {% for attore in linea-azione.attori %}
-    {% if site.data.attori[attore].tipo == 'amministrazioni_territoriali' or site.data.attori[attore].tipo == 'amministrazioni_centrali_e_territoriali' %}
+    {% if site.data.attori[attore].tipo == 'amministrazioni_locali' or site.data.attori[attore].tipo == 'amministrazioni_centrali_e_locali' %}
     {% if not-yet-inserted %}
       {% assign not-yet-inserted = false %}
       {% assign counter = counter | plus: 1 %}
