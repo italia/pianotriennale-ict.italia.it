@@ -118,7 +118,10 @@ a .Icon {
 .Button--default {
   background-color: #00c5ca;
   border-color: #00c5ca;
-  color: #1b2a48;
+}
+
+a.Button--default {
+   color: #1b2a48;
 }
 
 .Button--default:active {

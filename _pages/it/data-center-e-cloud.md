@@ -2,7 +2,6 @@
 title: Data center e Cloud
 lang: it
 layout: page
-subtitle: Sottotitolo a Data center e Cloud
 separator: curved
 title-alignment: center
 cta-buttons: true
