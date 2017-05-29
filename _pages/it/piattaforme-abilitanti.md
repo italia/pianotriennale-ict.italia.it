@@ -2,7 +2,6 @@
 title: Piattaforme abilitanti
 lang: it
 layout: page
-subtitle: Sottotitolo alle piattaforme abilitanti
 separator: curved
 title-alignment: center
 cta-buttons: true

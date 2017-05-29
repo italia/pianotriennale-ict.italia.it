@@ -7,7 +7,7 @@ it:
     cookiebar_msg: Questo sito utilizza cookie tecnici, analytics e di terze parti. Proseguendo nella navigazione accetti l’utilizzo dei cookie.
     cookiebar_privacy_policy: Privacy policy
     follow_us: seguici su
-    header_link_trasformazione: Trasformazione digitale
+    header_link_pt: Piano Triennale
     header_link_developers: Developers
     header_link_design: Designers
     header_link_forum: Forum
@@ -29,8 +29,8 @@ it:
     navigation_menu_label: Menu di navigazione
     navigation_menu_esc: esci dalla navigazione
     scrolltop_label: torna all'inizio dei contenuti
-    site_subtitle: Piano triennale per l'informatica nella pubblica amministrazione
-    site_title: Trasformazione digitale
+    site_subtitle: "per l'informatica nella pubblica amministrazione"
+    site_title: Piano Triennale
     share_msg: condividi
     skiplink_goto_content: vai ai contenuti
     skiplink_goto_navigation: vai alla navigazione del sito
@@ -38,7 +38,7 @@ it:
     toggle_network_menu_label: accedi al menu del network
     see_more: per saperne di più
     goto_chapter: vai al capitolo
-    goto_forum: vai al forum
+    goto_forum: partecipa
     deepen: per approfondire
     download_chapter: scarica il capitolo
     discuss: per confrontarti
@@ -53,43 +53,40 @@ it:
     descrizione: descrizione
     risultati: risultati
     home_hero: |
-      Semplifichiamo la vita dei cittadini
-      grazie alla tecnologia, alle competenze
-      e al gioco di squadra.
+      Grazie alle competenze, alla tecnologia e al gioco di squadra, cambiamo la Pubblica amministrazione per semplificare la vita dei cittadini.
     home_hero_mobile: |
-      Semplifichiamo
-      la vita dei cittadini
-      grazie alla tecnologia,
-      alle competenze e al
-      gioco di squadra.
+      Grazie alle competenze, alla tecnologia e al gioco di squadra, cambiamo la Pubblica amministrazione per semplificare la vita dei cittadini.
     home_tools_title: Strumenti
     home_tools_subtitle: Ci appoggiamo a strumenti già esistenti e molto conosciuti per fornirti le informazioni, il codice e il supporto di cui hai bisogno
     home_header_button_text: vai al piano
     home_pt_title: Cos'è il Piano Triennale
     home_pt_description: |
-      È un documento di programmazione che ha lo scopo di:
-      - contribuire alla crescita dell’economia del Paese accompagnando la trasformazione digitale delle pubbliche amministrazioni;
-      - indirizzare gli investimenti ICT del settore pubblico secondo le linee guida del Governo, in coerenza con le direttive europee;
-      - individuare i risparmi previsti nella Legge di Stabilità 2016.
-    home_pt_howto_title: Come si usa
+      È il documento di indirizzo strategico ed economico destinato a tutta la Pubblica amministrazione che accompagna la trasformazione digitale del Paese. 
+      Il Piano definisce:
+      - le linee operative di sviluppo dell’informatica pubblica;
+      - il Modello strategico di evoluzione del sistema informativo della PA;
+      - gli investimenti ICT del settore pubblico secondo le linee guida europee e del Governo.
+    home_pt_howto_title: Consulta il Piano
     home_pt_howto:
-      - text: "Il documento è disponibile online: in versione navigabile ottimizzata per dispositivi mobili oppure come pdf."
+      - text: |
+         Nelle pagine di questo sito vengono riassunti i contenuti del Piano Triennale, suddivisi per [capitoli](/piano) e [azioni](/azioni).
+         Il documento completo è disponibile online in versione navigabile ottimizzata per i dispositivi mobili o in PDF. 
         links:
           - type: button
             icon: read
-            label: vai al piano
+            label: Versione navigabile
             href: 'https://pianotriennale-ict.readthedocs.io/'
             target_blank: true
           - icon: download-alt
             label: scarica il pdf
             href: '/assets/pdf/Piano_Triennale_per_l_informatica_nella_Pubblica_Amministrazione.pdf'
             target_blank: true
-      - text: Chiunque può chiedere chiarimenti o proporre integrazioni partecipando al forum di discussione oppure proponendo una modifica al testo su GitHub.
+      - text: Hai bisogno di chiarimenti?  Consulta le [FAQ](/faq) o partecipa al forum di discussione dedicato.
         links:
           - type: button
             icon: forum
-            label: vai al forum
-            href: 'https://forum.developers.italia.it/c/piano-triennale'
+            label: partecipa
+            href: 'https://forum.italia.it/c/piano-triennale'
             target_blank: true
 
     quotes:
@@ -103,15 +100,6 @@ it:
           Suspendisse consequat id sem ut suscipit. Sed congue dolor enim, eu tristique dolor pulvinar ac.»
         author_name: Paolo Gentiloni
         author_role: Presidente del Consiglio dei Ministri
-      madia:
-        text: |
-          «Ambitioni dedisse scripsisse iudicaretur. Salutantibus vitae elit libero, a pharetra augue. Fabio vel iudice vincam, sunt in culpa qui officia. Prima luce, cum quibus mons aliud consensu ab eo. At nos hinc posthac, sitientis piros Afros. Petierunt uti sibi concilium totius Galliae in diem certam indicere.
-          Gallia est omnis divisa in partes tres, quarum. Cras mattis iudicium purus sit amet fermentum. Qui ipsorum lingua Celtae, nostra Galli appellantur. Excepteur sint obcaecat cupiditat non proident culpa.
-          Nihilne te nocturnum praesidium Palati, nihil urbis vigiliae. Quisque ut dolor gravida, placerat libero vel, euismod. Quo usque tandem abutere, Catilina, patientia nostra? A communi observantia non est recedendum. Inmensae subtilitatis, obscuris et malesuada fames. Unam incolunt Belgae, aliam Aquitani, tertiam.»
-        text_short: |
-          «Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus sit amet orci eget imperdiet. Mauris tristique enim faucibus, lobortis mauris ut, aliquam justo.»
-        author_name: Marianna Madia
-        author_role: Ministro per la semplificazione e la pubblica amministrazione
     capitoli_title: Gli altri capitoli del piano
     capitoli:
       data-center-e-cloud: Data center e cloud
@@ -119,7 +107,7 @@ it:
       dati-della-pa: Dati della PA
       piattaforme-abilitanti: Piattaforme abilitanti
       modello-di-interoperabilita: Modello di interoperabilità
-      ecositemi: Ecositemi
+      ecosistemi: Ecositemi
       strumenti-per-la-generazione-e-la-diffusione-di-servizi-digitali: Strumenti per la generazione e la diffusione di servizi digitali
       sicurezza: Sicurezza
       data-analytics-framework: Data & Analytics Framework
@@ -131,10 +119,10 @@ it:
     temi_title: I capitoli
     modello_intro: Clicca sulla sezione che ti interessa
     partecipa: Partecipa
-    forum_intro: Chiunque può partecipare al forum di discussione e contribuire alla diffusione e alla realizzazione del Piano triennale.
+    forum_intro: "Chiunque può partecipare al forum di discussione e contribuire alla diffusione e all'implementazione' del Piano Triennale."
     temi:
       servizi-digitali: Servizi digitali
-      ecosistemi: Ecositemi
+      ecosistemi: Ecosistemi
       interoperabilita: Interoperabilità
       piattaforme-abilitanti: Piattaforme abilitanti
       dati: Dati

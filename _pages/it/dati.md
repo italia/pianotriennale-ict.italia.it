@@ -2,7 +2,6 @@
 title: Dati
 lang: it
 layout: page
-subtitle: Sottotitolo a Dati della PA
 separator: curved
 title-alignment: center
 cta-buttons: true
@@ -18,4 +17,4 @@ Le basi dati sono l’ossatura del patrimonio informativo pubblico da rendere di
 
 Gli open data comportano un processo volto a rendere aperti e gratuiti per il riutilizzo e la redistribuzione i dati pubblici gestiti dalle PA, con la sola esclusione di quelli soggetti a particolari restrizioni.
 
-I Vocabolari controllati e i modelli di dati sono utili per favorire il processo di scambio dati tra le PA tramite codici e ontologie condivisi.
+I vocabolari controllati e i modelli di dati sono utili per favorire il processo di scambio dati tra le PA tramite codici e ontologie condivisi.
