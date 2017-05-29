@@ -47,10 +47,17 @@ partner_short: Team Digitale
 partner_full: Team per la Trasformazione Digitale
 partner_link: https://teamdigitale.governo.it
 privacy_link: https://developers.italia.it/it/privacy-policy
-gov_logo: /assets/images/governo.svg
 partner_logo: /assets/images/dt-logo.svg
-gov_logo_alt: /assets/images/governo-alt.svg
 partner_logo_alt: /assets/images/dt-logo-alt.svg
+gov_full: Governo Italiano
+gov_link: http://www.governo.it
+gov_logo: /assets/images/governo.svg
+gov_logo_alt: /assets/images/governo-alt.svg
+dfp_full: Dipartimento della funzione pubblica
+dfp_link: http://www.funzionepubblica.gov.it
+dfp_logo: /assets/images/governo.svg
+dfp_logo_alt: /assets/images/governo-alt.svg
+
 pill: 2017-2019
 
 collections:

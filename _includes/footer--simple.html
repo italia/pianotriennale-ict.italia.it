@@ -1,8 +1,35 @@
 <footer class="Footer">
 
   <div class="Grid Grid--withGutter u-padding-top-xl u-flex">
-
-    <div class="Owner Grid-cell u-md-size1of2 u-lg-size1of3 u-padding-r-bottom">
+    <div class="Owner Grid-cell u-md-size1of2 u-lg-size1of6 u-padding-r-bottom">
+      <div class="Grid">
+        <div class="u-inlineBlock">
+          <a href="{{ site.gov_link }}" title="{{ site.gov_full | escape }}">
+          <img class="Footer-logo u-alignMiddle" src="{{ site.gov_logo | relative_url }}"
+          alt="" style="height: 4em; max-width: 100%"></a>
+        </div>
+        
+        <p class="Grid-cell u-size5of12 Footer-siteName u-padding-top-xxs u-text-r-m">
+          <a href="{{ site.gov_link }}" title="{{ site.gov_full | escape }}" class="u-color-white u-textClean">{{ site.gov_full | escape }}</a>
+        </p>
+      </div>
+    </div>
+    
+    <div class="Owner Grid-cell u-md-size1of2 u-lg-size1of4 u-padding-r-bottom">
+      <div class="Grid">
+        <div class="u-inlineBlock">
+          <a href="{{ site.dfp_link }}" title="{{ site.dfp_full | escape }}">
+          <img class="Footer-logo u-alignMiddle" src="{{ site.dfp_logo | relative_url }}"
+          alt="" style="height: 4em; max-width: 100%"></a>
+        </div>
+        
+        <p class="Grid-cell u-size8of12 Footer-siteName u-padding-top-xxs u-text-r-m">
+          <a href="{{ site.dfp_link }}" title="{{ site.dfp_full | escape }}" class="u-color-white u-textClean">{{ site.dfp_full | escape }}</a>
+        </p>
+      </div>
+    </div>
+    
+    <div class="Owner Grid-cell u-md-size1of2 u-lg-size2of6 u-padding-r-bottom">
       <div class="Grid">
         <div class="u-inlineBlock">
           <a href="{{ site.owner_link }}" title="{{ site.owner_full | escape }}">
@@ -16,8 +43,7 @@
       </div>
     </div>
 
-    <div class="Partner Grid-cell u-md-size1of2 u-lg-size1of3 u-padding-r-bottom td-footer">
-      <p class="u-padding-bottom-l" style="opacity: 0.5">{{ site.data.l10n.[active_lang].t.in_collaboration_with }}</p>
+    <div class="Partner Grid-cell u-md-size1of2 u-lg-size1of4 u-padding-r-bottom td-footer">
       <div class="Grid">
         <div class="u-inlineBlock">
           <a href="{{ site.partner_link }}" title="{{ site.owner_full | escape }}"><img class="u-padding-right-xs" src="{{ site.gov_logo | relative_url }}" alt=""
@@ -32,7 +58,7 @@
       </div>
     </div>
 
-    <div class="Social Grid-cell u-lg-size1of3 u-flex u-flexJustifyEnd u-textRight u-padding-r-bottom u-flexAlignSelfEnd">
+    <div class="Social Grid-cell u-lg-sizeFull u-flex u-flexJustifyEnd u-textRight u-padding-r-bottom u-flexAlignSelfEnd">
       <h2 class="u-md-flexInline u-lg-flexInline u-text-p u-color-white u-textWeight-400
         u-hidden u-margin-r-right u-flexAlignSelfCenter">{{ t.follow_us | capitalize }}</h2>
       <ul class="Footer-socialIcons">

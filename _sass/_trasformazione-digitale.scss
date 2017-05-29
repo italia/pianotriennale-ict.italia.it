@@ -36,10 +36,6 @@ a .Icon {
   ======================== */
 
 .td-footer {
-  @media screen and (min-width: 992px) {
-    margin-top: -2em;
-  }
-
   .team-bar {
     border-right: 1px solid #fff;
     height: 3.5em;
@@ -170,6 +166,10 @@ a.Button--default {
 .Header {
   position: relative;
   z-index: 40;
+}
+
+.Header-title {
+   width: 33.33334% !important; 
 }
 
 .Header-titleLink a {
