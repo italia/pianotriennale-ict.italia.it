@@ -1,5 +1,5 @@
-trasformazione_digitale:
-  title: header_link_trasformazione
+piano-triennale:
+  title: header_link_pt
   url: 'https://pianotriennale-ict.italia.it'
   class: current delimiter
   li_markup_pre: '<span class="u-block u-padding-all-s u-margin-top-xs u-color-grey-50">IL PROGRAMMA</span>'

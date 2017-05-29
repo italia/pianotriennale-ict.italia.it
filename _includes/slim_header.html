@@ -5,7 +5,7 @@
       {% assign link_name = link[1].title %}
       <li class="{{ link[1].class }}" {% if link[1].upcoming %} style="color: white; opacity: 0.5;" {% endif %}>
         {% unless link[1].upcoming %}<a class="u-color-white" href="{{ link[1].url }}">{% endunless %}
-          {{ t[link_name] | default: link_name | capitalize }}
+          {{ t[link_name] | default: link_name }}
         {% unless link[1].upcoming %}</a>{% endunless %}
       </li>
     {% endfor %}
