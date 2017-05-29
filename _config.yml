@@ -14,8 +14,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Trasformazione digitale
-description: Piano triennale per l'informatica nella pubblica amministrazione
+title: Piano Triennale
+description: "Piano Triennale per l'informatica nella pubblica amministrazione"
 author: Team Digitale e AgID
 
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -51,7 +51,7 @@ gov_logo: /assets/images/governo.svg
 partner_logo: /assets/images/dt-logo.svg
 gov_logo_alt: /assets/images/governo-alt.svg
 partner_logo_alt: /assets/images/dt-logo-alt.svg
-pill: v1.0
+pill: 2017-2019
 
 collections:
   pages:

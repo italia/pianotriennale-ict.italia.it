@@ -1,10 +1,10 @@
 it:
-  - title: Il piano
+  - title: Il Piano
     url: /piano/
   - title: I capitoli
     url: '#'
     liClass: 'Megamenu-item Megamenu-item--vert'
-    subtitle: Come si articola la trasformazione digitale
+    subtitle: Gli assi portanti della trasformazione digitale
     subitems:
     - title: Servizi digitali
       url: /servizi-digitali/

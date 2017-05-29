@@ -2,6 +2,6 @@
 layout: home
 lang: it
 title: Home
-description: Piano triennale per l'informatica nella pubblica amministrazione
+description: Piano Triennale per l'informatica nella pubblica amministrazione
 permalink: /
 ---

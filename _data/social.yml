@@ -12,18 +12,9 @@
 - name: medium
   owner: agid
   link: https://twitter.com/AgidGov
-- name: linkedin
-  owner: agid
-  link: https://www.linkedin.com/company-beta/5147571/
 - name: twitter
   owner: teamdigitale
-  link: hhttps://twitter.com/teamdigitaleIT
+  link: https://twitter.com/teamdigitaleIT
 - name: medium
   owner: teamdigitale
   link: https://medium.com/team-per-la-trasformazione-digitale
-- name: linkedin
-  owner: teamdigitale
-  link: https://www.linkedin.com/company/teamdigitale
-# - name: behance
-#  owner: teamdigitale
-#  link: https://www.behance.net/

@@ -2,7 +2,6 @@
 title: Connettività
 lang: it
 layout: page
-subtitle: Sottotitolo a Connettività
 separator: curved
 title-alignment: center
 cta-buttons: true

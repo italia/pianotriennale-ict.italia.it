@@ -1,4 +1,4 @@
-team-digitale:
+﻿team-digitale:
   nome: Team digitale
   tipo: amministrazioni_centrali
 agid:
@@ -12,19 +12,19 @@ governo:
   tipo: amministrazioni_centrali
 pa:
   nome: PA
-  tipo: amministrazioni_centrali_e_locali
+  tipo: amministrazioni_centrali_e_territoriali
 tutte-le-pa:
   nome: tutte le PA
-  tipo: amministrazioni_centrali_e_locali
+  tipo: amministrazioni_centrali_e_territoriali
 pa-wifi:
   nome: Tutte le Pubbliche Amministrazioni che gestiscono le reti Wi-Fi pubbliche
-  tipo: amministrazioni_centrali_e_locali
+  tipo: amministrazioni_centrali_e_territoriali
 comuni: 
   nome: Comuni
-  tipo: amministrazioni_locali
+  tipo: amministrazioni_territoriali
 pa-basi-dati:
   nome: Pubbliche Amministrazioni titolari di basi dati di interesse nazionale
-  tipo: amministrazioni_centrali_e_locali
+  tipo: amministrazioni_centrali_e_territoriali
 interno:
   nome: Ministero dell'Interno
   tipo: amministrazioni_centrali
@@ -45,7 +45,7 @@ mise:
   tipo: amministrazioni_centrali
 regioni:
   nome: Regioni
-  tipo: amministrazioni_locali
+  tipo: amministrazioni_territoriali
 unioncamere:
   nome: Unioncamere
   tipo: amministrazioni_centrali
@@ -72,7 +72,7 @@ sogei:
   tipo: amministrazioni_centrali
 anci:
   nome: Associazione Nazionale Comuni Italiani (ANCI)
-  tipo: amministrazioni_locali
+  tipo: amministrazioni_territoriali
 acs:
   nome: Archivio Centrale dello Stato
   tipo: amministrazioni_centrali
@@ -81,7 +81,7 @@ salute:
   tipo: amministrazioni_centrali
 asl:
   nome: ASL
-  tipo: amministrazioni_locali
+  tipo: amministrazioni_territoriali
 istat:
   nome: ISTAT
   tipo: amministrazioni_centrali
@@ -90,4 +90,4 @@ miur:
   tipo: amministrazioni_centrali
 altri-organismi-tecnici:
   nome: Altri organismi tecnici
-  tipo: amministrazioni_centrali_e_locali
+  tipo: amministrazioni_centrali_e_territoriali

@@ -30,11 +30,11 @@
 
       {% if include.text.first %}
         {% for section in include.text %}
-        <div class="Content {{ include.textClasses | default: 'u-text-p u-textSecondary' }} u-padding-r-bottom">
-        {{ section.text }}
+        <div class="Content {{ include.textClasses | default: 'u-text-p u-textSecondary' }}">
+        {{ section.text | markdownify }}
         </div>
         {% if section.links.first %}
-          <div class="Grid u-padding-r-bottom">
+          <div class="Grid u-padding-r-bottom u-padding-r-top">
           {% for link in section.links %}
             <div class="Grid-cell u-sizeFull u-sm-size1of{{ section.links.size }} u-md-size1of{{ section.links.size }} u-lg-size1of{{ section.links.size }}">
             {% if link.type == 'button' %}

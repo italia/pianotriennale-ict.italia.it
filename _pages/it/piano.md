@@ -1,14 +1,19 @@
 ---
-title: Il piano
+title: Il Piano Triennale
 layout: piano
 lang: it
 separator: ascending
 title-alignment: left
 chapters: [ piano-triennale, modello-strategico, gestione-del-cambiamento, razionalizzazione-della-spesa, principi-per-lo-sviluppo-di-progetti-digitali ]
 ---
-### Introduzione al piano triennale per l’informatica nella pubblica amministrazione
-L’uso mirato delle nuove tecnologie, che pone al centro della sua azione cittadini e imprese, è una leva di trasformazione economica e sociale che rende l'innovazione digitale un investimento pubblico per una riforma strutturale del Paese.
+L’uso mirato delle nuove tecnologie mette al centro della sua azione cittadini e imprese, diventando la leva di trasformazione economica e sociale che rende l’innovazione digitale un investimento pubblico per una riforma strutturale del Paese.
 
-L’obiettivo del Piano – che si basa sulle indicazioni della Strategia per la crescita digitale, con le azioni e la definizione dei fabbisogni finanziari - è quello di razionalizzare la spesa delle amministrazioni, aumentare la qualità dei servizi offerti a cittadini e imprese e degli strumenti messi a disposizione degli operatori della PA, riducendo il digital divide nazionale grazie all’utilizzo appropriato delle nuove tecnologie.
+Il Piano Triennale per l’informatica nella Pubblica amministrazione è  il documento di indirizzo strategico ed economico attraverso il quale viene declinato il Modello strategico di evoluzione del sistema informativo della Pubblica amministrazione. Nasce per guidare operativamente la trasformazione digitale del paese e diventa riferimento per le amministrazioni centrali e locali nello sviluppo dei propri sistemi informativi. 
 
-La trasformazione digitale della PA deve inoltre accompagnarsi alla crescita delle architetture e delle soluzioni di sicurezza informatica oltre che a una trasformazione digitale delle imprese.
+Definisce le linee guida della strategia operativa di sviluppo dell’informatica pubblica fissando i principi architetturali fondamentali, le regole di usabilità e interoperabilità, precisando la logica di classificazione delle spese ICT. Grazie al Piano si chiarisce il modello per lo sviluppo del digitale secondo cui:
+ 
+- il livello nazionale definisce regole, standard e realizza piattaforme abilitanti che ottimizzano investimenti
+- le amministrazioni - centrali e locali - sviluppano servizi secondo le proprie specificità utilizzando competenze interne e/o di mercato.
+- il privato, compresa la strategia di paese, programma investimenti di lungo periodo e sfrutta nuove opportunità di mercato creando soluzioni che si integrino con le piattaforme nazionali. 
+ 
+L’obiettivo del Piano è quello di razionalizzare la spesa delle amministrazioni, migliorare la qualità dei servizi offerti a cittadini e imprese e degli strumenti messi a disposizione degli operatori della PA.

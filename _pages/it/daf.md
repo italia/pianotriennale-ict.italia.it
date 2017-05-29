@@ -2,7 +2,6 @@
 title: Data & Analytics Framework
 lang: it
 layout: page
-subtitle: Sottotitolo a Data & Analytics Framework
 separator: curved
 title-alignment: center
 cta-buttons: true
