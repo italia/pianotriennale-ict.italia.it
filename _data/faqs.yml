@@ -72,9 +72,15 @@ it:
       Attraverso il lavoro che verrà strutturato insieme agli enti (aggregatori e non) che collaboreranno con Agid e il Team Digitale per l’attuazione del Piano. ll coinvolgimento naturalmente avverrà anche grazie ai suggerimenti che emergeranno attraverso l’uso di Github, ReadTheDocs  e Discourse.
   - title: 13 - Come utilizzare Github, ReadTheDocs e Discourse?
     text: |
-      Vogliamo dare delle indicazioni per l’utilizzo di questi strumenti? a cura del DT
-
-      Modalità e tempi di moderazione. a cura di AgID e DT
+      Per coinvolgere sviluppatori ed esperti del settore vengono introdotti strumenti di condivisione e di collaborazione  finalizzati a diffondere progetti tecnologici: Github, ReadTheDocs (per la creazione di un sistema di gestione dei documenti pubblici) e Discourse (per la realizzazione di un forum di discussione).
+      
+      [ReadTheDocs](https://pianotriennale-ict.readthedocs.org/) è una piattaforma di condivisione di documenti di testo in html, organizzata secondo una classica divisione in capitoli e sezioni e un indice laterale di scorrimento dei capitoli stessi, che permette la fruizione del documento su ogni dispositivo in maniera fluida e con una agevole funzione di ricerca.
+      
+      [Discourse](https://forum.italia.it) è una piattaforma tecnologica che permette attraverso la creazione di un forum, la discussione e condivisione di temi specifici con la community oltre alla richiesta di supporto su thread specifici che verranno definiti da AgID rispetto al cronoprogramma di attuazione del Piano.
+      
+      [Github](https://github.com/italia) è una piattaforma tecnologica utilizzata per condividere file di testo e codice sorgente, che implementa funzionalità che verranno attivate nel momento in cui comincerà la fase di scrittura della versione 2018, in modo da avere un’ulteriore finestra di confronto.
+      
+      Github e Discourse verranno amministrati da maintainers appartenenti ad AgID e al Team per la Trasformazione Digitale.
   - title: 14 - Perché il Piano Triennale esce a maggio 2017?
     text: |
       La stesura si è conclusa alla fine di marzo 2017, una volta portato a termine il percorso di consolidamento del documento che ha visto la collaborazione delle amministrazioni coinvolte. Successivamente è stato avviato l’iter per l’approvazione ufficiale da parte del Consiglio dei Ministri e la creazione dei necessari strumenti di condivisione e di diffusione per il supporto da fornire alle pubbliche amministrazioni.
