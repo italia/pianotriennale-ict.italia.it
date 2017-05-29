@@ -5,13 +5,13 @@ Il sito è sviluppato con Jekyll. Per configurare un ambiente di sviluppo è suf
     $ bundle install
     $ bundle exec jekyll serve
 
-Se vuoi contribuire una modifica, è sufficiente aprire una pull-request.
+Se vuoi contribuire allo sviluppo del sito, è sufficiente aprire una pull-request.
 
 ## Sito tematico di presentazione del Piano triennale
-[http://trasformazionedigitale.italia.it/](http://trasformazionedigitale.italia.it)
+[http://pianotriennale-ict.italia.it/](http://pianotriennale-ict.italia.it)
 
 ## Forum di discussione sui temi del Piano triennale
-[https://forum.developers.italia.it/c/piano-triennale/](https://forum.developers.italia.it/c/piano-triennale)
+[https://forum.italia.it/c/piano-triennale/](https://forum.italia.it/c/piano-triennale)
 
 ## Testo integrale del Piano Triennale
 [http://pianotriennale-ict.readthedocs.io/](http://pianotriennale-ict.readthedocs.io/);

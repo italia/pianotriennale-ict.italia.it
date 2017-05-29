@@ -24,6 +24,6 @@
 - name: linkedin
   owner: teamdigitale
   link: https://www.linkedin.com/company/teamdigitale
-- name: behance
-  owner: teamdigitale
-  link: https://www.behance.net/
+# - name: behance
+#  owner: teamdigitale
+#  link: https://www.behance.net/
