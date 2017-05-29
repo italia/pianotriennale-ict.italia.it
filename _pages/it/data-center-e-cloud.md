@@ -11,7 +11,7 @@ linee-azione: true
 ---
 Il cloud della PA fa parte delle infrastrutture fisiche nazionali assieme alle reti di comunicazione, i data center, i sistemi di disaster recovery e di business continuity, gli apparati necessari per monitoraggio e sicurezza.
 
-Il cloud della PA presenta una situazione frammentata e disomogenea, come accade anche per i data center. È necessaria una razionalizzazione delle infrastrutture fisiche non solo dal punto di vista strutturale ma anche dal punto di vista economico. La realizzazione la definizione di un modello strategico evolutivo del cloud della PA renderà possibile virtualizzare il parco macchine di tutte le pubbliche amministrazioni, con importanti benefici in termini di costi e di gestione della manutenzione.
+Il cloud della PA presenta una situazione frammentata e disomogenea, come accade anche per i data center. È necessaria una razionalizzazione delle infrastrutture fisiche non solo dal punto di vista strutturale ma anche dal punto di vista economico. La realizzazione e definizione di un modello strategico evolutivo del cloud della PA renderà possibile virtualizzare il parco macchine di tutte le pubbliche amministrazioni, con importanti benefici in termini di costi e di gestione della manutenzione.
 
 Il piano di razionalizzazione delle risorse ICT della PA prevede che AgID:
 
