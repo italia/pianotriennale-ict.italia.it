@@ -17,12 +17,12 @@
 
   <div class="Header-navbar u-background-50">
     <div class="u-layout-wide Grid Grid--alignMiddle u-layoutCenter">
-      <div class="Header-logo Grid-cell" aria-hidden="true">
-        <a href="{{ '/' | relative_url }}" tabindex="-1">
-          <img src="{{ site.logo | relative_url }}" alt="">
-        </a>
+      <div class="Header-logo Grid-cell u-hidden u-md-block u-lg-block" aria-hidden="true">
+         <a href="{{ '/' | relative_url }}" tabindex="-1" class="u-inlineBlock"><img src="{{ site.gov_logo | relative_url }}" alt=""></a>
       </div>
-
+       <div class="Header-logo Grid-cell" aria-hidden="true">
+         <a href="{{ '/' | relative_url }}" tabindex="-1" class="u-inlineBlock"><img src="{{ site.logo | relative_url }}" alt=""></a>
+      </div>
       <div class="Header-title Grid-cell">
         <h1 class="Header-titleLink">
           <a href="{{ '/' | relative_url }}" class="u-linkClean">{{ t.site_title | default: site.title | escape }}
@@ -41,7 +41,7 @@
       </div>
       {% endif %}
 
-      <div class="Header-utils Grid-cell">
+      <div class="Header-utils Grid-cell lg-before4of12">
         <div class="Header-social">
           <p>{{ t.follow_us | capitalize }}</p>
           <ul class="Header-socialIcons">
