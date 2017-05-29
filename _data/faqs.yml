@@ -3,33 +3,31 @@ it:
     text: |
       Il Piano Triennale è un documento di indirizzo strategico ed economico attraverso il quale viene declinato Il Modello strategico di evoluzione del sistema informativo della Pubblica amministrazione (di seguito “Modello strategico”).
       
-      Previsto dallo statuto di AgID e dalla Legge di stabilità 2016 (l. 28 dicembre 2015, n. 208), il Piano nasce per guidare operativamente la trasformazione digitale della pubblica amministrazione e diventa riferimento per le amministrazioni centrali e locali nello sviluppo dei propri sistemi informativi. 
-
-      Definisce le linee guida della strategia operativa di sviluppo dell’informatica pubblica, fissa i principi architetturali fondamentali, le regole di usabilità e interoperabilità, precis la logica di classificazione delle spese ICT e chiarisce il modello per lo sviluppo del digitale.
-
+      Previsto dallo statuto di AgID e dalla Legge di stabilità 2016 (l. 28 dicembre 2015, n. 208), il Piano nasce per guidare operativamente la trasformazione digitale della Pubblica amministrazione e diventa riferimento per le amministrazioni centrali e locali nello sviluppo dei propri sistemi informativi. Definisce le linee guida della strategia operativa di sviluppo dell’informatica pubblica, fissa i principi architetturali fondamentali, le regole di usabilità e interoperabilità, precisa la logica di classificazione delle spese ICT e chiarisce il modello per lo sviluppo del digitale.
+      
       I principali obiettivi del Piano Triennale sono:
-
-      - definire le linee della strategia di sviluppo e realizzazione del sistema informativo della pubblica amministrazione in un quadro organico in base a quanto previsto dagli obiettivi dell’Agenda Digitale italiana, dunque del Piano Crescita Digitale.
+      
+      - definire le linee della strategia di sviluppo e realizzazione del sistema informativo della Pubblica amministrazione in un quadro organico in base a quanto previsto dagli obiettivi dell’Agenda Digitale italiana, dunque del Piano Crescita Digitale;
       - razionalizzare, dunque riqualificare la spesa ICT delle amministrazioni in coerenza con gli obiettivi della Legge di Stabilità 2016.
   - title: 2 - Che differenza c’è tra Strategia per la Crescita Digitale e Piano Triennale? 
     text: |
-      La [Strategia per la Crescita Digitale](http://www.agid.gov.it/sites/default/files/documenti_indirizzo/crescita_digitale_2020.pdf) - la cui approvazione da parte della Commissione Europea ha consentito l’approvazione dei fondi strutturali all’Italia - è l'agenda digitale italiana, ovvero il documento strategico che descrive come deve cambiare il rapporto tra PA e cittadino attraverso l’individuazione di progetti strategici; il Piano Triennale ne è la sua declinazione operativa/tecnica.
-
-      AgID e il Team per la Trasformazione Digitale, partendo dalle indicazioni della strategia Crescita digitale, hanno lavorato alla messa a sistema di singoli progetti per arrivare all’elaborazione di una strategia inclusiva e competitiva che permetta al paese di passare da una fase di start-up ad una fase di sviluppo industriale.
-  - title: 3 - Quali sono le figure professionali all’interno delle amministrazioni che devono leggere il piano?
-    text: |
-      La lettura del Piano Triennale è destinata sia al livello decisionale delle amministrazioni - per adeguare la pianificazione delle attività alla strategia nazionale - che al livello operativo che deve progettare il dettaglio delle soluzioni e realizzarle.
-  - title: 4 - Quali sono le novità e i più importanti cambiamenti contenuti nel piano?
-    text: |
-      La novità è il piano stesso, inteso come primo documento che contiene: azioni, tempi e obiettivi del percorso di attuazione della strategia, fornendo indicazioni chiare ad ogni amministrazione.
+      La [Strategia per la Crescita Digitale](http://www.agid.gov.it/sites/default/files/documenti_indirizzo/strategia_crescita_digitale_ver_def_21062016.pdf) - la cui approvazione da parte della Commissione europea ha consentito l’approvazione dei fondi strutturali all’Italia - è l’Agenda digitale italiana, ovvero il documento strategico che descrive come deve cambiare il rapporto tra PA e cittadino attraverso l’individuazione di progetti strategici; il Piano Triennale ne è la sua declinazione operativa e tecnica.
       
-      Inoltre, per estenderne la diffusione vengono utilizzati strumenti di condivisione e di collaborazione destinati agli sviluppatori e finalizzati a diffondere i progetti tecnologici: [Github](https://github.com/italia/), [ReadTheDocs](http://www.readthedocs.org/) (per la creazione di un sistema di gestione dei documenti pubblici) e [Discourse](https://forum.italia.it) (per la realizzazione di un forum di discussione).
+      AgID e il Team per la Trasformazione Digitale, partendo dalle indicazioni della [Strategia crescita digitale](http://www.agid.gov.it/sites/default/files/documenti_indirizzo/strategia_crescita_digitale_ver_def_21062016.pdf), hanno lavorato alla messa a sistema di singoli progetti per arrivare all’elaborazione di una strategia inclusiva e competitiva che permetta al Paese di passare da una fase di start-up ad una fase di sviluppo industriale dello sviluppo digitale.
+  - title: 3 - Quali sono le figure professionali all’interno delle amministrazioni che devono leggere il Piano?
+    text: |
+      La lettura del Piano Triennale è destinata sia al livello decisionale delle amministrazioni - per adeguare la pianificazione delle attività alla strategia nazionale - che al livello operativo, per la progettazione di dettaglio delle soluzioni da realizzare.
+  - title: 4 - Quali sono le novità e i più importanti cambiamenti contenuti nel Piano?
+    text: |
+      La novità è il Piano stesso, inteso come primo documento che contiene azioni, tempi e obiettivi del percorso di attuazione della strategia, fornendo indicazioni chiare ad ogni Pubblica amministrazione.
+      
+      Inoltre, per ampliare le possibilità di confronto e partecipazione, vengono utilizzati strumenti di collaborazione destinati agli sviluppatori e finalizzati a diffondere i progetti tecnologici: [Github](https://github.com/italia/), [ReadTheDocs](https://pianotriennale-ict.readthedocs.io/) e [Discourse](https://forum.italia.it) (vedi FAQ n.14).
   - title: 5 - Che durata ha il Piano Triennale?
     text: |
-      Il piano ha durata annuale. La versione 2017 definisce le attività del 2018. Entro il mese di settembre di ogni anno verrà rilasciata la versione aggiornata che indirizza le azioni dell’anno successivo.
+      Il Piano ha durata annuale. La versione 2017 definisce le attività del 2018. Entro il mese di settembre di ogni anno verrà rilasciata la versione aggiornata che indirizza le azioni per l’anno successivo.
   - title: 6 - La versione 2017 del Piano Triennale è stata condivisa con le amministrazioni destinatarie?
     text: |
-      La versione 2017 ha visto la collaborazione di diversi soggetti:
+      La versione 2017 ha visto la collaborazione di:
       
       - Sogei
       - CONSIP
@@ -41,42 +39,42 @@ it:
       - le città metropolitane
       - le province
       - gli enti strumentali
-      - l’ANCI.
-      
-      Già a partire dalla stesura della versione 2018 - anche grazie all’utilizzo degli strumenti tecnici di condivisione (vedi faq n. 14) - si assisterà ad un affinamento dell’azione di collaborazione e coinvolgimento delle PA che porterà ad un consolidamento della stessa negli anni successivi.
+      - l’ANCI
+ 
+      Già a partire dalla stesura della versione 2018 - anche grazie agli input derivanti dall’utilizzo degli strumenti tecnici di condivisione (vedi FAQ n. 14) - si arriverà all’ampliamento dell’azione di collaborazione e coinvolgimento delle amministrazioni e delle community di riferimento.
   - title: 7 - Il Piano Triennale indica alle PA come risparmiare nella loro spesa in ICT?
     text: |
-      Il Piano Triennale fornisce indicazioni alle pubbliche amministrazioni  su come riqualificare la spesa pianificando gli investimenti in ICT del prossimo triennio, permettendo dunque alle amministrazioni di adempiere a quanto prescritto dalla legge di stabilità 2016. Si tratta quindi di una riallocazione di risorse che porterà ad un sensibile risparmio di spesa in ambito ICT.
+      Il Piano Triennale fornisce indicazioni alle pubbliche amministrazioni su come riqualificare la spesa pianificando gli investimenti in ICT del prossimo triennio, permettendo dunque alle amministrazioni di adempiere a quanto prescritto dalla legge di stabilità 2016.
+      
+      Si tratta quindi di una riallocazione di risorse che porterà ad un sensibile risparmio di spesa in ambito ICT.
   - title: 8 - Su che tipo di informazioni si basa il Piano Triennale?
     text: |
-      Il Piano Triennale fornisce per la prima volta una fotografia dell’attuale per tipologia di amministrazione e spesa. Le rilevazioni si basano sull’analisi di dettaglio di un campione significativo di PA e su indicazioni di settore per quanto riguarda le altre amministrazioni.
+      Il Piano Triennale fornisce per la prima volta una fotografia della situazione attuale relativa a tipologia di amministrazione e spesa. Le rilevazioni fatte si basano sull’analisi di dettaglio di un campione significativo di PA e su indicazioni di settore relative a tutte le altre amministrazioni.
   - title: 9 - Perché le amministrazioni devono seguire le indicazioni del Piano Triennale? E cosa succede se questo non avviene?
     text: |
-      Le amministrazioni, seguendo le indicazioni del documento, declinano il proprio modello di sviluppo per la transizione digitale in maniera coerente con la strategia operativa di sviluppo dell’informatica pubblica nazionale.
-
-      Per questo motivo la Legge di stabilità 2016 (L. 28 dicembre 2015 n. 208) indica alle pubbliche amministrazioni il Piano Triennale come documento ufficiale da seguire per poter pianificare i propri investimenti in ICT nel prossimo triennio.
+      Solo seguendo le indicazioni del documento, le amministrazioni potranno declinare il proprio modello di sviluppo per la transizione digitale in maniera coerente con la strategia operativa di sviluppo dell’informatica pubblica nazionale.
       
-      Attraverso l’intervento normativo - che ha l’obiettivo di favorire una riqualificazione della spesa - il Piano Triennale guiderà le amministrazioni nella programmazione, in modo da permettere loro di spendere in maniera coordinata e organica rispetto a quanto previsto dal modello ICT della PA e dalla legge di stabilità 2016.
-  - title: 10 - Se una Amministrazione non ha le competenze o le risorse per attuare il piano cosa fa?
+      Per questo motivo la Legge di stabilità 2016 indica alle pubbliche amministrazioni il Piano Triennale come documento ufficiale da seguire per poter pianificare i propri investimenti in ICT nel prossimo triennio. 
+      
+      Attraverso l’intervento normativo - che ha l’obiettivo di favorire una riqualificazione della spesa - il Piano Triennale guiderà le amministrazioni nella programmazione  economica  in modo da permettere a tutta la PA di adempiere a quanto prescritto dalla Legge di Stabilità.
+  - title: 10 - Se una amministrazione non ha le competenze o le risorse per attuare il Piano cosa fa?
     text: |
       Nel testo vengono illustrate azioni che permettono lo snellimento dei procedimenti burocratici, la maggiore trasparenza dei processi amministrativi, una maggiore efficienza nell’erogazione dei servizi pubblici e la riqualificazione  della spesa informatica.
       Naturalmente nel Piano vengono anche individuate le competenze necessarie e gli strumenti di acquisto per poter pianificare gli investimenti finalizzati alla realizzazione delle scelte tecnologiche contenute nel piano stesso. Le amministrazioni.
       Grazie alle attività di coordinamento dei territori e all’utilizzo dei nuovi strumenti tecnici di condivisione (vedi faq n. 14), le amministrazioni potranno chiedere assistenza e supporto nell’attuazione del Piano.
-  - title: 11 - Perché il Piano Triennale esce solo a maggio 2017?
-    text: |
-      La stesura si è conclusa alla fine di marzo 2017, una volta portato a termine il percorso di consolidamento del documento che ha visto la collaborazione delle amministrazioni coinvolte. Successivamente sono partiti l'iter per l'approvazione ufficiale da parte del Consiglio dei Ministri e la creazione dei necessari strumenti di condivisione e di diffusione per il supporto da fornire alle pubbliche amministrazioni.
-      
-      Nel 2015 è nata la Strategia per la Crescita Digitale, nel 2016 il Modello Strategico e nel 2017 il Piano Triennale.
-  - title: 12 - Un’amministrazione può ricevere chiarimenti? Come verrà gestita la fase di accompagnamento delle PA?
+  - title: 11 - Un’amministrazione può ricevere chiarimenti? Come verrà gestita la fase di accompagnamento delle PA?
     text: |
       AgID accompagnerà le PA nell’esecuzione del piano triennale anche attraverso la collaborazione con alcuni soggetti aggregatori che verranno individuati dopo una prima serie di incontri che si concluderanno entro settembre 2017.
       
-      Per coinvolgere anche sviluppatori ed esperti del settore vengono inoltre introdotti strumenti di condivisione e di collaborazione  finalizzati a diffondere progetti tecnologici: Github, ReadTheDocs (per la creazione di un sistema di gestione dei documenti pubblici) e Discourse (per la realizzazione di un forum di discussione). Per approfondimenti sull’utilizzo di questi strumenti vai alla faq n. 14.
-  - title: 13 - Come le amministrazioni verranno coinvolte per la stesura della prossima versione del Piano Triennale?
+      Per coinvolgere anche sviluppatori ed esperti del settore vengono inoltre introdotti strumenti di condivisione e di collaborazione  finalizzati a diffondere progetti tecnologici: [Github](https://github.com/italia/), [ReadTheDocs](https://pianotriennale-ict.readthedocs.io/) e [Discourse](https://forum.italia.it) (vedi FAQ n.14).
+  - title: 12 - Come le amministrazioni verranno coinvolte per la stesura della prossima versione del Piano Triennale?
     text: |
       Attraverso il lavoro che verrà strutturato insieme agli enti (aggregatori e non) che collaboreranno con Agid e il Team Digitale per l’attuazione del Piano. ll coinvolgimento naturalmente avverrà anche grazie ai suggerimenti che emergeranno attraverso l’uso di Github, ReadTheDocs  e Discourse.
-  - title: 14 - Come utilizzare Github, ReadTheDocs e Discourse?
+  - title: 13 - Come utilizzare Github, ReadTheDocs e Discourse?
     text: |
       Vogliamo dare delle indicazioni per l’utilizzo di questi strumenti? a cura del DT
 
       Modalità e tempi di moderazione. a cura di AgID e DT
+  - title: 14 - Perché il Piano Triennale esce a maggio 2017?
+    text: |
+      La stesura si è conclusa alla fine di marzo 2017, una volta portato a termine il percorso di consolidamento del documento che ha visto la collaborazione delle amministrazioni coinvolte. Successivamente è stato avviato l’iter per l’approvazione ufficiale da parte del Consiglio dei Ministri e la creazione dei necessari strumenti di condivisione e di diffusione per il supporto da fornire alle pubbliche amministrazioni.
