@@ -49,7 +49,7 @@ partner_link: https://teamdigitale.governo.it
 privacy_link: https://developers.italia.it/it/privacy-policy
 partner_logo: /assets/images/dt-logo.svg
 partner_logo_alt: /assets/images/dt-logo-alt.svg
-gov_full: Governo Italiano
+gov_full: Presidenza del Consiglio dei Ministri
 gov_link: http://www.governo.it
 gov_logo: /assets/images/governo.svg
 gov_logo_alt: /assets/images/governo-alt.svg
@@ -58,7 +58,7 @@ dfp_link: http://www.funzionepubblica.gov.it
 dfp_logo: /assets/images/governo.svg
 dfp_logo_alt: /assets/images/governo-alt.svg
 
-pill: v1.0
+pill: 2017-2019
 
 collections:
   pages:
