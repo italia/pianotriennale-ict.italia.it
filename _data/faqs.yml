@@ -44,7 +44,7 @@ it:
       Già a partire dalla stesura della versione 2018 - anche grazie agli input derivanti dall’utilizzo degli strumenti tecnici di condivisione (vedi FAQ n. 14) - si arriverà all’ampliamento dell’azione di collaborazione e coinvolgimento delle amministrazioni e delle community di riferimento.
   - title: 7 - Il Piano Triennale indica alle PA come risparmiare nella loro spesa in ICT?
     text: |
-      Il Piano Triennale fornisce indicazioni alle pubbliche amministrazioni su come riqualificare la spesa pianificando gli investimenti in ICT del prossimo triennio, permettendo dunque alle amministrazioni di adempiere a quanto prescritto dalla legge di stabilità 2016.
+      Il Piano Triennale fornisce indicazioni alle pubbliche amministrazioni su come riqualificare la spesa pianificando gli investimenti in ICT del prossimo triennio, permettendo dunque alle amministrazioni di adempiere a quanto prescritto dalla Legge di Stabilità 2016.
       
       Si tratta quindi di una riallocazione di risorse che porterà ad un sensibile risparmio di spesa in ambito ICT.
   - title: 8 - Su che tipo di informazioni si basa il Piano Triennale?
@@ -54,22 +54,24 @@ it:
     text: |
       Solo seguendo le indicazioni del documento, le amministrazioni potranno declinare il proprio modello di sviluppo per la transizione digitale in maniera coerente con la strategia operativa di sviluppo dell’informatica pubblica nazionale.
       
-      Per questo motivo la Legge di stabilità 2016 indica alle pubbliche amministrazioni il Piano Triennale come documento ufficiale da seguire per poter pianificare i propri investimenti in ICT nel prossimo triennio. 
+      Per questo motivo la Legge di Stabilità 2016 indica alle pubbliche amministrazioni il Piano Triennale come documento ufficiale da seguire per poter pianificare i propri investimenti in ICT nel prossimo triennio. 
       
       Attraverso l’intervento normativo - che ha l’obiettivo di favorire una riqualificazione della spesa - il Piano Triennale guiderà le amministrazioni nella programmazione  economica  in modo da permettere a tutta la PA di adempiere a quanto prescritto dalla Legge di Stabilità.
   - title: 10 - Se una amministrazione non ha le competenze o le risorse per attuare il Piano cosa fa?
     text: |
       Nel testo vengono illustrate azioni che permettono lo snellimento dei procedimenti burocratici, la maggiore trasparenza dei processi amministrativi, una maggiore efficienza nell’erogazione dei servizi pubblici e la riqualificazione  della spesa informatica.
+      
       Naturalmente nel Piano vengono anche individuate le competenze necessarie e gli strumenti di acquisto per poter pianificare gli investimenti finalizzati alla realizzazione delle scelte tecnologiche contenute nel piano stesso. Le amministrazioni.
-      Grazie alle attività di coordinamento dei territori e all’utilizzo dei nuovi strumenti tecnici di condivisione (vedi faq n. 14), le amministrazioni potranno chiedere assistenza e supporto nell’attuazione del Piano.
+      
+      Grazie alle attività di coordinamento dei territori e all’utilizzo dei nuovi strumenti tecnici di condivisione (vedi FAQ n. 14), le amministrazioni potranno chiedere assistenza e supporto nell’attuazione del Piano.
   - title: 11 - Un’amministrazione può ricevere chiarimenti? Come verrà gestita la fase di accompagnamento delle PA?
     text: |
-      AgID accompagnerà le PA nell’esecuzione del piano triennale anche attraverso la collaborazione con alcuni soggetti aggregatori che verranno individuati dopo una prima serie di incontri che si concluderanno entro settembre 2017.
+      AgID accompagnerà le PA nell’esecuzione del Piano Triennale anche attraverso la collaborazione con alcuni soggetti aggregatori che verranno individuati dopo una prima serie di incontri che si concluderanno entro settembre 2017.
       
       Per coinvolgere anche sviluppatori ed esperti del settore vengono inoltre introdotti strumenti di condivisione e di collaborazione  finalizzati a diffondere progetti tecnologici: [Github](https://github.com/italia/), [ReadTheDocs](https://pianotriennale-ict.readthedocs.io/) e [Discourse](https://forum.italia.it) (vedi FAQ n.14).
   - title: 12 - Come le amministrazioni verranno coinvolte per la stesura della prossima versione del Piano Triennale?
     text: |
-      Attraverso il lavoro che verrà strutturato insieme agli enti (aggregatori e non) che collaboreranno con Agid e il Team Digitale per l’attuazione del Piano. ll coinvolgimento naturalmente avverrà anche grazie ai suggerimenti che emergeranno attraverso l’uso di Github, ReadTheDocs  e Discourse.
+      Attraverso il lavoro che verrà strutturato insieme agli enti (aggregatori e non) che collaboreranno con AgID e il Team Digitale per l’attuazione del Piano. ll coinvolgimento naturalmente avverrà anche grazie ai suggerimenti che emergeranno attraverso l’uso di [Github](https://github.com/italia), [ReadTheDocs](https://pianotriennale-ict.readthedocs.io/) e [Discourse](https://forum.italia.it) (vedi FAQ n.14).
   - title: 13 - Come utilizzare Github, ReadTheDocs e Discourse?
     text: |
       Per coinvolgere sviluppatori ed esperti del settore vengono introdotti strumenti di condivisione e di collaborazione  finalizzati a diffondere progetti tecnologici: Github, ReadTheDocs (per la creazione di un sistema di gestione dei documenti pubblici) e Discourse (per la realizzazione di un forum di discussione).
