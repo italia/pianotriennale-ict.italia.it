@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Piano Triennale
+title: Trasformazione Digitale
 description: "Piano Triennale per l'informatica nella pubblica amministrazione"
 author: Team Digitale e AgID
 
