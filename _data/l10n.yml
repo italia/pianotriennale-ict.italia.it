@@ -82,7 +82,7 @@ it:
             label: scarica il pdf
             href: '/assets/pdf/Piano_Triennale_per_l_informatica_nella_Pubblica_Amministrazione.pdf'
             target_blank: true
-      - text: Hai bisogno di chiarimenti?  Consulta le [FAQ](/faq) o partecipa al forum di discussione dedicato.
+      - text: Hai bisogno di chiarimenti? Consulta le [FAQ](/faq), partecipa al forum di discussione dedicato oppure proponi una modifica al testo su GitHub.
         links:
           - type: button
             icon: forum
