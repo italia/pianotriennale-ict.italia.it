@@ -58,7 +58,7 @@ dfp_link: http://www.funzionepubblica.gov.it
 dfp_logo: /assets/images/governo.svg
 dfp_logo_alt: /assets/images/governo-alt.svg
 
-pill: 2017-2019
+pill: v1.0
 
 collections:
   pages:
