@@ -101,6 +101,14 @@ it:
           Suspendisse consequat id sem ut suscipit. Sed congue dolor enim, eu tristique dolor pulvinar ac.»
         author_name: Paolo Gentiloni
         author_role: Presidente del Consiglio dei Ministri
+      madia:
+        text: |
+          «Ambitioni dedisse scripsisse iudicaretur. Salutantibus vitae elit libero, a pharetra augue. Fabio vel iudice vincam, sunt in culpa qui officia. Prima luce, cum quibus mons aliud consensu ab  eo. At nos hinc posthac, sitientis piros Afros. Petierunt uti sibi concilium totius Galliae in diem certam indicere.
+        text_short: |
+          «Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus sit amet orci eget imperdiet. Mauris tristique enim faucibus, lobortis mauris ut, aliquam justo.
+          Suspendisse consequat id sem ut suscipit. Sed congue dolor enim, eu tristique dolor pulvinar ac.»
+        author_name: Marianna Madia
+        author_role: Ministro per la semplificazione e la Pubblica amministrazione
     capitoli_title: Gli altri capitoli del piano
     capitoli:
       data-center-e-cloud: Data center e cloud
