@@ -62,7 +62,10 @@ layout: default
       {% endif %}
       {% if page.linee-azione %}
       <div class="Prose u-margin-top-xl u-margin-bottom-xl">
+        {% assign title = page.title | downcase %}
+        {% if title != t.actions %}
         <h4>{{ t.actions | capitalize }}</h4>
+        {% endif %}
         {% include actions_tabs.html %}
       </div>
       {% endif %}
