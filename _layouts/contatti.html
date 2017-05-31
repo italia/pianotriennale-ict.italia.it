@@ -29,6 +29,11 @@ layout: default
 <div class="Content u-background-grey-15 u-layout-r-withGutter u-padding-r-top u-padding-bottom-xxl u-posRelative u-zindex-30">
   <div class="Grid">
     <div class="Grid-cell u-sizeFull u-md-size6of12 u-lg-size6of12">
+      <div class="Prose u-margin-bottom-xxl">
+        <h4>Vuoi proporre idee o dare un feedback sul piano triennale?</h4>
+        <p>Per questo puoi andare sul forum apposito: puoi partecipare alle discussioni esistenti o proporre la tua.</p>
+        {% include button.html label = 'goto_forum' url = site.data.network_links.forum.url icon = 'forum' target_blank = true %}
+      </div>
       <div class="u-margin-bottom-xxl">
          <div class="u-margin-top-xxl u-margin-bottom-xs u-inlineBlock">
            <a class="u-linkClean" href="{{ site.owner_link }}" title="{{ site.owner_full | escape }}">
