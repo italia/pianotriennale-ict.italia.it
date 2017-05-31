@@ -15,9 +15,9 @@
       </div>
     </div>
     
-    <div class="Owner Grid-cell u-md-size1of2 u-lg-size1of4 u-padding-r-bottom">
+    <div class="Owner Grid-cell u-md-size1of2 u-lg-size1of5 u-padding-r-bottom">
       <div class="Grid">      
-        <p class="Grid-cell u-size8of12 Footer-siteName u-padding-top-xxs u-text-r-m">
+        <p class="Grid-cell Footer-siteName u-padding-top-xxs u-text-r-m">
           <a href="{{ site.dfp_link }}" title="{{ site.dfp_full | escape }}" class="u-color-white u-textClean">{{ site.dfp_full | escape }}</a>
         </p>
       </div>
@@ -25,13 +25,15 @@
     
     <div class="Owner Grid-cell u-md-size1of2 u-lg-size1of4 u-padding-r-bottom">
       <div class="Grid">     
-        <p class="Grid-cell u-size8of12 Footer-siteName u-padding-top-xxs u-text-r-m">
-          <a href="{{ site.owner_link }}" title="{{ site.owner_full | escape }}" class="u-color-white u-textClean">{{ site.owner_full | escape }}</a>
-        </p>
+        <div class="u-inlineBlock">
+          <a href="{{ site.owner_link }}" title="{{ site.owner_full | escape }}">
+          <img class="Footer-logo u-alignMiddle" src="{{ site.owner_logo | relative_url }}"
+          alt="" style="height: 4em; max-width: 100%"></a>
+        </div>
       </div>
     </div>
 
-    <div class="Partner Grid-cell u-md-size1of2 u-lg-size1of4 u-padding-r-bottom td-footer">
+    <div class="Partner Grid-cell u-md-size1of2 u-lg-size1of4 u-padding-r-bottom td-footer u-margin-left-s">
       <div class="Grid">
         <div class="u-inlineBlock">
             <a href="{{ site.partner_link }}" title="{{ site.owner_full | escape }}"><img class="u-padding-right-xxs" src="{{ site.partner_logo | relative_url }}" alt=""
