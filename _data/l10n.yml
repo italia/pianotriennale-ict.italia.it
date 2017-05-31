@@ -7,7 +7,7 @@ it:
     cookiebar_msg: Questo sito utilizza cookie tecnici, analytics e di terze parti. Proseguendo nella navigazione accetti l’utilizzo dei cookie.
     cookiebar_privacy_policy: Privacy policy
     follow_us: seguici su
-    header_link_pt: Piano Triennale ICT
+    header_link_pt: Piano Triennale
     header_link_developers: Developers
     header_link_design: Designers
     header_link_forum: Forum
@@ -84,7 +84,7 @@ it:
             label: scarica il pdf
             href: '/assets/pdf/Piano_Triennale_per_l_informatica_nella_Pubblica_Amministrazione.pdf'
             target_blank: true
-      - text: Hai bisogno di chiarimenti? Consulta le [FAQ](/faq), partecipa al forum di discussione dedicato oppure proponi una modifica al testo su GitHub.
+      - text: Hai bisogno di chiarimenti? Consulta le [FAQ](/faq), partecipa al forum di discussione dedicato oppure proponi una modifica al testo su [GitHub](https://github.com/italia/pianotriennale-ict-doc).
         links:
           - type: button
             icon: forum
@@ -101,17 +101,17 @@ it:
         author_role: Presidente del Consiglio dei Ministri
       madia:
         text: |
-          «Il Piano Triennale per la trasformazione digitale permetterà alle pubbliche amministrazioni di diventare più efficienti e metterà il cittadino al centro delle loro azione. L’aggiornamento del Codice dell’Amministrazione Digitale sarà un ulteriore passo per liberare l’innovazione dai troppi regolamenti e rafforzare i diritti di cittadinanza digitale.»
+          «Con il Piano Triennale prosegue la trasformazione digitale che permetterà alle pubbliche amministrazioni di diventare più efficienti e mettere il cittadino al centro delle loro azioni. L’aggiornamento del Codice dell’Amministrazione Digitale sarà un ulteriore passo per liberare l’innovazione dai troppi regolamenti e rafforzare i diritti di cittadinanza digitale»
         text_short: |
-          «Il Piano Triennale per la trasformazione digitale permetterà alle pubbliche amministrazioni di diventare più efficienti e metterà il cittadino al centro delle loro azione. L’aggiornamento del Codice dell’Amministrazione Digitale sarà un ulteriore passo per liberare l’innovazione dai troppi regolamenti e rafforzare i diritti di cittadinanza digitale.»
+          «Con il Piano Triennale prosegue la trasformazione digitale che permetterà alle pubbliche amministrazioni di diventare più efficienti e mettere il cittadino al centro delle loro azioni. L’aggiornamento del Codice dell’Amministrazione Digitale sarà un ulteriore passo per liberare l’innovazione dai troppi regolamenti e rafforzare i diritti di cittadinanza digitale»
         author_name: Marianna Madia
         author_role: Ministro per la semplificazione e la Pubblica amministrazione
       piacentini:
         text: |
-          «TBD»
+          «Stiamo introducendo una modalità di partecipazione completamente nuova, certi che per raggiungere l’obiettivo della trasformazione digitale dei servizi della Pubblica Amministrazione si debba agire in maniera collaborativa»
         text_short: |
-          «TBD»
-        author_name: Diego piacentini
+          «Stiamo introducendo una modalità di partecipazione completamente nuova, certi che per raggiungere l’obiettivo della trasformazione digitale dei servizi della Pubblica Amministrazione si debba agire in maniera collaborativa»
+        author_name: Diego Piacentini
         author_role: Commissario Straordinario per l'attuazione dell'Agenda Digitale
     capitoli_title: Gli altri capitoli del piano
     capitoli:
