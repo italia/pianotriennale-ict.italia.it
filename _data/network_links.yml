@@ -10,7 +10,7 @@ developers:
   li_markup_pre: '<span class="u-block u-padding-all-s u-margin-top-xs u-color-grey-50">LE COMMUNITY</span>'
 design:
   title: header_link_design
-  url: 'http://designers.italia.it'
+  url: 'https://designers.italia.it'
   class: delimiter
   upcoming: true
 forum:
