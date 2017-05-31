@@ -29,7 +29,7 @@ piattaforme-abilitanti:
 modello-di-interoperabilita:
   forum: 'https://forum.italia.it/c/piano-triennale/interoperabilita'
   rtd: 'https://pianotriennale-ict.readthedocs.io/it/latest/doc/05_modello-di-interoperabilita.html'
-  pdf: '/assets/pdf/cap_5-Modello_di_interoperabilità .pdf'
+  pdf: '/assets/pdf/cap_5-Modello_di_interoperabilita.pdf'
 ecosistemi:
   forum: 'https://forum.italia.it/c/piano-triennale/ecosistemi'
   rtd: 'https://pianotriennale-ict.readthedocs.io/it/latest/doc/06_ecosistemi.html'
