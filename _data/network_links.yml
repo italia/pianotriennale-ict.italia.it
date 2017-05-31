@@ -13,7 +13,8 @@ design:
   title: header_link_design
   url: 'https://designers.italia.it'
   class: delimiter
-  upcoming: true
+  li_markup_pre: '<span class="u-block u-padding-all-s u-margin-top-xs u-color-grey-50">I DESIGNER</span>'
+  external: true
 forum:
   title: header_link_forum
   url: 'https://forum.italia.it/'
