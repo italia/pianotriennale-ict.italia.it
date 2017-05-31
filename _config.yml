@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Piano Triennale
+title: Trasformazione Digitale
 description: "Piano Triennale per l'informatica nella pubblica amministrazione"
 author: Team Digitale e AgID
 
@@ -49,7 +49,7 @@ partner_link: https://teamdigitale.governo.it
 privacy_link: https://developers.italia.it/it/privacy-policy
 partner_logo: /assets/images/dt-logo.svg
 partner_logo_alt: /assets/images/dt-logo-alt.svg
-gov_full: Governo Italiano
+gov_full: Presidenza del Consiglio dei Ministri
 gov_link: http://www.governo.it
 gov_logo: /assets/images/governo.svg
 gov_logo_alt: /assets/images/governo-alt.svg

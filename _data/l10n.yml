@@ -53,7 +53,7 @@ it:
     descrizione: descrizione
     risultati: risultati
     home_hero: |
-      Grazie alle competenze, alla tecnologia e al gioco di squadra, cambiamo la Pubblica amministrazione per semplificare la vita dei cittadini.
+        <i>La trasformazione digitale è una priorità del Governo. Il Piano Triennale richiede un gioco di squadra per semplificare la Pubblica Amministrazione e la vita dei cittadini</i>
     home_hero_mobile: |
       Grazie alle competenze, alla tecnologia e al gioco di squadra, cambiamo la Pubblica amministrazione per semplificare la vita dei cittadini.
     home_tools_title: Strumenti
@@ -61,7 +61,8 @@ it:
     home_header_button_text: vai al piano
     home_pt_title: Cos'è il Piano Triennale
     home_pt_description: |
-      È il documento di indirizzo strategico ed economico destinato a tutta la Pubblica amministrazione che accompagna la trasformazione digitale del Paese. 
+      È il documento di indirizzo strategico ed economico destinato a tutta la Pubblica amministrazione che accompagna la trasformazione digitale del Paese.
+
       Il Piano definisce:
       - le linee operative di sviluppo dell’informatica pubblica;
       - il Modello strategico di evoluzione del sistema informativo della PA;
@@ -70,7 +71,7 @@ it:
     home_pt_howto:
       - text: |
          Nelle pagine di questo sito vengono riassunti i contenuti del Piano Triennale, suddivisi per [capitoli](/piano) e [azioni](/azioni).
-         Il documento completo è disponibile online in versione navigabile ottimizzata per i dispositivi mobili o in PDF. 
+         Il documento completo è disponibile online in versione navigabile ottimizzata per dispositivi mobili o in PDF.
         links:
           - type: button
             icon: read
@@ -81,25 +82,35 @@ it:
             label: scarica il pdf
             href: '/assets/pdf/Piano_Triennale_per_l_informatica_nella_Pubblica_Amministrazione.pdf'
             target_blank: true
-      - text: Hai bisogno di chiarimenti?  Consulta le [FAQ](/faq) o partecipa al forum di discussione dedicato.
+      - text: Hai bisogno di chiarimenti? Consulta le [FAQ](/faq), partecipa al forum di discussione dedicato oppure proponi una modifica al testo su GitHub.
         links:
           - type: button
             icon: forum
             label: partecipa
             href: 'https://forum.italia.it/c/piano-triennale'
             target_blank: true
-
     quotes:
       gentiloni:
         text: |
-          «Ambitioni dedisse scripsisse iudicaretur. Salutantibus vitae elit libero, a pharetra augue. Fabio vel iudice vincam, sunt in culpa qui officia. Prima luce, cum quibus mons aliud consensu ab eo. At nos hinc posthac, sitientis piros Afros. Petierunt uti sibi concilium totius Galliae in diem certam indicere.
-          Gallia est omnis divisa in partes tres, quarum. Cras mattis iudicium purus sit amet fermentum. Qui ipsorum lingua Celtae, nostra Galli appellantur. Excepteur sint obcaecat cupiditat non proident culpa.
-          Nihilne te nocturnum praesidium Palati, nihil urbis vigiliae. Quisque ut dolor gravida, placerat libero vel, euismod. Quo usque tandem abutere, Catilina, patientia nostra? A communi observantia non est recedendum. Inmensae subtilitatis, obscuris et malesuada fames. Unam incolunt Belgae, aliam Aquitani, tertiam.»
+          «La trasformazione digitale è una priorità del Governo. Il Piano Triennale richiede un gioco di squadra per semplificare la Pubblica Amministrazione e la vita dei cittadini»
         text_short: |
-          «Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus sit amet orci eget imperdiet. Mauris tristique enim faucibus, lobortis mauris ut, aliquam justo.
-          Suspendisse consequat id sem ut suscipit. Sed congue dolor enim, eu tristique dolor pulvinar ac.»
+          «La trasformazione digitale è una priorità del Governo. Il Piano Triennale richiede un gioco di squadra per semplificare la Pubblica Amministrazione e la vita dei cittadini»
         author_name: Paolo Gentiloni
         author_role: Presidente del Consiglio dei Ministri
+      madia:
+        text: |
+          «Il Piano Triennale per la trasformazione digitale permetterà alle pubbliche amministrazioni di diventare più efficienti e metterà il cittadino al centro delle loro azione. L’aggiornamento del Codice dell’Amministrazione Digitale sarà un ulteriore passo per liberare l’innovazione dai troppi regolamenti e rafforzare i diritti di cittadinanza digitale.»
+        text_short: |
+          «Il Piano Triennale per la trasformazione digitale permetterà alle pubbliche amministrazioni di diventare più efficienti e metterà il cittadino al centro delle loro azione. L’aggiornamento del Codice dell’Amministrazione Digitale sarà un ulteriore passo per liberare l’innovazione dai troppi regolamenti e rafforzare i diritti di cittadinanza digitale.»
+        author_name: Marianna Madia
+        author_role: Ministro per la semplificazione e la Pubblica amministrazione
+      piacentini:
+        text: |
+          «TBD»
+        text_short: |
+          «TBD»
+        author_name: Diego piacentini
+        author_role: Commissario Straordinario per l'attuazione dell'Agenda Digitale
     capitoli_title: Gli altri capitoli del piano
     capitoli:
       data-center-e-cloud: Data center e cloud
