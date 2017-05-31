@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Trasformazione Digitale
-description: "Piano Triennale per l'informatica nella pubblica amministrazione"
+description: "Piano Triennale per l'informatica nella Pubblica Amministrazione"
 author: Team Digitale e AgID
 
 baseurl: "" # the subpath of your site, e.g. /blog
