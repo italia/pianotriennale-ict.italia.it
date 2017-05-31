@@ -38,10 +38,14 @@ layout: default
         {% include button.html label = 'goto_forum' url = site.data.ext_links.piano-triennale-index.forum icon = 'forum' target_blank = true %}
 
         <h4>{{ t.capitoli_title }}</h4>
+         <div class="Grid Grid--withGutter">
         {% for chapter in page.chapters %}
+         <div class="Grid-cell u-size1of2">
           {% assign rtdUrl = site.data.ext_links[chapter].rtd %}
-          {% include button.html label = 'goto_chapter' label_extra = chapter url = rtdUrl icon = 'read' target_blank = true %}
+          {% include button.html label = 'goto_chapter' label_extra = chapter url = rtdUrl target_blank = true classes = 'Chapter' %}
+            </div>
         {% endfor %}
+         </div>
       </div>
     </div>
     <div class="Grid-cell u-sizeFull u-md-before2of12 u-md-size4of12 u-lg-before2of12 u-lg-size4of12">

@@ -13,12 +13,11 @@ it:
     text: |
       La [Strategia per la Crescita Digitale](http://www.agid.gov.it/sites/default/files/documenti_indirizzo/strategia_crescita_digitale_ver_def_21062016.pdf) - la cui approvazione da parte della Commissione europea ha consentito l’approvazione dei fondi strutturali all’Italia - è l’Agenda digitale italiana, ovvero il documento strategico che descrive come deve cambiare il rapporto tra PA e cittadino attraverso l’individuazione di progetti strategici; il Piano Triennale ne è la sua declinazione operativa e tecnica.
 
-      AgID e il Team per la Trasformazione Digitale, partendo dalle indicazioni della [Strategia crescita digitale](http://www.agid.gov.it/sites/default/files/documenti_indirizzo/strategia_crescita_digitale_ver_def_21062016.pdf), hanno lavorato alla messa a sistema di singoli progetti per arrivare all’elaborazione di una strategia inclusiva e competitiva che permetta al Paese di passare da una fase di start-up ad una fase di sviluppo industriale dello sviluppo digitale.
+      AgID e il Team per la Trasformazione Digitale, partendo dalle indicazioni della Strategia crescita digitale, hanno lavorato alla messa a sistema di singoli progetti per arrivare all’elaborazione di una strategia inclusiva e competitiva che permetta al Paese di passare da una fase di start-up ad una fase di sviluppo industriale dello sviluppo digitale.
   - title: 3 - Che cosa non è il Piano Triennale?
     text: |
       Il Piano Triennale **non** è un set di istruzioni complete, specifiche, eterne.
       Le amministrazioni non troveranno una pianificazione di investimenti dettagliata per ogni singolo e specifico caso di trasformazione digitale dei loro servizi, né  tutte le risposte alle loro domande.  E’ per questo che abbiamo previsto un processo dinamico di evoluzione del Piano e un processo di supporto che aiuti ad interpretare il Piano e ne incorpori le nuove informazioni nella fase successiva.
-
   - title: 4 - Quali sono le figure professionali all’interno delle amministrazioni che devono leggere il Piano?
     text: |
       La lettura del Piano Triennale è destinata sia al livello decisionale delle amministrazioni - per adeguare la pianificazione delle attività alla strategia nazionale - che al livello operativo, per la progettazione di dettaglio delle soluzioni da realizzare.
@@ -26,7 +25,7 @@ it:
     text: |
       La novità è il Piano stesso, inteso come primo documento che contiene azioni, tempi e obiettivi del percorso di attuazione della strategia, fornendo indicazioni chiare ad ogni Pubblica amministrazione.
 
-      Inoltre, per ampliare le possibilità di confronto e partecipazione, vengono utilizzati strumenti di collaborazione destinati agli sviluppatori e finalizzati a diffondere i progetti tecnologici: [Github](https://github.com/italia/), [ReadTheDocs](https://pianotriennale-ict.readthedocs.io/) e [Discourse](https://forum.italia.it) (vedi FAQ n.15).
+      Inoltre, per ampliare le possibilità di confronto e partecipazione, vengono utilizzati strumenti di collaborazione destinati agli sviluppatori e finalizzati a diffondere i progetti tecnologici: [Github](https://github.com/italia/), [ReadTheDocs](https://pianotriennale-ict.readthedocs.io/) e [Discourse](https://forum.italia.it) (vedi FAQ n. 15).
   - title: 6 - Che durata ha il Piano Triennale?
     text: |
       Il Piano ha durata annuale. La versione 2017 definisce le attività del 2018. Entro il mese di settembre di ogni anno verrà rilasciata la versione aggiornata che indirizza le azioni per l’anno successivo.
@@ -65,7 +64,6 @@ it:
       Le indicazioni contenute nel Piano hanno l’obiettivo di indirizzare la spesa della Pubblica Amministrazione nella Trasformazione Digitale e sono quindi vincolanti per le stesse Amministrazioni nel pianificare i propri investimenti.
       Il digitale è infatti considerato una risorsa fondamentale per il Paese che porta a riqualificazione della spesa e ad innovazione.
       Ogni ritardo nell’adeguamento da parte di un’amministrazione alle azioni descritte all’interno del Piano Triennale è da considerarsi come un costo non necessario per lo Stato, che deve essere ostacolato con i necessari strumenti di controllo della spesa pubblica.
-
   - title: 11 -  Se una Amministrazione non ha le competenze o le risorse per attuare il Piano cosa fa?
     text: |
       All’interno del Piano Triennale vengono indicate le competenze necessarie da individuare e gli strumenti di acquisto per poter pianificare gli investimenti finalizzati alla realizzazione delle scelte tecnologiche contenute nel Piano stesso.
@@ -76,7 +74,7 @@ it:
     text: |
       AgID accompagnerà le PA nell’esecuzione del Piano Triennale anche attraverso la collaborazione con alcuni soggetti aggregatori che verranno individuati dopo una prima serie di incontri che si concluderanno entro settembre 2017.
 
-      Per coinvolgere anche sviluppatori ed esperti del settore vengono inoltre introdotti strumenti di condivisione e di collaborazione  finalizzati a diffondere progetti tecnologici: [Github](https://github.com/italia/), [ReadTheDocs](https://pianotriennale-ict.readthedocs.io/) e [Discourse](https://forum.italia.it) (vedi FAQ n.15).
+      Per coinvolgere anche sviluppatori ed esperti del settore vengono inoltre introdotti strumenti di condivisione e di collaborazione  finalizzati a diffondere progetti tecnologici: [Github](https://github.com/italia/), [ReadTheDocs](https://pianotriennale-ict.readthedocs.io/) e [Discourse](https://forum.italia.it) (vedi FAQ n. 15).
   - title: 13 - Come le amministrazioni verranno coinvolte per la stesura della prossima versione del Piano Triennale?
     text: |
       Attraverso il lavoro che verrà strutturato insieme agli enti (aggregatori e non) che collaboreranno con AgID e il Team Digitale per l’attuazione del Piano. ll coinvolgimento naturalmente avverrà anche grazie ai suggerimenti che emergeranno attraverso l’uso di [Github](https://github.com/italia), [ReadTheDocs](https://pianotriennale-ict.readthedocs.io/) e [Discourse](https://forum.italia.it) (vedi FAQ n.15).

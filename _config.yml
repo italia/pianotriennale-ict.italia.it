@@ -20,8 +20,8 @@ author: Team Digitale e AgID
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://pianotriennale-ict.italia.it"
-piwik_id: 3
-google_analytics: ''
+piwik: 3
+google_analytics: 'UA-96140462-4'
 # Build settings
 markdown: kramdown
 gems:

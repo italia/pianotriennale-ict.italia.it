@@ -31,6 +31,7 @@ it:
     scrolltop_label: torna all'inizio dei contenuti
     site_subtitle: "per l'informatica nella Pubblica amministrazione"
     site_title: Piano Triennale
+    site_title_mobile: Piano Triennale ICT
     share_msg: condividi
     skiplink_goto_content: vai ai contenuti
     skiplink_goto_navigation: vai alla navigazione del sito
@@ -113,7 +114,9 @@ it:
           «Stiamo introducendo una modalità di partecipazione completamente nuova, certi che per raggiungere l’obiettivo della trasformazione digitale dei servizi della Pubblica Amministrazione si debba agire in maniera collaborativa»
         author_name: Diego Piacentini
         author_role: Commissario Straordinario per l'attuazione dell'Agenda Digitale
-    capitoli_title: Gli altri capitoli del piano
+        goto_link: '#'
+        goto_label: Vedi il post completo su Medium
+    capitoli_title: Tutti i capitoli del piano
     capitoli:
       data-center-e-cloud: Data center e cloud
       connettivita: Connettività
@@ -129,6 +132,7 @@ it:
       razionalizzazione-della-spesa: Razionalizzazione della spesa
       piano-triennale: Piano Triennale
       modello-strategico: Modello strategico
+      indicazioni-per-le-pa: Indicazioni per le PA
     temi_title: I capitoli
     modello_intro: Clicca sulla sezione che ti interessa
     partecipa: Partecipa
