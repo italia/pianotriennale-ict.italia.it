@@ -7,7 +7,7 @@ it:
     cookiebar_msg: Questo sito utilizza cookie tecnici, analytics e di terze parti. Proseguendo nella navigazione accetti l’utilizzo dei cookie.
     cookiebar_privacy_policy: Privacy policy
     follow_us: seguici su
-    header_link_pt: Piano Triennale ICT
+    header_link_pt: Piano Triennale
     header_link_developers: Developers
     header_link_design: Designers
     header_link_forum: Forum
@@ -84,7 +84,7 @@ it:
             label: scarica il pdf
             href: '/assets/pdf/Piano_Triennale_per_l_informatica_nella_Pubblica_Amministrazione.pdf'
             target_blank: true
-      - text: Hai bisogno di chiarimenti? Consulta le [FAQ](/faq), partecipa al forum di discussione dedicato oppure proponi una modifica al testo su GitHub.
+      - text: Hai bisogno di chiarimenti? Consulta le [FAQ](/faq), partecipa al forum di discussione dedicato oppure proponi una modifica al testo su [GitHub](https://github.com/italia/pianotriennale-ict-doc).
         links:
           - type: button
             icon: forum
@@ -108,10 +108,10 @@ it:
         author_role: Ministro per la semplificazione e la Pubblica amministrazione
       piacentini:
         text: |
-          «Stiamo introducendo una modalità di partecipazione completamente nuova, certi che per raggiungere l’obiettivo della trasformazione digitale dei servizi della Pubblica Amministrazione si debba agire in maniera collaborativa.»
+          «Stiamo introducendo una modalità di partecipazione completamente nuova, certi che per raggiungere l’obiettivo della trasformazione digitale dei servizi della Pubblica Amministrazione si debba agire in maniera collaborativa»
         text_short: |
-          «Stiamo introducendo una modalità di partecipazione completamente nuova, certi che per raggiungere l’obiettivo della trasformazione digitale dei servizi della Pubblica Amministrazione si debba agire in maniera collaborativa.»
-        author_name: Diego piacentini
+          «Stiamo introducendo una modalità di partecipazione completamente nuova, certi che per raggiungere l’obiettivo della trasformazione digitale dei servizi della Pubblica Amministrazione si debba agire in maniera collaborativa»
+        author_name: Diego Piacentini
         author_role: Commissario Straordinario per l'attuazione dell'Agenda Digitale
     capitoli_title: Gli altri capitoli del piano
     capitoli:
