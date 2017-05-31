@@ -17,9 +17,12 @@ forum:
   title: header_link_forum
   url: 'https://forum.italia.it/'
   li_markup_pre: '<span class="u-block u-padding-all-s u-margin-top-xs u-color-grey-50">GLI STRUMENTI</span>'
+  external: true
 docs:
   title: header_link_docs
   url: 'https://docs.developers.italia.it/'
+  external: true
 github:
   title: header_link_github
   url: 'https://github.com/italia/'
+  external: true

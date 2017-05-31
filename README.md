@@ -1,6 +1,13 @@
 # PIANO TRIENNALE PER L’INFORMATICA NELLA PUBBLICA AMMINISTRAZIONE 2017 - 2019
 Questo repository contiene il codice sorgente del sito tematico relativo al *Piano Triennale per l'informatica nella pubblica amministrazione*.
-Il sito è sviluppato con Jekyll. Per configurare un ambiente di sviluppo è sufficiente eseguire i seguenti comandi:
+Il sito è sviluppato con Jekyll.
+
+Prerequisiti: ruby, ruby-dev e ruby-bundler; istruzione per una distribuzione linux Ubuntu:
+
+- `apt-get install ruby-bundler`
+- `apt-get install ruby-dev`
+
+Per configurare un ambiente di sviluppo è sufficiente eseguire i seguenti comandi nella directory principale del progetto:
 
     $ bundle install
     $ bundle exec jekyll serve
