@@ -1,6 +1,6 @@
 ---
 title: FAQ
-subtitle: Sezione costantemente in aggiornamento - Vi invitiamo a consultare periodicamente questa pagina.
+subtitle: Sezione in costante aggiornamento - Vi invitiamo a consultare periodicamente questa pagina.
 lang: it
 layout: faqs
 separator: descending
