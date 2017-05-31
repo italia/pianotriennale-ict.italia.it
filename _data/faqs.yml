@@ -18,7 +18,6 @@ it:
     text: |
       Il Piano Triennale **non** è un set di istruzioni complete, specifiche, eterne.
       Le amministrazioni non troveranno una pianificazione di investimenti dettagliata per ogni singolo e specifico caso di trasformazione digitale dei loro servizi, né  tutte le risposte alle loro domande.  E’ per questo che abbiamo previsto un processo dinamico di evoluzione del Piano e un processo di supporto che aiuti ad interpretare il Piano e ne incorpori le nuove informazioni nella fase successiva.
-
   - title: 4 - Quali sono le figure professionali all’interno delle amministrazioni che devono leggere il Piano?
     text: |
       La lettura del Piano Triennale è destinata sia al livello decisionale delle amministrazioni - per adeguare la pianificazione delle attività alla strategia nazionale - che al livello operativo, per la progettazione di dettaglio delle soluzioni da realizzare.
@@ -64,8 +63,7 @@ it:
       AgID avvierà un processo continuo di monitoraggio per ricevere feedback dalle amministrazioni sulla realizzazione delle azioni previste dal Piano e per fornire ogni eventuale supporto aggiuntivo in caso di criticità.
       Le indicazioni contenute nel Piano hanno l’obiettivo di indirizzare la spesa della Pubblica Amministrazione nella Trasformazione Digitale e sono quindi vincolanti per le stesse Amministrazioni nel pianificare i propri investimenti.
       Il digitale è infatti considerato una risorsa fondamentale per il Paese che porta a riqualificazione della spesa e ad innovazione.
-      Ogni ritardo nell’adeguamento da parte di un’amministrazione alle azioni descritte all’interno del Piano Triennale è da considerarsi come un costo non necessario per lo Stato, che deve essere ostacolato con i necessari strumenti di controllo della sSpesa pPubblica.
-
+      Ogni ritardo nell’adeguamento da parte di un’amministrazione alle azioni descritte all’interno del Piano Triennale è da considerarsi come un costo non necessario per lo Stato, che deve essere ostacolato con i necessari strumenti di controllo della spesa pubblica.
   - title: 11 -  Se una Amministrazione non ha le competenze o le risorse per attuare il Piano cosa fa?
     text: |
       All’interno del Piano Triennale vengono indicate le competenze necessarie da individuare e gli strumenti di acquisto per poter pianificare gli investimenti finalizzati alla realizzazione delle scelte tecnologiche contenute nel Piano stesso.
@@ -79,7 +77,7 @@ it:
       Per coinvolgere anche sviluppatori ed esperti del settore vengono inoltre introdotti strumenti di condivisione e di collaborazione  finalizzati a diffondere progetti tecnologici: [Github](https://github.com/italia/), [ReadTheDocs](https://pianotriennale-ict.readthedocs.io/) e [Discourse](https://forum.italia.it) (vedi FAQ n. 15).
   - title: 13 - Come le amministrazioni verranno coinvolte per la stesura della prossima versione del Piano Triennale?
     text: |
-      Attraverso il lavoro che verrà strutturato insieme agli enti (aggregatori e non) che collaboreranno con AgID e il Team Digitale per l’attuazione del Piano. ll coinvolgimento naturalmente avverrà anche grazie ai suggerimenti che emergeranno attraverso l’uso di [Github](https://github.com/italia), [ReadTheDocs](https://pianotriennale-ict.readthedocs.io/) e [Discourse](https://forum.italia.it) (vedi FAQ n. 15).
+      Attraverso il lavoro che verrà strutturato insieme agli enti (aggregatori e non) che collaboreranno con AgID e il Team Digitale per l’attuazione del Piano. ll coinvolgimento naturalmente avverrà anche grazie ai suggerimenti che emergeranno attraverso l’uso di [Github](https://github.com/italia), [ReadTheDocs](https://pianotriennale-ict.readthedocs.io/) e [Discourse](https://forum.italia.it) (vedi FAQ n.15).
   - title: 14 - Il Piano prevede la creazione futura di molteplici linee guida che non sono ancora pronte. Quali sono e come ne verrà gestito il processo di creazione e pubblicazione?
     text: |
       Per poter attuare in maniera efficiente le indicazioni descritte nel Piano, AgID ha deciso di raccogliere le specifiche tecnologiche relative a molteplici scelte di indirizzo all’interno di linee guida.
@@ -104,6 +102,7 @@ it:
       [Github](https://github.com/italia/) è una piattaforma tecnologica utilizzata per condividere file di testo e codice sorgente, e implementa due funzionalità molto importanti e utili per condividere il Piano Triennale fornendo un servizio dedicato di supporto:
        * issue: la funzione di apertura di un issue, accessibile all’interno del tab issue in ogni sezione di Github dedicata ad una parte di capitolo del Piano Triennale tramite il bottone verde in alto a destra “New Issue”, permette di isolare un elemento di discussione specifico per poter avviare una discussione e valutazione approfondita;
        * pull request: la pull request, accessibile attraverso l’icona a forma di penna nell’header di Github all’interno di ogni capitolo o sezione del Piano, è una funzione che permette agli utenti di proporre suggerimenti e modifiche a parti di testo del Piano stesso.
+
       Entrambe le funzionalità sono amministrate da maintainers appartenenti ad AgID e al Team per la Trasformazione Digitale, che valutano le richieste ricevute e forniscono risposte supportando le amministrazioni su eventuali problemi, criticità o punti da chiarire.
       [ReadTheDocs](https://pianotriennale-ict.readthedocs.io/) è una piattaforma di condivisione di documenti di testo in html, organizzata secondo una classica divisione in capitoli e sezioni e un indice laterale di scorrimento dei capitoli stessi, che permette la fruizione del documento su ogni dispositivo in maniera fluida e con una agevole funzione di ricerca.
       [Discourse](https://forum.italia.it/c/piano-triennale) è una piattaforma tecnologica che permette attraverso la creazione di un forum la discussione e condivisione di temi specifici con la community e la richiesta di supporto su aspetti particolari del Piano Triennale.

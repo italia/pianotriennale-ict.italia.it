@@ -25,11 +25,11 @@ it:
     - title: Data & Analytics Framework
       url: /daf/
     - title: Gestione del cambiamento
-      url: /gestione-del-cambiamento/
+      url: https://pianotriennale-ict.readthedocs.io/it/latest/doc/10_gestione-del-cambiamento.html
     - title: Razionalizzazione della spesa
-      url: /razionalizzazione-della-spesa/
+      url: https://pianotriennale-ict.readthedocs.io/it/latest/doc/11_razionalizzazione-della-spesa.html
     - title: Principi per lo sviluppo di progetti digitali
-      url: /principi-per-lo-sviluppo-di-progetti-digitali/
+      url: https://pianotriennale-ict.readthedocs.io/it/latest/doc/13_principi-per-lo-sviluppo-di-progetti-digitali.html
   - title: Le azioni
     url: /azioni/
   - title: FAQ

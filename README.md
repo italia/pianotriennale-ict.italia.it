@@ -14,4 +14,4 @@ Se vuoi contribuire allo sviluppo del sito, è sufficiente aprire una pull-reque
 [https://forum.italia.it/c/piano-triennale/](https://forum.italia.it/c/piano-triennale)
 
 ## Testo integrale del Piano Triennale
-[http://pianotriennale-ict.readthedocs.io/](http://pianotriennale-ict.readthedocs.io/)
+[https://pianotriennale-ict.readthedocs.io/](https://pianotriennale-ict.readthedocs.io/)
