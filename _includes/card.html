@@ -63,7 +63,14 @@
         </div>
         {% endif %}
       {% endif %}
-
+      {% if include.goto %}
+       <p class="Grid-cell u-textRight u-padding-r-all">
+          <a href="{{ include.gotoLink }}" class="u-text-r-xxs u-textWeight-600 u-linkClean u-color-white">
+          <span class="Icon Icon-arrow-right u-margin-left-xs u-alignMiddle"></span>
+          <span class="u-text-r-xxs u-textClean">{{ include.gotoLabel }}</span>
+          </a>
+        </p>
+      {% endif %}
       {% if include.authorName %}
         <div class="u-padding-r-bottom u-padding-r-top">
           <p class="u-text-r-xs u-textWeight-600 u-padding-bottom-xs {{ include.textClasses | default: 'u-text-p u-textSecondary' }}">{{ include.authorName }}</p>

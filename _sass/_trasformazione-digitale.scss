@@ -162,6 +162,11 @@ a.Button--default {
   bottom: 0;
 }
 
+.Chapter {
+   white-space: normal;
+   display: block;
+}
+
 
 
 /* Header
@@ -173,7 +178,14 @@ a.Button--default {
 }
 
 .Header-title {
-   width: 33.33334% !important; 
+   width: 33.33334% !important;
+   min-height: 4.8rem;
+}
+
+@media screen and (max-width: 767px) {
+   .Header-title {
+      width: 50% !important; 
+   }
 }
 
 .Header-titleLink a {
@@ -563,7 +575,7 @@ html {
 .Side-quote {
   border-left: 1px solid rgba(90, 103, 114, .2);
   @media screen and (min-width: 991px) {
-    margin-bottom: 10em;
+    margin-bottom: 5em;
   }
 }
 

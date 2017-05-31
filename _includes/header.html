@@ -23,9 +23,11 @@
       </div>
       <div class="Header-title Grid-cell">
         <h1 class="Header-titleLink">
-          <a href="{{ '/' | relative_url }}" class="u-linkClean">{{ t.site_title | default: site.title | escape }}
+          <a href="{{ '/' | relative_url }}" class="u-linkClean">
+             <span class="u-hidden u-md-inline u-lg-inline">{{ t.site_title | default: site.title | escape }}</span>
+             <span class="u-md-hidden u-lg-hidden">{{ t.site_title_mobile | default: site.title_mobile | escape }}</span>
             {% if site.pill %}
-            <span class="u-text-xxs u-alignMiddle u-padding-right-xs u-padding-left-xs u-borderRadius-xl u-background-70 u-textWeight-400">{{ site.pill }}</span>
+            <span class="u-text-xxs u-alignMiddle u-padding-right-xs u-padding-left-xs u-borderRadius-xl u-background-70 u-textWeight-400 u-textNoWrap">{{ site.pill }}</span>
                 {% endif %}<br><span class="Header-subtitle"><small>{{ t.site_subtitle | default: site.subtitle | escape }}</small></span></a>
         </h1>
       </div>

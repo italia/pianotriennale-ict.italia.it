@@ -13,7 +13,7 @@ it:
     text: |
       La [Strategia per la Crescita Digitale](http://www.agid.gov.it/sites/default/files/documenti_indirizzo/strategia_crescita_digitale_ver_def_21062016.pdf) - la cui approvazione da parte della Commissione europea ha consentito l’approvazione dei fondi strutturali all’Italia - è l’Agenda digitale italiana, ovvero il documento strategico che descrive come deve cambiare il rapporto tra PA e cittadino attraverso l’individuazione di progetti strategici; il Piano Triennale ne è la sua declinazione operativa e tecnica.
 
-      AgID e il Team per la Trasformazione Digitale, partendo dalle indicazioni della [Strategia crescita digitale](http://www.agid.gov.it/sites/default/files/documenti_indirizzo/strategia_crescita_digitale_ver_def_21062016.pdf), hanno lavorato alla messa a sistema di singoli progetti per arrivare all’elaborazione di una strategia inclusiva e competitiva che permetta al Paese di passare da una fase di start-up ad una fase di sviluppo industriale dello sviluppo digitale.
+      AgID e il Team per la Trasformazione Digitale, partendo dalle indicazioni della Strategia crescita digitale, hanno lavorato alla messa a sistema di singoli progetti per arrivare all’elaborazione di una strategia inclusiva e competitiva che permetta al Paese di passare da una fase di start-up ad una fase di sviluppo industriale dello sviluppo digitale.
   - title: 3 - Che cosa non è il Piano Triennale?
     text: |
       Il Piano Triennale **non** è un set di istruzioni complete, specifiche, eterne.
@@ -26,7 +26,7 @@ it:
     text: |
       La novità è il Piano stesso, inteso come primo documento che contiene azioni, tempi e obiettivi del percorso di attuazione della strategia, fornendo indicazioni chiare ad ogni Pubblica amministrazione.
 
-      Inoltre, per ampliare le possibilità di confronto e partecipazione, vengono utilizzati strumenti di collaborazione destinati agli sviluppatori e finalizzati a diffondere i progetti tecnologici: [Github](https://github.com/italia/), [ReadTheDocs](https://pianotriennale-ict.readthedocs.io/) e [Discourse](https://forum.italia.it) (vedi FAQ n.14).
+      Inoltre, per ampliare le possibilità di confronto e partecipazione, vengono utilizzati strumenti di collaborazione destinati agli sviluppatori e finalizzati a diffondere i progetti tecnologici: [Github](https://github.com/italia/), [ReadTheDocs](https://pianotriennale-ict.readthedocs.io/) e [Discourse](https://forum.italia.it) (vedi FAQ n. 15).
   - title: 6 - Che durata ha il Piano Triennale?
     text: |
       Il Piano ha durata annuale. La versione 2017 definisce le attività del 2018. Entro il mese di settembre di ogni anno verrà rilasciata la versione aggiornata che indirizza le azioni per l’anno successivo.
@@ -46,7 +46,7 @@ it:
       - gli enti strumentali
       - l’ANCI
 
-      Già a partire dalla stesura della versione 2018 - anche grazie agli input derivanti dall’utilizzo degli strumenti tecnici di condivisione (vedi FAQ n. 14) - si arriverà all’ampliamento dell’azione di collaborazione e coinvolgimento delle amministrazioni e delle community di riferimento.
+      Già a partire dalla stesura della versione 2018 - anche grazie agli input derivanti dall’utilizzo degli strumenti tecnici di condivisione (vedi FAQ n. 15) - si arriverà all’ampliamento dell’azione di collaborazione e coinvolgimento delle amministrazioni e delle community di riferimento.
   - title: 8 - Che indicazioni fornisce il Piano Triennale alle Pubbliche Amministrazioni per conseguire i risparmi di spesa previsti dalla Legge di Stabilità?
     text: |
       Il Piano Triennale propone alle pubbliche amministrazioni indicazioni utili alla pianificazione degli investimenti in tecnologia per il prossimo triennio così da consentire alle singole amministrazioni una riqualificazione della spesa e il conseguimento dei risparmi in termini di spesa corrente stabiliti dalla Legge di Stabilità per investimenti in materia di innovazione tecnologica.
@@ -76,10 +76,10 @@ it:
     text: |
       AgID accompagnerà le PA nell’esecuzione del Piano Triennale anche attraverso la collaborazione con alcuni soggetti aggregatori che verranno individuati dopo una prima serie di incontri che si concluderanno entro settembre 2017.
 
-      Per coinvolgere anche sviluppatori ed esperti del settore vengono inoltre introdotti strumenti di condivisione e di collaborazione  finalizzati a diffondere progetti tecnologici: [Github](https://github.com/italia/), [ReadTheDocs](https://pianotriennale-ict.readthedocs.io/) e [Discourse](https://forum.italia.it) (vedi FAQ n.14).
+      Per coinvolgere anche sviluppatori ed esperti del settore vengono inoltre introdotti strumenti di condivisione e di collaborazione  finalizzati a diffondere progetti tecnologici: [Github](https://github.com/italia/), [ReadTheDocs](https://pianotriennale-ict.readthedocs.io/) e [Discourse](https://forum.italia.it) (vedi FAQ n. 15).
   - title: 13 - Come le amministrazioni verranno coinvolte per la stesura della prossima versione del Piano Triennale?
     text: |
-      Attraverso il lavoro che verrà strutturato insieme agli enti (aggregatori e non) che collaboreranno con AgID e il Team Digitale per l’attuazione del Piano. ll coinvolgimento naturalmente avverrà anche grazie ai suggerimenti che emergeranno attraverso l’uso di [Github](https://github.com/italia), [ReadTheDocs](https://pianotriennale-ict.readthedocs.io/) e [Discourse](https://forum.italia.it) (vedi FAQ n.14).
+      Attraverso il lavoro che verrà strutturato insieme agli enti (aggregatori e non) che collaboreranno con AgID e il Team Digitale per l’attuazione del Piano. ll coinvolgimento naturalmente avverrà anche grazie ai suggerimenti che emergeranno attraverso l’uso di [Github](https://github.com/italia), [ReadTheDocs](https://pianotriennale-ict.readthedocs.io/) e [Discourse](https://forum.italia.it) (vedi FAQ n. 15).
   - title: 14 - Il Piano prevede la creazione futura di molteplici linee guida che non sono ancora pronte. Quali sono e come ne verrà gestito il processo di creazione e pubblicazione?
     text: |
       Per poter attuare in maniera efficiente le indicazioni descritte nel Piano, AgID ha deciso di raccogliere le specifiche tecnologiche relative a molteplici scelte di indirizzo all’interno di linee guida.
