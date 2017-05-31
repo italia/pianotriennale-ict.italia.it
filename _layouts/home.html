@@ -9,10 +9,16 @@ layout: default
   <div class="Home-content">
 
     <div class="u-textCenter u-padding-r-all u-textCenter u-padding-bottom-xxl u-posRelative">
-      <h2 class="Home-hero u-layoutCenter u-text-r-xl u-textWeight-300 u-color-white u-margin-top-l u-margin-bottom-l u-lineHeight-l">
+       <div class="Home-hero u-layoutCenter u-margin-bottom-l">
+      <h2 class="u-text-r-xl u-textWeight-300 u-color-white u-margin-top-l u-lineHeight-l">
         <span class="u-hidden u-sm-block u-md-block u-lg-block">{{ t.home_hero | newline_to_br }}</span>
         <span class="u-sm-hidden u-md-hidden u-lg-hidden">{{ t.home_hero_mobile | newline_to_br }}</span>
       </h2>
+       <div class="">
+          <p class="u-text-r-xs u-textWeight-600 u-padding-bottom-xs u-color-white u-text-r-l u-textRight">Paolo Gentiloni</p>
+          <p class="u-text-r-xxs u-textWeight-200 u-color-white u-text-r-l u-textRight">Presidente del Consiglio dei Ministri</p>
+      </div>
+          </div>
     </div>
 
     <section class="u-layout-r-withGutter u-padding-r-top u-padding-bottom-xxl">
@@ -37,7 +43,7 @@ layout: default
             authorName = t.quotes.madia.author_name
             authorRole = t.quotes.madia.author_role
             text = t.quotes.madia.text_short
-            textClasses = 'u-color-white u-text-r-l u-textRight'
+            textClasses = 'u-color-white u-text-r-m u-textRight'
             classes = 'u-background-transparent u-padding-right-xxl'
             flat = true
           %}
@@ -49,7 +55,7 @@ layout: default
             authorName = t.quotes.piacentini.author_name
             authorRole = t.quotes.piacentini.author_role
             text = t.quotes.piacentini.text_short
-            textClasses = 'u-color-white u-text-r-l'
+            textClasses = 'u-color-white u-text-r-m'
             classes = 'u-background-transparent  u-padding-left-xxl'
             flat = true
           %}

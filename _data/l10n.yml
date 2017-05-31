@@ -53,9 +53,11 @@ it:
     descrizione: descrizione
     risultati: risultati
     home_hero: |
-        <i>La trasformazione digitale è una priorità del Governo. Il Piano Triennale richiede un gioco di squadra per semplificare la Pubblica Amministrazione e la vita dei cittadini</i>
+      La trasformazione digitale è una priorità del Governo.
+      Il Piano Triennale richiede un gioco di squadra per semplificare la Pubblica Amministrazione e la vita dei cittadini
     home_hero_mobile: |
-      Grazie alle competenze, alla tecnologia e al gioco di squadra, cambiamo la Pubblica amministrazione per semplificare la vita dei cittadini.
+      La trasformazione digitale è una priorità del Governo.
+      Il Piano Triennale richiede un gioco di squadra per semplificare la Pubblica Amministrazione e la vita dei cittadini
     home_tools_title: Strumenti
     home_tools_subtitle: Ci appoggiamo a strumenti già esistenti e molto conosciuti per fornirti le informazioni, il codice e il supporto di cui hai bisogno
     home_header_button_text: vai al piano
