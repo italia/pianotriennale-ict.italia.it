@@ -13,7 +13,7 @@ L'informativa è resa ai sensi dell'art. 13 del D. Lgs. n. 196/2003 - Codice in 
 La validità dell'informativa contenuta nella presente pagina è limitata al solo Sito e non si estende ad altri siti web eventualmente consultabili mediante collegamento ipertestuale.
 
 ### Il titolare e gli incaricati del trattamento
-Il Titolare del trattamento per i dati raccolti attraverso il Sito è AgID - Agenzia per l’Italia Digitale, con sede in via Liszt 21 - 00144 Roma, indirizzo email info@agid.gov.it alla quale, pertanto, gli interessati potranno rivolgersi per l’esercizio dei diritti di cui all’art. 7 del Codice privacy.
+Il Titolare del trattamento per i dati raccolti attraverso il Sito è AgID - Agenzia per l’Italia Digitale, con sede in via Liszt 21 - 00144 Roma, indirizzo email [info@agid.gov.it](mailto:info@agid.gov.it) alla quale, pertanto, gli interessati potranno rivolgersi per l’esercizio dei diritti di cui all’art. 7 del Codice privacy.
 I dati saranno trattati da personale del Titolare, previa nomina dei dipendenti e dei collaboratori interessati ad Incaricati del trattamento. Eventuali soggetti terzi ai quali i dati potrebbero essere comunicati per l’esecuzione di operazioni di trattamento connesse con le finalità specificate nella presente informativa, saranno preventivamente designati dal Titolare quali Responsabili del trattamento ai sensi dell’art. 29 del Codice in materia di protezione dei dati personali. I dati non formeranno oggetto di diffusione.
 
 ### Luogo di trattamento dei dati

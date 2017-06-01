@@ -20,7 +20,7 @@ Questo significa che, ove non diversamente specificato, i contenuti di questo si
 ### Utilizzo del sito e download
 L'Agenzia per l'Italia Digitale si impegna costantemente per assicurare la qualità delle informazioni pubblicate sul sito, nonché la loro integrità, aggiornamento , completezza, tempestività , semplicità di consultazione e accessibilità.
 
-Per qualunque segnalazione o suggerimento è possibile scrivere all'indirizzo info@agid.gov.it.
+Per qualunque segnalazione o suggerimento è possibile scrivere all'indirizzo [info@agid.gov.it](mailto:info@agid.gov.it).
 
 In nessun caso l'Agenzia per l'Italia Digitale può essere ritenuta responsabile dei danni di qualsiasi natura causati direttamente o indirettamente dall'accesso al sito, dall'incapacità o impossibilità di accedervi.
 
