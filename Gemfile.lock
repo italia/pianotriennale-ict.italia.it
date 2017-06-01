@@ -50,7 +50,9 @@ GEM
       jekyll (~> 3.3)
     jekyll-sass-converter (1.5.0)
       sass (~> 3.4)
-    jekyll-seo-tag (2.2.2)
+    jekyll-seo-tag (2.2.3)
+      jekyll (~> 3.3)
+    jekyll-sitemap (1.1.1)
       jekyll (~> 3.3)
     jekyll-watch (1.5.0)
       listen (~> 3.0, < 3.1)
@@ -73,7 +75,7 @@ GEM
       ffi (>= 0.5.0)
     rouge (1.11.1)
     safe_yaml (1.0.4)
-    sass (3.4.23)
+    sass (3.4.24)
     thread_safe (0.3.6)
     typhoeus (0.8.0)
       ethon (>= 0.8.0)
@@ -91,6 +93,7 @@ DEPENDENCIES
   jekyll-feed
   jekyll-redirect-from
   jekyll-seo-tag
+  jekyll-sitemap
   tzinfo-data
 
 RUBY VERSION
