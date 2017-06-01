@@ -36,7 +36,7 @@ layout: default
         <div id="faq-{{ forloop.index }}">
         <h2 class="Accordion-header js-fr-accordion__header fr-accordion__header"
           id="accordion-header-{{ forloop.index }}">
-          <span class="Accordion-link">{{ faq.title }}</span>
+          <a href="#faq-{{ forloop.index }}" class="Accordion-link">{{ faq.title }}</a>
         </h2>
         <div id="accordion-panel-{{ forloop.index }}" class="Accordion-panel fr-accordion__panel js-fr-accordion__panel">
           <div class="Prose u-text-p u-padding-r-bottom u-textSecondary">{{ faq.text | markdownify }}</div>
