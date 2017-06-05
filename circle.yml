@@ -1,0 +1,13 @@
+---
+machine:
+  ruby:
+    version: 2.2.3
+compile:
+  override:
+    - bundle exec jekyll build
+test:
+  override:
+    - "true"
+general:
+  artifacts:
+    - "_site"
