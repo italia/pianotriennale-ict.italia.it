@@ -33,6 +33,7 @@ exclude:
   - Gemfile.lock
   - README.md
   - LICENSE
+  - vendor
 
 # Custom vars
 theme_color: "#0066cc"
