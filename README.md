@@ -1,4 +1,6 @@
 # PIANO TRIENNALE PER L’INFORMATICA NELLA PUBBLICA AMMINISTRAZIONE 2017 - 2019
+[![CircleCI](https://circleci.com/gh/italia/pianotriennale-ict.italia.it.svg?style=svg)](https://circleci.com/gh/italia/pianotriennale-ict.italia.it)
+
 Questo repository contiene il codice sorgente del sito tematico relativo al *Piano Triennale per l'informatica nella pubblica amministrazione*.
 Il sito è sviluppato con Jekyll.
 
