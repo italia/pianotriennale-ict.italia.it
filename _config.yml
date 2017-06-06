@@ -35,6 +35,9 @@ exclude:
   - README.md
   - LICENSE
   - vendor
+  - package.json
+  - gulpfile.js
+  - node_modules
 
 # Custom vars
 theme_color: "#0066cc"
