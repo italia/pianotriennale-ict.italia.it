@@ -28,11 +28,16 @@ gems:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-redirect-from
+  - jekyll-sitemap
 exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
   - LICENSE
+  - vendor
+  - package.json
+  - gulpfile.js
+  - node_modules
 
 # Custom vars
 theme_color: "#0066cc"
