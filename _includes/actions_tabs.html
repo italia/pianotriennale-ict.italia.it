@@ -26,7 +26,8 @@
           <h3 class="Accordion-header js-fr-accordion__header fr-accordion__header" id="accordion-header-pac-{{ linea-azione.numero }}">
             <span class="Accordion-number">{{ linea-azione.numero }}</span>
             <span class="Accordion-link u-text-r-xs u-flex u-flexAlignItemsCenter">
-            {{ linea-azione.nome }}
+              {{ linea-azione.nome }}
+              {% if linea-azione.completata %}<span class="u-text-xxs u-alignMiddle u-margin-left-xs u-padding-right-xs u-padding-left-xs u-borderRadius-xl u-background-teal-30 u-color-95 u-textWeight-400 u-textNoWrap">{{ t.completata }}</span>{% endif %}
             </span>
           </h3>
           <div id="accordion-panel-pac-{{ linea-azione.numero }}" class="Accordion-panel fr-accordion__panel js-fr-accordion__panel">
