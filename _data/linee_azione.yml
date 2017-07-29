@@ -8,6 +8,8 @@
     Durante il periodo di esecuzione del Piano, le PA non potranno effettuare spese o investimenti in materia di data center, secondo le indicazioni e le eccezioni indicate nella circolare 2 del 24 giugno 2016 dell’AgID.
     Le PA, che non vi abbiano già provveduto, realizzano i progetti di consolidamento e virtualizzazione dei propri data center o di migrazione verso SPC Cloud. In caso di mancato utilizzo della gara SPC - Cloud lotto 1 predisposta da Consip, forniscono le motivazioni ad AgID e ANAC.
   risultati: ---
+  numero: 1
+  completata: false
 
 - chapter: infrastrutture-fisiche
   subchapter: data-center-e-cloud
@@ -19,6 +21,8 @@
     Censimento del patrimonio ICT in esercizio presso la Pubblica amministrazione, anche per individuare le Pubbliche amministrazioni che sono in possesso di infrastrutture fisiche che possono candidarsi a ricoprire il ruolo di Polo strategici nazionali.
   risultati: |
     Rapporto del censimento (data di rilascio prima release: dicembre 2017 - ulteriori rilasci ogni 6 mesi).
+  numero: 2
+  completata: false
 
 - chapter: infrastrutture-fisiche
   subchapter: data-center-e-cloud
@@ -35,6 +39,8 @@
     Disposizioni per il procurement dei servizi SaaS per il Cloud della PA (data di rilascio: giugno 2017)
     Capitolato tecnico per la realizzazione di un MarketPlace dei servizi SaaS per il Cloud della PA (data di rilascio: settembre 2017)
     Aggiudicazione tramite strumenti di acquisto Consip (data di rilascio: entro marzo 2018)
+  numero: 3
+  completata: false
 
 - chapter: infrastrutture-fisiche
   subchapter: data-center-e-cloud
@@ -46,6 +52,8 @@
   risultati: |
     Circolare AgID “Criteri per la qualificazione dei Cloud Service Provider pubblici per la PA” (data di rilascio: ottobre 2017)
     Consip provvede ad abilitare l’accesso agli strumenti del mercato elettronico/convenzioni/accordi quadro ai soli Cloud Service Provider qualificati da AgID (data di rilascio: da ottobre 2017)
+  numero: 4
+  completata: false
 
 - chapter: infrastrutture-fisiche
   subchapter: data-center-e-cloud
@@ -58,6 +66,8 @@
     Studio strategico per la definizione di ambiente cloud multifornitore per la PA (data di rilascio: entro giugno 2018)
     Eventuale Capitolato tecnico per la realizzazione di un sistema di Cloud brokering della PA (data di rilascio: da definire)
     Acquisizione tramite Consip (data di rilascio: da definire)
+  numero: 5
+  completata: false
 
 - chapter: infrastrutture-fisiche
   subchapter: data-center-e-cloud
@@ -79,6 +89,8 @@
     Stipula convenzioni (entro dicembre 2018)
     Linee guida per lo sviluppo e la manutenzione di applicazioni per il cloud della PA (data di rilascio: dicembre 2017)
     Linee guida per la migrazione di applicazioni Legacy verso l’ambiente di cloud della PA (data di rilascio: giugno 2018)
+  numero: 6
+  completata: false
 
 - chapter: infrastrutture-fisiche
   subchapter: data-center-e-cloud
@@ -92,6 +104,8 @@
   risultati: |
     Linee guida per la razionalizzazione del patrimonio ICT delle Pubbliche amministrazioni (data di rilascio prima release: gennaio 2018)
     Piano di razionalizzazione del patrimonio ICT delle PA (da febbraio 2018 ad aprile 2018)
+  numero: 7
+  completata: false
 
 - chapter: infrastrutture-fisiche
   subchapter: data-center-e-cloud
@@ -102,6 +116,8 @@
     Le Amministrazioni identificate come Polo strategico nazionale adeguano i loro data center nei tempi specificati nel proprio Piano di razionalizzazione del patrimonio ICT.
     AgID assicura il controllo e monitoraggio delle azioni realizzate dalle PA.
   risultati: ---
+  numero: 8
+  completata: false
 
 - chapter: infrastrutture-fisiche
   subchapter: data-center-e-cloud
@@ -112,6 +128,8 @@
     Le Amministrazioni appartenenti al Gruppo A dovranno consolidare i sistemi applicativi in uso presso gli attuali data center e utilizzare il cloud della PA attraverso la gara SPC-Cloud per garantire la continuità di servizi critici o il disaster recovery.
     AgID assicura il controllo e monitoraggio delle azioni realizzate dalle PA.
   risultati: ---
+  numero: 9
+  completata: false
 
 - chapter: infrastrutture-fisiche
   subchapter: data-center-e-cloud
@@ -122,6 +140,8 @@
     Le Amministrazioni appartenenti al Gruppo B dovranno consolidare i sistemi applicativi in uso presso gli attuali data center per migrare verso uno dei Poli strategici nazionali o migrare verso il Cloud della PA attraverso la gara SPC-Cloud.
     AgID assicura il controllo e monitoraggio delle azioni realizzate dalle PA.
   risultati: ---
+  numero: 10
+  completata: false
 
 ### end data-center-e-cloud
 ### start connettivita
@@ -137,6 +157,8 @@
   risultati: |
     Linee guida per la realizzazione di reti Wi-Fi pubbliche (data di rilascio: dicembre 2017)
     Adeguamento alle Linee guida (da gennaio 2018)
+  numero: 11
+  completata: false
 
 - chapter: infrastrutture-fisiche
   subchapter: connettivita
@@ -146,6 +168,8 @@
   descrizione: |
     AgID, con il contributo di Consip, fornirà indicazioni operative per potenziare l’utilizzo di tale canale di approvvigionamento, in base alle caratteristiche dei fabbisogni delle diverse Amministrazioni.
   risultati: ---
+  numero: 12
+  completata: false
 
 ### end connettivita
 ### start dati-della-pa
@@ -159,6 +183,8 @@
     Le Pubbliche amministrazioni completano il popolamento e mantengono aggiornati i loro dati su IPA, come documentato sul relativo sito.
     Le Pubbliche amministrazioni utilizzano IPA e INI-PEC nella gestione dei propri procedimenti.
   risultati: ---
+  numero: 13
+  completata: false
 
 - chapter: infrastrutture-immateriali
   subchapter: dati-della-pa
@@ -171,6 +197,8 @@
   risultati: |
     Schede informative (data di rilascio: giugno 2017)
     Pagina web con elenco basi di dati di interesse nazionale (data di rilascio: luglio 2017)
+  numero: 14
+  completata: false
 
 - chapter: infrastrutture-immateriali
   subchapter: dati-della-pa
@@ -180,6 +208,8 @@
   descrizione: |
     AgID curerà l’allineamento delle informazioni contenute nel Repertorio nazionale dei dati territoriali (RNDT) rispetto al catalogo dati.gov.it, fornendo le opportune indicazioni operative per le amministrazioni e utilizzando gli strumenti utili per lo scambio di descrizioni dei dati e dei servizi territoriali che sono stati definiti in ambito europeo “Geo DCAT-AP”.
   risultati: "Indicazioni tecniche (data di rilascio: dicembre 2017)"
+  numero: 15
+  completata: false
 
 - chapter: infrastrutture-immateriali
   subchapter: dati-della-pa
@@ -189,6 +219,8 @@
     La documentazione dei dati territoriali (o geografici) deve avvenire attraverso il solo Repertorio nazionale dei dati territoriali (RNDT).
     Per la documentazione di tali dati le PA utilizzano il profilo nazionale di metadati INSPIRE/RNDT.
   risultati: ---
+  numero: 16
+  completata: false
 
 - chapter: infrastrutture-immateriali
   subchapter: dati-della-pa
@@ -202,6 +234,8 @@
   risultati: |
     Applicazione per la raccolta dati (data di rilascio: aprile 2017)
     Individuazione early adopter (data di rilascio: aprile 2017)
+  numero: 17
+  completata: false
 
 - chapter: infrastrutture-immateriali
   subchapter: dati-della-pa
@@ -210,6 +244,8 @@
   attori: [ comuni, interno, sogei ]
   descrizione: Tutti i dati delle anagrafi comunali (APR) migrano ad ANPR, in collaborazione tra Comuni, Ministero dell’Interno, e Sogei.
   risultati: "ANPR popolato con tutti i dati anagrafici dei Comuni italiani (data di rilascio: dicembre 2018)"
+  numero: 18
+  completata: false
 
 - chapter: infrastrutture-immateriali
   subchapter: dati-della-pa
@@ -220,6 +256,8 @@
     Le amministrazioni titolari di basi di dati di interesse nazionale devono adottare tutte le misure che consentano la piena attuazione delle linee guida e delle relative regole tecniche e l’accesso alle stesse secondo i principi definiti dal Modello di interoperabilità.
     Le basi di dati di interesse nazionale dovranno assicurare il flusso di dati verso il Data & Analytics Framework della Pubblica amministrazione.
   risultati: ---
+  numero: 19
+  completata: false
 
 - chapter: infrastrutture-immateriali
   subchapter: dati-della-pa
@@ -231,6 +269,8 @@
   risultati: |
     Linee guida per l'integrazione con il DAF (data di rilascio: da definire)
     Implementazione dei meccanismi di popolamento e messa in produzione dalle PA titolari dei dati (data di rilascio: da definire)
+  numero: 20
+  completata: false
 
 - chapter: infrastrutture-immateriali
   subchapter: dati-della-pa
@@ -246,6 +286,8 @@
     Specifiche tecniche di integrazione della Banca dati degli operatori economici con le stazioni appaltanti e con le basi di dati che forniscono le informazioni di comprova (data di rilascio: settembre 2017)
     Integrazione della Banca dati degli operatori economici con le basi di dati che già dispongono delle informazioni in formato digitale (data di rilascio: dicembre 2017)
     Completamento dell’integrazione con le basi di dati e operatività della Banca dati degli operatori economici (data di rilascio: aprile 2018)
+  numero: 21
+  completata: false
 
 - chapter: infrastrutture-immateriali
   subchapter: dati-della-pa
@@ -258,6 +300,8 @@
   risultati: |
     Linee guida (data di rilascio: luglio 2017)
     Prototipo piattaforma open source su repository pubblico (data di rilascio: dicembre 2017)
+  numero: 22
+  completata: false
 
 - chapter: infrastrutture-immateriali
   subchapter: dati-della-pa
@@ -268,6 +312,8 @@
     Individuazione di basi di dati chiave di particolare interesse per la collettività, da rendere disponibili come open data a livello nazionale, interrogabili secondo i principi descritti nel capitolo 5 “Modello di interoperabilità” e che usino Modelli di dati condivisi (sezione 4.1.4)
   risultati: |
     Elenco delle basi di dati chiave (data di rilascio: giugno 2017)
+  numero: 23
+  completata: false
 
 - chapter: infrastrutture-immateriali
   subchapter: dati-della-pa
@@ -287,6 +333,8 @@
     Il progetto di sviluppo di dati.gov.it sarà reso aperto, disponibile su repository pubblico al fine di fornire una piattaforma di default pronta per il riuso da parte delle PA.
   risultati: |
     Evoluzione dati.gov.it (data di rilascio: dicembre 2017)
+  numero: 24
+  completata: false
 
 - chapter: infrastrutture-immateriali
   subchapter: dati-della-pa
@@ -296,6 +344,8 @@
     Le Pubbliche amministrazioni provvedono, nel rispetto delle Linee guida per la valorizzazione del patrimonio informativo pubblico, al corretto popolamento del catalogo nazionale dei dati.
     Le PA dovranno dotarsi delle infrastrutture di gestione e pubblicazione dei dati previste dalle sopra citate linee guida, o, in mancanza, adottare la piattaforma di default messa a disposizione da AgID e dal Team digitale secondo quanto stabilito nell’azione precedente.
   risultati: ---
+  numero: 25
+  completata: false
 
 - chapter: infrastrutture-immateriali
   subchapter: dati-della-pa
@@ -306,6 +356,8 @@
     Le PA espongono i metadati, relativi alle basi di dati e dati aperti di cui sono titolari, rispettando le specifiche DCAT-AP_IT (profilo nazionale di metadatazione pienamente conforme a quello europeo DCAT-AP) e seguendo la semantica espressa dalla relativa ontologia pubblicata su dati.gov.it.
   risultati: |
     Metadati conformi a DCAT-AP_IT (data di rilascio: dicembre 2017)
+  numero: 26
+  completata: false
 
 - chapter: infrastrutture-immateriali
   subchapter: dati-della-pa
@@ -321,7 +373,9 @@
     L’allegato 5 “Paniere dataset per open data” rappresenta un primo insieme di dataset e una prima azione di monitoraggio. Il Paniere è stato predisposto considerando tutti i dataset inclusi nelle agende per la valorizzazione del patrimonio informativo pubblico degli anni 2013, 2014 e 2015, nonché i dataset derivanti da iniziative internazionali (ad es. Open Data Charter, Open Government Partnership), dai piani di rilascio di alcune Regioni e PA centrali e da alcune richieste della società civile emerse a seguito di consultazioni pubbliche ufficiali.
     AgID pubblica il Paniere sul proprio sito istituzionale e su dati.gov.it.
   risultati: |
-    Paniere dinamico di dataset (data di rilascio: febbraio di ogni anno )
+    Paniere dinamico di dataset (data di rilascio: febbraio di ogni anno)
+  numero: 27
+  completata: false
 
 - chapter: infrastrutture-immateriali
   subchapter: dati-della-pa
@@ -333,6 +387,8 @@
     Entro il mese di gennaio di ogni anno, AgID sottopone il Rapporto al Dipartimento della Funzione Pubblica che lo approva entro il mese di febbraio. AgID pubblica il Rapporto in open data sul proprio sito istituzionale e su dati.gov.it.
   risultati: |
     Rapporto di monitoraggio (data di rilascio: febbraio di ogni anno)
+  numero: 28
+  completata: false
 
 - chapter: infrastrutture-immateriali
   subchapter: dati-della-pa
@@ -348,6 +404,8 @@
     - definizione del Registro.
   risultati: |
     Rilascio prima versione del Registro (data di rilascio: gennaio 2018)
+  numero: 29
+  completata: false
 
 - chapter: infrastrutture-immateriali
   subchapter: dati-della-pa
@@ -358,6 +416,8 @@
     Le PA titolari delle banche dati di interesse nazionale, così come definite all’art. 60 del CAD, sono tenute a normalizzare i dati sulla base delle risorse contenute Registro dei vocabolari controllati e dei modelli dei dati.
     Le altre PA avviano un processo di normalizzazione dei propri dati sulla base delle risorse contenute nei vocabolari controllati e dei modelli dei dati.
   risultati: ---
+  numero: 30
+  completata: false
 
 ### end dati-della-pa
 ### start piattaforme-abilitanti
@@ -371,6 +431,8 @@
     Le Pubbliche amministrazioni devono implementare SPID in tutti i servizi digitali che richiedono autenticazione sia quelli già esistenti che quelli di nuova attivazione, entro marzo 2018, ovvero entro 24 mesi dall’attivazione del primo Identity Provider, come definito dal D.P.C.M. 24 ottobre 2014. L’implementazione si conclude con la controfirma, da parte di AgID, della convenzione SPID inviata dalla PA.
   risultati: |
     Completamento dell’integrazione di SPID nei servizi on line della PA (data di rilascio: marzo 2018)
+  numero: 31
+  completata: false
     
 - chapter: infrastrutture-immateriali
   subchapter: piattaforme-abilitanti
@@ -382,6 +444,8 @@
     Le Amministrazioni che entro giugno 2017 non hanno ancora completato l’adesione, dovranno adottare, in logica di sussidiarietà, le soluzioni già disponibili attuate dalle altre amministrazioni quali, ad esempio, piattaforme di regioni o di altre amministrazioni, che si propongono con il ruolo di intermediario previsto dal sistema.
   risultati: |
     Piani di attivazione PagoPA (data di rilascio: dicembre 2017)
+  numero: 32
+  completata: false
 
 - chapter: infrastrutture-immateriali
   subchapter: piattaforme-abilitanti
@@ -394,6 +458,8 @@
     - le infrastrutture necessarie al funzionamento del sistema ComproPA attraverso l'interconnessione delle piattaforme di e-procurement con le basi di dati e i sistemi nazionali coinvolti nel processo di public procurement.
   risultati: |
     Definizione delle regole e disegno dell’infrastruttura (data di rilascio prima versione: settembre 2017)
+  numero: 33
+  completata: false
     
 - chapter: infrastrutture-immateriali
   subchapter: piattaforme-abilitanti
@@ -411,6 +477,8 @@
     - programma le necessarie azioni di gestione del cambiamento e di sussidiarietà per favorire l’adeguamento delle Pubbliche amministrazioni alle normative nei tempi stabiliti.
   risultati: |
     Sistema ComproPA in esercizio (data di rilascio: ottobre 2018)
+  numero: 34
+  completata: false
     
 - chapter: infrastrutture-immateriali
   subchapter: piattaforme-abilitanti
@@ -426,6 +494,8 @@
     Adeguamento SDI
     Adeguamento sistemi fatturazione elettronica PA
     (data di rilascio: novembre 2018)
+  numero: 35
+  completata: false
     
 - chapter: infrastrutture-immateriali
   subchapter: piattaforme-abilitanti
@@ -438,6 +508,8 @@
     Da ottobre 2017 è prevista la diffusione del sistema nei restanti Comuni. 
   risultati: |
     Servizi CIE attivati in tutti i Comuni (data di rilascio: dicembre 2018)
+  numero: 36
+  completata: false
     
 - chapter: infrastrutture-immateriali
   subchapter: piattaforme-abilitanti
@@ -448,6 +520,8 @@
     Evoluzione del sistema SPID, anche in raccordo con il progetto CIE, attraverso le necessarie azioni di manutenzione, razionalizzazione, semplificazione degli strumenti di autenticazione. Integrazione con il Sistema pubblico di prevenzione delle frodi nel settore del credito a consumo - Furto d'Identità (SCIPAFI).
   risultati: |
     Sistema SPID evoluto (data di rilascio: dicembre 2017)
+  numero: 37
+  completata: false
 
 - chapter: infrastrutture-immateriali
   subchapter: piattaforme-abilitanti
@@ -458,6 +532,8 @@
     AgID provvederà a stilare un piano di implementazione di SPID con le PA che non hanno ancora provveduto a farlo e ne monitorerà l’esecuzione.
   risultati: |
     Effettiva adesione a SPID da parte delle PA (data di rilascio: entro marzo 2018)
+  numero: 38
+  completata: false
 
 - chapter: infrastrutture-immateriali
   subchapter: piattaforme-abilitanti
@@ -467,6 +543,8 @@
     Evoluzione del sistema PagoPA, anche in raccordo con il progetto SPID, attraverso le necessarie azioni di manutenzione, razionalizzazione, semplificazione per migliorare la user experience, aggiungere una interfaccia utente mobile, aprire a nuove forme di pagamento.
   risultati: |
     Sistema PagoPA evoluto (data di rilascio: dicembre 2017)
+  numero: 39
+  completata: false
 
 - chapter: infrastrutture-immateriali
   subchapter: piattaforme-abilitanti
@@ -479,6 +557,8 @@
   risultati: |
     Primo rilascio del progetto (data di rilascio: dicembre 2017)
     Avvio dell’utilizzo da parte delle PA (data di rilascio: gennaio 2018)
+  numero: 40
+  completata: false
 
 - chapter: infrastrutture-immateriali
   subchapter: piattaforme-abilitanti
@@ -490,6 +570,8 @@
     La presente linea di azione avvia l’ecosistema Sviluppo e sostenibilità, per quanto concerne la missione Competitività e sviluppo delle imprese.
   risultati: |
     Definizione di architettura, componenti e interfacce applicative (data di rilascio: dicembre 2017)
+  numero: 41
+  completata: false
 
 - chapter: infrastrutture-immateriali
   subchapter: piattaforme-abilitanti
@@ -507,6 +589,8 @@
     Conclusione realizzazione SIOPE+ (data di rilascio: giugno 2017)
     Realizzazione fase pilota (data di rilascio: dicembre 2017)
     Avvio di SIOPE+ (data di rilascio: da gennaio 2018)
+  numero: 42
+  completata: false
 
 - chapter: infrastrutture-immateriali
   subchapter: piattaforme-abilitanti
@@ -519,6 +603,8 @@
   risultati: |
     Conclusione del nuovo sistema NoiPA (data di rilascio: dicembre 2018)
     Adesioni delle PA (data di rilascio: a partire dal 2018)
+  numero: 43
+  completata: false
 
 - chapter: infrastrutture-immateriali
   subchapter: piattaforme-abilitanti
@@ -529,6 +615,8 @@
   risultati: |
     Linee guida e regole di interoperabilità (data di rilascio: dicembre 2017)
     Implementazione delle API conformi alle regole di interoperabilità (data di rilascio: a partire da gennaio 2018)
+  numero: 44
+  completata: false
 
 - chapter: infrastrutture-immateriali
   subchapter: piattaforme-abilitanti
@@ -539,6 +627,8 @@
     Le Amministrazioni partecipano con l’Archivio centrale dello Stato alla messa a punto dei Poli di Conservazione degli archivi digitali e alla definizione di regole di interscambio per l’interoperabilità dei sistemi di conservazione. Sarà avviato un percorso di adeguamento normativo utile ad assicurare che i servizi di conservazione garantiscano la presenza sul territorio nazionale di almeno una copia operativa per ciascun documento informatico conservato. 
   risultati: |
     Costituzione Poli di Conservazione (data di rilascio: entro dicembre 2018)
+  numero: 45
+  completata: false
 
 - chapter: infrastrutture-immateriali
   subchapter: piattaforme-abilitanti
@@ -550,6 +640,8 @@
     I Comuni adottano le funzionalità di ANPR esteso mediante l’integrazione applicativa con i loro sistemi oppure mediante l’uso della web application.
   risultati: |
     Utilizzo da parte dei Comuni di ANPR (data di rilascio: entro 2018)
+  numero: 46
+  completata: false
 
 ### end piattaforme-abilitanti
 ### start modello-di-interoperabilita
@@ -564,6 +656,8 @@
   risultati: |
     Linee guida per transitare al nuovo Modello di interoperabilità (data di rilascio: maggio 2017)
     Linee guida del nuovo Modello di interoperabilità (data di rilascio versione 1.0: dicembre 2017)
+  numero: 47
+  completata: false
     
 - chapter: modello-di-interoperabilita
   nome: Adozione del Modello da parte delle PA
@@ -572,6 +666,8 @@
   descrizione: |
     Per le piattaforme esistenti e per le attività progettuali già in corso le PA adottano le linee guida di transizione, mentre per le nuove realizzazioni si adeguano al nuovo Modello.
   risultati: ---
+  numero: 48
+  completata: false
 
 - chapter: modello-di-interoperabilita
   nome: Catalogo delle API
@@ -582,6 +678,8 @@
     AgID definirà un apposito set di regole di utilizzo e un modello di governance per la gestione.
   risultati: |
     Prima release del Catalogo (data di rilascio: dicembre 2017)
+  numero: 49
+  completata: false
 
 - chapter: modello-di-interoperabilita
   nome: Popolamento catalogo API
@@ -590,6 +688,8 @@
   descrizione: |
     Le PA, nell’attuazione delle regole del Modello di interoperabilità, daranno seguito all’implementazione di API e al successivo popolamento del Catalogo, al fine di agevolarne l’utilizzo da parte degli sviluppatori.
   risultati: ---
+  numero: 50
+  completata: false
 
 ### end modello-di-interoperabilita
 ### start ecosistemi
@@ -602,6 +702,8 @@
     Per ciascun ecosistema, i GdL danno seguito alle attività operative attraverso l’individuazione degli obiettivi specifici dell’ecosistema stesso, la pianificazione dei progetti e la costituzione di luoghi di discussione tecnica.
     AgID, su richiesta, può supportare le attività dell’ecosistema, in particolare per quanto riguarda la finalizzazione delle attività del GdL.
   risultati: ---
+  numero: 51
+  completata: false
     
 - chapter: ecosistemi
   nome: Evoluzione del Fascicolo sanitario elettronico (FSE)
@@ -615,6 +717,8 @@
   risultati: |
     Decreto ministeriale che definisce le regole di interoperabilità (data di rilascio: giugno 2017)
     Realizzazione dei sistemi FSE Regionali (data di rilascio: entro dicembre 2018)
+  numero: 52
+  completata: false
 
 ### end ecosistemi
 ### start strumenti-per-la-generazione-e-la-diffusione-di-servizi-digitali
@@ -628,6 +732,8 @@
     Il continuo aggiornamento delle Linee guida per il design dei servizi digitali della pubblica amministrazione, realizzato con il contributo delle community, rappresenta un’ulteriore attività realizzata dalla presente azione.
   risultati: |
     Primi strumenti per le Community (data di rilascio: da marzo 2017)
+  numero: 53
+  completata: false
     
 - chapter: strumenti-per-la-generazione-e-la-diffusione-di-servizi-digitali
   nome: Strumenti e modelli condivisi per la progettazione e la realizzazione di servizi
@@ -639,6 +745,8 @@
     Partenza progetti pilota (data di rilascio: giugno 2017)
     Modellazione dei principali servizi e contenuti da erogare (data di rilascio: luglio 2017)
     Template versioni alpha (data di rilascio: settembre 2017)
+  numero: 54
+  completata: false
 
 ### end strumenti-per-la-generazione-e-la-diffusione-di-servizi-digitali
 ### start sicurezza
@@ -649,6 +757,8 @@
   descrizione: |
     CERT-PA, già operante dal 2013, aumenterà progressivamente la sua capacità operativa, completando l’infrastruttura ICT di erogazione dei servizi di base e realizzando il primo embrione di sistema informativo sulle minacce cibernetiche, anche attraverso l’implementazione delle soluzioni: Infosharing CERT PA e National Vulnerability Database.
   risultati: ---
+  numero: 55
+  completata: false
     
 - chapter: sicurezza
   nome: Pubblicazione e adeguamento alle Regole tecniche per la sicurezza ICT delle Pubbliche amministrazioni
@@ -662,6 +772,8 @@
   risultati: |
     Regole tecniche per la sicurezza ICT delle Pubbliche amministrazioni (data di rilascio: giugno 2017)
     Piani di adeguamento delle PA (data di rilascio: nel rispetto dei vincoli di norma determinati dall’emanazione delle Regole tecniche)
+  numero: 56
+  completata: false
 
 - chapter: sicurezza
   nome: Architettura della sicurezza per servizi critici
@@ -673,6 +785,8 @@
   risultati: |
     Linee guida del modello architetturale di gestione dei servizi critici (data di rilascio: giugno 2017)
     Piano di adeguamento delle Amministrazioni owner di servizi critici (Da avviare entro settembre 2017)
+  numero: 57
+  completata: false
     
 - chapter: sicurezza
   nome: Continuous monitoring
@@ -682,6 +796,8 @@
     Per dare seguito alla presente azione si provvederà alla scansione dei software mediante strumenti automatici e alla successiva analisi dei risultati (e del possibile impatto di una vulnerabilità nota eventualmente non corretta) demandata ad un soggetto competente. AgID si riserva la possibilità di eseguire penetration test a campione. 
   risultati: |
     Pubblicazione periodica dei risultati.    
+  numero: 58
+  completata: false
 
 - chapter: sicurezza
   nome: Segnalazioni incidenti Informatici al CERT-PA
@@ -690,6 +806,20 @@
     Tutte le Pubbliche amministrazioni sono tenute a monitorare e segnalare prontamente al CERT-PA gli incidenti informatici e ogni situazione di potenziale rischio, utilizzando i canali di comunicazione riportati nella sezione dedicata del sito AgID. 
     Per tutti i soggetti accreditati su Infosharing CERT PA è disponibile un’apposita funzionalità di segnalazione.
   risultati: ---
+  numero: 59
+  completata: false
+
+- chapter: sicurezza
+  nome: Riorganizzazione del dominio “gov.it”
+  attori: [ agid, pa ]
+  descrizione: |
+    AgID emana le disposizioni per il riordino del dominio “gov.it”, al fine di riorganizzarlo con una segmentazione che risponda a criteri internazionali e consenta di raggruppare i siti delle amministrazioni centrali.
+    Simmetricamente entro 12 mesi le PA completano le attività.
+  risultati: |
+    Disposizioni per il riordino del dominio “gov.it” (data di rilascio: giugno 2017).
+    Adeguamento da parte delle PA alle suddette disposizioni (entro giugno 2018).
+  numero: 60
+  completata: false
 
 ### end sicurezza
 ### start data-analytics-framework
@@ -704,6 +834,8 @@
   risultati: |
     Piano di sviluppo del DAF (data di rilascio: giugno 2017).
     Cluster big data e Test delle componenti e dei casi d'uso (data di rilascio: dicembre 2017).
+  numero: 61
+  completata: false
 
 - chapter: data-analytics-framework
   nome: Ingestione dei dati nel DAF - Fase sperimentale
@@ -718,7 +850,8 @@
     Definizione delle procedure di ingestione dei dati nella piattaforma.
     Alimentazione del DAF.
     (data di rilascio: dicembre 2017).
-
+  numero: 62
+  completata: false
 
 - chapter: data-analytics-framework
   nome: Messa in Produzione del DAF
@@ -731,6 +864,8 @@
     Piano di subentro.
     Operatività corrente.
     (data di rilascio: da definire).
+  numero: 63
+  completata: false
 
 - chapter: data-analytics-framework
   nome: Realizzazione strumenti di supporto al monitoraggio del Piano
@@ -740,6 +875,8 @@
     Il Team digitale e AgID realizzano strumenti che, sulla base delle informazioni contenute nel DAF, forniscono informazioni utili alle attività di monitoraggio del Piano descritte nel capitolo 10 “Gestione del Cambiamento”. 
   risultati: |
     Strumenti di supporto al monitoraggio del Piano (da gennaio 2018)
+  numero: 64
+  completata: false
 
 ### end data-analytics-framework
 ### start gestione-del-cambiamento
@@ -758,6 +895,8 @@
   risultati: |
     Insieme minimo di Indicatori per la misurazione dello stato di avanzamento del Piano (data di rilascio: luglio 2017).
     Prima release del sistema di monitoraggio (data di rilascio: marzo 2018).
+  numero: 65
+  completata: false
     
 - chapter: gestione-del-cambiamento
   nome: Comunicazione del Piano Triennale
@@ -766,6 +905,8 @@
     Ideazione di iniziative di comunicazione per la diffusione e l’implementazione del Piano Triennale.
   risultati: |
     Materiali di comunicazione (data di rilascio: da giugno 2017).
+  numero: 66
+  completata: false
 
 - chapter: gestione-del-cambiamento
   nome: Identificazione dei principali profili e azioni di promozione per la creazione di competenze digitali nella PA
@@ -776,5 +917,7 @@
   risultati: |
     Revisione dei profili UNINFO e ISTAT per le nuove figure professionali con competenze digitali.
     Realizzazione di format di corsi, workshop e master.
+  numero: 67
+  completata: false
 
 ### end gestione-del-cambiamento
