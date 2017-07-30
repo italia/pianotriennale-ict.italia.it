@@ -28,6 +28,9 @@
             <span class="Accordion-link u-text-r-xs u-flex u-flexAlignItemsCenter">
               {{ linea-azione.nome }}
               {% if linea-azione.completata %}<span class="u-text-xxs u-alignMiddle u-margin-left-xs u-padding-right-xs u-padding-left-xs u-borderRadius-xl u-background-teal-30 u-color-95 u-textWeight-400 u-textNoWrap">{{ t.completata }}</span>{% endif %}
+              {% if linea-azione.nota %}
+              <span class="u-margin-left-xs Icon Icon-comment"></span>
+              {% endif %}
             </span>
           </h3>
           <div id="accordion-panel-pac-{{ linea-azione.numero }}" class="Accordion-panel fr-accordion__panel js-fr-accordion__panel">
@@ -83,6 +86,14 @@
                 <div class="Grid-cell u-sizeFull u-sm-size4of5 u-md-size4of5 u-lg-size4of5 u-padding-r-left u-padding-r-right u-padding-top-xs u-padding-bottom-xxs">
                   <span class="u-color-grey-90">{{ linea-azione.risultati | newline_to_br }}</span>
                 </div>
+                {% if linea-azione.nota %}
+                <div class="Grid-cell u-sizeFull u-padding-r-left u-padding-r-right u-padding-top-s u-padding-bottom-xxs">
+                  <div class="u-flex u-flexAlignItemsCenter">
+                    <div><span class="Icon Icon-comment u-margin-right-s u-text-r-m"></span></div>
+                    <div><span class="u-textItalic u-color-grey-90">{{ linea-azione.nota | newline_to_br }}</span></div>
+                  </div>
+                </div>
+                {% endif %}
               </div>
           </div>
         </div>
@@ -107,7 +118,11 @@
           <h3 class="Accordion-header js-fr-accordion__header fr-accordion__header" id="accordion-header-pal-{{ linea-azione.numero }}">
             <span class="Accordion-number">{{ linea-azione.numero }}</span>
             <span class="Accordion-link u-text-r-xs u-flex u-flexAlignItemsCenter">
-            {{ linea-azione.nome }}
+              {{ linea-azione.nome }}
+              {% if linea-azione.completata %}<span class="u-text-xxs u-alignMiddle u-margin-left-xs u-padding-right-xs u-padding-left-xs u-borderRadius-xl u-background-teal-30 u-color-95 u-textWeight-400 u-textNoWrap">{{ t.completata }}</span>{% endif %}
+              {% if linea-azione.nota %}
+              <span class="u-margin-left-xs Icon Icon-comment"></span>
+              {% endif %}
             </span>
           </h3>
           <div id="accordion-panel-pal-{{ linea-azione.numero }}" class="Accordion-panel fr-accordion__panel js-fr-accordion__panel">
@@ -163,6 +178,14 @@
                 <div class="Grid-cell u-size2of3 u-sm-size4of5 u-md-size4of5 u-lg-size4of5 u-padding-r-left u-padding-r-right u-padding-top-xs u-padding-bottom-xxs">
                   <span class="u-color-grey-90">{{ linea-azione.risultati | newline_to_br }}</span>
                 </div>
+                {% if linea-azione.nota %}
+                <div class="Grid-cell u-sizeFull u-padding-r-left u-padding-r-right u-padding-top-s u-padding-bottom-xxs">
+                  <div class="u-flex u-flexAlignItemsCenter">
+                    <div><span class="Icon Icon-comment u-margin-right-s u-text-r-m"></span></div>
+                    <div><span class="u-textItalic u-color-grey-90">{{ linea-azione.nota | newline_to_br }}</span></div>
+                  </div>
+                </div>
+                {% endif %}
               </div>
           </div>
         </div>
