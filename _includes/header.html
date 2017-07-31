@@ -60,10 +60,19 @@
         {% endif %}
 
         {% if include.hasButton %}
-        <div class="Header-button">
-          <a role="button" href="{{ include.headerButtonLink }}" class="Button Button--default Button--shadow-dark Button--round u-text-r-xxs u-padding-r-all" target="_blank">
-              {{ include.headerButtonText | upcase }}
-            </a>
+        <div>
+        <div class="Grid Grid--withGutter u-flex">
+          <div class="Grid-cell u-size1of2 Header-button">
+            <a role="button" href="{{ include.headerButtonLink }}" class="Button Button--default Button--shadow-dark Button--round u-text-r-xxs u-padding-r-all" target="_blank">
+                {{ include.headerButtonText | upcase }}
+              </a>
+          </div>
+          <div class="Grid-cell u-size1of2 Header-button u-textLeft">
+            <a role="button" href="{{ include.headerButtonLink | replace: '/it/', '/en/' }}" class="Button Button--default Button--shadow-dark Button--round u-text-r-xxs u-padding-r-all" target="_blank">
+                {{ include.headerButtonText-EN | upcase }}
+              </a>
+          </div>
+        </div>
         </div>
         {% endif %}
 

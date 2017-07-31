@@ -39,12 +39,16 @@ layout: default
 
         <h4>{{ t.capitoli_title }}</h4>
          <div class="Grid Grid--withGutter">
-        {% for chapter in page.chapters %}
-         <div class="Grid-cell u-size1of2">
-          {% assign rtdUrl = site.data.ext_links[chapter].rtd %}
-          {% include button.html label = 'goto_chapter' label_extra = chapter url = rtdUrl target_blank = true classes = 'Chapter' %}
-            </div>
-        {% endfor %}
+           {% for chapter in page.chapters %}
+           <div class="Grid-cell u-size1of2">
+             {% assign rtdUrl = site.data.ext_links[chapter].rtd %}
+             {% include button.html  chapter_lang = 'it' label = 'goto_chapter' label_extra = chapter url = rtdUrl target_blank = true classes = 'Chapter' %}
+           </div>
+           <div class="Grid-cell u-size1of2">
+             {% assign rtdUrl = site.data.ext_links[chapter].rtd | replace: "/it/", "/en/" %}
+             {% include button.html chapter_lang = 'en' label = 'goto_chapter_en' label_extra = chapter url = rtdUrl target_blank = true classes = 'Chapter' %}
+          </div>
+          {% endfor %}
          </div>
       </div>
     </div>
