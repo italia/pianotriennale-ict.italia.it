@@ -3,7 +3,7 @@
 {% capture newParagraph %}
 
 {% endcapture %}
-{% assign linee-azione = site.data.linee_azione | sort: "nome" %}
+{% assign linee-azione = site.data.linee_azione | sort: "numero" %}
 <div class="Tabs tabpanel">
   <ul class="tablist" role="tablist">
     <li id="tab-0" class="tab selected" aria-controls="panel-0" role="tab" aria-selected="true" tabindex="-1">
@@ -14,7 +14,6 @@
     </li>
   </ul>
   <div id="panel-0" class="Linee-azione panel" aria-labelledby="tab-0" role="tabpanel">
-  {% assign counter = 0 %}
   {% for linea-azione in linee-azione %}
     {% assign not-yet-inserted = true %}
     {% if linea-azione.chapter == page.chapter or page.linee-azione-all %}
@@ -23,15 +22,18 @@
     {% if site.data.attori[attore].tipo == 'amministrazioni_centrali' or site.data.attori[attore].tipo == 'amministrazioni_centrali_e_territoriali' %}
     {% if not-yet-inserted %}
       {% assign not-yet-inserted = false %}
-      {% assign counter = counter | plus: 1 %}
-      <div class="Accordion Accordion--default fr-accordion js-fr-accordion" id="linea-azione-pac-{{ counter }}">
-          <h3 class="Accordion-header js-fr-accordion__header fr-accordion__header" id="accordion-header-pac-{{ counter }}">
-            <span class="Accordion-number">{{ counter }}</span>
+      <div class="Accordion Accordion--default fr-accordion js-fr-accordion" id="linea-azione-pac-{{ linea-azione.numero }}">
+          <h3 class="Accordion-header js-fr-accordion__header fr-accordion__header" id="accordion-header-pac-{{ linea-azione.numero }}">
+            <span class="Accordion-number">{{ linea-azione.numero }}</span>
             <span class="Accordion-link u-text-r-xs u-flex u-flexAlignItemsCenter">
-            {{ linea-azione.nome }}
+              {{ linea-azione.nome }}
+              {% if linea-azione.completata %}<span class="u-text-xxs u-alignMiddle u-margin-left-xs u-padding-right-xs u-padding-left-xs u-borderRadius-xl u-background-teal-30 u-color-95 u-textWeight-400 u-textNoWrap">{{ t.completata }}</span>{% endif %}
+              {% if linea-azione.nota %}
+              <span class="u-margin-left-xs Icon Icon-comment"></span>
+              {% endif %}
             </span>
           </h3>
-          <div id="accordion-panel-pac-{{ counter }}" class="Accordion-panel fr-accordion__panel js-fr-accordion__panel">
+          <div id="accordion-panel-pac-{{ linea-azione.numero }}" class="Accordion-panel fr-accordion__panel js-fr-accordion__panel">
               <div class="Grid u-padding-r-bottom">
                 <div class="Grid-cell u-sizeFull u-sm-size1of5 u-md-size1of5 u-lg-size1of5 u-padding-r-left u-padding-r-right u-padding-top-xs">
                   <span class="u-textItalic u-color-grey-90">{{ t.tempi | capitalize }}:</span>
@@ -84,6 +86,14 @@
                 <div class="Grid-cell u-sizeFull u-sm-size4of5 u-md-size4of5 u-lg-size4of5 u-padding-r-left u-padding-r-right u-padding-top-xs u-padding-bottom-xxs">
                   <span class="u-color-grey-90">{{ linea-azione.risultati | newline_to_br }}</span>
                 </div>
+                {% if linea-azione.nota %}
+                <div class="Grid-cell u-sizeFull u-padding-r-left u-padding-r-right u-padding-top-s u-padding-bottom-xxs">
+                  <div class="u-flex u-flexAlignItemsCenter">
+                    <div><span class="Icon Icon-comment u-margin-right-s u-text-r-m"></span></div>
+                    <div><span class="u-textItalic u-color-grey-90">{{ linea-azione.nota | newline_to_br }}</span></div>
+                  </div>
+                </div>
+                {% endif %}
               </div>
           </div>
         </div>
@@ -96,7 +106,6 @@
   </div>
 
   <div id="panel-1" class="Linee-azione panel" aria-labelledby="tab-1" role="tabpanel">
-  {% assign counter = 0 %}
   {% for linea-azione in linee-azione %}
     {% assign not-yet-inserted = true %}
     {% if linea-azione.chapter == page.chapter or page.linee-azione-all %}
@@ -105,15 +114,18 @@
     {% if site.data.attori[attore].tipo == 'amministrazioni_territoriali' or site.data.attori[attore].tipo == 'amministrazioni_centrali_e_territoriali' %}
     {% if not-yet-inserted %}
       {% assign not-yet-inserted = false %}
-      {% assign counter = counter | plus: 1 %}
-      <div class="Accordion Accordion--default fr-accordion js-fr-accordion" id="linea-azione-pal-{{ counter }}">
-          <h3 class="Accordion-header js-fr-accordion__header fr-accordion__header" id="accordion-header-pal-{{ counter }}">
-            <span class="Accordion-number">{{ counter }}</span>
+      <div class="Accordion Accordion--default fr-accordion js-fr-accordion" id="linea-azione-pal-{{ linea-azione.numero }}">
+          <h3 class="Accordion-header js-fr-accordion__header fr-accordion__header" id="accordion-header-pal-{{ linea-azione.numero }}">
+            <span class="Accordion-number">{{ linea-azione.numero }}</span>
             <span class="Accordion-link u-text-r-xs u-flex u-flexAlignItemsCenter">
-            {{ linea-azione.nome }}
+              {{ linea-azione.nome }}
+              {% if linea-azione.completata %}<span class="u-text-xxs u-alignMiddle u-margin-left-xs u-padding-right-xs u-padding-left-xs u-borderRadius-xl u-background-teal-30 u-color-95 u-textWeight-400 u-textNoWrap">{{ t.completata }}</span>{% endif %}
+              {% if linea-azione.nota %}
+              <span class="u-margin-left-xs Icon Icon-comment"></span>
+              {% endif %}
             </span>
           </h3>
-          <div id="accordion-panel-pal-{{ counter }}" class="Accordion-panel fr-accordion__panel js-fr-accordion__panel">
+          <div id="accordion-panel-pal-{{ linea-azione.numero }}" class="Accordion-panel fr-accordion__panel js-fr-accordion__panel">
               <div class="Grid u-padding-r-bottom">
                 <div class="Grid-cell u-size1of3 u-sm-size1of5 u-md-size1of5 u-lg-size1of5 u-padding-r-left u-padding-r-right u-padding-top-xs u-padding-bottom-xxs">
                   <span class="u-color-grey-90">Tempi:</span>
@@ -166,6 +178,14 @@
                 <div class="Grid-cell u-size2of3 u-sm-size4of5 u-md-size4of5 u-lg-size4of5 u-padding-r-left u-padding-r-right u-padding-top-xs u-padding-bottom-xxs">
                   <span class="u-color-grey-90">{{ linea-azione.risultati | newline_to_br }}</span>
                 </div>
+                {% if linea-azione.nota %}
+                <div class="Grid-cell u-sizeFull u-padding-r-left u-padding-r-right u-padding-top-s u-padding-bottom-xxs">
+                  <div class="u-flex u-flexAlignItemsCenter">
+                    <div><span class="Icon Icon-comment u-margin-right-s u-text-r-m"></span></div>
+                    <div><span class="u-textItalic u-color-grey-90">{{ linea-azione.nota | newline_to_br }}</span></div>
+                  </div>
+                </div>
+                {% endif %}
               </div>
           </div>
         </div>
