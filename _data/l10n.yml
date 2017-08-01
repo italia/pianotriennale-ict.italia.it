@@ -97,7 +97,7 @@ it:
             target_blank: true
     home_pt_en_title: The Three Year Plan
     home_pt_en:
-      - text: The Three Year ICT Plan is the Italian Government Digital Transformation Plan. It was translated by Artificial Intelligence. It is available online on mobile optimized navigation.
+      - text: The Three Year Plan for ICT in the Public Administration was translated by Artificial Intelligence. It is available online on mobile optimized navigation.
         links:
           - type: button
             icon: read
