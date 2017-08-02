@@ -3,6 +3,10 @@
 <a role="button" href="{{ include.url }}"
    class="Button Button--default Button--shadow Button--round u-text-r-xxs u-padding-r-all u-text{{ align | capitalize }} {{ include.classes }}"
    {% if include.target_blank %} target="_blank" {% endif %}>
+  {% if include.chapter_lang == 'en' %}
+  {{ t.[include.label] | upcase }}{% if include.label_extra %}<br/>"{{ t.capitoli_en[include.label_extra] | capitalize }}"{% endif %}
+  {% else %}
   {{ t.[include.label] | upcase }}{% if include.label_extra %}<br/>"{{ t.capitoli[include.label_extra] | capitalize }}"{% endif %}
+  {% endif %}
 </a>
 </div>

@@ -39,6 +39,7 @@ it:
     toggle_network_menu_label: accedi al menu del network
     see_more: per saperne di più
     goto_chapter: vai al capitolo
+    goto_chapter_en: read the chapter
     goto_forum: partecipa
     deepen: per approfondire
     download_chapter: scarica il capitolo
@@ -63,6 +64,7 @@ it:
     home_tools_title: Strumenti
     home_tools_subtitle: Ci appoggiamo a strumenti già esistenti e molto conosciuti per fornirti le informazioni, il codice e il supporto di cui hai bisogno
     home_header_button_text: vai al piano
+    home_header_button_text_en: go to plan
     home_pt_title: Cos'è il Piano Triennale
     home_pt_description: |
       È il documento di indirizzo strategico ed economico destinato a tutta la Pubblica Amministrazione che accompagna la trasformazione digitale del Paese.
@@ -92,6 +94,15 @@ it:
             icon: forum
             label: partecipa
             href: 'https://forum.italia.it/c/piano-triennale'
+            target_blank: true
+    home_pt_en_title: The Three Year Plan
+    home_pt_en:
+      - text: The Three Year Plan for ICT in the Public Administration was translated by Artificial Intelligence. It is available online on mobile optimized navigation.
+        links:
+          - type: button
+            icon: read
+            label: Read It
+            href: 'https://pianotriennale-ict.readthedocs.io/en/latest'
             target_blank: true
     quotes:
       gentiloni:
@@ -134,6 +145,22 @@ it:
       piano-triennale: Piano Triennale
       modello-strategico: Modello strategico
       indicazioni-per-le-pa: Indicazioni per le PA
+    capitoli_en:
+      data-center-e-cloud: Data centres and cloud
+      connettivita: Connectivity
+      dati-della-pa: Public Administration Data
+      piattaforme-abilitanti: Enabling platforms
+      modello-di-interoperabilita: Interoperability Model
+      ecosistemi: Ecosystems
+      strumenti-per-la-generazione-e-la-diffusione-di-servizi-digitali: Instruments for the generation and the spread of digital services
+      sicurezza: Security
+      data-analytics-framework: Data & Analytics Framework
+      gestione-del-cambiamento: Management of the change
+      principi-per-lo-sviluppo-di-progetti-digitali: Principles for the development of digital projects
+      razionalizzazione-della-spesa: Rationalisation of costs
+      piano-triennale: Three-Year Plan for IT in Public Administration
+      modello-strategico: Strategic evolution model of the information system of the public administration
+      indicazioni-per-le-pa: Indications for the Public administrations
     temi_title: I capitoli
     modello_intro: Clicca sulla sezione che ti interessa
     partecipa: Partecipa

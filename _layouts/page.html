@@ -47,8 +47,16 @@ layout: default
         <div class="Grid-cell u-sizeFull u-md-size1of2 u-lg-size1of2 u-margin-top-l">
           <div class="Prose u-textCenter">
             <div class="u-margin-r-bottom">{{ t.deepen | capitalize }}</div>
-            {% assign rtdUrl = site.data.ext_links[chapter].rtd %}
-            {% include button.html label = 'goto_chapter' url = rtdUrl icon = 'read' align = 'center' target_blank = true %}
+            <div class="Grid Grid--withGutter">
+              <div class="Grid-cell u-size1of2">
+              {% assign rtdUrl = site.data.ext_links[chapter].rtd %}
+              {% include button.html label = 'goto_chapter' url = rtdUrl icon = 'read' align = 'center' target_blank = true %}
+              </div>
+              <div class="Grid-cell u-size1of2">
+              {% assign rtdUrl = site.data.ext_links[chapter].rtd | replace: "/it/", "/en/" %}
+              {% include button.html label = 'goto_chapter_en' url = rtdUrl icon = 'read' align = 'center' target_blank = true %}
+              </div>
+            </div>
           </div>
         </div>
         <div class="Grid-cell u-sizeFull u-md-size1of2 u-lg-size1of2 u-margin-top-l">

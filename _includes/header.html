@@ -12,7 +12,10 @@
       </div>
     </div>
   </div>
-
+  <div class="u-padding-all-m u-background-teal-30 u-color-white u-text-r-xxs u-textWeight-300 u-textCenter">
+    The Three Year Plan for ICT in the Public Administration was translated by Artificial Intelligence.
+    <a href="https://pianotriennale-ict.readthedocs.io/en/latest" class="u-textWeight-600 u-color-white">Read it in English</a>
+  </div>
   <div class="Header-navbar u-background-50">
     <div class="u-layout-wide Grid Grid--alignMiddle u-layoutCenter">
       <div class="Header-logo Grid-cell u-hidden u-md-block u-lg-block" aria-hidden="true">
@@ -60,13 +63,19 @@
         {% endif %}
 
         {% if include.hasButton %}
-        <div class="Header-button">
-          <a role="button" href="{{ include.headerButtonLink }}" class="Button Button--default Button--shadow-dark Button--round u-text-r-xxs u-padding-r-all" target="_blank">
-              {{ include.headerButtonText | upcase }}
-            </a>
+        <div>
+          <div class="u-inlineBlock u-rightFloat u-margin-right-s Header-button">
+            <a role="button" href="{{ include.headerButtonLink }}" class="Button Button--default Button--shadow-dark Button--round u-text-r-xxs u-padding-r-all" target="_blank">
+                {{ include.headerButtonText | upcase }}
+              </a>
+          </div>
+          <div class="u-inlineBlock u-rightFloat Header-button">
+            <a role="button" href="{{ include.headerButtonLink | replace: '/it/', '/en/' }}" class="Button Button--default Button--shadow-dark Button--round u-text-r-xxs u-padding-r-all" target="_blank">
+                {{ include.headerButtonText-EN | upcase }}
+              </a>
+          </div>
         </div>
         {% endif %}
-
       </div>
 
       <div class="Header-toggle Grid-cell u-flexExpandLeft">
