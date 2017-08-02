@@ -102,7 +102,7 @@ it:
           - type: button
             icon: read
             label: Read It
-            href: 'https://pianotriennale-ict.readthedocs.io/en'
+            href: 'https://pianotriennale-ict.readthedocs.io/en/latest'
             target_blank: true
     quotes:
       gentiloni:
