@@ -6,7 +6,7 @@ separator: descending
 title-alignment: left
 content-alignment: left
 ---
-In questa pagina si descrivono le modalità e le logiche del trattamento dei dati personali degli utenti (di seguito, anche gli Utenti) che consultano il sito: pianotriennale.italia.it (di seguito, anche il Sito).
+In questa pagina si descrivono le modalità e le logiche del trattamento dei dati personali degli utenti (di seguito, anche gli Utenti) che consultano il sito: https://pianotriennale-ict.italia.it/ (di seguito, anche il Sito).
 
 L'informativa è resa ai sensi dell'art. 13 del D. Lgs. n. 196/2003 - Codice in materia di protezione dei dati personali a tutti gli Utenti che, interagendo con il Sito, forniscono all'Agenzia per l'Italia Digitale (di seguito, anche AgID) i propri dati personali.
 
