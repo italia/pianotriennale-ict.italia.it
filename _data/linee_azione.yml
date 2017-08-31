@@ -31,7 +31,7 @@
   attori: [ agid, consip ]
   descrizione: |
     Individuazione dei requisiti minimi di qualificazione di una soluzione SaaS per la PA erogabile sul Cloud SPC. Definizione di una Circolare operativa AgID con direttive operative utili per i fornitori e le PA a qualificare come SaaS il proprio contesto applicativo.
-    Definizione da parte di AgID e Consip della procedura di procurement dei servizi SaaS utilizzabili nell''ambito del Cloud SPC.
+    Definizione da parte di AgID e Consip della procedura di procurement dei servizi SaaS utilizzabili nell'ambito del Cloud SPC.
     AgID specifica i requisiti tecnici ed organizzativi della piattaforma di MarketPlace dei servizi SaaS dell’ambiente Cloud SPC della PA.
     Nel caso in cui non sia possibile provvedere tramite Accordi o Contratti quadro Consip espleterà una gara nel rispetto del codice appalti.
   risultati: |
@@ -48,7 +48,7 @@
   entro: 12/2017
   attori: [ agid, consip ]
   descrizione: |
-    AgID definirà le regole e procedure di qualificazione dei Cloud Provider pubblici per consentire a Consip l''abilitazione dei nuovi CSP. I CSP già presenti sul MEPA o convenzioni o accordi quadro presentano la domanda di qualificazione entro 3 mesi dalla data di pubblicazione dei criteri di qualificazione.
+    AgID definirà le regole e procedure di qualificazione dei Cloud Provider pubblici per consentire a Consip l'abilitazione dei nuovi CSP. I CSP già presenti sul MEPA o convenzioni o accordi quadro presentano la domanda di qualificazione entro 3 mesi dalla data di pubblicazione dei criteri di qualificazione.
   risultati: |
     Circolare AgID “Criteri per la qualificazione dei Cloud Service Provider pubblici per la PA” (data di rilascio: ottobre 2017)
     Consip provvede ad abilitare l’accesso agli strumenti del mercato elettronico/convenzioni/accordi quadro ai soli Cloud Service Provider qualificati da AgID (data di rilascio: da ottobre 2017)
@@ -198,7 +198,7 @@
     Schede informative (data di rilascio: giugno 2017)
     Pagina web con elenco basi di dati di interesse nazionale (data di rilascio: luglio 2017)
   numero: 14
-  completata: true
+  completata: false
 
 - chapter: infrastrutture-immateriali
   subchapter: dati-della-pa
@@ -267,7 +267,7 @@
   descrizione: |
     Le PA interessante titolari delle basi di dati descritte nel capitolo provvedono a implementare dei canali di comunicazione con il Data & Analytics Framework, in modo da garantire l'aggiornamento dei dati nel DAF al momento della loro generazione. Le modalità di comunicazione saranno definite dall'owner del DAF e descritte in opportune linee guida.
   risultati: |
-    Linee guida per l''integrazione con il DAF (data di rilascio: da definire)
+    Linee guida per l'integrazione con il DAF (data di rilascio: da definire)
     Implementazione dei meccanismi di popolamento e messa in produzione dalle PA titolari dei dati (data di rilascio: da definire)
   numero: 20
   completata: false
@@ -295,7 +295,7 @@
   entro: 12/2017
   attori: [ agid, team-digitale ]
   descrizione: |
-    Aggiornamento delle linee guida per la valorizzazione del patrimonio informativo pubblico per la descrizione dei processi di gestione e condivisione dei dataset che rientrano all''interno del catalogo nazionale dei dati. 
+    Aggiornamento delle linee guida per la valorizzazione del patrimonio informativo pubblico per la descrizione dei processi di gestione e condivisione dei dataset che rientrano all'interno del catalogo nazionale dei dati. 
     Introduzione delle specifiche relative al rilascio di una piattaforma open source per la gestione del ciclo di vita degli open data delle PA (ad es. catalogazione, procedure di inserimento e aggiornamento dei dati, modalità di esposizione).
   risultati: |
     Linee guida (data di rilascio: luglio 2017)
@@ -313,7 +313,7 @@
   risultati: |
     Elenco delle basi di dati chiave (data di rilascio: giugno 2017)
   numero: 23
-  completata: true
+  completata: false
 
 - chapter: infrastrutture-immateriali
   subchapter: dati-della-pa
@@ -375,14 +375,14 @@
   risultati: |
     Paniere dinamico di dataset (data di rilascio: febbraio di ogni anno)
   numero: 27
-  completata: true
+  completata: false
 
 - chapter: infrastrutture-immateriali
   subchapter: dati-della-pa
   nome: Monitoraggio open data (Rapporto annuale per la valorizzazione del patrimonio informativo pubblico)
   attori: [ agid, dfp, tutte-le-pa ]
   descrizione: |
-    AgID utilizza il Paniere dinamico come base di riferimento per l’espletamento di azioni di monitoraggio previste nel contesto dell’Accordo di Partenariato Italia 2014-2020, dell’art. 52 del CAD e dell''implementazione della direttiva europea PSI 2.0 (Public Sector Information).
+    AgID utilizza il Paniere dinamico come base di riferimento per l’espletamento di azioni di monitoraggio previste nel contesto dell’Accordo di Partenariato Italia 2014-2020, dell’art. 52 del CAD e dell'implementazione della direttiva europea PSI 2.0 (Public Sector Information).
     In particolare, AgID definisce e mantiene aggiornato un indicatore di monitoraggio (che considera anche aspetti di qualità dei dati aperti) e predispone il Rapporto per la valorizzazione del patrimonio informativo pubblico (art. 52 del CAD).
     Entro il mese di gennaio di ogni anno, AgID sottopone il Rapporto al Dipartimento della Funzione Pubblica che lo approva entro il mese di febbraio. AgID pubblica il Rapporto in open data sul proprio sito istituzionale e su dati.gov.it.
   risultati: |
@@ -454,8 +454,8 @@
   attori: [ mef, mit, anac, agid, consip, regioni, anci ]
   descrizione: |
     MEF, MIT, ANAC, AgID, Consip, Regioni e ANCI, ognuno secondo i compiti e le competenze disposti dal Codice degli appalti provvedono a definire:
-    - le regole tecniche delle piattaforme telematiche di acquisto e negoziazione delle stazioni appaltanti, in conformità agli standard e alle best practice europee di riferimento e alle regole tecniche per il colloquio e l''interoperabilità dei dati tra i sistemi di e-procurement emanate da AgID;
-    - le infrastrutture necessarie al funzionamento del sistema ComproPA attraverso l''interconnessione delle piattaforme di e-procurement con le basi di dati e i sistemi nazionali coinvolti nel processo di public procurement.
+    - le regole tecniche delle piattaforme telematiche di acquisto e negoziazione delle stazioni appaltanti, in conformità agli standard e alle best practice europee di riferimento e alle regole tecniche per il colloquio e l'interoperabilità dei dati tra i sistemi di e-procurement emanate da AgID;
+    - le infrastrutture necessarie al funzionamento del sistema ComproPA attraverso l'interconnessione delle piattaforme di e-procurement con le basi di dati e i sistemi nazionali coinvolti nel processo di public procurement.
   risultati: |
     Definizione delle regole e disegno dell’infrastruttura (data di rilascio prima versione: settembre 2017)
   numero: 33
@@ -468,7 +468,7 @@
   attori: [ pa, mef, mit, anac, agid, consip, regioni, anci ]
   descrizione: |
     Le amministrazioni aderiscono al sistema ComproPA in via graduale nel rispetto delle scadenze previste dalle direttive europee sui contratti pubblici.
-    Le amministrazioni esercitano le proprie funzioni di stazione appaltante attraverso l''utilizzo di piattaforme telematiche di acquisto e negoziazione conformi a quanto definito dal disegno dell’architettura del sistema ComproPA, nei seguenti termini:
+    Le amministrazioni esercitano le proprie funzioni di stazione appaltante attraverso l'utilizzo di piattaforme telematiche di acquisto e negoziazione conformi a quanto definito dal disegno dell’architettura del sistema ComproPA, nei seguenti termini:
     - utilizzo di una piattaforma già in possesso dell’amministrazione;
     - utilizzo della piattaforma messa a disposizione da uno dei soggetti aggregatori individuati da ANAC tra cui Consip;
     - riuso del software delle piattaforme già in uso presso altre Amministrazioni pubbliche.
@@ -488,7 +488,7 @@
   descrizione: |
     Le Amministrazioni e in generale tutti i soggetti IVA adottano la fatturazione elettronica mediante l’integrazione con il Sistema di interscambio (SDI) in conformità con la normativa vigente.
     Il MEF, in accordo con l’Agenzia delle Entrate, l’AgID, le Regioni e l’ANCI, emana i provvedimenti di recepimento della Direttiva 2014/55/UE sulla fatturazione elettronica europea, a seguito dei quali si dovranno adeguare i sistemi per consentire l’emissione e la ricezione delle fatture elettroniche in formato europeo.
-    Le Amministrazioni fanno evolvere i propri sistemi per consentire l''integrazione della fattura elettronica con i processi contabili e l''automazione del ciclo dell''ordine in conformità alle regole tecniche per il colloquio e l''interoperabilità dei dati tra i sistemi di e-procurement emanate da AgID.
+    Le Amministrazioni fanno evolvere i propri sistemi per consentire l'integrazione della fattura elettronica con i processi contabili e l'automazione del ciclo dell'ordine in conformità alle regole tecniche per il colloquio e l'interoperabilità dei dati tra i sistemi di e-procurement emanate da AgID.
   risultati: |
     Recepimento Direttiva 2014/55/UE
     Adeguamento SDI
@@ -517,7 +517,7 @@
   entro: 12/2017
   attori: [ agid ]
   descrizione: |
-    Evoluzione del sistema SPID, anche in raccordo con il progetto CIE, attraverso le necessarie azioni di manutenzione, razionalizzazione, semplificazione degli strumenti di autenticazione. Integrazione con il Sistema pubblico di prevenzione delle frodi nel settore del credito a consumo - Furto d''Identità (SCIPAFI).
+    Evoluzione del sistema SPID, anche in raccordo con il progetto CIE, attraverso le necessarie azioni di manutenzione, razionalizzazione, semplificazione degli strumenti di autenticazione. Integrazione con il Sistema pubblico di prevenzione delle frodi nel settore del credito a consumo - Furto d'Identità (SCIPAFI).
   risultati: |
     Sistema SPID evoluto (data di rilascio: dicembre 2017)
   numero: 37
@@ -579,7 +579,7 @@
   attori: [ rgs, bdi, agid, pa ]
   descrizione: |
     Risulta conclusa la fase di definizione del dettaglio di tutti gli aspetti organizzativi, architetturali e funzionali del nuovo sistema ed è avviata la fase di realizzazione, che si concluderà entro giugno 2017. Al termine:
-    - si renderanno disponibili tutte le componenti infrastrutturali e applicative di SIOPE+ da sviluppare sulle piattaforme della Banca d''Italia e del MEF;
+    - si renderanno disponibili tutte le componenti infrastrutturali e applicative di SIOPE+ da sviluppare sulle piattaforme della Banca d'Italia e del MEF;
     - si coinvolgerà un gruppo pilota di banche ed enti, individuato di concerto con le associazioni degli stakeholders, che dovrà realizzare le modifiche procedurali necessarie per l’avvio della fase pilota.
     Nel mese di luglio 2017 si avvierà la fase pilota.
     Da gennaio 2018, si procederà ad allargare il perimetro dei soggetti coinvolti dal nuovo progetto rafforzando, se necessario, le componenti infrastrutturali al fine di gestire correttamente i nuovi volumi. In particolare saranno ultimate le componenti IT necessarie all’estensione della rilevazione agli incassi e alle operazioni delle PA centrali.
@@ -611,7 +611,7 @@
   nome: Realizzazione Sistema di gestione dei procedimenti amministrativi nazionali
   attori: [ agid, pa ]
   descrizione: |
-    Il Sistema di gestione dei procedimenti amministrativi nazionali è realizzato attraverso la definizione, a carico di AgID, delle regole di interoperabilità dei flussi documentali (documento, fascicolo, protocollo) che le Pubbliche amministrazioni implementano per aderire al sistema. Tra le regole di implementazione saranno definite le modalità di realizzazione di un sistema di verifica da parte del cittadino dell''autenticità del documento.
+    Il Sistema di gestione dei procedimenti amministrativi nazionali è realizzato attraverso la definizione, a carico di AgID, delle regole di interoperabilità dei flussi documentali (documento, fascicolo, protocollo) che le Pubbliche amministrazioni implementano per aderire al sistema. Tra le regole di implementazione saranno definite le modalità di realizzazione di un sistema di verifica da parte del cittadino dell'autenticità del documento.
   risultati: |
     Linee guida e regole di interoperabilità (data di rilascio: dicembre 2017)
     Implementazione delle API conformi alle regole di interoperabilità (data di rilascio: a partire da gennaio 2018)
@@ -767,7 +767,7 @@
   descrizione: |
     AgID redige le Regole tecniche per la sicurezza ICT delle Pubbliche amministrazioni che forniranno alle PA le indicazioni sulle misure da adottare.
     Il Dipartimento della Funzione Pubblica emana le Regole tecniche predisposte da AgID.
-    Le Pubbliche amministrazioni si adeguano alle Regole tecniche per la sicurezza ICT delle Pubbliche amministrazioni, attraverso la predisposizione e l''esecuzione di Piani di adeguamento alle regole tecniche emanate da AgID.
+    Le Pubbliche amministrazioni si adeguano alle Regole tecniche per la sicurezza ICT delle Pubbliche amministrazioni, attraverso la predisposizione e l'esecuzione di Piani di adeguamento alle regole tecniche emanate da AgID.
     In attesa dell’emanazione delle suddette Regole tecniche, tutte le Pubbliche amministrazioni sono in grado di adeguarsi alle “Misure Minime Di Sicurezza ICT per le Pubbliche amministrazioni” già pubblicate da AgID.
   risultati: |
     Regole tecniche per la sicurezza ICT delle Pubbliche amministrazioni (data di rilascio: giugno 2017)
@@ -829,11 +829,11 @@
   entro: 12/2017 
   attori: [ agid, team-digitale ]
   descrizione: |
-    Individuazione del modello di governance del DAF e delle PA che faranno parte della fase di sperimentazione. Definizione dell’architettura della piattaforma e della sua roadmap di evoluzione. Definizione dei casi d''uso per lo sviluppo di servizi per Pubbliche amministrazioni, cittadini e imprese. Questa attività è coordinata con il Garante della privacy. 
+    Individuazione del modello di governance del DAF e delle PA che faranno parte della fase di sperimentazione. Definizione dell’architettura della piattaforma e della sua roadmap di evoluzione. Definizione dei casi d'uso per lo sviluppo di servizi per Pubbliche amministrazioni, cittadini e imprese. Questa attività è coordinata con il Garante della privacy. 
     Realizzazione dell’infrastruttura tecnologica, coerentemente con il piano di sviluppo della fase di sperimentazione del DAF, che implementa tutte le componenti necessarie per il funzionamento della Piattaforma.
   risultati: |
     Piano di sviluppo del DAF (data di rilascio: giugno 2017).
-    Cluster big data e Test delle componenti e dei casi d''uso (data di rilascio: dicembre 2017).
+    Cluster big data e Test delle componenti e dei casi d'uso (data di rilascio: dicembre 2017).
   numero: 61
   completata: false
 
@@ -843,7 +843,7 @@
   fine: 12/2017
   attori: [ pa, agid, team-digitale ]
   descrizione: |
-    Definizione delle basi di dati da inserire nel progetto in fase sperimentale e messa in esercizio delle procedure di estrazione e ingestione. Definizione dei rapporti tra il gestore del DAF e le PA aderenti all''iniziativa.
+    Definizione delle basi di dati da inserire nel progetto in fase sperimentale e messa in esercizio delle procedure di estrazione e ingestione. Definizione dei rapporti tra il gestore del DAF e le PA aderenti all'iniziativa.
   risultati: |
     Regolazione dei rapporti con le PA.
     Definizione standard operativi nel rispetto delle norme sulla privacy.
@@ -858,8 +858,8 @@
   inizio: 01/2018
   attori: [ team-digitale, agid, pa ]
   descrizione: |
-    Il Team digitale e AgID predisporranno le procedure atte al subentro del futuro owner del DAF che gestirà l''operatività e l''evoluzione del progetto.
-    L''owner del DAF curerà le interazioni con le PA per definire piani di inclusione delle relative basi di dati e casi d''uso. Le PA di volta in volta coinvolte definiranno le modalità di ingestione dei dati e utilizzo del DAF consone alle proprie attività.
+    Il Team digitale e AgID predisporranno le procedure atte al subentro del futuro owner del DAF che gestirà l'operatività e l'evoluzione del progetto.
+    L'owner del DAF curerà le interazioni con le PA per definire piani di inclusione delle relative basi di dati e casi d'uso. Le PA di volta in volta coinvolte definiranno le modalità di ingestione dei dati e utilizzo del DAF consone alle proprie attività.
   risultati: |
     Piano di subentro.
     Operatività corrente.
