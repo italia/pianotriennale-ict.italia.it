@@ -198,7 +198,7 @@
     Schede informative (data di rilascio: giugno 2017)
     Pagina web con elenco basi di dati di interesse nazionale (data di rilascio: luglio 2017)
   numero: 14
-  completata: true
+  completata: false
 
 - chapter: infrastrutture-immateriali
   subchapter: dati-della-pa
@@ -313,7 +313,7 @@
   risultati: |
     Elenco delle basi di dati chiave (data di rilascio: giugno 2017)
   numero: 23
-  completata: true
+  completata: false
 
 - chapter: infrastrutture-immateriali
   subchapter: dati-della-pa
@@ -375,7 +375,7 @@
   risultati: |
     Paniere dinamico di dataset (data di rilascio: febbraio di ogni anno)
   numero: 27
-  completata: true
+  completata: false
 
 - chapter: infrastrutture-immateriali
   subchapter: dati-della-pa
