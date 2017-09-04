@@ -9,15 +9,15 @@ environment:
   NOKOGIRI_USE_SYSTEM_LIBRARIES: true # speeds up installation of html-proofer
 compile:
   override:
-    - gulp build
+    - bundle exec jekyll build
 test:
   post:
       - bundle exec htmlproofer ./_site  --check-html --allow-hash-href --empty-alt-ignore --only-4xx --disable-external
-deployment:
-  production:
-    branch: master
-    commands:
-      - gulp publish-production
+#deployment:
+#  production:
+#    branch: master
+#    commands:
+#      - gulp publish-production
 general:
   artifacts:
     - "_site"
