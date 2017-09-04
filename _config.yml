@@ -38,6 +38,8 @@ exclude:
   - package.json
   - gulpfile.js
   - node_modules
+  - circle.yml
+  - yarn.lock
 
 # Custom vars
 theme_color: "#0066cc"
