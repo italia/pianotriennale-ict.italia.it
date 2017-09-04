@@ -3,7 +3,7 @@ const gutil = require('gulp-util');
 const fs = require('fs');
 const os = require('os');
 const path = require('path');
-const configFile = path.join(os.homedir(), ".designersitalia_site.json");
+const configFile = path.join(os.homedir(), ".pianotriennale_site.json");
 
 var config = {};
 if (fs.existsSync(configFile)) {
