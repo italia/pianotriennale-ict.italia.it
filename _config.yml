@@ -24,7 +24,7 @@ piwik: 3
 google_analytics: 'UA-96140462-4'
 # Build settings
 markdown: kramdown
-gems:
+plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-redirect-from
