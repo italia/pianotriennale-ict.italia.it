@@ -24,6 +24,23 @@ it:
     in_collaboration_with: In collaborazione con
     footer_note: Cover image courtesy of [Matteo Vistocco](https://unsplash.com/@biscuits94)
     footer_public_domain: Donazione al Pubblico Dominio
+    actions_progress: in corso
+    actions_from: 'da '
+    actions_to: ' a '
+    actions_by: 'entro '
+    months:
+      '01': gennaio
+      '02': febbraio
+      '03': marzo
+      '04': aprile
+      '05': maggio
+      '06': giugno
+      '07': luglio
+      '08': agosto
+      '09': settembre
+      '10': ottobre
+      '11': novembre
+      '12': dicembre
     lang_on_site: sito in italiano
     navigation_network_menu_label: Menu di navigazione del network
     navigation_menu_label: Menu di navigazione
@@ -64,7 +81,6 @@ it:
     home_tools_title: Strumenti
     home_tools_subtitle: Ci appoggiamo a strumenti già esistenti e molto conosciuti per fornirti le informazioni, il codice e il supporto di cui hai bisogno
     home_header_button_text: vai al piano
-    home_header_button_text_en: go to plan
     home_pt_title: Cos'è il Piano Triennale
     home_pt_description: |
       È il documento di indirizzo strategico ed economico destinato a tutta la Pubblica Amministrazione che accompagna la trasformazione digitale del Paese.
@@ -166,16 +182,42 @@ it:
     partecipa: Partecipa
     forum_intro: "Chiunque può partecipare al forum di discussione e contribuire alla diffusione e all'implementazione' del Piano Triennale."
     temi:
-      servizi-digitali: Servizi digitali
-      ecosistemi: Ecosistemi
-      interoperabilita: Interoperabilità
-      piattaforme-abilitanti: Piattaforme abilitanti
-      dati: Dati
-      rete: Connettività
-      cloud: Data center e cloud
-      sicurezza: Sicurezza
-      big-data: Data & Analytics Framework
-      gestione-del-cambiamento: Gestione del cambiamento
+      servizi-digitali: 
+        name: Servizi digitali
+        ref: servizi-digitali
+      ecosistemi: 
+        name: Ecosistemi
+        ref: ecosistemi
+      interoperabilita: 
+        name: Interoperabilità
+        ref: interoperabilita
+      piattaforme-abilitanti:
+        name: Piattaforme abilitanti
+        ref: piattaforme-abilitanti
+      dati: 
+        name: Dati
+        ref: dati
+      rete: 
+        name: Connettività
+        ref: connettivita
+      cloud: 
+        name: Data center e cloud
+        ref: data-center-e-cloud
+      sicurezza: 
+        name: Sicurezza
+        ref: sicurezza
+      big-data: 
+        name: Data & Analytics Framework
+        ref: data-center-e-cloud
+      gestione-del-cambiamento: 
+        name: Gestione del cambiamento
+        ref: gestione-del-cambiamento
+      razionalizzazione-della-spesa:
+        name: Razionalizzazione della spesa
+        ref: razionalizzazione-della-spesa
+      principi-per-lo-sviluppo-di-progetti-digitali:
+        name: Principi per lo sviluppo di progetti digitali
+        ref: principi-per-lo-sviluppo-di-progetti-digitali
 
 en:
   code: eng
@@ -200,6 +242,23 @@ en:
     footer_link_legal_notes: legal notices
     footer_link_credits: credits
     footer_title: ''
+    actions_progress: in progress
+    actions_from: 'from '
+    actions_to: ' to '
+    actions_by: 'by '
+    months:
+      '01': january
+      '02': february
+      '03': march
+      '04': april
+      '05': may
+      '06': june
+      '07': july
+      '08': august
+      '09': september
+      '10': october
+      '11': november
+      '12': december
     in_collaboration_with: In collaboration with
     footer_note: Cover image courtesy of [Matteo Vistocco](https://unsplash.com/@biscuits94)
     footer_public_domain: Donation to the Public Domain
@@ -243,7 +302,6 @@ en:
     home_tools_title: Tools
     home_tools_subtitle: We rely on existing and well-known tools to provide you with the information, coding and support you need.
     home_header_button_text: go to plan
-    home_header_button_text_en: go to plan
     home_pt_title: What is the Three-Year Plan?
     home_pt_description: |
       It is a strategic and economic policy document for all Public Administrations that oversees the digital transformation of the country.
@@ -345,13 +403,39 @@ en:
     partecipa: Participate
     forum_intro: "Anyone can participate in the discussion forum and contribute to the dissemination and implementation of the Three-Year Plan."
     temi:
-      servizi-digitali: Digital Services
-      ecosistemi: Ecosystems
-      interoperabilita: Interoperability
-      piattaforme-abilitanti: Enabling platforms
-      dati: Data
-      rete: Connectivity
-      cloud: Data Centres and Cloud
-      sicurezza: Security
-      big-data: Data & Analytics Framework
-      gestione-del-cambiamento: Change Management
+      servizi-digitali: 
+        name: Digital Services
+        ref: servizi-digitali
+      ecosistemi:
+        name: Ecosystems
+        ref: ecosistemi
+      interoperabilita: 
+        name: Interoperability
+        ref: interoperabilita
+      piattaforme-abilitanti: 
+        name: Enabling platforms
+        ref: piattaforme-abilitanti
+      dati:
+        name: Data
+        ref: dati
+      rete: 
+        name: Connectivity
+        ref: connettivita
+      cloud: 
+        name: Data Centres and Cloud
+        ref: data-center-e-cloud
+      sicurezza: 
+        name: Security
+        ref: sicurezza
+      big-data: 
+        name: Data & Analytics Framework
+        ref: daf
+      gestione-del-cambiamento:
+        name: Change Management
+        ref: gestione-del-cambiamento
+      razionalizzazione-della-spesa:
+        name: Rationalisation of expenditure
+        ref: razionalizzazione-della-spesa
+      principi-per-lo-sviluppo-di-progetti-digitali:
+        name: Principles for the development of digital projects
+        ref: principi-per-lo-sviluppo-di-progetti-digitali

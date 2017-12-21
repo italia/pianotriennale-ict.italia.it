@@ -35,17 +35,18 @@ layout: default
         {% include modello.html %}
 
         <p>{{ t.forum_intro }}</p>
-        {% include button.html label = 'goto_forum' url = site.data.ext_links.piano-triennale-index.forum icon = 'forum' target_blank = true %}
+        {% assign buttonUrl = site.data.ext_links[page.lang].piano-triennale-index.forum %}
+        {% include button.html label = 'goto_forum' url = buttonUrl  icon = 'forum' target_blank = true %}
 
         <h4>{{ t.capitoli_title }}</h4>
          <div class="Grid Grid--withGutter">
            {% for chapter in page.chapters %}
            <div class="Grid-cell u-size1of2">
-             {% assign rtdUrl = site.data.ext_links[chapter].rtd %}
+             {% assign rtdUrl = site.data.ext_links[page.lang][chapter].rtd %}
              {% include button.html  chapter_lang = 'it' label = 'goto_chapter' label_extra = chapter url = rtdUrl target_blank = true classes = 'Chapter' %}
            </div>
            <div class="Grid-cell u-size1of2">
-             {% assign rtdUrl = site.data.ext_links[chapter].rtd | replace: "/it/", "/en/" %}
+             {% assign rtdUrl = site.data.ext_links[page.lang][chapter].rtd | replace: "/it/", "/en/" %}
              {% include button.html chapter_lang = 'en' label = 'goto_chapter_en' label_extra = chapter url = rtdUrl target_blank = true classes = 'Chapter' %}
           </div>
           {% endfor %}

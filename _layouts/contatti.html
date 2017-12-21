@@ -32,7 +32,8 @@ layout: default
       <div class="Prose u-margin-bottom-xxl">
         <h4>Vuoi proporre idee o dare un feedback sul piano triennale?</h4>
         <p>Per questo puoi andare sul forum apposito: puoi partecipare alle discussioni esistenti o proporre la tua.</p>
-        {% include button.html label = 'goto_forum' url = site.data.ext_links.piano-triennale-index.forum target_blank = true %}
+        {% assign buttonUrl = site.data.ext_links[page.lang].piano-triennale-index.forum %}
+        {% include button.html label = 'goto_forum' url = buttonUrl target_blank = true %}
       </div>
       <div class="u-margin-bottom-xxl">
          <div class="u-margin-top-xxl u-margin-bottom-xs u-inlineBlock">

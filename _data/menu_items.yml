@@ -36,3 +36,42 @@ it:
     url: /faq/
   - title: Contatti
     url: /contatti/
+
+en:
+  - title: The Plan
+    url: /en/piano/
+  - title: The chapters
+    url: '#'
+    liClass: 'Megamenu-item Megamenu-item--vert'
+    subtitle: The pillars of digital transformation
+    subitems:
+    - title: Digital Services
+      url: /en/servizi-digitali/
+    - title: Ecosystems
+      url: /en/ecosistemi/
+    - title: Interoperability
+      url: /en/interoperabilita/
+    - title: Enabling platforms
+      url: /en/piattaforme-abilitanti/
+    - title: Data
+      url: /en/dati/
+    - title: Connectivity
+      url: /en/connettivita/
+    - title: Data Centres and Cloud
+      url: /en/data-center-e-cloud/
+    - title: Security
+      url: /en/sicurezza/
+    - title: Data & Analytics Framework
+      url: /en/daf/
+    - title: Change Management
+      url: /en/gestione-del-cambiamento/
+    - title: Rationalisation of expenditure
+      url: /en/razionalizzazione-della-spesa/
+    - title: Principles for the development of digital projects
+      url: /en/principi-per-lo-sviluppo-di-progetti-digitali/
+  - title: The actions
+    url: /en/azioni/
+  - title: FAQs
+    url: /en/faq/
+  - title: Contact us
+    url: /en/contatti/

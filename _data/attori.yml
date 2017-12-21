@@ -1,93 +1,188 @@
-﻿team-digitale:
-  nome: Team digitale
-  tipo: amministrazioni_centrali
-agid:
-  nome: AgID
-  tipo: amministrazioni_centrali
-consip:
-  nome: Consip
-  tipo: amministrazioni_centrali
-governo:
-  nome: Governo
-  tipo: amministrazioni_centrali
-pa:
-  nome: PA
-  tipo: amministrazioni_centrali_e_territoriali
-tutte-le-pa:
-  nome: tutte le PA
-  tipo: amministrazioni_centrali_e_territoriali
-pa-wifi:
-  nome: Tutte le Pubbliche Amministrazioni che gestiscono le reti Wi-Fi pubbliche
-  tipo: amministrazioni_centrali_e_territoriali
-comuni: 
-  nome: Comuni
-  tipo: amministrazioni_territoriali
-pa-basi-dati:
-  nome: Pubbliche Amministrazioni titolari di basi dati di interesse nazionale
-  tipo: amministrazioni_centrali_e_territoriali
-interno:
-  nome: Ministero dell'Interno
-  tipo: amministrazioni_centrali
-mit:
-  nome: Ministero delle Infrastrutture e dei Trasporti
-  tipo: amministrazioni_centrali
-mef:
-  nome: Ministero dell'Economia e delle Finanze
-  tipo: amministrazioni_centrali
-anac:
-  nome: Autorità Nazionale Anticorruzione
-  tipo: amministrazioni_centrali
-ade:
-  nome: Agenzia delle Entrate
-  tipo: amministrazioni_centrali
-mise:
-  nome: Ministero dello Sviluppo Economico 
-  tipo: amministrazioni_centrali
-regioni:
-  nome: Regioni
-  tipo: amministrazioni_territoriali
-unioncamere:
-  nome: Unioncamere
-  tipo: amministrazioni_centrali
-rgs:
-  nome: Ragioneria Generale dello Stato
-  tipo: amministrazioni_centrali
-bdi:
-  nome: Banca d'Italia
-  tipo: amministrazioni_centrali
-bdt-pa:
-  nome: Big Data Team della Pubblica Amministrazione
-  tipo: amministrazioni_centrali
-garante-privacy:
-  nome: Garante Privacy
-  tipo: amministrazioni_centrali
-daf:
-  nome: DAF
-  tipo: amministrazioni_centrali
-dfp:
-  nome: Dipartimento della Funzione Pubblica
-  tipo: amministrazioni_centrali
-sogei:
-  nome: Sogei
-  tipo: amministrazioni_centrali
-anci:
-  nome: Associazione Nazionale Comuni Italiani (ANCI)
-  tipo: amministrazioni_territoriali
-acs:
-  nome: Archivio Centrale dello Stato
-  tipo: amministrazioni_centrali
-salute:
-  nome: Ministero della Salute
-  tipo: amministrazioni_centrali
-asl:
-  nome: ASL
-  tipo: amministrazioni_territoriali
-istat:
-  nome: ISTAT
-  tipo: amministrazioni_centrali
-miur:
-  nome: Ministero dell'Istruzione, dell'Università e della Ricerca
-  tipo: amministrazioni_centrali
-altri-organismi-tecnici:
-  nome: Altri organismi tecnici
-  tipo: amministrazioni_centrali_e_territoriali
+﻿it:
+  team-digitale:
+    nome: Team digitale
+    tipo: amministrazioni_centrali
+  agid:
+    nome: AgID
+    tipo: amministrazioni_centrali
+  consip:
+    nome: Consip
+    tipo: amministrazioni_centrali
+  governo:
+    nome: Governo
+    tipo: amministrazioni_centrali
+  pa:
+    nome: PA
+    tipo: amministrazioni_centrali_e_territoriali
+  tutte-le-pa:
+    nome: tutte le PA
+    tipo: amministrazioni_centrali_e_territoriali
+  pa-wifi:
+    nome: Tutte le Pubbliche Amministrazioni che gestiscono le reti Wi-Fi pubbliche
+    tipo: amministrazioni_centrali_e_territoriali
+  comuni: 
+    nome: Comuni
+    tipo: amministrazioni_territoriali
+  pa-basi-dati:
+    nome: Pubbliche Amministrazioni titolari di basi dati di interesse nazionale
+    tipo: amministrazioni_centrali_e_territoriali
+  interno:
+    nome: Ministero dell'Interno
+    tipo: amministrazioni_centrali
+  mit:
+    nome: Ministero delle Infrastrutture e dei Trasporti
+    tipo: amministrazioni_centrali
+  mef:
+    nome: Ministero dell'Economia e delle Finanze
+    tipo: amministrazioni_centrali
+  anac:
+    nome: Autorità Nazionale Anticorruzione
+    tipo: amministrazioni_centrali
+  ade:
+    nome: Agenzia delle Entrate
+    tipo: amministrazioni_centrali
+  mise:
+    nome: Ministero dello Sviluppo Economico 
+    tipo: amministrazioni_centrali
+  regioni:
+    nome: Regioni
+    tipo: amministrazioni_territoriali
+  unioncamere:
+    nome: Unioncamere
+    tipo: amministrazioni_centrali
+  rgs:
+    nome: Ragioneria Generale dello Stato
+    tipo: amministrazioni_centrali
+  bdi:
+    nome: Banca d'Italia
+    tipo: amministrazioni_centrali
+  bdt-pa:
+    nome: Big Data Team della Pubblica Amministrazione
+    tipo: amministrazioni_centrali
+  garante-privacy:
+    nome: Garante Privacy
+    tipo: amministrazioni_centrali
+  daf:
+    nome: DAF
+    tipo: amministrazioni_centrali
+  dfp:
+    nome: Dipartimento della Funzione Pubblica
+    tipo: amministrazioni_centrali
+  sogei:
+    nome: Sogei
+    tipo: amministrazioni_centrali
+  anci:
+    nome: Associazione Nazionale Comuni Italiani (ANCI)
+    tipo: amministrazioni_territoriali
+  acs:
+    nome: Archivio Centrale dello Stato
+    tipo: amministrazioni_centrali
+  salute:
+    nome: Ministero della Salute
+    tipo: amministrazioni_centrali
+  asl:
+    nome: ASL
+    tipo: amministrazioni_territoriali
+  istat:
+    nome: ISTAT
+    tipo: amministrazioni_centrali
+  miur:
+    nome: Ministero dell'Istruzione, dell'Università e della Ricerca
+    tipo: amministrazioni_centrali
+  altri-organismi-tecnici:
+    nome: Altri organismi tecnici
+    tipo: amministrazioni_centrali_e_territoriali
+en:
+  team-digitale:
+    nome: Digital Team
+    tipo: amministrazioni_centrali
+  agid:
+    nome: AgID
+    tipo: amministrazioni_centrali
+  consip:
+    nome: Consip
+    tipo: amministrazioni_centrali
+  governo:
+    nome: Government
+    tipo: amministrazioni_centrali
+  pa:
+    nome: PA
+    tipo: amministrazioni_centrali_e_territoriali
+  tutte-le-pa:
+    nome: all of the PAs
+    tipo: amministrazioni_centrali_e_territoriali
+  pa-wifi:
+    nome: All Public Administrations that manage public Wi-Fi networks
+    tipo: amministrazioni_centrali_e_territoriali
+  comuni: 
+    nome: Municipalities
+    tipo: amministrazioni_territoriali
+  pa-basi-dati:
+    nome: Public Administrations holding databases of national interest
+    tipo: amministrazioni_centrali_e_territoriali
+  interno:
+    nome: Ministry of the Interior
+    tipo: amministrazioni_centrali
+  mit:
+    nome: Ministry of Infrastructure and Transport
+    tipo: amministrazioni_centrali
+  mef:
+    nome: Ministry of Economics and Finance
+    tipo: amministrazioni_centrali
+  anac:
+    nome: The National Anti-corruption Authority
+    tipo: amministrazioni_centrali
+  ade:
+    nome: Inland Revenue Authority
+    tipo: amministrazioni_centrali
+  mise:
+    nome: Ministry of Economic Development
+    tipo: amministrazioni_centrali
+  regioni:
+    nome: Regions
+    tipo: amministrazioni_territoriali
+  unioncamere:
+    nome: Unioncamere (Italian Union of Chambers of Commerce, Industry, Handicraft and Agriculture)
+    tipo: amministrazioni_centrali
+  rgs:
+    nome: General State Accounting
+    tipo: amministrazioni_centrali
+  bdi:
+    nome: Banca d'Italia (Bank of Italy)
+    tipo: amministrazioni_centrali
+  bdt-pa:
+    nome: Big Data Team of the Public Administration
+    tipo: amministrazioni_centrali
+  garante-privacy:
+    nome: Data Protection Authority
+    tipo: amministrazioni_centrali
+  daf:
+    nome: DAF
+    tipo: amministrazioni_centrali
+  dfp:
+    nome: The Department of Public Services
+    tipo: amministrazioni_centrali
+  sogei:
+    nome: Sogei
+    tipo: amministrazioni_centrali
+  anci:
+    nome: National Association of Italian Municipalities
+    tipo: amministrazioni_territoriali
+  acs:
+    nome: Central State Archive
+    tipo: amministrazioni_centrali
+  salute:
+    nome: Ministry of Health
+    tipo: amministrazioni_centrali
+  asl:
+    nome: Local Health Authority (ASL)
+    tipo: amministrazioni_territoriali
+  istat:
+    nome: National Institute of Statistics (ISTAT)
+    tipo: amministrazioni_centrali
+  miur:
+    nome: Ministry of Education, University and Research
+    tipo: amministrazioni_centrali
+  altri-organismi-tecnici:
+    nome: Other technical bodies
+    tipo: amministrazioni_centrali_e_territoriali
