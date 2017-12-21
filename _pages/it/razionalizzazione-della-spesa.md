@@ -6,6 +6,7 @@ separator: curved
 title-alignment: center
 cta-buttons: true
 chapter: razionalizzazione-della-spesa
+ref: razionalizzazione-della-spesa
 ---
 Uno degli obiettivi principali del Piano è quello di guidare la razionalizzazione della spesa ICT della Pubblica amministrazione e il suo riorientamento a livello nazionale nei termini definiti dalla Legge di stabilità 2016.
 

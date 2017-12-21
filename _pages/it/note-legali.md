@@ -5,6 +5,7 @@ layout: page
 separator: descending
 title-alignment: left
 content-alignment: left
+ref: note-legali
 ---
 Il sito contiene informazioni sul Piano Triennale per l'informatica nella PA ed è gestito dall'Agenzia per l'Italia Digitale.
 

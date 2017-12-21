@@ -8,6 +8,7 @@ cta-buttons: true
 chapter: intangible-infrastructures
 subchapter: pa-data
 linee-azione: true
+ref: dati
 ---
 Data from the Public Administrations, together with the mechanisms and platforms created to provide services to citizens, are one of the major digital assets of the PA. To best exploit the potential, it is necessary to overcome the &quot;silo logic&quot; in favour of a systemic vision.
 

@@ -5,6 +5,7 @@ layout: page
 separator: descending
 title-alignment: left
 content-alignment: left
+ref: note-legali
 ---
 This site contains information on the Three-Year Plan for IT in the PA and is managed by the Agency for Digital Italy.
 

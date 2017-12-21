@@ -6,6 +6,7 @@ separator: curved
 title-alignment: center
 cta-buttons: true
 chapter: principi-per-lo-sviluppo-di-progetti-digitali
+ref: principi-per-lo-sviluppo-di-progetti-digitali
 ---
 I principi per lo sviluppo di progetti digitali sono ritenuti fondamentali per la realizzazione dei progetti contenuti nel Piano Triennale e, in quanto tali, raccomandati.
 

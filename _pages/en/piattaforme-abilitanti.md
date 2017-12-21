@@ -8,6 +8,7 @@ cta-buttons: true
 chapter: intangible-infrastructures
 subchapter: enabling-platforms
 linee-azione: true
+ref: piattaforme-abilitanti
 ---
 The enabling platforms are solutions that offer key, transversal and reusable functionality in individual projects, by standardizing their delivery methods.
 

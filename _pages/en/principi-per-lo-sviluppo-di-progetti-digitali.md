@@ -6,6 +6,7 @@ separator: curved
 title-alignment: center
 cta-buttons: true
 chapter: principles-for-the-development-of-digital-projects
+ref: principi-per-lo-sviluppo-di-progetti-digitali
 ---
 The principles for the development of digital projects are considered fundamental for the realisation of the projects contained in the Three-Year Plan and, as such, are recommended.
 

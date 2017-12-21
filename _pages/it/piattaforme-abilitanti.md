@@ -8,6 +8,7 @@ cta-buttons: true
 chapter: infrastrutture-immateriali
 subchapter: piattaforme-abilitanti
 linee-azione: true
+ref: piattaforme-abilitanti
 ---
 Le piattaforme abilitanti sono soluzioni che offrono funzionalità fondamentali, trasversali e riusabili nei singoli progetti, uniformandone le modalità di erogazione.
 

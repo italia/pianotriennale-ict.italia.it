@@ -7,6 +7,7 @@ title-alignment: center
 cta-buttons: true
 chapter: interoperability-model
 linee-azione: true
+ref: interoperabilita
 ---
 The definition of an interoperability model is a cornerstone of the entire Public Information System: it ensures the interaction and the exchange of information between the PAs without the need for specific integrations. In this way, it is possible to ensure full cooperation between Public Administrations and private subjects.
 

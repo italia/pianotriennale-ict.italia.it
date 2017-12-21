@@ -5,6 +5,7 @@ layout: page
 separator: descending
 title-alignment: left
 content-alignment: left
+ref: privacy-policy
 ---
 This page describes the methods and the logic of the processing the personal data of those utilizing the site (hereinafter, also Users): https://pianotriennale-ict.italia.it/ (hereinafter also the Website).
 

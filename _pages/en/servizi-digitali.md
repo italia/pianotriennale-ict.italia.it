@@ -7,6 +7,7 @@ title-alignment: center
 cta-buttons: true
 chapter: tools-for-the-generation-and-dissemination-of-digital-services
 linee-azione: true
+ref: servizi-digitali
 ---
 The Plan promotes the development of public digital services with a range of strategies. In particular, this will be through the dissemination of enabling platforms, the production of dedicated guidelines and development kits, the creation of a community of developers, designers and digital service managers that can collaborate and participate in the growth of the public administration.
 

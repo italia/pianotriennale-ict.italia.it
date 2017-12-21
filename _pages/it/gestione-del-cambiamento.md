@@ -7,6 +7,7 @@ title-alignment: center
 cta-buttons: true
 chapter: gestione-del-cambiamento
 linee-azione: true
+ref: gestione-del-cambiamento
 ---
 Per raggiungere gli obiettivi definiti dal Piano Triennale è indispensabile il coordinamento di una pluralità di soggetti diversi nel ruolo, nella funzione e nell’organizzazione ma tutti chiamati a partecipare alla realizzazione della strategia nazionale.
 

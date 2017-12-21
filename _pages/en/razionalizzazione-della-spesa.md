@@ -6,6 +6,7 @@ separator: curved
 title-alignment: center
 cta-buttons: true
 chapter: rationalisation-of-expenditure
+ref: razionalizzazione-della-spesa
 ---
 One of the main objectives of the Three-Year Plan is to guide the rationalisation of Public Administration spending on ICT and its reorientation at national level as defined, in the first instance, by the Stability Law of 2016.
 

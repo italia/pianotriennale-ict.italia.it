@@ -7,6 +7,7 @@ title-alignment: center
 cta-buttons: true
 chapter: strumenti-per-la-generazione-e-la-diffusione-di-servizi-digitali
 linee-azione: true
+ref: servizi-digitali
 ---
 Il Piano promuove lo sviluppo di servizi digitali pubblici con diverse strategie. In particolare tramite la diffusione delle piattaforme abilitanti, la produzione di linee guida e kit di sviluppo dedicati, la creazione di una community di sviluppatori, designer e gestori di servizi digitali che possa collaborare e partecipare alla crescita della Pubblica amministrazione.
 

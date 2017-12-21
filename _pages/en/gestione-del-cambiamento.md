@@ -7,6 +7,7 @@ title-alignment: center
 cta-buttons: true
 chapter: change-management
 linee-azione: true
+ref: gestione-del-cambiamento
 ---
 To achieve the objectives defined by the Three-Year Plan, it is essential to coordinate a variety of different subjects in the role, in the function and organisation, with all called upon to participate in the implementation of the national strategy.
 

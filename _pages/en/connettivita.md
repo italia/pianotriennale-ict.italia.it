@@ -8,6 +8,7 @@ cta-buttons: true
 chapter: physical-infrastructures
 subchapter: connectivity
 linee-azione: true
+ref: connettivita
 ---
 The PA must initiate processes for upgrading their connectivity in order to provide services related to both internal administrative procedures and public services to citizens and businesses. The strategy for the realisation of the Plan in terms of connectivity must necessarily connect with the [National Ultra-Broadband Plan] (http://bandaultralarga.italia.it/).
 

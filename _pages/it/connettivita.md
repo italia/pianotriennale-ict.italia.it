@@ -8,6 +8,7 @@ cta-buttons: true
 chapter: infrastrutture-fisiche
 subchapter: connettivita
 linee-azione: true
+ref: connettivita
 ---
 Le PA devono avviare processi di adeguamento della propria connettività per poter erogare i servizi relativi sia ai processi amministrativi interni che ai servizi pubblici verso cittadini e imprese. La strategia per la realizzazione del Piano in tema di connettività deve raccordarsi necessariamente col [Piano Nazionale della Banda Ultralarga](http://bandaultralarga.italia.it/).
 

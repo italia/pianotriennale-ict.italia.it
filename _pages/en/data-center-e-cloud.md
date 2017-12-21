@@ -8,6 +8,7 @@ cta-buttons: true
 chapter: physical-infrastructures
 subchapter: data-centres-and-cloud
 linee-azione: true
+ref: data-center-e-cloud
 ---
 The PA cloud is part of the national physical infrastructure, together with the communication networks, the data centres, the disaster recovery and business continuity systems, and the equipment necessary for monitoring and security.
 
