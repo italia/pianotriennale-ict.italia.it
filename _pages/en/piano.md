@@ -5,6 +5,7 @@ lang: en
 separator: ascending
 title-alignment: left
 chapters: [ three-year-plan, strategic-model, data-centre-and-cloud, connectivity, pa-data, enabling-platforms, -interoperability-model, ecosystems, tools-for-the-generation-and-diffusion-of-digital services, security, data-analytics-framework, change-management, rationalisation-of-expenditure, instructions-for-the-pa, principles-for-the-development-of-digital-projects ]
+ref: piano
 ---
 The targeted use of new technologies puts citizens and businesses at the centre of the action, becoming the lever of economic and social transformation that renders digital innovation a public investment for a structural reform of the country.
 
