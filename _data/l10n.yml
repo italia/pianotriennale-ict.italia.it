@@ -13,6 +13,7 @@ it:
     header_link_forum: Forum
     header_link_docs: Docs
     header_link_github: Github
+    header_title: Trasformazione Digitale
     footer_address: Indirizzo
     footer_address_sub: ''
     footer_contacts: Contatti
@@ -234,6 +235,7 @@ en:
     header_link_forum: Forum
     header_link_docs: Docs
     header_link_github: Github
+    header_title: Digital Transformation
     footer_address: Address
     footer_address_sub: ''
     footer_contacts: Contact us
@@ -313,19 +315,19 @@ en:
     home_pt_howto_title: Consult the Plan
     home_pt_howto:
       - text: |
-         The pages of this site summarise the contents of the Three-Year Plan, divided into [chapters] (/plan) and [actions] (/actions).
+         The pages of this site summarise the contents of the Three-Year Plan, divided into [chapters](/en/piano) and [actions](/en/azioni).
          The complete document is available online in a browsable version optimised for mobile devices, or in PDF format.
         links:
           - type: button
             icon: read
             label: Consultable version
-            href: 'https://pianotriennale-ict.readthedocs.io/'
+            href: 'https://pianotriennale-ict.readthedocs.io/en/latest'
             target_blank: true
           - icon: download-alt
             label: download the pdf
             href: '/assets/pdf/Piano_Triennale_per_l_informatica_nella_Pubblica_Amministrazione.pdf'
             target_blank: true
-      - text: Do you need further information? Consult the [FAQs] (/faq), participate in the dedicated discussion forum or propose a change to the text on [GitHub](https://github.com/italia/pianotriennale-ict-doc).
+      - text: Do you need further information? Consult the [FAQs](/en/faq), participate in the dedicated discussion forum or propose a change to the text on [GitHub](https://github.com/italia/pianotriennale-ict-doc).
         links:
           - type: button
             icon: forum
