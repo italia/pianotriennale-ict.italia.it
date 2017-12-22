@@ -20,4 +20,4 @@ Tra gli obiettivi principali:
 - fornire linee guida da seguire e toolkit utili allo sviluppo di applicazioni e servizi con adeguati livelli di design, user experience, sicurezza e usabilità;
 - favorire lo sviluppo di prodotti e servizi digitali basati sull’utilizzo di basi di dati, API e informazioni rese disponibili dalle PA;
 - condividere indicazioni e componenti software che permettano di ridurre i costi di implementazione di nuovi prodotti digitali, favorendo il riuso e l’interoperabilità;
-- supportare le amministrazioni nella diffusione e nella divulgazione dei servizi e degli strumenti necessari alla comunicazione del percorso di attuazione del Piano Triennale;
+- supportare le amministrazioni nella diffusione e nella divulgazione dei servizi e degli strumenti necessari alla comunicazione del percorso di attuazione del Piano Triennale.
