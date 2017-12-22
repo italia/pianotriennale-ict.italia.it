@@ -11,10 +11,10 @@ This page describes the methods and the logic of the processing the personal dat
 
 The information is provided pursuant to Article 13 of Legislative Decree no. 196/2003 - Personal Data Protection Code for all Users who, in interacting with the Site, provide the Agency for Digital Italy (hereinafter, also AgID) their personal data.
 
-The validity of the information contained in this page is limited to the Website only and does not extend to other Websites that may be viewed by hyperlink.
+The validity of the information contained in this page is limited to the Website only and does not extend to other websites that may be reached via hyperlinks.
 
 ### The data controller and processors
-For the data collected through the website, the Data Controller  is AgID - Agenzia per l&#39;Italia Digitale (Agency for Digital Italy), located in Via Liszt 21 - 00144 Rome, with email address [info@agid.gov.it](mailto:info@agid.gov.it) to which, therefore, interested parties can apply for the exercising of the rights under Article 7 of the Privacy Code.
+For the data collected through the website, the Data Controller  is AgID - Agenzia per l&#39;Italia Digitale (Agency for Digital Italy), located in Via Liszt 21 - 00144 Rome, with email address [info@agid.gov.it](mailto:info@agid.gov.it) to which, therefore, interested parties can apply for exercising their rights under Article 7 of the Privacy Code.
 The data will be processed by the Controller&#39;s staff, upon appointment of the interested employees and collaborators and the data processors. Any third parties to whom the data could be communicated for the execution of processing operations connected with the purposes specified in this notice, will be previously designated by the Data Controller as Data Processors pursuant to Article 29 of the Data Protection Code. The data will not be disseminated.
 
 ### Data processing site

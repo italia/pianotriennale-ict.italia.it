@@ -17,6 +17,6 @@ L’Agenzia per l’Italia digitale, che ha il compito di guidare le attività r
   - gli aspetti tecnici, finalizzato alla verifica della realizzazione delle azioni pianificate, attraverso set di indicatori di realizzazione e di risultato, questi ultimi da collegare ove possibile agli indicatori DESI;
   - gli aspetti economici, legato alla raccolta sistematica dei dati di spesa ICT delle amministrazioni, per verificarne l’andamento ai fini della razionalizzazione e reindirizzo verso la parte destinata agli investimenti.
 
-Per raggiungere gli obiettivi delineati, Agid:
+Per raggiungere gli obiettivi delineati, AgID:
 - accompagna le PA selezionate per svolgere il ruolo di aggregatore nella realizzazione delle attività organizzative e strumentali.
 - promuovere l’adempimento da parte delle amministrazioni dell’obbligo di identificazione dell’ufficio responsabile della transizione al digitale di cui all’articolo 17 del CAD.

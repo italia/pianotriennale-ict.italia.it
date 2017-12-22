@@ -32,4 +32,4 @@ I documenti presenti in questo sito per lo scaricamento (download), salvo divers
 ### Accesso a siti esterni collegati
 I collegamenti a siti esterni, indicati nel presente sito, sono forniti come semplice servizio agli utenti, con esclusione di ogni responsabilità sulla correttezza e sulla completezza dell'insieme dei collegamenti indicati.
 
-L'indicazione dei collegamenti non implica da parte dell'Agenzia per l'Italia Digitale non comporta alcun tipo di approvazione o condivisione di responsabilità in relazione alla legittimità, alla completezza e alla correttezza delle informazioni contenute nei siti indicati.
+L'indicazione dei collegamenti non implica da parte dell'Agenzia per l'Italia Digitale alcun tipo di approvazione o condivisione di responsabilità in relazione alla legittimità, alla completezza e alla correttezza delle informazioni contenute nei siti indicati.
