@@ -48,7 +48,7 @@
         <div class="Header-social">
           <p>{{ t.follow_us | capitalize }}</p>
           <ul class="Header-socialIcons">
-            {% assign socials = site.data.social | where: 'header', true %}
+            {% assign socials = site.data.social[page.lang] | where: 'header', true %}
             {% for social in socials %}
             <li><a href="{{ social.link }}" title="{{ social.name }}" target="_blank"><span class="Icon-{{ social.name }}"></span>
                 <span class="u-hiddenVisually">{{ social.name | capitalize }}</span></a></li>

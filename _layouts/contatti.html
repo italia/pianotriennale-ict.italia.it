@@ -30,8 +30,7 @@ layout: default
   <div class="Grid">
     <div class="Grid-cell u-sizeFull u-md-size6of12 u-lg-size6of12">
       <div class="Prose u-margin-bottom-xxl">
-        <h4>Vuoi proporre idee o dare un feedback sul piano triennale?</h4>
-        <p>Per questo puoi andare sul forum apposito: puoi partecipare alle discussioni esistenti o proporre la tua.</p>
+        {{content}}
         {% assign buttonUrl = site.data.ext_links[page.lang].piano-triennale-index.forum %}
         {% include button.html label = 'goto_forum' url = buttonUrl target_blank = true %}
       </div>
@@ -42,13 +41,11 @@ layout: default
            </a>
          </div>
          <div class="Prose">
-           <p>
-             L’Agenzia per l’Italia Digitale (AgID) è l’agenzia di governo che coordina l’attuazione dell’Agenda Digitale Italiana, promuove la diffusione dell'utilizzo delle tecnologie ICT favorendo l'innovazione e la crescita economica sociale e culturale del Paese.
-           </p>
+           {{site.data.contacts[page.lang].owner.desc | markdownify}}
          </div>
          <div>
            <ul class="Footer-socialIcons u-margin-r-bottom">
-           {% assign socials = site.data.social | where: 'owner', 'agid' %}
+           {% assign socials = site.data.social[page.lang] | where: 'owner', 'agid' %}
            {% for social in socials %}
              <li>
                <a href="{{ social.link }}" title="{{ social.name }}" target="_blank"><span class="Icon-{{ social.name }}"></span>
@@ -56,9 +53,9 @@ layout: default
              </li>
            {% endfor %}
            </ul>
-           <a href="{{ site.owner_link }}" title="{{ site.owner_full | escape }}" class="u-textWeight-600 u-linkClean u-color-teal-70">
+           <a href="{{site.data.contacts[page.lang].owner.site}}" title="{{ site.owner_full | escape }}" class="u-textWeight-600 u-linkClean u-color-teal-70">
            <span class="Icon Icon-arrow-right u-margin-left-xs u-alignMiddle"></span>
-           <span class="u-textClean">www.agid.gov.it</span>
+           <span class="u-textClean">{{site.data.contacts[page.lang].owner.site}}</span>
            </a>
          </div>
       </div>
@@ -76,13 +73,11 @@ layout: default
            </p>
          </div>
          <div class="Prose">
-           <p class="u-padding-top-xxs">
-           Il Team per la Trasformazione Digitale nasce per avviare la costruzione del “sistema operativo” del Paese, una serie di componenti fondamentali sui quali costruire servizi più semplici ed efficaci per i cittadini, la Pubblica amministrazione e le imprese, attraverso prodotti digitali innovativi. La <a href="http://presidenza.governo.it/AmministrazioneTrasparente/DisposizioniGenerali/AttiGenerali/DpcmOrganismiCollegiali/DPCM_20160916_CommStraord_AgendaDigitale.pdf" title="DPCM struttura commissariale Agenda Digitale" target="_blank">struttura commissariale</a> è stata istituita il 16 settembre 2016 e ha durata fino al 16 settembre 2018.
-             </p>
+           {{site.data.contacts[page.lang].partner.desc | markdownify}}
          </div>
          <div>
             <ul class="Footer-socialIcons u-margin-r-bottom">
-            {% assign socials = site.data.social | where: 'owner', 'teamdigitale' %}
+            {% assign socials = site.data.social[page.lang] | where: 'owner', 'teamdigitale' %}
             {% for social in socials %}
                <li>
                   <a href="{{ social.link }}" title="{{ social.name }}" target="_blank"><span class="Icon-{{ social.name }}"></span>
@@ -90,9 +85,9 @@ layout: default
                </li>
             {% endfor %}
             </ul>
-            <a href="{{ site.partner_link }}" title="{{ site.partner_full | escape }}" class="u-textWeight-600 u-linkClean u-color-teal-70">
+            <a href="{{site.data.contacts[page.lang].partner.site}}" title="{{ site.partner_full | escape }}" class="u-textWeight-600 u-linkClean u-color-teal-70">
                <span class="Icon Icon-arrow-right u-margin-left-xs u-alignMiddle"></span>
-               <span class="u-textClean">teamdigitale.governo.it</span>
+               <span class="u-textClean">{{site.data.contacts[page.lang].partner.site}}</span>
             </a>
          </div>
       </div>
