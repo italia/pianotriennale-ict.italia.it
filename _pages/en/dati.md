@@ -16,6 +16,6 @@ The Plan has identified three areas of action for exploiting public information 
 
 Databases constitute the backbone of public information assets, and must be made available to all PAs, facilitating the exchange of data and avoiding the need to ask citizens or enterprises for the same information over and over again.
 
-Open data are related to process where public data managed by the PAs are made open and free for reuse and redistribution, the only exception being data subject to specific restrictions. 
+Open data require a process where public data managed by the PAs are made open and free for reuse and redistribution, the only exception being data subject to specific restrictions.
 
-Controlled vocabularies and data models are useful in facilitating data exchanges between PAs via codes and shared ontologies.
+Controlled vocabularies and data models are useful in facilitating data exchanges among PAs via codes and shared ontologies.
