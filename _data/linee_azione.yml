@@ -923,8 +923,8 @@ it:
 ### end gestione-del-cambiamento
 ### start data-center-e-cloud 
 en:
-  - chapter: physical-infrastructures
-    subchapter: data-centres-and-cloud
+  - chapter: infrastrutture-fisiche
+    subchapter: data-center-e-cloud
     nome: Implementation of the indications set forth in the AgID 2/2016 Circular
     attori: [ pa ]
     descrizione: |
@@ -934,8 +934,8 @@ en:
     numero: 1
     completata: false
 
-  - chapter: physical-infrastructures
-    subchapter: data-centres-and-cloud
+  - chapter: infrastrutture-fisiche
+    subchapter: data-center-e-cloud
     nome: ICT Asset Census of the PA
     inizio: 06/2017
     fine: 12/2018
@@ -947,8 +947,8 @@ en:
     numero: 2
     completata: false
 
-  - chapter: physical-infrastructures
-    subchapter: data-centres-and-cloud
+  - chapter: infrastrutture-fisiche
+    subchapter: data-center-e-cloud
     nome: Qualifying the SaaS Solutions available on the SPC Cloud and the procurement procedures
     entro: 03/2018
     attori: [ agid, consip ]
@@ -965,8 +965,8 @@ en:
     numero: 3
     completata: false
 
-  - chapter: physical-infrastructures
-    subchapter: data-centres-and-cloud
+  - chapter: infrastrutture-fisiche
+    subchapter: data-center-e-cloud
     nome: Qualifying of Cloud Service Providers for the PA
     entro: 12/2017
     attori: [ agid, consip ]
@@ -978,8 +978,7 @@ en:
     numero: 4
     completata: false
 
-  - chapter: physical-infrastructuree
-    subchapter: data-centres-and-cloud
+  - chapter: infrastrutture-fisiche
     nome: Evolution of the PA Cloud
     entro: 06/2018
     attori: [ agid ]
@@ -992,8 +991,8 @@ en:
     numero: 5
     completata: false
 
-  - chapter: physical-infrastructures
-    subchapter: data-centres-and-cloud
+  - chapter: infrastrutture-fisiche
+    subchapter: data-center-e-cloud
     nome: Functional actions to rationalise the PA&#39;s data centres
     inizio: 05/2017
     fine: 12/2018
@@ -1015,8 +1014,8 @@ en:
     numero: 6
     completata: false
 
-  - chapter: physical-infrastructures
-    subchapter: data-centres-and-cloud
+  - chapter: infrastrutture-fisiche
+    subchapter: data-center-e-cloud
     nome: Plans to rationalise the ICT Assets of the PA
     inizio: 01/2018
     fine: 04/2018
@@ -1030,8 +1029,8 @@ en:
     numero: 7
     completata: false
 
-  - chapter: physical-infrastructures
-    subchapter: data-centres-and-cloud
+  - chapter: infrastrutture-fisiche
+    subchapter: data-center-e-cloud
     nome: Establishment of Strategic National Hubs
     inizio: 07/2018
     attori: [ pa ]
@@ -1042,8 +1041,8 @@ en:
     numero: 8
     completata: false
 
-  - chapter: physical-infrastructures
-    subchapter: data-centres-and-cloud
+  - chapter: infrastrutture-fisiche
+    subchapter: data-center-e-cloud
     nome: "Group A: Data centre adaptation"
     inizio: 04/2018
     attori: [ pa ]
@@ -1054,8 +1053,8 @@ en:
     numero: 9
     completata: false
 
-  - chapter: physical-infrastructures
-    subchapter: data-centres-and-cloud
+  - chapter: infrastrutture-fisiche
+    subchapter: data-center-e-cloud
     nome: "Group B: Data centre migration"
     inizio: 02/2018
     attori: [ pa ]
@@ -1069,8 +1068,8 @@ en:
   ### end data-center-e-cloud
   ### start connettivita
 
-  - chapter: physical-infrastructures
-    subchapter: connectivity
+  - chapter: infrastrutture-fisiche
+    subchapter: connettivita
     nome: Publication of and adaptation to the Guidelines for the implementation of public Wi-Fi networks
     inizio: 01/2018
     attori: [ agid, pa-wifi ]
@@ -1083,8 +1082,8 @@ en:
     numero: 11
     completata: false
 
-  - chapter: physical-infrastructures
-    subchapter: connectivity
+  - chapter: infrastrutture-fisiche
+    subchapter: connettivita
     nome: Support for using the SPC Connectivity Agreement
     inizio: 09/2018
     attori: [ agid, consip ]
@@ -1097,8 +1096,8 @@ en:
   ### end connettivita
   ### start dati-della-pa
 
-  - chapter: intangible-infrastructures
-    subchapter: pa-data
+  - chapter: infrastrutture-immateriali
+    subchapter: dati-della-pa
     nome: Use of the IPA and INI-PEC registers
     entro: 06/2018
     attori: [ pa ]
@@ -1109,8 +1108,8 @@ en:
     numero: 13
     completata: false
 
-  - chapter: intangible-infrastructures
-    subchapter: pa-data
+  - chapter: infrastrutture-immateriali
+    subchapter: dati-della-pa
     nome: Publication of a list of databases of national interest
     entro: 07/2017
     attori: [ agid, pa ]
@@ -1123,8 +1122,8 @@ en:
     numero: 14
     completata: true
 
-  - chapter: intangible-infrastructures
-    subchapter: pa-data
+  - chapter: infrastrutture-immateriali
+    subchapter: dati-della-pa
     nome: Integration between the national repertoire of territorial data and the dati.gov.it catalogue.
     entro: 12/2017
     attori: [ agid ]
@@ -1134,8 +1133,8 @@ en:
     numero: 15
     completata: false
 
-  - chapter: intangible-infrastructures
-    subchapter: pa-data
+  - chapter: infrastrutture-immateriali
+    subchapter: dati-della-pa
     nome: Input into the national repertoire of territorial data
     attori: [ pa ]
     descrizione: |
@@ -1145,8 +1144,8 @@ en:
     numero: 16
     completata: false
 
-  - chapter: intangible-infrastructures
-    subchapter: pa-data
+  - chapter: infrastrutture-immateriali
+    subchapter: dati-della-pa
     nome: Creation of a Services Catalogue (servizi.gov.it) and its population
     attori: [ agid, pa ]
     descrizione: |
@@ -1160,8 +1159,8 @@ en:
     numero: 17
     completata: false
 
-  - chapter: intangible-infrastructures
-    subchapter: pa-data
+  - chapter: infrastrutture-immateriali
+    subchapter: dati-della-pa
     nome: Completion of the ANPR population
     entro: 12/2018
     attori: [ comuni, interno, sogei ]
@@ -1170,8 +1169,8 @@ en:
     numero: 18
     completata: false
 
-  - chapter: intangible-infrastructures
-    subchapter: pa-data
+  - chapter: infrastrutture-immateriali
+    subchapter: dati-della-pa
     nome: Adaptation of databases of a national interest to the Interoperability Model
     inizio: 01/2018
     attori: [ pa-base-dati ]
@@ -1182,8 +1181,8 @@ en:
     numero: 19
     completata: false
 
-  - chapter: intangible-infrastructures
-    subchapter: pa-data
+  - chapter: infrastrutture-immateriali
+    subchapter: dati-della-pa
     nome: Integration of databases with the DAF
     inizio: 01/2018 
     attori: [ pa, daf ]
@@ -1195,8 +1194,8 @@ en:
     numero: 20
     completata: false
 
-  - chapter: intangible-infrastructures
-    subchapter: pa-data
+  - chapter: infrastrutture-immateriali
+    subchapter: dati-della-pa
     nome: BDOE (Economic Operators Database)
     entro: 07/2018
     attori: [ mit, agid, pa-database ]
@@ -1212,8 +1211,8 @@ en:
     numero: 21
     completata: false
 
-  - chapter: intangible-infrastructures
-    subchapter: pa-data
+  - chapter: infrastrutture-immateriali
+    subchapter: dati-della-pa
     nome: Upgrading the guidelines for enhancing the public information assets and setting standards for managing and using open data.
     entro: 12/2017
     attori: [ agid, digital-team ]
@@ -1226,8 +1225,8 @@ en:
     numero: 22
     completata: false
 
-  - chapter: intangible-infrastructures
-    subchapter: pa-data
+  - chapter: infrastrutture-immateriali
+    subchapter: dati-della-pa
     nome: Identifying key databases
     entro: 06/2017
     attori: [ agid, digital-team ]
@@ -1238,8 +1237,8 @@ en:
     numero: 23
     completata: true
 
-  - chapter: intangible-infrastructures
-    subchapter: pa-data
+  - chapter: infrastrutture-immateriali
+    subchapter: dati-della-pa
     nome: Evolution of dati.gov.it
     entro: 12/2017
     attori: [ agid, digital-team ]
@@ -1259,8 +1258,8 @@ en:
     numero: 24
     completata: false
 
-  - chapter: intangible-infrastructures
-    subchapter: pa-data
+  - chapter: infrastrutture-immateriali
+    subchapter: dati-della-pa
     nome: Population of Dati.gov.it
     attori: [ pa ]
     descrizione: |
@@ -1270,8 +1269,8 @@ en:
     numero: 25
     completata: false
 
-  - chapter: intangible-infrastructures
-    subchapter: pa-data
+  - chapter: infrastrutture-immateriali
+    subchapter: dati-della-pa
     nome: Provision of metadata describing open databases and data according to the DCAT-AP_IT profile
     entro: 12/2017
     attori: [ pa ]
@@ -1282,8 +1281,8 @@ en:
     numero: 26
     completata: false
 
-  - chapter: intangible-infrastructures
-    subchapter: pa-data
+  - chapter: infrastrutture-immateriali
+    subchapter: dati-della-pa
     nome: Definition and approval of the dynamic dataset basket (National Agenda for the enhancement of Public Information Assets)
     inizio: 04/2017
     attori: [agid, team-digitale, tutte-le-pa ]
@@ -1300,8 +1299,8 @@ en:
     numero: 27
     completata: true
 
-  - chapter: intangible-infrastructures
-    subchapter: pa-data
+  - chapter: infrastrutture-immateriali
+    subchapter: dati-della-pa
     nome: Open Data monitoring (Annual Report on the enhancement of Public Information Assets)
     attori: [ agid, dfp, all-the-pas ]
     descrizione: |
@@ -1313,8 +1312,8 @@ en:
     numero: 28
     completata: false
 
-  - chapter: intangible-infrastructures
-    subchapter: pa-data
+  - chapter: infrastrutture-immateriali
+    subchapter: dati-della-pa
     nome: Implementation of the Register of Vocabularies and Data Models
     inizio: 05/2017
     attori: [ agid, pa ]
@@ -1330,8 +1329,8 @@ en:
     numero: 29
     completata: false
 
-  - chapter: intangible-infrastructures
-    subchapter: pa-data
+  - chapter: infrastrutture-immateriali
+    subchapter: dati-della-pa
     nome: Implementation of the Register of Controlled Vocabularies and Data Models
     inizio: 01/2018
     attori: [ pa ]
@@ -1345,8 +1344,8 @@ en:
   ### end dati-della-pa
   ### start piattaforme-abilitanti
 
-  - chapter: intangible-infrastructures
-    subchapter: enabling-platforms
+  - chapter: infrastrutture-immateriali
+    subchapter: piattaforme-abilitanti
     nome: Integration with the SPID
     entro: 03/2018
     attori: [ agid, pa ]
@@ -1357,8 +1356,8 @@ en:
     numero: 31
     completata: false
       
-  - chapter: intangible-infrastructures
-    subchapter: enabling-platforms
+  - chapter: infrastrutture-immateriali
+    subchapter: piattaforme-abilitanti
     nome: Definition of PagoPA adhesion and activation plans
     entro: 12/2017
     attori: [ agid, pa ]
@@ -1370,8 +1369,8 @@ en:
     numero: 32
     completata: false
 
-  - chapter: intangible-infrastructures
-    subchapter: enabling-platforms
+  - chapter: infrastrutture-immateriali
+    subchapter: piattaforme-abilitanti
     nome: Design of the ComproPA system architecture
     entro: 09/2017
     attori: [ mef, mit, anac, agid, consip, regioni, anci ]
@@ -1384,8 +1383,8 @@ en:
     numero: 33
     completata: false
       
-  - chapter: intangible-infrastructures
-    subchapter: enabling-platforms
+  - chapter: infrastrutture-immateriali
+    subchapter: piattaforme-abilitanti
     nome: Commissioning of the ComproPA system
     entro: 10/2018 
     attori: [ pa, mef, mit, anac, agid, consip, regioni, anci ]
@@ -1403,8 +1402,8 @@ en:
     numero: 34
     completata: false
       
-  - chapter: intangible-infrastructures
-    subchapter: enabling-platforms
+  - chapter: infrastrutture-immateriali
+    subchapter: piattaforme-abilitanti
     nome: Electronic billing
     entro: 11/2018 
     attori: [ mef, ade, agid, regioni, anci ]
@@ -1420,8 +1419,8 @@ en:
     numero: 35
     completata: false
       
-  - chapter: intangible-infrastructures
-    subchapter: enabling-platforms
+  - chapter: infrastrutture-immateriali
+    subchapter: piattaforme-abilitanti
     nome: CIE service completion
     entro: 12/2018 
     attori: [ interno, comuni ]
@@ -1434,8 +1433,8 @@ en:
     numero: 36
     completata: false
       
-  - chapter: intangible-infrastructures
-    subchapter: enabling-platforms
+  - chapter: infrastrutture-immateriali
+    subchapter: piattaforme-abilitanti
     nome: SPID project
     entro: 12/2017
     attori: [ agid ]
@@ -1446,8 +1445,8 @@ en:
     numero: 37
     completata: false
 
-  - chapter: intangible-infrastructures
-    subchapter: enabling-platforms
+  - chapter: infrastrutture-immateriali
+    subchapter: piattaforme-abilitanti
     nome: Monitoring the PAs&#39; SPID Implementation
     entro: 03/2018
     attori: [ agid, pa ]
@@ -1458,8 +1457,8 @@ en:
     numero: 38
     completata: false
 
-  - chapter: intangible-infrastructures
-    subchapter: enabling-platforms
+  - chapter: infrastrutture-immateriali
+    subchapter: piattaforme-abilitanti
     nome: The PagoPA project
     attori: [ agid ]
     descrizione: |
@@ -1469,8 +1468,8 @@ en:
     numero: 39
     completata: false
 
-  - chapter: intangible-infrastructures
-    subchapter: enabling-platforms
+  - chapter: infrastrutture-immateriali
+    subchapter: piattaforme-abilitanti
     nome: Courtesy notification and alert system
     inizio: 04/2017 
     attori: [ agid, pa ]
@@ -1483,8 +1482,8 @@ en:
     numero: 40
     completata: false
 
-  - chapter: intangible-infrastructures
-    subchapter: enabling-platforms
+  - chapter: infrastrutture-immateriali
+    subchapter: piattaforme-abilitanti
     nome: National standardisation of business services
     entro: 12/2017
     attori: [ agid, dfp, mise, regioni, unioncamere ]
@@ -1496,8 +1495,8 @@ en:
     numero: 41
     completata: false
 
-  - chapter: intangible-infrastructures
-    subchapter: enabling-platforms
+  - chapter: infrastrutture-immateriali
+    subchapter: piattaforme-abilitanti
     nome: Evolution of the SIOPE system (SIOPE+)
     attori: [ rgs, bdi, agid, pa ]
     descrizione: |
@@ -1515,8 +1514,8 @@ en:
     numero: 42
     completata: false
 
-  - chapter: intangible-infrastructures
-    subchapter: enabling-platforms
+  - chapter: infrastrutture-immateriali
+    subchapter: piattaforme-abilitanti
     nome: Evolution of the NoiPA system
     attori: [ mef, agid, pa ]
     descrizione: |
@@ -1529,8 +1528,8 @@ en:
     numero: 43
     completata: false
 
-  - chapter: intangible-infrastructures
-    subchapter: enabling-platforms
+  - chapter: infrastrutture-immateriali
+    subchapter: piattaforme-abilitanti
     nome: Implementation of the management system for national administrative procedures
     attori: [ agid, pa ]
     descrizione: |
@@ -1541,8 +1540,8 @@ en:
     numero: 44
     completata: false
 
-  - chapter: intangible-infrastructures
-    subchapter: enabling-platforms
+  - chapter: infrastrutture-immateriali
+    subchapter: piattaforme-abilitanti
     nome: Creation of Conservation Hubs 
     inizio: 05/2017
     attori: [ pa, acs ]
@@ -1553,8 +1552,8 @@ en:
     numero: 45
     completata: false
 
-  - chapter: intangible-infrastructures
-    subchapter: enabling-platforms
+  - chapter: infrastrutture-immateriali
+    subchapter: piattaforme-abilitanti
     nome: ANPR
     entro: 12/2018
     attori: [ interno, comuni ]
@@ -1569,7 +1568,7 @@ en:
   ### end piattaforme-abilitanti
   ### start modello-di-interoperabilita
 
-  - chapter: interoperability-model
+  - chapter: modello-di-interoperabilita
     nome: New Guidelines for the Interoperability Model
     entro: 12/2017
     attori: [ agid ]
@@ -1582,7 +1581,7 @@ en:
     numero: 47
     completata: false
       
-  - chapter: interoperability-model
+  - chapter: modello-di-interoperabilita
     nome: Adoption of the Model by the PAs
     inizio: 05/2017 
     attori: [ agid, pa ]
@@ -1592,7 +1591,7 @@ en:
     numero: 48
     completata: false
 
-  - chapter: interoperability-model
+  - chapter: modello-di-interoperabilita
     nome: API Catalogue
     inizio: 06/2017 
     attori: [ agid ]
@@ -1604,7 +1603,7 @@ en:
     numero: 49
     completata: false
 
-  - chapter: interoperability-model
+  - chapter: modello-di-interoperabilita
     nome: API catalogue population
     inizio: 01/2018 
     attori: [ pa ]
@@ -1617,7 +1616,7 @@ en:
   ### end modello-di-interoperabilita
   ### start ecosistemi
 
-  - chapter: ecosystems
+  - chapter: ecosistemi
     nome: Ecosystem Working Groups
     inizio: 05/2017 
     attori: [ pa, agid ]
@@ -1628,7 +1627,7 @@ en:
     numero: 51
     completata: false
       
-  - chapter: ecosystems
+  - chapter: ecosistemi
     nome: Evolution of the Electronic Healthcare Record (FSE)
     attori: [ salute, mef, agid, regioni, asl ]
     descrizione: |
@@ -1646,7 +1645,7 @@ en:
   ### end ecosistemi
   ### start strumenti-per-la-generazione-e-la-diffusione-di-servizi-digitali
 
-  - chapter: tools-for-the-generation-and-dissemination-of-digital-services
+  - chapter: strumenti-per-la-generazione-e-la-diffusione-di-servizi-digitali
     nome: Community
     attori: [ agid, digital-team ]
     descrizione: |
@@ -1658,7 +1657,7 @@ en:
     numero: 53
     completata: false
       
-  - chapter: tools-for-the-generation-and-dissemination-of-digital-services
+  - chapter: strumenti-per-la-generazione-e-la-diffusione-di-servizi-digitali
     nome: Shared tools and templates for designing and delivering services
     attori: [ agid, digital-team ]
     descrizione: |
@@ -1674,7 +1673,7 @@ en:
   ### end strumenti-per-la-generazione-e-la-diffusione-di-servizi-digitali
   ### start sicurezza
 
-  - chapter: security
+  - chapter: sicurezza
     nome: CERT-PA
     attori: [ agid ]
     descrizione: |
@@ -1683,7 +1682,7 @@ en:
     numero: 55
     completata: false
       
-  - chapter: security
+  - chapter: sicurezza
     nome: Publication and adaptation to the Technical Rules for the ICT Security of the Public Administrations
     entro: 09/2017 
     attori: [ agid, dfp, pa ]
@@ -1698,7 +1697,7 @@ en:
     numero: 56
     completata: false
 
-  - chapter: security
+  - chapter: sicurezza
     nome: Security architecture for critical services
     entro: 09/2017
     attori: [ agid, pa ]
@@ -1711,7 +1710,7 @@ en:
     numero: 57
     completata: false
       
-  - chapter: security
+  - chapter: sicurezza
     nome: Continuous monitoring
     attori: [ pa ]
     descrizione: |
@@ -1722,7 +1721,7 @@ en:
     numero: 58
     completata: false
 
-  - chapter: security
+  - chapter: sicurezza
     nome: Reporting IT incidents to CERT-PA
     attori: [ pa ]
     descrizione: |
@@ -1732,7 +1731,7 @@ en:
     numero: 59
     completata: false
 
-  - chapter: security
+  - chapter: sicurezza
     nome: Reorganisation of the "gov.it" domain
     attori: [ agid, pa ]
     descrizione: |
@@ -1804,7 +1803,7 @@ en:
   ### end data-analytics-framework
   ### start gestione-del-cambiamento
 
-  - chapter: change-management
+  - chapter: gestione-del-cambiamento
     nome: Monitoring system
     attori: [ pa, agid, digital-team ]
     descrizione: |
@@ -1821,7 +1820,7 @@ en:
     numero: 65
     completata: false
       
-  - chapter: change-management
+  - chapter: gestione-del-cambiamento
     nome: Communication of the Three-Year Plan
     attori: [ agid, digital-team ]
     descrizione: |
@@ -1831,7 +1830,7 @@ en:
     numero: 66
     completata: false
 
-  - chapter: change-management
+  - chapter: gestione-del-cambiamento
     nome: Identification of the main profiles and promotional actions for the creation of digital skills in the PA
     inizio: 09/2017
     attori: [ dfp, istat, miur, agid, altri-organismi-tecnici ]

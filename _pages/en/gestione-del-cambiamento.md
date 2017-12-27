@@ -5,7 +5,7 @@ layout: page
 separator: curved
 title-alignment: center
 cta-buttons: true
-chapter: change-management
+chapter: gestione-del-cambiamento
 linee-azione: true
 ref: gestione-del-cambiamento
 ---

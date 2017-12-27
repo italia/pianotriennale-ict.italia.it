@@ -5,7 +5,7 @@ layout: page
 separator: curved
 title-alignment: center
 cta-buttons: true
-chapter: interoperability-model
+chapter: modello-di-interoperabilita
 linee-azione: true
 ref: interoperabilita
 ---

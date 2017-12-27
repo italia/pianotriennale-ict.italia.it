@@ -5,7 +5,7 @@ layout: page
 separator: curved
 title-alignment: center
 cta-buttons: true
-chapter: tools-for-the-generation-and-dissemination-of-digital-services
+chapter: strumenti-per-la-generazione-e-la-diffusione-di-servizi-digitali
 linee-azione: true
 ref: servizi-digitali
 ---

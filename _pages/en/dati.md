@@ -5,8 +5,8 @@ layout: page
 separator: curved
 title-alignment: center
 cta-buttons: true
-chapter: intangible-infrastructures
-subchapter: pa-data
+chapter: infrastrutture-immateriali
+subchapter: dati-della-pa
 linee-azione: true
 ref: dati
 ---

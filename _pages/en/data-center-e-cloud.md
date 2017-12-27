@@ -5,8 +5,8 @@ layout: page
 separator: curved
 title-alignment: center
 cta-buttons: true
-chapter: physical-infrastructures
-subchapter: data-centres-and-cloud
+chapter: infrastrutture-fisiche
+subchapter: data-center-e-cloud
 linee-azione: true
 ref: data-center-e-cloud
 ---

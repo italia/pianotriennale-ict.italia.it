@@ -76,35 +76,35 @@ en:
     forum: 'https://forum.italia.it/c/piano-triennale'
     rtd: 'https://pianotriennale-ict.readthedocs.io/en/latest/doc/02_modello-strategico-di-evoluzione-dell-ict-della-pa.html'
     pdf: '/assets/pdf/cap_2-Modello_strategico_di_evoluzione_del_sistema_informativo_della_Pubblica_amministrazione .pdf'
-  data-centres-and-cloud:
+  data-center-e-cloud:
     forum: 'https://forum.italia.it/c/piano-triennale/data-center-e-cloud'
-    rtd: 'https://pianotriennale-ict.readthedocs.io/en/latest/doc/03_infrastrutture-fisiche.html#data-center-e-cloud'
+    rtd: 'https://pianotriennale-ict.readthedocs.io/en/latest/doc/03_infrastrutture-fisiche.html#data-centres-and-cloud'
     pdf: '/assets/pdf/cap_3-Infrastrutture_fisiche.pdf'
-  connectivity:
+  connettivita:
     forum: 'https://forum.italia.it/c/piano-triennale/connettivita'
-    rtd: 'https://pianotriennale-ict.readthedocs.io/en/latest/doc/03_infrastrutture-fisiche.html#connettivita'
+    rtd: 'https://pianotriennale-ict.readthedocs.io/en/latest/doc/03_infrastrutture-fisiche.html#connectivity'
     pdf: '/assets/pdf/cap_3-Infrastrutture_fisiche.pdf'
-  pa-data:
+  dati-della-pa:
     forum: 'https://forum.italia.it/c/piano-triennale/dati'
-    rtd: 'https://pianotriennale-ict.readthedocs.io/en/latest/doc/04_infrastrutture-immateriali.html#dati-della-pubblica-amministrazione'
+    rtd: 'https://pianotriennale-ict.readthedocs.io/en/latest/doc/04_infrastrutture-immateriali.html#public-administration-data'
     pdf: '/assets/pdf/cap_4-Infrastrutture immateriali.pdf'
-  enabling-platforms:
+  piattaforme-abilitanti:
     forum: 'https://forum.italia.it/c/piano-triennale/piattaforme-abilitanti'
-    rtd: 'https://pianotriennale-ict.readthedocs.io/en/latest/doc/04_infrastrutture-immateriali.html#piattaforme-abilitanti'
+    rtd: 'https://pianotriennale-ict.readthedocs.io/en/latest/doc/04_infrastrutture-immateriali.html#enabling-platforms'
     pdf: '/assets/pdf/cap_4-Infrastrutture immateriali.pdf'
-  interoperability-model:
+  modello-di-interoperabilita:
     forum: 'https://forum.italia.it/c/piano-triennale/interoperabilita'
     rtd: 'https://pianotriennale-ict.readthedocs.io/en/latest/doc/05_modello-di-interoperabilita.html'
     pdf: '/assets/pdf/cap_5-Modello_di_interoperabilita.pdf'
-  ecosystems:
+  ecosistemi:
     forum: 'https://forum.italia.it/c/piano-triennale/ecosistemi'
     rtd: 'https://pianotriennale-ict.readthedocs.io/en/latest/doc/06_ecosistemi.html'
     pdf: '/assets/pdf/cap_6-Ecosistemi.pdf'
-  tools-for-the-generation-and-dissemination-of-digital-services:
+  strumenti-per-la-generazione-e-la-diffusione-di-servizi-digitali:
     forum: 'https://forum.italia.it/c/piano-triennale/servizi-digitali'
     rtd: 'https://pianotriennale-ict.readthedocs.io/en/latest/doc/07_strumenti-per-la-generazione-e-la-diffusione-di-servizi-digitali.html'
     pdf: '/assets/pdf/cap_7-Strumenti_per_la_generazione_e_la_diffusione_di_servizi_digitali.pdf'
-  security:
+  sicurezza:
     forum: 'https://forum.italia.it/c/piano-triennale/sicurezza'
     rtd: 'https://pianotriennale-ict.readthedocs.io/en/latest/doc/08_sicurezza.html'
     pdf: '/assets/pdf/cap_8-Sicurezza.pdf'
@@ -112,11 +112,11 @@ en:
     forum: 'https://forum.italia.it/c/piano-triennale/data-analytics-framework'
     rtd: 'https://pianotriennale-ict.readthedocs.io/en/latest/doc/09_data-analytics-framework.html'
     pdf: '/assets/pdf/cap_9-Data_&amp;_Analytics_Framework.pdf'
-  change-management:
+  gestione-del-cambiamento:
     forum: 'https://forum.italia.it/c/piano-triennale/gestione-del-cambiamento'
     rtd: 'https://pianotriennale-ict.readthedocs.io/en/latest/doc/10_gestione-del-cambiamento.html'
     pdf: '/assets/pdf/cap_10-Gestione_del_cambiamento.pdf'
-  rationalisation-of-expenditure:
+  razionalizzazione-della-spesa:
     forum: 'https://forum.italia.it/c/piano-triennale/razionalizzazione-della-spesa'
     rtd: 'https://pianotriennale-ict.readthedocs.io/en/latest/doc/11_razionalizzazione-della-spesa.html'
     pdf: '/assets/pdf/cap_11-Razionalizzazione_della_spesa.pdf'
@@ -124,7 +124,7 @@ en:
     forum: 'https://forum.italia.it/c/piano-triennale'
     rtd: 'https://pianotriennale-ict.readthedocs.io/en/latest/doc/12_indicazioni-per-la-pa.html'
     pdf: '/assets/pdf/cap_12-Indicazioni_per_le_Pubbliche_amministrazioni.pdf'
-  principles-for-the-development-of-digital-projects:
+  principi-per-lo-sviluppo-di-progetti-digitali:
     forum: 'https://forum.italia.it/c/piano-triennale/principi-per-lo-sviluppo-di-progetti-digitali'
     rtd: 'https://pianotriennale-ict.readthedocs.io/en/latest/doc/13_principi-per-lo-sviluppo-di-progetti-digitali.html'
     pdf: '/assets/pdf/cap_13-Principi_per_lo_sviluppo_di_progetti_digitali.pdf'
