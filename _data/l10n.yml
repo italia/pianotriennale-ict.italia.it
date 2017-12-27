@@ -13,6 +13,7 @@ it:
     header_link_forum: Forum
     header_link_docs: Docs
     header_link_github: Github
+    header_title: Trasformazione Digitale
     footer_address: Indirizzo
     footer_address_sub: ''
     footer_contacts: Contatti
@@ -24,6 +25,23 @@ it:
     in_collaboration_with: In collaborazione con
     footer_note: Cover image courtesy of [Matteo Vistocco](https://unsplash.com/@biscuits94)
     footer_public_domain: Donazione al Pubblico Dominio
+    actions_progress: in corso
+    actions_from: 'da '
+    actions_to: ' a '
+    actions_by: 'entro '
+    months:
+      '01': gennaio
+      '02': febbraio
+      '03': marzo
+      '04': aprile
+      '05': maggio
+      '06': giugno
+      '07': luglio
+      '08': agosto
+      '09': settembre
+      '10': ottobre
+      '11': novembre
+      '12': dicembre
     lang_on_site: sito in italiano
     navigation_network_menu_label: Menu di navigazione del network
     navigation_menu_label: Menu di navigazione
@@ -64,7 +82,6 @@ it:
     home_tools_title: Strumenti
     home_tools_subtitle: Ci appoggiamo a strumenti già esistenti e molto conosciuti per fornirti le informazioni, il codice e il supporto di cui hai bisogno
     home_header_button_text: vai al piano
-    home_header_button_text_en: go to plan
     home_pt_title: Cos'è il Piano Triennale
     home_pt_description: |
       È il documento di indirizzo strategico ed economico destinato a tutta la Pubblica Amministrazione che accompagna la trasformazione digitale del Paese.
@@ -166,13 +183,261 @@ it:
     partecipa: Partecipa
     forum_intro: "Chiunque può partecipare al forum di discussione e contribuire alla diffusione e all'implementazione' del Piano Triennale."
     temi:
-      servizi-digitali: Servizi digitali
-      ecosistemi: Ecosistemi
-      interoperabilita: Interoperabilità
-      piattaforme-abilitanti: Piattaforme abilitanti
-      dati: Dati
-      rete: Connettività
-      cloud: Data center e cloud
-      sicurezza: Sicurezza
-      big-data: Data & Analytics Framework
-      gestione-del-cambiamento: Gestione del cambiamento
+      servizi-digitali: 
+        name: Servizi digitali
+        ref: servizi-digitali
+      ecosistemi: 
+        name: Ecosistemi
+        ref: ecosistemi
+      interoperabilita: 
+        name: Interoperabilità
+        ref: interoperabilita
+      piattaforme-abilitanti:
+        name: Piattaforme abilitanti
+        ref: piattaforme-abilitanti
+      dati: 
+        name: Dati
+        ref: dati
+      rete: 
+        name: Connettività
+        ref: connettivita
+      cloud: 
+        name: Data center e cloud
+        ref: data-center-e-cloud
+      sicurezza: 
+        name: Sicurezza
+        ref: sicurezza
+      big-data: 
+        name: Data & Analytics Framework
+        ref: data-center-e-cloud
+      gestione-del-cambiamento: 
+        name: Gestione del cambiamento
+        ref: gestione-del-cambiamento
+      razionalizzazione-della-spesa:
+        name: Razionalizzazione della spesa
+        ref: razionalizzazione-della-spesa
+      principi-per-lo-sviluppo-di-progetti-digitali:
+        name: Principi per lo sviluppo di progetti digitali
+        ref: principi-per-lo-sviluppo-di-progetti-digitali
+
+en:
+  code: eng
+  name: english
+  t:
+    active_lang: active language
+    cookiebar_accept: I accept
+    cookiebar_msg: This site uses technical cookies, analytics and third-party cookies. By continuing to browse, you accept the use of cookies.
+    cookiebar_privacy_policy: Privacy Policy
+    follow_us: Follow us on
+    header_link_pt: Three-Year Plan
+    header_link_developers: Developers
+    header_link_design: Designers
+    header_link_forum: Forum
+    header_link_docs: Docs
+    header_link_github: Github
+    header_title: Digital Transformation
+    footer_address: Address
+    footer_address_sub: ''
+    footer_contacts: Contact us
+    footer_contacts_sub: ''
+    footer_link_privacy_policy: privacy
+    footer_link_legal_notes: legal notices
+    footer_link_credits: credits
+    footer_title: ''
+    actions_progress: in progress
+    actions_from: 'from '
+    actions_to: ' to '
+    actions_by: 'by '
+    months:
+      '01': january
+      '02': february
+      '03': march
+      '04': april
+      '05': may
+      '06': june
+      '07': july
+      '08': august
+      '09': september
+      '10': october
+      '11': november
+      '12': december
+    in_collaboration_with: In collaboration with
+    footer_note: Cover image courtesy of [Matteo Vistocco](https://unsplash.com/@biscuits94)
+    footer_public_domain: Donation to the Public Domain
+    lang_on_site: site in Italian
+    navigation_network_menu_label: Network navigation menu
+    navigation_menu_label: Navigation menu
+    navigation_menu_esc: exit navigation
+    scrolltop_label: go back to the beginning of the contents
+    site_subtitle: "for information technology in Public Administration"
+    site_title: Three-Year Plan
+    site_title_mobile: ICT Three-Year Plan
+    share_msg: share
+    skiplink_goto_content: go to the contents
+    skiplink_goto_navigation: go to the site navigation
+    toggle_menu_label: access the menu
+    toggle_network_menu_label: access the network menu
+    see_more: to find out more
+    goto_chapter: go to the chapter
+    goto_chapter_en: read the chapter
+    goto_forum: join
+    deepen: further reading
+    download_chapter: download the chapter
+    discuss: for comparison
+    cap_on_github: go to the chapter on github
+    by: of
+    on_: "on"
+    actions: the actions
+    amministrazioni_centrali: central administrations
+    amministrazioni_territoriali: territorial administrations
+    tempi: times
+    attori: players
+    descrizione: description
+    risultati: results
+    completata: completed
+    home_hero: |
+      "Digital transformation is a priority of the Government.
+      The Three-Year Plan requires a team effort to simplify Public Administration and the life of citizens."
+    home_hero_mobile: |
+      "Digital transformation is a priority of the Government.
+      The Three-Year Plan requires a team effort to simplify Public Administration and the life of citizens."
+    home_tools_title: Tools
+    home_tools_subtitle: We rely on existing and well-known tools to provide you with the information, coding and support you need.
+    home_header_button_text: go to plan
+    home_pt_title: What is the Three-Year Plan?
+    home_pt_description: |
+      It is a strategic and economic policy document for all Public Administrations that oversees the digital transformation of the country.
+
+      The Plan defines:
+      - the operational course of action in the development of public information technology;
+      - the strategic model of the evolution of the PA information system;
+      - ICT investments in the public sector according to the European and Governmental guidelines.
+    home_pt_howto_title: Consult the Plan
+    home_pt_howto:
+      - text: |
+         The pages of this site summarise the contents of the Three-Year Plan, divided into [chapters](/en/piano) and [actions](/en/azioni).
+         The complete document is available online in a browsable version optimised for mobile devices, or in PDF format.
+        links:
+          - type: button
+            icon: read
+            label: Consultable version
+            href: 'https://pianotriennale-ict.readthedocs.io/en/latest'
+            target_blank: true
+          - icon: download-alt
+            label: download the pdf
+            href: '/assets/pdf/Piano_Triennale_per_l_informatica_nella_Pubblica_Amministrazione.pdf'
+            target_blank: true
+      - text: Do you need further information? Consult the [FAQs](/en/faq), participate in the dedicated discussion forum or propose a change to the text on [GitHub](https://github.com/italia/pianotriennale-ict-doc).
+        links:
+          - type: button
+            icon: forum
+            label: join
+            href: 'https://forum.italia.it/c/piano-triennale'
+            target_blank: true
+    home_pt_en_title: The Three-Year Plan
+    home_pt_en:
+      - text: The Three-Year Plan for ICT in the Public Administration was translated by Artificial Intelligence. It is available online with optimised mobile navigation.
+        links:
+          - type: button
+            icon: read
+            label: Read It
+            href: 'https://pianotriennale-ict.readthedocs.io/en/latest'
+            target_blank: true
+    quotes:
+      gentiloni:
+        text: |
+          "Digital transformation is a priority of the Government. The Three-Year Plan requires a team effort to simplify Public Administration and the life of citizens."
+        text_short: |
+          "Digital transformation is a priority of the Government. The Three-Year Plan requires a team effort to simplify Public Administration and the life of citizens."
+        author_name: Paolo Gentiloni
+        author_role: President of the Council of Ministers
+      madia:
+        text: |
+          "Digital transformation continues with the Three-Year Plan, which will allow Public Administrations to become more efficient and put the citizen at the centre of their actions. Updating the Digital Administration Code will be an additional step towards freeing innovation from too many regulations and strengthen the rights of digital citizenship."
+        text_short: |
+          "Digital transformation continues with the Three-Year Plan, which will allow Public Administrations to become more efficient and put the citizen at the centre of their actions. Updating the Digital Administration Code will be an additional step towards freeing innovation from too many regulations and strengthen the rights of digital citizenship."
+        author_name: Marianna Madia
+        author_role: Ministry for Public Administration and Simplification
+      piacentini:
+        text: |
+          "We are introducing a completely new way of participation, certain that in order to achieve the goal of digital transformation of the Public Administration services, we must act in a collaborative way."
+        text_short: |
+          "We are introducing a completely new way of participation, certain that in order to achieve the goal of digital transformation of the Public Administration services, we must act in a collaborative way."
+        author_name: Diego Piacentini
+        author_role: Extraordinary Commission for the implementation of the Digital Agenda
+        goto_link: 'https://medium.com/@diegopia/piano-triennale-trasformazione-digitale-pubblica-amministrazione-linee-guida-design-sviluppo-open-source-a54e27d55be9'
+        goto_label: Read the complete post on Medium
+    capitoli_title: All the chapters of the plan
+    capitoli:
+      data-center-e-cloud: Data Centres and Cloud
+      connettivita: Connectivity
+      dati-della-pa: PA Data
+      piattaforme-abilitanti: Enabling platforms
+      modello-di-interoperabilita: The interoperability model
+      ecosistemi: Ecosystems
+      strumenti-per-la-generazione-e-la-diffusione-di-servizi-digitali: Tools for the generation and dissemination of digital services
+      sicurezza: Security
+      data-analytics-framework: Data & Analytics Framework
+      gestione-del-cambiamento: Change Management
+      principi-per-lo-sviluppo-di-progetti-digitali: Principles for the development of digital projects
+      razionalizzazione-della-spesa: Rationalisation of expenditure
+      piano-triennale: Three-Year Plan
+      modello-strategico: Strategic model
+      indicazioni-per-le-pa: Instructions for the PAs
+    capitoli_en:
+      data-center-e-cloud: Data centres and Cloud
+      connettivita: Connectivity
+      dati-della-pa: Public Administration Data
+      piattaforme-abilitanti: Enabling platforms
+      modello-di-interoperabilita: Interoperability Model
+      ecosistemi: Ecosystems
+      strumenti-per-la-generazione-e-la-diffusione-di-servizi-digitali: Instruments for the generation and spread of digital services
+      sicurezza: Security
+      data-analytics-framework: Data & Analytics Framework
+      gestione-del-cambiamento: Change management
+      principi-per-lo-sviluppo-di-progetti-digitali: Principles for the development of digital projects
+      razionalizzazione-della-spesa: Rationalisation of costs
+      piano-triennale: Three-Year Plan for IT in Public Administration
+      modello-strategico: Strategic evolution model of the information system of the Public Administration
+      indicazioni-per-le-pa: Instructions for the Public Administrations
+    temi_title: The chapters
+    modello_intro: Click on the section of interest
+    partecipa: Participate
+    forum_intro: "Anyone can participate in the discussion forum and contribute to the dissemination and implementation of the Three-Year Plan."
+    temi:
+      servizi-digitali: 
+        name: Digital Services
+        ref: servizi-digitali
+      ecosistemi:
+        name: Ecosystems
+        ref: ecosistemi
+      interoperabilita: 
+        name: Interoperability
+        ref: interoperabilita
+      piattaforme-abilitanti: 
+        name: Enabling platforms
+        ref: piattaforme-abilitanti
+      dati:
+        name: Data
+        ref: dati
+      rete: 
+        name: Connectivity
+        ref: connettivita
+      cloud: 
+        name: Data Centres and Cloud
+        ref: data-center-e-cloud
+      sicurezza: 
+        name: Security
+        ref: sicurezza
+      big-data: 
+        name: Data & Analytics Framework
+        ref: daf
+      gestione-del-cambiamento:
+        name: Change Management
+        ref: gestione-del-cambiamento
+      razionalizzazione-della-spesa:
+        name: Rationalisation of expenditure
+        ref: razionalizzazione-della-spesa
+      principi-per-lo-sviluppo-di-progetti-digitali:
+        name: Principles for the development of digital projects
+        ref: principi-per-lo-sviluppo-di-progetti-digitali

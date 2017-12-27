@@ -8,7 +8,7 @@
       </a>
     </div>
     <nav>
-      {% assign items = include.network_items  %}
+      {% assign items = include.network_items[page.lang]  %}
       <ul class="Linklist Linklist--padded u-layout-prose u-text-r-xs">
       {% for item in items %}
         <li class="{{ item[1].class }}">

@@ -1,3 +1,8 @@
+{% assign home_url = '/' %}
+{% if page.lang != 'it' %}
+  {% assign home_url = '/' | append: page.lang %}
+{% endif %}
+
 <header class="Header u-hiddenPrint js-Headroom Headroom">
 
   <div class="Header-banner u-background-50 Headroom-hideme">
@@ -5,7 +10,7 @@
       <div class="Header-slim-toggle u-md-hidden u-lg-hidden u-floatLeft u-border-right-xxs u-margin-right-xs u-padding-right-xs">
         <a class="js-fr-offcanvas-open u-nojsDisplayInlineBlock" href="#network" aria-controls="network" aria-label="{{ t.toggle_network_menu_label }}" title="{{ t.toggle_network_menu_label }}"><span class="Icon Icon-small-burger u-color-white u-alignMiddle"></span></a>
       </div>
-      <span class="u-color-white">Trasformazione Digitale</span>
+      <span class="u-color-white">{{t.header_title}}</span>
       {% include lang_switch.html %}
       <div class="u-hidden u-md-block u-lg-block u-floatRight">
       {% include slim_header.html %}
@@ -13,20 +18,20 @@
     </div>
   </div>
   <div class="u-padding-all-m u-background-teal-30 u-color-white u-text-r-xxs u-textWeight-300 u-textCenter">
-    The Three Year Plan for ICT in the Public Administration was translated by Artificial Intelligence.
-    <a href="https://pianotriennale-ict.readthedocs.io/en/latest" class="u-textWeight-600 u-color-white">Read it in English</a>
+    The Three Year Plan for ICT in the Public Administration was translated by Artificial Intelligence. 
+    <a href="https://github.com/italia/pianotriennale-ict.italia.it" class="u-textWeight-600 u-color-white">Help us improving it on GitHub</a>
   </div>
   <div class="Header-navbar u-background-50">
     <div class="u-layout-wide Grid Grid--alignMiddle u-layoutCenter">
       <div class="Header-logo Grid-cell u-hidden u-md-block u-lg-block" aria-hidden="true">
-         <a href="{{ '/' | relative_url }}" tabindex="-1" class="u-inlineBlock"><img src="{{ site.gov_logo | relative_url }}" alt="" target="_blank"></a>
+         <a href="{{ home_url | relative_url }}" tabindex="-1" class="u-inlineBlock"><img src="{{ site.gov_logo | relative_url }}" alt="" target="_blank"></a>
       </div>
        <div class="Header-logo Grid-cell" aria-hidden="true">
-         <a href="{{ '/' | relative_url }}" tabindex="-1" class="u-inlineBlock"><img src="{{ site.logo | relative_url }}" alt="" target="_blank"></a>
+         <a href="{{ home_url | relative_url }}" tabindex="-1" class="u-inlineBlock"><img src="{{ site.logo | relative_url }}" alt="" target="_blank"></a>
       </div>
       <div class="Header-title Grid-cell">
         <h1 class="Header-titleLink">
-          <a href="{{ '/' | relative_url }}" class="u-linkClean">
+          <a href="{{ home_url | relative_url }}" class="u-linkClean">
              <span class="u-hidden u-md-inline u-lg-inline">{{ t.site_title | default: site.title | escape }}</span>
              <span class="u-md-hidden u-lg-hidden">{{ t.site_title_mobile | default: site.title_mobile | escape }}</span>
             {% if site.pill %}
@@ -48,7 +53,7 @@
         <div class="Header-social">
           <p>{{ t.follow_us | capitalize }}</p>
           <ul class="Header-socialIcons">
-            {% assign socials = site.data.social | where: 'header', true %}
+            {% assign socials = site.data.social[page.lang] | where: 'header', true %}
             {% for social in socials %}
             <li><a href="{{ social.link }}" title="{{ social.name }}" target="_blank"><span class="Icon-{{ social.name }}"></span>
                 <span class="u-hiddenVisually">{{ social.name | capitalize }}</span></a></li>
@@ -67,11 +72,6 @@
           <div class="u-inlineBlock u-rightFloat u-margin-right-s Header-button">
             <a role="button" href="{{ include.headerButtonLink }}" class="Button Button--default Button--shadow-dark Button--round u-text-r-xxs u-padding-r-all" target="_blank">
                 {{ include.headerButtonText | upcase }}
-              </a>
-          </div>
-          <div class="u-inlineBlock u-rightFloat Header-button">
-            <a role="button" href="{{ include.headerButtonLink | replace: '/it/', '/en/' }}" class="Button Button--default Button--shadow-dark Button--round u-text-r-xxs u-padding-r-all" target="_blank">
-                {{ include.headerButtonText-EN | upcase }}
               </a>
           </div>
         </div>

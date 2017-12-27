@@ -1,53 +1,41 @@
+{% assign temi_in_body = 'servizi-digitali,ecosistemi,interoperabilita,piattaforme-abilitanti,dati,rete,cloud,gestione-del-cambiamento,razionalizzazione-della-spesa,principi-per-lo-sviluppo-di-progetti-digitali' | split: ',' %}
+{% assign temi_in_footer = 'sicurezza,big-data' | split: ',' %}
+
+
 <div class="Modello-strategico u-textCenter u-margin-bottom-xl u-background-teal-30 u-borderRadius-m u-padding-r-all">
   <div class="Grid">
     <div class="Grid-cell u-sizeFull u-zindex-30" style="border-left: 2rem solid #06c; border-right: 2rem solid #06c; border-radius: 4px">
       <div class="u-sizeFill u-sizeFull u-padding-r-bottom u-padding-r-left u-padding-r-right">
-        <a href="{{ '/servizi-digitali/' | relative_url }}" class="u-borderRadius-m u-block u-background-white u-margin-r-bottom u-padding-r-all u-textCenter u-color-50 u-textClean u-text-r-xs">
-          {{ t.temi.servizi-digitali }}
-        </a>
-        <a href="{{ '/ecosistemi/' | relative_url }}" class="u-borderRadius-m u-block u-background-white u-margin-r-bottom u-padding-r-all u-textCenter u-color-50 u-textClean u-text-r-xs">
-          {{ t.temi.ecosistemi }}
-        </a>
-        <a href="{{ '/interoperabilita/' | relative_url }}" class="u-borderRadius-m u-block u-background-white u-margin-r-bottom u-padding-r-all u-textCenter u-color-50 u-textClean u-text-r-xs">
-          {{ t.temi.interoperabilita }}
-        </a>
-        <a href="{{ '/piattaforme-abilitanti/' | relative_url }}" class="u-borderRadius-m u-block u-background-white u-margin-r-bottom u-padding-r-all u-textCenter u-color-50 u-textClean u-text-r-xs">
-          {{ t.temi.piattaforme-abilitanti }}
-        </a>
-        <a href="{{ '/dati/' | relative_url }}" class="u-borderRadius-m u-block u-background-white u-margin-r-bottom u-padding-r-all u-textCenter u-color-50 u-textClean u-text-r-xs">
-          {{ t.temi.dati }}
-        </a>
-        <a href="{{ '/connettivita/' | relative_url }}" class="u-borderRadius-m u-block u-background-white u-margin-r-bottom u-padding-r-all u-textCenter u-color-50 u-textClean u-text-r-xs">
-          {{ t.temi.rete }}
-        </a>
-        <a href="{{ '/data-center-e-cloud/' | relative_url }}" class="u-borderRadius-m u-block u-background-white u-margin-r-bottom u-padding-r-all u-textCenter u-color-50 u-textClean u-text-r-xs">
-          {{ t.temi.cloud }}
-        </a>
-         <a href="https://pianotriennale-ict.readthedocs.io/it/latest/doc/10_gestione-del-cambiamento.html" class="u-borderRadius-m u-block u-background-white u-margin-r-bottom u-padding-r-all u-textCenter u-color-50 u-textClean u-text-r-xs">
-          {{ t.capitoli.gestione-del-cambiamento }}
-        </a>
-         <a href="https://pianotriennale-ict.readthedocs.io/it/latest/doc/11_razionalizzazione-della-spesa.html" class="u-borderRadius-m u-block u-background-white u-margin-r-bottom u-padding-r-all u-textCenter u-color-50 u-textClean u-text-r-xs">
-          {{ t.capitoli.razionalizzazione-della-spesa }}
-        </a>
-         <a href="https://pianotriennale-ict.readthedocs.io/it/latest/doc/13_principi-per-lo-sviluppo-di-progetti-digitali.html" class="u-borderRadius-m u-block u-background-white u-margin-r-bottom u-padding-r-all u-textCenter u-color-50 u-textClean u-text-r-xs">
-          {{ t.capitoli.principi-per-lo-sviluppo-di-progetti-digitali }}
-        </a>
+        
+        {% for tema in temi_in_body %}
+
+          {% if page.lang != 'it' %}
+            {% assign href = page.lang | append: '/' | append: t.temi[tema].ref %}
+          {% else %}
+            {% assign href = append: '/' | append: t.temi[tema].ref %}
+          {% endif %}
+          <a href="{{ href | relative_url }}" class="u-borderRadius-m u-block u-background-white u-margin-r-bottom u-padding-r-all u-textCenter u-color-50 u-textClean u-text-r-xs">
+            {{ t.temi[tema].name }}
+          </a>
+        {% endfor %}
       </div>
     </div>
+
+    {% for tema in temi_in_footer %}
+
+          {% if page.lang != 'it' %}
+            {% assign href = page.lang | append: '/' | append: t.temi[tema].ref %}
+          {% else %}
+            {% assign href = append: '/' | append: t.temi[tema].ref %}
+          {% endif %}
     <div class="Grid-cell u-size1of2" style="margin-top: -1.8rem">
       <div class="u-sizeFill u-flex u-flexCol u-margin-right-xs u-borderRadius-m u-background-50">
-        <a href="{{ '/sicurezza/' | relative_url }}" class="u-flexExpandTop u-sizeFull u-block u-textClean
+        <a href="{{ href | relative_url }}" class="u-flexExpandTop u-sizeFull u-block u-textClean
         u-color-white u-padding-r-all u-text-r-xs">
-          {{ t.temi.sicurezza }}
+          {{ t.temi[tema].name }}
         </a>
       </div>
     </div>
-    <div class="Grid-cell u-size1of2" style="margin-top: -1.8rem">
-      <div class="u-sizeFill u-flex u-flexCol u-margin-left-xs u-borderRadius-m u-background-50">
-        <a href="{{ '/daf/' | relative_url }}" class="u-flexExpandTop u-sizeFull u-block u-color-white u-textClean u-padding-r-all u-text-r-xs u-padding-top-xxl">
-          {{ t.temi.big-data }}
-        </a>
-      </div>
-    </div>
+    {% endfor %}
   </div>
 </div>

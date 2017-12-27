@@ -3,7 +3,7 @@
 {% capture newParagraph %}
 
 {% endcapture %}
-{% assign linee-azione = site.data.linee_azione | sort: "numero" %}
+{% assign linee-azione = site.data.linee_azione[page.lang] | sort: "numero" %}
 <div class="Tabs tabpanel">
   <ul class="tablist" role="tablist">
     <li id="tab-0" class="tab selected" aria-controls="panel-0" role="tab" aria-selected="true" tabindex="-1">
@@ -19,7 +19,7 @@
     {% if linea-azione.chapter == page.chapter or page.linee-azione-all %}
     {% if linea-azione.subchapter == page.subchapter or page.linee-azione-all %}
     {% for attore in linea-azione.attori %}
-    {% if site.data.attori[attore].tipo == 'amministrazioni_centrali' or site.data.attori[attore].tipo == 'amministrazioni_centrali_e_territoriali' %}
+    {% if site.data.attori[page.lang][attore].tipo == 'amministrazioni_centrali' or site.data.attori[page.lang][attore].tipo == 'amministrazioni_centrali_e_territoriali' %}
     {% if not-yet-inserted %}
       {% assign not-yet-inserted = false %}
       <div class="Accordion Accordion--default fr-accordion js-fr-accordion" id="linea-azione-pac-{{ linea-azione.numero }}">
@@ -38,30 +38,30 @@
                 <div class="Grid-cell u-sizeFull u-sm-size1of5 u-md-size1of5 u-lg-size1of5 u-padding-r-left u-padding-r-right u-padding-top-xs">
                   <span class="u-textItalic u-color-grey-90">{{ t.tempi | capitalize }}:</span>
                 </div>
-                {% assign tempi = 'in corso' %}
+                {% assign tempi = t.actions_progress %}
                 {% if linea-azione.inizio %}
                 {% assign inizio = linea-azione.inizio | split: '/' %}
                 {% assign anno_inizio = inizio | last | preprend: '20' %}
-                {% assign mese_inizio = inizio | first | replace: '01', 'gennaio' | replace: '02', 'febbraio' | replace: '03', 'marzo' | replace: '04', 'aprile' | replace: '05', 'maggio' | replace: '06', 'giugno' | replace: '07', 'luglio' | replace: '08', 'agosto' | replace: '09', 'settembre' | replace: '10', 'ottobre' | replace: '11', 'novembre' | replace: '12', 'dicembre' %}
-                {% assign tempi = 'da ' | append: mese_inizio | append: ' ' | append: anno_inizio %}
+                {% assign mese_inizio = inizio | first %}
+                {% assign tempi = t.actions_from | append: t.months[mese_inizio] | append: ' ' | append: anno_inizio %}
                 {% endif %}
                 {% if linea-azione.fine %}
                 {% assign fine = linea-azione.fine | split: '/' %}
                 {% assign anno_fine = fine | last | preprend: '20' %}
-                {% assign mese_fine = fine | first | replace: '01', 'gennaio' | replace: '02', 'febbraio' | replace: '03', 'marzo' | replace: '04', 'aprile' | replace: '05', 'maggio' | replace: '06', 'giugno' | replace: '07', 'luglio' | replace: '08', 'agosto' | replace: '09', 'settembre' | replace: '10', 'ottobre' | replace: '11', 'novembre' | replace: '12', 'dicembre' %}
-                {% assign tempi = tempi | append: ' a ' | append: mese_fine | append: ' ' | append: anno_fine %}
+                {% assign mese_fine = fine | first %}
+                {% assign tempi = tempi | append: t.actions_to | append: t.months[mese_fine] | append: ' ' | append: anno_fine %}
                 {% endif %}
                 {% if linea-azione.a %}
                 {% assign a = linea-azione.a | split: '/' %}
                 {% assign anno = a | last | preprend: '20' %}
-                {% assign mese = a | first | replace: '01', 'gennaio' | replace: '02', 'febbraio' | replace: '03', 'marzo' | replace: '04', 'aprile' | replace: '05', 'maggio' | replace: '06', 'giugno' | replace: '07', 'luglio' | replace: '08', 'agosto' | replace: '09', 'settembre' | replace: '10', 'ottobre' | replace: '11', 'novembre' | replace: '12', 'dicembre' %}
-                {% assign tempi = 'a ' | append: mese | append: ' ' | append: anno %}
+                {% assign mese = a | first %}
+                {% assign tempi = 'a ' | append: t.months[mese] | append: ' ' | append: anno %}
                 {% endif %}
                 {% if linea-azione.entro %}
                 {% assign entro = linea-azione.entro | split: '/' %}
                 {% assign anno = entro | last | preprend: '20' %}
-                {% assign mese = entro | first | replace: '01', 'gennaio' | replace: '02', 'febbraio' | replace: '03', 'marzo' | replace: '04', 'aprile' | replace: '05', 'maggio' | replace: '06', 'giugno' | replace: '07', 'luglio' | replace: '08', 'agosto' | replace: '09', 'settembre' | replace: '10', 'ottobre' | replace: '11', 'novembre' | replace: '12', 'dicembre' %}
-                {% assign tempi = 'entro ' | append: mese | append: ' ' | append: anno %}
+                {% assign mese = entro | first %}
+                {% assign tempi = t.actions_by | append: t.months[mese] | append: ' ' | append: anno %}
                 {% endif %}
                 <div class="Grid-cell u-sizeFull u-sm-size4of5 u-md-size4of5 u-lg-size4of5 u-padding-r-left u-padding-r-right u-padding-top-xs u-padding-bottom-xs">
                   <span class="u-color-grey-90">{{ tempi }}</span>
@@ -71,7 +71,7 @@
                 </div>
                 <div class="Grid-cell u-sizeFull u-sm-size4of5 u-md-size4of5 u-lg-size4of5 u-padding-r-left u-padding-r-right u-padding-top-xs u-padding-bottom-xs">
                   {% for attore in linea-azione.attori %}
-                  <span class="u-color-grey-90">{{ site.data.attori[attore].nome }}{% unless forloop.last %} - {% endunless %}</span>
+                  <span class="u-color-grey-90">{{ site.data.attori[page.lang][attore].nome }}{% unless forloop.last %} - {% endunless %}</span>
                   {% endfor %}
                 </div>
                 <div class="Grid-cell u-sizeFull u-sm-size1of5 u-md-size1of5 u-lg-size1of5 u-padding-r-left u-padding-r-right u-padding-top-xs u-padding-bottom-xxs">
@@ -111,7 +111,7 @@
     {% if linea-azione.chapter == page.chapter or page.linee-azione-all %}
     {% if linea-azione.subchapter == page.subchapter or page.linee-azione-all %}
     {% for attore in linea-azione.attori %}
-    {% if site.data.attori[attore].tipo == 'amministrazioni_territoriali' or site.data.attori[attore].tipo == 'amministrazioni_centrali_e_territoriali' %}
+    {% if site.data.attori[page.lang][attore].tipo == 'amministrazioni_territoriali' or site.data.attori[page.lang][attore].tipo == 'amministrazioni_centrali_e_territoriali' %}
     {% if not-yet-inserted %}
       {% assign not-yet-inserted = false %}
       <div class="Accordion Accordion--default fr-accordion js-fr-accordion" id="linea-azione-pal-{{ linea-azione.numero }}">
@@ -128,52 +128,52 @@
           <div id="accordion-panel-pal-{{ linea-azione.numero }}" class="Accordion-panel fr-accordion__panel js-fr-accordion__panel">
               <div class="Grid u-padding-r-bottom">
                 <div class="Grid-cell u-size1of3 u-sm-size1of5 u-md-size1of5 u-lg-size1of5 u-padding-r-left u-padding-r-right u-padding-top-xs u-padding-bottom-xxs">
-                  <span class="u-color-grey-90">Tempi:</span>
+                  <span class="u-color-grey-90">{{t.tempi}}:</span>
                 </div>
-                {% assign tempi = 'in corso' %}
+                {% assign tempi = t.actions_progress %}
                 {% if linea-azione.inizio %}
                 {% assign inizio = linea-azione.inizio | split: '/' %}
                 {% assign anno_inizio = inizio | last | preprend: '20' %}
-                {% assign mese_inizio = inizio | first | replace: '01', 'gennaio' | replace: '02', 'febbraio' | replace: '03', 'marzo' | replace: '04', 'aprile' | replace: '05', 'maggio' | replace: '06', 'giugno' | replace: '07', 'luglio' | replace: '08', 'agosto' | replace: '09', 'settembre' | replace: '10', 'ottobre' | replace: '11', 'novembre' | replace: '12', 'dicembre' %}
-                {% assign tempi = 'da ' | append: mese_inizio | append: ' ' | append: anno_inizio %}
+                {% assign mese_inizio = inizio | first  %}
+                {% assign tempi = t.actions_from | append: t.months[mese_inizio] | append: ' ' | append: anno_inizio %}
                 {% endif %}
                 {% if linea-azione.fine %}
                 {% assign fine = linea-azione.fine | split: '/' %}
                 {% assign anno_fine = fine | last | preprend: '20' %}
-                {% assign mese_fine = fine | first | replace: '01', 'gennaio' | replace: '02', 'febbraio' | replace: '03', 'marzo' | replace: '04', 'aprile' | replace: '05', 'maggio' | replace: '06', 'giugno' | replace: '07', 'luglio' | replace: '08', 'agosto' | replace: '09', 'settembre' | replace: '10', 'ottobre' | replace: '11', 'novembre' | replace: '12', 'dicembre' %}
-                {% assign tempi = tempi | append: ' a ' | append: mese_fine | append: ' ' | append: anno_fine %}
+                {% assign mese_fine = fine | first %}
+                {% assign tempi = tempi | append: t.actions_to | append: t.months[mese_fine] | append: ' ' | append: anno_fine %}
                 {% endif %}
                 {% if linea-azione.a %}
                 {% assign a = linea-azione.a | split: '/' %}
                 {% assign anno = a | last | preprend: '20' %}
-                {% assign mese = a | first | replace: '01', 'gennaio' | replace: '02', 'febbraio' | replace: '03', 'marzo' | replace: '04', 'aprile' | replace: '05', 'maggio' | replace: '06', 'giugno' | replace: '07', 'luglio' | replace: '08', 'agosto' | replace: '09', 'settembre' | replace: '10', 'ottobre' | replace: '11', 'novembre' | replace: '12', 'dicembre' %}
-                {% assign tempi = 'a ' | append: mese | append: ' ' | append: anno %}
+                {% assign mese = a | first %}
+                {% assign tempi = 'a ' | append: t.months[mese] | append: ' ' | append: anno %}
                 {% endif %}
                 {% if linea-azione.entro %}
                 {% assign entro = linea-azione.entro | split: '/' %}
                 {% assign anno = entro | last | preprend: '20' %}
-                {% assign mese = entro | first | replace: '01', 'gennaio' | replace: '02', 'febbraio' | replace: '03', 'marzo' | replace: '04', 'aprile' | replace: '05', 'maggio' | replace: '06', 'giugno' | replace: '07', 'luglio' | replace: '08', 'agosto' | replace: '09', 'settembre' | replace: '10', 'ottobre' | replace: '11', 'novembre' | replace: '12', 'dicembre' %}
-                {% assign tempi = 'entro ' | append: mese | append: ' ' | append: anno %}
+                {% assign mese = entro | first  %}
+                {% assign tempi = t.actions_by | append: t.months[mese] | append: ' ' | append: anno %}
                 {% endif %}
                 <div class="Grid-cell u-size2of3 u-sm-size4of5 u-md-size4of5 u-lg-size4of5 u-padding-r-left u-padding-r-right u-padding-top-xs u-padding-bottom-xxs">
                   <span class="u-color-grey-90">{{ tempi }}</span>
                 </div>
                 <div class="Grid-cell u-size1of3 u-sm-size1of5 u-md-size1of5 u-lg-size1of5 u-padding-r-left u-padding-r-right u-padding-top-xs u-padding-bottom-xxs">
-                  <span class="u-color-grey-90">Attori:</span>
+                  <span class="u-color-grey-90">{{t.attori}}:</span>
                 </div>
                 <div class="Grid-cell u-size2of3 u-sm-size4of5 u-md-size4of5 u-lg-size4of5 u-padding-r-left u-padding-r-right u-padding-top-xs u-padding-bottom-xxs">
                   {% for attore in linea-azione.attori %}
-                  <span class="u-color-grey-90">{{ site.data.attori[attore].nome }}{% unless forloop.last %} - {% endunless %}</span>
+                  <span class="u-color-grey-90">{{ site.data.attori[page.lang][attore].nome }}{% unless forloop.last %} - {% endunless %}</span>
                   {% endfor %}
                 </div>
                 <div class="Grid-cell u-size1of3 u-sm-size1of5 u-md-size1of5 u-lg-size1of5 u-padding-r-left u-padding-r-right u-padding-top-xs u-padding-bottom-xxs">
-                  <span class="u-color-grey-90">Descrizione:</span>
+                  <span class="u-color-grey-90">{{t.descrizione}}:</span>
                 </div>
                 <div class="Grid-cell u-size2of3 u-sm-size4of5 u-md-size4of5 u-lg-size4of5 u-padding-r-left u-padding-r-right u-padding-top-xs u-padding-bottom-xxs">
                   <div class="u-color-grey-90">{{ linea-azione.descrizione | replace: newLine, newParagraph | markdownify }}</div>
                 </div>
                 <div class="Grid-cell u-size1of3 u-sm-size1of5 u-md-size1of5 u-lg-size1of5 u-padding-r-left u-padding-r-right u-padding-top-xs u-padding-bottom-xxs">
-                  <span class="u-color-grey-90">Risultati:</span>
+                  <span class="u-color-grey-90">{{t.risultati}}:</span>
                 </div>
                 <div class="Grid-cell u-size2of3 u-sm-size4of5 u-md-size4of5 u-lg-size4of5 u-padding-r-left u-padding-r-right u-padding-top-xs u-padding-bottom-xxs">
                   <span class="u-color-grey-90">{{ linea-azione.risultati | newline_to_br }}</span>
