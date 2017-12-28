@@ -12,7 +12,7 @@ it:
     header_link_design: Designers
     header_link_forum: Forum
     header_link_docs: Docs
-    header_link_github: Github
+    header_link_github: GitHub
     header_title: Trasformazione Digitale
     footer_address: Indirizzo
     footer_address_sub: ''
@@ -234,7 +234,7 @@ en:
     header_link_design: Designers
     header_link_forum: Forum
     header_link_docs: Docs
-    header_link_github: Github
+    header_link_github: GitHub
     header_title: Digital Transformation
     footer_address: Address
     footer_address_sub: ''
@@ -283,7 +283,7 @@ en:
     goto_forum: join
     deepen: further reading
     download_chapter: download the chapter
-    discuss: for comparison
+    discuss: share your view
     cap_on_github: go to the chapter on github
     by: of
     on_: "on"
@@ -303,7 +303,7 @@ en:
       The Three-Year Plan requires a team effort to simplify Public Administration and the life of citizens."
     home_tools_title: Tools
     home_tools_subtitle: We rely on existing and well-known tools to provide you with the information, coding and support you need.
-    home_header_button_text: go to plan
+    home_header_button_text: go to the plan
     home_pt_title: What is the Three-Year Plan?
     home_pt_description: |
       It is a strategic and economic policy document for all Public Administrations that oversees the digital transformation of the country.
