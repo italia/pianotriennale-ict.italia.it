@@ -1,5 +1,5 @@
 ---
-title: Digital Services
+title: Digital services
 lang: en
 layout: page
 separator: curved
@@ -9,12 +9,11 @@ chapter: strumenti-per-la-generazione-e-la-diffusione-di-servizi-digitali
 linee-azione: true
 ref: servizi-digitali
 ---
-The Plan promotes the development of public digital services by means of different strategies, such as:
-- dissemination of enabling platforms, 
+The Plan promotes the development of public digital services by means of different strategies, such as:  - dissemination of enabling platforms,
 - production of dedicated guidelines and development kits, 
 - creation of a community of developers, designers and digital service managers that can collaborate and participate in the growth of the public administration.
 
-AgID has issued Design Guidelines for the services and sites of the Public Administration, with the aim of defining common rules for the design of interfaces, services and content, improving and making consistent the navigation and the experience of the citizen, and contributing to a reduction in the PA&#39;s expenditure for the design and creation of a new product (whether an application, a website or a digital service). The site [design.italia.it](http://design.italia.it), active since November 2015, collates instructions for the design and implementation of the PA services.
+AgID has issued Design Guidelines for the services and sites of the Public Administration, with the aim of defining common rules for the design of interfaces, services and content, improving and making consistent the navigation and the experience of citizens, and contributing to a reduction in the PA&#39;s expenditure for the design and creation of a new product (whether an application, a website or a digital service). The site [design.italia.it](http://design.italia.it), active since November 2015, collates instructions for the design and implementation of the PA services.
 
 These are the main objectives:
 

@@ -1,5 +1,5 @@
 ---
-title: The actions
+title: Actions
 lang: en
 layout: page
 separator: ascending
