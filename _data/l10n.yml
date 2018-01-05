@@ -325,7 +325,7 @@ en:
             target_blank: true
           - icon: download-alt
             label: download the pdf
-            href: '/assets/pdf/Piano_Triennale_per_l_informatica_nella_Pubblica_Amministrazione.pdf'
+            href: 'http://readthedocs.org/projects/pianotriennale-ict-en/downloads/pdf/latest/'
             target_blank: true
       - text: Do you need further information? Consult the [FAQs](/en/faq), participate in the dedicated discussion forum or propose a change to the text on [GitHub](https://github.com/italia/pianotriennale-ict-doc).
         links:
