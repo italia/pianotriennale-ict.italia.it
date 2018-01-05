@@ -112,9 +112,9 @@ it:
             label: partecipa
             href: 'https://forum.italia.it/c/piano-triennale'
             target_blank: true
-    home_pt_en_title: The Three Year Plan
+    home_pt_en_title: The Three-Year Plan
     home_pt_en:
-      - text: The Three Year Plan for ICT in the Public Administration was translated by Artificial Intelligence. It is available online on mobile optimized navigation.
+      - text: The Three-Year Plan for ICT in the Public Administration was translated by Artificial Intelligence. It is available online on mobile optimized navigation.
         links:
           - type: button
             icon: read
@@ -229,7 +229,7 @@ en:
     cookiebar_msg: This site uses technical cookies, analytics and third-party cookies. By continuing to browse, you accept the use of cookies.
     cookiebar_privacy_policy: Privacy Policy
     follow_us: Follow us on
-    header_link_pt: Three-Year Plan
+    header_link_pt: The Three Year Plan
     header_link_developers: Developers
     header_link_design: Designers
     header_link_forum: Forum
@@ -269,8 +269,8 @@ en:
     navigation_menu_label: Navigation menu
     navigation_menu_esc: exit navigation
     scrolltop_label: go back to the beginning of the contents
-    site_subtitle: "for information technology in Public Administration"
-    site_title: Three-Year Plan
+    site_subtitle: "for ICT in the Public Administration"
+    site_title: The Three Year Plan
     site_title_mobile: ICT Three-Year Plan
     share_msg: share
     skiplink_goto_content: go to the contents
@@ -364,8 +364,8 @@ en:
         text_short: |
           "We are introducing a completely new way of participation, certain that in order to achieve the goal of digital transformation of the Public Administration services, we must act in a collaborative way."
         author_name: Diego Piacentini
-        author_role: Extraordinary Commission for the implementation of the Digital Agenda
-        goto_link: 'https://medium.com/@diegopia/piano-triennale-trasformazione-digitale-pubblica-amministrazione-linee-guida-design-sviluppo-open-source-a54e27d55be9'
+        author_role: Government Commissioner for the Digital Agenda
+        goto_link: 'https://medium.com/team-per-la-trasformazione-digitale/three-year-digital-transformation-plan-italian-public-administration-guidelines-design-development-8bdb440f940d'
         goto_label: Read the complete post on Medium
     capitoli_title: All the chapters of the plan
     capitoli:

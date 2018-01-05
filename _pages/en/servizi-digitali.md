@@ -9,7 +9,8 @@ chapter: strumenti-per-la-generazione-e-la-diffusione-di-servizi-digitali
 linee-azione: true
 ref: servizi-digitali
 ---
-The Plan promotes the development of public digital services by means of different strategies, such as:  - dissemination of enabling platforms,
+The Plan promotes the development of public digital services by means of different strategies, such as:  
+- dissemination of enabling platforms,
 - production of dedicated guidelines and development kits, 
 - creation of a community of developers, designers and digital service managers that can collaborate and participate in the growth of the public administration.
 

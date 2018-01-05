@@ -29,6 +29,9 @@ layout: default
 
           <div class="Grid-cell u-md-size5of12 u-lg-size5of12 u-margin-r-bottom u-posRelative" id="home-pt">
           {% assign pianoUrl = '/piano/' | relative_url %}
+          {% if page.lang != 'it' %}
+            {% assign pianoUrl = page.lang | append:'/piano/' | relative_url %}
+          {% endif %}
           {%
             include card.html
             title = t.home_pt_title

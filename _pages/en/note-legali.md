@@ -13,7 +13,7 @@ This site contains information on the Three-Year Plan for IT in the Public Admin
 Ownership of all documents and content (texts, presentations, images, photographs, videos, etc.) is held by the Agency for Digital Italy.
 Viewing, downloading and any use of the data published on the Site implies the acceptance of these legal notices and the conditions of the licence with which they are published.
 
-Unless otherwise indicated, the content published on this site is made available under the CC-BY 3.0 license, the full text of which is available at the following address: [http://creativecommons.org/licenses/by/3.0/it/legalcode](http://creativecommons.org/licenses/by/3.0/it/legalcode){:target="_blank"}
+Unless otherwise indicated, the content published on this site is made available under the CC-BY 3.0 license, the full text of which is available at the following address: [http://creativecommons.org/licenses/by/3.0/legalcode](http://creativecommons.org/licenses/by/3.0/legalcode){:target="_blank"}
 {: .u-textBreak }
 
 This means that, unless otherwise specified, the contents of this site are freely distributable and reusable, provided that the source is always cited and - where possible - the web address of the original page is indicated.
