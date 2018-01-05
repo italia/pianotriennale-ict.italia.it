@@ -13,9 +13,9 @@
       {% for linked_page in pages_in_other_langs %}
       {% if linked_page.lang == "it" %}
       
-        <li><a href="{{ linked_page.url }}" title="{{ site.data.t.ItalianVersion[page.lang] }}" {% if linked_page.lang == page.lang %}class="u-textWeight-600"{% endif %}>{{site.data.l10n[linked_page.lang].name}}</a></li>
+        <li><a href="{{ linked_page.url }}" title="{{ site.data.t.ItalianVersion[page.lang] }}" {% if linked_page.lang == page.lang %}class="u-textWeight-600"{% endif %}>{{site.data.l10n[linked_page.lang].code | upcase}}</a></li>
         {% else %}
-        <li><a href="{{ linked_page.url }}" title="{{ site.data.t.EnglishVersion[page.lang] }}" {% if linked_page.lang == page.lang %}class="u-textWeight-600"{% endif %}>{{site.data.l10n[linked_page.lang].name}}</a></li>
+        <li><a href="{{ linked_page.url }}" title="{{ site.data.t.EnglishVersion[page.lang] }}" {% if linked_page.lang == page.lang %}class="u-textWeight-600"{% endif %}>{{site.data.l10n[linked_page.lang].code | upcase}}</a></li>
       {% endif %}
       {% endfor %}
     </ul>
