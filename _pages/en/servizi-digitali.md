@@ -19,7 +19,7 @@ AgID has issued Design Guidelines for the services and sites of the Public Admin
 These are the main objectives:
 
 - to promote and spread the open source paradigm;
-- to encourage the adoption of enabling platforms (such as [SPID](http://www.spid.gov.it), [PagoPA](http://www.agid.gov.it/agenda-digitale/pubblica-amministrazione/pagamenti-elettronici), [ANPR](http://www.agid.gov.it/agenda-digitale/pubblica-amministrazione/anagrafe-nazionale-anpr)) through the creation and dissemination of development kits, validation and verification environments, transparent communication regarding the progress of each project and the reporting and discussion of anomalies;
+- to encourage the adoption of enabling platforms (such as [SPID](https://teamdigitale.governo.it/en/projects/digital-identity.htm), [PagoPA](https://teamdigitale.governo.it/en/projects/digital-payments.htm), [ANPR](https://teamdigitale.governo.it/en/projects/anpr.htm)) through the creation and dissemination of development kits, validation and verification environments, transparent communication regarding the progress of each project and the reporting and discussion of anomalies;
 - to provide useful guidelines and toolkits for the development of applications and services with adequate levels of design, user experience, security and usability;
 - to promote the development of digital products and services based on the use of databases, APIs and information made available by the PAs;
 - to share information and software components that will reduce the implementation cost for new digital products, encouraging the reuse and interoperability;
