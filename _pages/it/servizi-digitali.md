@@ -16,7 +16,7 @@ AgID ha emanato le Linee Guida di design per i servizi e i siti della PA con l�
 Tra gli obiettivi principali:
 
 - favorire la diffusione del paradigma open source;
-- incentivare l’adozione delle piattaforme abilitanti (ad es. [SPID](http://www.spid.gov.it), [PagoPA](http://www.agid.gov.it/agenda-digitale/pubblica-amministrazione/pagamenti-elettronici), [ANPR](http://www.agid.gov.it/agenda-digitale/pubblica-amministrazione/anagrafe-nazionale-anpr)) tramite la realizzazione e diffusione di kit di sviluppo, ambienti di validazione e verifica, la comunicazione trasparente sullo stato di avanzamento di ciascun progetto e la segnalazione e discussione di anomalie;
+- incentivare l’adozione delle piattaforme abilitanti (ad es. [SPID](https://teamdigitale.governo.it/it/projects/identita-digitale.htm), [PagoPA](https://teamdigitale.governo.it/it/projects/pagamenti-digitali.htm), [ANPR](https://teamdigitale.governo.it/it/projects/anpr.htm)) tramite la realizzazione e diffusione di kit di sviluppo, ambienti di validazione e verifica, la comunicazione trasparente sullo stato di avanzamento di ciascun progetto e la segnalazione e discussione di anomalie;
 - fornire linee guida da seguire e toolkit utili allo sviluppo di applicazioni e servizi con adeguati livelli di design, user experience, sicurezza e usabilità;
 - favorire lo sviluppo di prodotti e servizi digitali basati sull’utilizzo di basi di dati, API e informazioni rese disponibili dalle PA;
 - condividere indicazioni e componenti software che permettano di ridurre i costi di implementazione di nuovi prodotti digitali, favorendo il riuso e l’interoperabilità;
