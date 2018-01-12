@@ -121,6 +121,8 @@ it:
             label: Read It
             href: 'https://pianotriennale-ict.readthedocs.io/en/latest'
             target_blank: true
+    home_links:
+      plan: /it/plan
     quotes:
       gentiloni:
         text: |
@@ -219,6 +221,25 @@ it:
       principi-per-lo-sviluppo-di-progetti-digitali:
         name: Principi per lo sviluppo di progetti digitali
         ref: principi-per-lo-sviluppo-di-progetti-digitali
+    gov_full: Presidenza del Consiglio dei Ministri
+    gov_link: http://www.governo.it
+    gov_logo: /assets/images/governo.svg
+    gov_logo_alt: /assets/images/governo-alt.svg
+    dfp_full: Dipartimento della funzione pubblica
+    dfp_link: http://www.funzionepubblica.gov.it
+    dfp_logo: /assets/images/governo.svg
+    dfp_logo_alt: /assets/images/governo-alt.svg
+    owner_short: AgID
+    owner_full: Agenzia per l'Italia Digitale
+    owner_link: http://www.agid.gov.it
+    owner_logo: /assets/images/agid-logo-bb.svg
+    owner_logo_alt: /assets/images/agid-logo-alt-bb.svg
+    partner_short: Team Digitale
+    partner_full: Team per la Trasformazione Digitale
+    partner_link: https://teamdigitale.governo.it
+    privacy_link: https://developers.italia.it/it/privacy-policy
+    partner_logo: /assets/images/dt-logo.svg
+    partner_logo_alt: /assets/images/dt-logo-alt.svg
 
 en:
   code: eng
@@ -343,6 +364,8 @@ en:
             label: Read It
             href: 'https://pianotriennale-ict.readthedocs.io/en/latest'
             target_blank: true
+    home_links:
+      plan: /en/plan
     quotes:
       gentiloni:
         text: |
@@ -441,3 +464,22 @@ en:
       principi-per-lo-sviluppo-di-progetti-digitali:
         name: Principles for the development of digital projects
         ref: principi-per-lo-sviluppo-di-progetti-digitali
+    gov_full: Italian Government
+    gov_link: http://www.governo.it
+    gov_logo: /assets/images/governo.svg
+    gov_logo_alt: /assets/images/governo-alt.svg
+    dfp_full: Department of Public Function
+    dfp_link: http://www.funzionepubblica.gov.it
+    dfp_logo: /assets/images/governo.svg
+    dfp_logo_alt: /assets/images/governo-alt.svg
+    owner_short: AgID
+    owner_full: Agenzia per l'Italia Digitale
+    owner_link: http://www.agid.gov.it
+    owner_logo: /assets/images/agid-logo-bb.svg
+    owner_logo_alt: /assets/images/agid-logo-alt-bb.svg
+    partner_short: Team Digitale
+    partner_full: Digital Transformation Team
+    partner_link: https://teamdigitale.governo.it/en
+    privacy_link: https://developers.italia.it/en/privacy-policy
+    partner_logo: /assets/images/dt-logo.svg
+    partner_logo_alt: /assets/images/dt-logo-alt.svg

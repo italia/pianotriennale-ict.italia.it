@@ -37,7 +37,7 @@ layout: default
       {% if page.cta-buttons %}
       {% assign chapter = page.subchapter | default: page.chapter %}
       <div>
-        {% assign pdfUrl = site.data.ext_links[page.lang][chapter].pdf | relative_url %}
+        {% assign pdfUrl = site.data.ext_links[page.lang][chapter].pdf %}
         <a href="{{ pdfUrl }}" class="u-textWeight-600 u-linkClean u-color-teal-70 u-block" target="_blank">
           <span class="Icon Icon-download-alt u-margin-left-xs u-alignMiddle u-text-r-l"></span>
           <span class="u-text-r-xxs u-textClean">{{ t.download_chapter | upcase }}</span>

@@ -39,39 +39,39 @@ it:
 
 en:
   - title: The Plan
-    url: /en/piano/
+    url: /en/plan/
   - title: The chapters
     url: '#'
     liClass: 'Megamenu-item Megamenu-item--vert'
     subtitle: The pillars of digital transformation
     subitems:
     - title: Digital Services
-      url: /en/servizi-digitali/
+      url: /en/digital-services/
     - title: Ecosystems
-      url: /en/ecosistemi/
+      url: /en/ecosystems/
     - title: Interoperability
-      url: /en/interoperabilita/
+      url: /en/interoperability/
     - title: Enabling platforms
-      url: /en/piattaforme-abilitanti/
+      url: /en/enabling-platforms/
     - title: Data
-      url: /en/dati/
+      url: /en/data/
     - title: Connectivity
-      url: /en/connettivita/
+      url: /en/connectivity/
     - title: Data Centres and Cloud
-      url: /en/data-center-e-cloud/
+      url: /en/data-centres-and-cloud/
     - title: Security
-      url: /en/sicurezza/
+      url: /en/security/
     - title: Data & Analytics Framework
       url: /en/daf/
     - title: Change Management
-      url: /en/gestione-del-cambiamento/
+      url: /en/change-management/
     - title: Rationalisation of expenditure
-      url: /en/razionalizzazione-della-spesa/
+      url: /en/rationalisation-of-expenditure/
     - title: Principles for the development of digital projects
-      url: /en/principi-per-lo-sviluppo-di-progetti-digitali/
+      url: /en/principles-for-the-development-of-digital-projects/
   - title: Actions
-    url: /en/azioni/
+    url: /en/actions/
   - title: FAQs
-    url: /en/faq/
+    url: /en/faqs/
   - title: Contact us
-    url: /en/contatti/
+    url: /en/contacts/
