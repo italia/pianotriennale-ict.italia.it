@@ -311,7 +311,7 @@ en:
     actions: actions
     amministrazioni_centrali: central administrations
     amministrazioni_territoriali: territorial administrations
-    tempi: times
+    tempi: due dates
     attori: players
     descrizione: description
     risultati: results
@@ -333,22 +333,22 @@ en:
       - the operational course of action in the development of public information technology;
       - the strategic model of the evolution of the PA information system;
       - ICT investments in the public sector according to the European and Governmental guidelines.
-    home_pt_howto_title: Consult the Plan
+    home_pt_howto_title: Read the Plan
     home_pt_howto:
       - text: |
-         The pages of this site summarise the contents of the Three-Year Plan, divided into [chapters](/en/piano) and [actions](/en/azioni).
+         The pages of this site summarise the contents of the Three-Year Plan, divided into [chapters](/en/plan) and [actions](/en/actions).
          The complete document is available online in a browsable version optimised for mobile devices, or in PDF format.
         links:
           - type: button
             icon: read
-            label: Consultable version
+            label: Browsable version
             href: 'https://pianotriennale-ict.readthedocs.io/en/latest'
             target_blank: true
           - icon: download-alt
             label: download the pdf
             href: 'http://readthedocs.org/projects/pianotriennale-ict-en/downloads/pdf/latest/'
             target_blank: true
-      - text: Do you need further information? Consult the [FAQs](/en/faq), participate in the dedicated discussion forum or propose a change to the text on [GitHub](https://github.com/italia/pianotriennale-ict-doc).
+      - text: Do you need further information? Consult the [FAQs](/en/faqs), participate in the dedicated discussion forum or propose a change to the text on [GitHub](https://github.com/italia/pianotriennale-ict-doc-en).
         links:
           - type: button
             icon: forum
