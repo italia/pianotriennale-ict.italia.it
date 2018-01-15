@@ -68,7 +68,7 @@
 
   <div class="Footer-links u-cf u-color-80">
     <ul class="u-floatLeft">
-    {% for link in site.data.footer_links %}
+    {% for link in site.data.footer_links[page.lang]  %}
       {% assign link_name = link[1].title %}
       <li><a href="{{ link[1].url | relative_url }}">{{ t[link_name] | default: link_name | capitalize }}</a></li>
     {% endfor %}
