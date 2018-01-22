@@ -8,34 +8,28 @@
       <div class="u-sizeFill u-sizeFull u-padding-r-bottom u-padding-r-left u-padding-r-right">
         
         {% for tema in temi_in_body %}
+          {% assign refpages = site.pages | where: "ref", t.temi[tema].ref %}
+          {% assign refpage = refpages | where: "lang", page.lang | first %}
 
-          {% if page.lang != 'it' %}
-            {% assign href = page.lang | append: '/' | append: t.temi[tema].ref %}
-          {% else %}
-            {% assign href = append: '/' | append: t.temi[tema].ref %}
-          {% endif %}
-          <a href="{{ href | relative_url }}" class="u-borderRadius-m u-block u-background-white u-margin-r-bottom u-padding-r-all u-textCenter u-color-50 u-textClean u-text-r-xs">
+          <a href="{{ refpage.url | relative_url }}" class="u-borderRadius-m u-block u-background-white u-margin-r-bottom u-padding-r-all u-textCenter u-color-50 u-textClean u-text-r-xs">
             {{ t.temi[tema].name }}
+
           </a>
         {% endfor %}
       </div>
     </div>
 
     {% for tema in temi_in_footer %}
-
-          {% if page.lang != 'it' %}
-            {% assign href = page.lang | append: '/' | append: t.temi[tema].ref %}
-          {% else %}
-            {% assign href = append: '/' | append: t.temi[tema].ref %}
-          {% endif %}
-    <div class="Grid-cell u-size1of2" style="margin-top: -1.8rem">
+     {% assign refpages = site.pages | where: "ref", t.temi[tema].ref %}
+     {% assign refpage = refpages | where: "lang", page.lang | first %}
+      <div class="Grid-cell u-size1of2" style="margin-top: -1.8rem">
       <div class="u-sizeFill u-flex u-flexCol u-margin-right-xs u-borderRadius-m u-background-50">
-        <a href="{{ href | relative_url }}" class="u-flexExpandTop u-sizeFull u-block u-textClean
+        <a href="{{ refpage.url | relative_url }}" class="u-flexExpandTop u-sizeFull u-block u-textClean
         u-color-white u-padding-r-all u-text-r-xs">
           {{ t.temi[tema].name }}
         </a>
       </div>
-    </div>
+      </div>
     {% endfor %}
   </div>
 </div>

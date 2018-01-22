@@ -146,7 +146,7 @@ en:
     text: |
       The innovation is the Plan itself: it is the first document containing actions, times and objectives for the Strategy's implementation, providing clear indications to each Public Administration.
 
-      In addition, to broaden the possibilities for discussion and participation, collaboration tools typical of the developers' world and aimed at disseminating technology projects are used: [GitHub](https://github.com/italia/pianotriennale-ict-doc-en), [ReadTheDocs](https://pianotriennale-ict.readthedocs.io/) and [Discourse](https://forum.italia.it) (see FAQ no. 15).
+      In addition, to broaden the possibilities for discussion and participation, collaboration tools typical of the developers' world and aimed at disseminating technology projects are used: [GitHub](https://github.com/italia/pianotriennale-ict-doc-en), [ReadTheDocs](https://pianotriennale-ict.readthedocs.io/en/latest/) and [Discourse](https://forum.italia.it) (see FAQ no. 15).
   - title: 6 - What is the duration of the Three-Year Plan?
     text: |
       The Plan has an annual duration. The 2017 version defines the activities of 2018. By the end of September each year, an updated version will be issued that will direct the actions for the following year.
