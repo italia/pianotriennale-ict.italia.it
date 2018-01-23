@@ -81,3 +81,87 @@ Per pubblicare il sito è necessario creare un file `.pianotriennale-ict_site.js
 ```
 
 Dove `server` è nel formato `user@host`, `path` è il percorso completo alla directory di pubblicazione e `port` è la porta SSH per accedere al server (la pubblicazione avviene tramite _rsync_ via SSH).
+
+***
+
+# THREE-YEAR PLAN FOR ICT IN PUBLIC ADMINISTRATION  2017 - 2019
+
+[![CircleCI](https://circleci.com/gh/italia/pianotriennale-ict.italia.it.svg?style=svg)](https://circleci.com/gh/italia/pianotriennale-ict.italia.it)
+
+This repository contains the source code for the descriptive website about the *Three-Year Plan for ICT in Public Administrazion*.
+This website is based omn Jekyll.
+
+If you want to contribute to the development, just go on and open a pull-request.
+
+## Descriptive website about the Three-Year Plan
+[https://pianotriennale-ict.italia.it/](https://pianotriennale-ict.italia.it/)
+
+## Discussion forum
+[https://forum.italia.it/c/piano-triennale/](https://forum.italia.it/c/piano-triennale)
+
+## Full text of the Three-Year Plan
+[https://pianotriennale-ict.readthedocs.io/](https://pianotriennale-ict.readthedocs.io/en/latest/)
+
+## Build and deployment
+
+### Prerequisites
+
+Install `ruby`, `ruby-dev`, `ruby-bundler` and `nodejs`.
+
+#### Linux (Ubuntu)
+
+Install Ruby:
+
+    $ apt-get install ruby-bundler
+    $ apt-get install ruby-dev
+
+Instructions about [installation of nodejs](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions)
+
+#### macOS
+
+Instructions about [installing nodejs on macOS](https://nodejs.org/en/download/package-manager/#osx)
+
+### Dependencies
+
+In order to set-up a development environment just run the following commands within the project root directory:
+
+    $ bundle install
+    $ npm install
+
+### Automatic rebuild
+
+Jekyll allows to rebuild automatically while editing files.
+See documentation for the [serve](https://jekyllrb.com/docs/usage/) command:
+
+```
+$ bundle exec jekyll serve
+```
+
+In addition, `serve` will run a local webserver at [http://localhost:4000](http://localhost:4000).
+
+### Build for publishing
+
+In order to build website for deployment a few additional optimizations are run for lightness and efficiency.
+For such purpose, use `gulp`:
+
+```
+$ gulp build
+```
+
+Results will be placed in the `_site/` directory.
+
+### Deployment
+
+In order to publish the website just create a file named `.pianotriennale-ict_site.json` under your home directory with the following format:
+
+```
+{
+  "production": {
+    "server": "...",
+    "path": "...",
+    "port": ...
+  },
+}
+```
+
+Where `server` has the format `user@host`, `path` is the full path to the deplyment directory and `port` is the SSH port to access the server (_rsync_ over SSH will be used).
