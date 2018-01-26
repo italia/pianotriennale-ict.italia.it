@@ -86,7 +86,7 @@ Dove `server` è nel formato `user@host`, `path` è il percorso completo alla di
 
 # THREE-YEAR PLAN FOR ICT IN PUBLIC ADMINISTRATION  2017 - 2019
 
-This repository contains the source code for the descriptive website about the *Three-Year Plan for ICT in Public Administrazion*.
+This repository contains the source code for the descriptive website about the *Three-Year Plan for ICT in Public Administration*.
 This website is based on Jekyll.
 
 If you want to contribute to the development, just go on and open a pull-request.
