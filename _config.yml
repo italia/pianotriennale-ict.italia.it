@@ -40,6 +40,8 @@ exclude:
   - node_modules
   - circle.yml
   - yarn.lock
+  - package-lock.json
+  - redirects.json
 
 # Custom vars
 theme_color: "#0066cc"
