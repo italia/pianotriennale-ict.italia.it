@@ -122,7 +122,7 @@ it:
             href: 'https://pianotriennale-ict.readthedocs.io/en/latest'
             target_blank: true
     home_links:
-      plan: /plan
+      plan: /piano
     quotes:
       gentiloni:
         text: |
