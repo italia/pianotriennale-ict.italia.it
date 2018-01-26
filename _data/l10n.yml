@@ -352,7 +352,7 @@ en:
         links:
           - type: button
             icon: forum
-            label: join
+            label: join the forum
             href: 'https://forum.italia.it/c/piano-triennale'
             target_blank: true
     home_pt_en_title: The Three-Year Plan
