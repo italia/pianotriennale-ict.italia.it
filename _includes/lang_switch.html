@@ -1,4 +1,4 @@
-{% if site.data.l10n.size > 1 %}
+{% assign pages_in_other_langs = site.pages | where: "ref", page.ref | sort: 'lang' | reverse %}
 <div class="Header-languages u-background-50">
 
   <a href="#languages" data-menu-trigger="languages" class="Header-language u-border-none u-zindex-max u-inlineBlock">
@@ -10,12 +10,16 @@
   <div id="languages" data-menu class="Dropdown-menu Header-language-other u-jsVisibilityHidden u-nojsDisplayNone">
     <span class="Icon-drop-down Dropdown-arrow u-color-white"></span>
     <ul class="Linklist">
-      {% for lang in site.data.l10n %}
-      <li><a href="{{ '/' | append: lang[0] | relative_url }}"
-        class="u-padding-r-all"><span lang="{{ lang[0] }}">{{ lang[1].name }}</span></a></li>
+      {% for linked_page in pages_in_other_langs %}
+      {% if linked_page.lang == "it" %}
+      
+        <li><a href="{{ linked_page.url }}" title="{{ site.data.t.ItalianVersion[page.lang] }}" {% if linked_page.lang == page.lang %}class="u-textWeight-600"{% endif %}>{{site.data.l10n[linked_page.lang].code | upcase}}</a></li>
+        {% else %}
+        <li><a href="{{ linked_page.url }}" title="{{ site.data.t.EnglishVersion[page.lang] }}" {% if linked_page.lang == page.lang %}class="u-textWeight-600"{% endif %}>{{site.data.l10n[linked_page.lang].code | upcase}}</a></li>
+      {% endif %}
       {% endfor %}
     </ul>
   </div>
 
 </div>
-{% endif %}
+

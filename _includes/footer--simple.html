@@ -4,12 +4,12 @@
     <div class="Owner Grid-cell u-sm-size1of2 u-md-size1of5 u-lg-size1of5 u-padding-r-bottom">
       <div class="Grid">
         <div class="u-inlineBlock">
-          <a href="{{ site.gov_link }}" title="{{ site.gov_full | escape }}">
-          <img class="Footer-logo u-alignMiddle" src="{{ site.gov_logo | relative_url }}"
+          <a href="{{ t.gov_link }}" title="{{ t.gov_full | escape }}">
+          <img class="Footer-logo u-alignMiddle" src="{{ t.gov_logo | relative_url }}"
           alt="" style="height: 4em; max-width: 100%"></a>
         </div>
         <p class="Grid-cell u-size8of12 u-md-size7of12 Footer-siteName u-padding-top-xxs u-text-r-m">
-          <a href="{{ site.gov_link }}" title="{{ site.gov_full | escape }}" class="u-color-white u-textClean">{{ site.gov_full | escape }}</a>
+          <a href="{{ t.gov_link }}" title="{{ t.gov_full | escape }}" class="u-color-white u-textClean">{{ t.gov_full | escape }}</a>
         </p>
       </div>
     </div>
@@ -17,12 +17,12 @@
     <div class="Owner Grid-cell u-sm-size1of2 u-md-size1of5 u-lg-size1of5 u-padding-r-bottom">
       <div class="Grid"> 
          <div class="u-inlineBlock">
-          <a href="{{ site.dfp_link }}" title="{{ site.dfp_full | escape }}">
-          <img class="Footer-logo u-alignMiddle" src="{{ site.dfp_logo | relative_url }}"
+          <a href="{{ t.dfp_link }}" title="{{ t.dfp_full | escape }}">
+          <img class="Footer-logo u-alignMiddle" src="{{ t.dfp_logo | relative_url }}"
           alt="" style="height: 4em; max-width: 100%"></a>
         </div>
         <p class="Grid-cell u-size8of12 u-md-size7of12 Footer-siteName u-padding-top-xxs u-text-r-m">
-          <a href="{{ site.dfp_link }}" title="{{ site.dfp_full | escape }}" class="u-color-white u-textClean">{{ site.dfp_full | escape }}</a>
+          <a href="{{ t.dfp_link }}" title="{{ t.dfp_full | escape }}" class="u-color-white u-textClean">{{ t.dfp_full | escape }}</a>
         </p>
       </div>
     </div>
@@ -30,8 +30,8 @@
     <div class="Owner Grid-cell u-sm-size1of2 u-md-size1of4 u-lg-size1of4 u-padding-r-bottom">
       <div class="Grid">     
         <div class="u-inlineBlock">
-          <a href="{{ site.owner_link }}" title="{{ site.owner_full | escape }}">
-          <img class="Footer-logo u-alignMiddle" src="{{ site.owner_logo | relative_url }}"
+          <a href="{{ t.owner_link }}" title="{{ t.owner_full | escape }}">
+          <img class="Footer-logo u-alignMiddle" src="{{ t.owner_logo | relative_url }}"
           alt="" style="height: 4em; max-width: 100%"></a>
         </div>
       </div>
@@ -40,12 +40,12 @@
     <div class="Partner Grid-cell u-sm-size1of2 u-md-size1of4 u-lg-size1of4 u-padding-r-bottom td-footer">
       <div class="Grid">
         <div class="u-inlineBlock">
-            <a href="{{ site.partner_link }}" title="{{ site.owner_full | escape }}"><img class="u-padding-right-xxs" src="{{ site.partner_logo | relative_url }}" alt=""
+            <a href="{{ t.partner_link }}" title="{{ t.owner_full | escape }}"><img class="u-padding-right-xxs" src="{{ t.partner_logo | relative_url }}" alt=""
             style="height: 4em; max-width: 100%"></a>
         </div>
         <div class="Grid-cell u-size1of12 u-padding-left-none team-bar"></div>
         <p class="Grid-cell u-size5of12 Footer-siteName u-padding-left-xs u-text-r-xs">
-          <a href="{{ site.partner_link }}" title="{{ site.partner_full | escape }}" class="u-color-white u-textClean">{{ site.partner_full | upcase }}</a>
+          <a href="{{ t.partner_link }}" title="{{ t.partner_full | escape }}" class="u-color-white u-textClean">{{ t.partner_full | upcase }}</a>
         </p>
       </div>
     </div>
@@ -54,7 +54,7 @@
       <h2 class="u-md-flexInline u-lg-flexInline u-text-p u-color-white u-textWeight-400
         u-hidden u-margin-r-right u-flexAlignSelfCenter">{{ t.follow_us | capitalize }}</h2>
       <ul class="Footer-socialIcons">
-        {% assign socials = site.data.social | where: 'footer', true %}
+        {% assign socials = site.data.social[page.lang] | where: 'footer', true %}
         {% for social in socials %}
           <li>
             <a href="{{ social.link }}" title="{{ social.name }}" target="_blank"><span class="Icon-{{ social.name }}"></span>
@@ -68,7 +68,7 @@
 
   <div class="Footer-links u-cf u-color-80">
     <ul class="u-floatLeft">
-    {% for link in site.data.footer_links %}
+    {% for link in site.data.footer_links[page.lang]  %}
       {% assign link_name = link[1].title %}
       <li><a href="{{ link[1].url | relative_url }}">{{ t[link_name] | default: link_name | capitalize }}</a></li>
     {% endfor %}

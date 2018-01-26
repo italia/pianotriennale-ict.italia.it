@@ -7,6 +7,7 @@ title-alignment: center
 cta-buttons: true
 chapter: ecosistemi
 linee-azione: true
+ref: ecosistemi
 ---
 Gli ecosistemi sono i settori o aree di intervento in cui si svolge l’azione delle PA, dalla sanità all’agricoltura, dalla scuola ai beni culturali. Ciascun ecosistema individua un settore tematico con caratteristiche di omogeneità. Comprende enti e organismi pubblici e può anche includere soggetti privati.
 

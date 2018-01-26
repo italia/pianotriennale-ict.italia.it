@@ -1,6 +1,6 @@
 <p class="u-margin-r-bottom u-textWeight-300">{{ t.share_msg }} {{ t.on_ }}</p>
 <ul class="u-textCenter u-layoutCenter">
-  {% for social in site.data.social %}
+  {% for social in site.data.social[page.lang] %}
     {% if social[1].sharelink %}
       {% assign shareurl = page.url | absolute_url | escape %}
       <li class="u-inlineBlock u-padding-right-xs u-padding-left-xs">
