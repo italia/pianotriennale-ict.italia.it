@@ -8,6 +8,7 @@ cta-buttons: true
 chapter: infrastrutture-immateriali
 subchapter: dati-della-pa
 linee-azione: true
+ref: dati
 ---
 I dati delle pubbliche amministrazioni, insieme ai meccanismi e alle piattaforme create per offrire servizi ai cittadini, sono uno dei principali patrimoni digitali della PA. Per sfruttarne le potenzialità è necessario superare la “logica a silos” in favore di una visione sistemica.
 

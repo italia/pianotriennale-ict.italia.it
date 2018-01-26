@@ -1,4 +1,4 @@
 ---
 permalink: azioni/azioni.json
 ---
-{{ site.data.linee_azione | sort: "numero" | jsonify }}
+{{ site.data.linee_azione.it | sort: "numero" | jsonify }}

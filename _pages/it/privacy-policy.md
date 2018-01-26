@@ -5,6 +5,7 @@ layout: page
 separator: descending
 title-alignment: left
 content-alignment: left
+ref: privacy-policy
 ---
 In questa pagina si descrivono le modalità e le logiche del trattamento dei dati personali degli utenti (di seguito, anche gli Utenti) che consultano il sito: https://pianotriennale-ict.italia.it/ (di seguito, anche il Sito).
 

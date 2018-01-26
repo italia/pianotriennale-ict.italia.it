@@ -5,4 +5,5 @@ lang: it
 layout: faqs
 separator: descending
 title-alignment: left
+ref: faq
 ---

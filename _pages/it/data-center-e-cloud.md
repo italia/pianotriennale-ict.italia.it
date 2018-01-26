@@ -8,6 +8,7 @@ cta-buttons: true
 chapter: infrastrutture-fisiche
 subchapter: data-center-e-cloud
 linee-azione: true
+ref: data-center-e-cloud
 ---
 Il cloud della PA fa parte delle infrastrutture fisiche nazionali assieme alle reti di comunicazione, i data center, i sistemi di disaster recovery e di business continuity, gli apparati necessari per monitoraggio e sicurezza.
 

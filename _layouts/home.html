@@ -28,7 +28,7 @@ layout: default
         <div class="Grid Grid--withGutter">
 
           <div class="Grid-cell u-md-size5of12 u-lg-size5of12 u-margin-r-bottom u-posRelative" id="home-pt">
-          {% assign pianoUrl = '/piano/' | relative_url %}
+          {% assign pianoUrl = t.home_links.plan | relative_url %}
           {%
             include card.html
             title = t.home_pt_title
@@ -62,11 +62,6 @@ layout: default
             gotoLink = t.quotes.piacentini.goto_link
             gotoLabel = t.quotes.piacentini.goto_label
           %}
-          {%
-            include card.html
-            title = t.home_pt_en_title
-            text = t.home_pt_en
-          %}
           </div>
 		      <div class="Grid-cell u-md-size5of12 u-md-before2of12 u-lg-size5of12 u-lg-before2of12 u-margin-r-top u-margin-r-bottom u-posRelative" id="home-pt-howto">
           {%
@@ -83,21 +78,15 @@ layout: default
 
     <div class="Sticky-bottom Grid Grid--alignMiddle u-sm-hidden u-md-hidden u-lg-hidden u-background-50">
       <div class="Grid-cell u-size1of3 u-padding-r-all">
-        <a role="button" href="{{ site.data.ext_links.piano-triennale-index.forum }}"
+        <a role="button" href="{{ site.data.ext_links[page.lang].piano-triennale-index.forum }}"
         class="u-textCenter u-text-r-xxs u-textWeight-600 u-linkClean u-color-white u-block u-padding-r-all u-block">
           <span class="u-text-r-xxs u-textClean">{{ t.goto_forum | upcase }}</span>
         </a>
       </div>
       <div class="Grid-cell u-size1of3 u-padding-r-all">
-        <a role="button" href="{{ site.data.ext_links.piano-triennale-index.rtd }}"
+        <a role="button" href="{{ site.data.ext_links[page.lang].piano-triennale-index.rtd }}"
         class="Button Button--default Button--shadow-dark Button--round u-text-r-xxs u-padding-r-all u-sizeFull">
           {{ t.home_header_button_text | upcase }}
-        </a>
-      </div>
-      <div class="Grid-cell u-size1of3 u-padding-r-all">
-        <a role="button" href="{{ site.data.ext_links.piano-triennale-index.rtd | replace: '/it/', '/en/' }}"
-        class="Button Button--default Button--shadow-dark Button--round u-text-r-xxs u-padding-r-all u-sizeFull">
-          {{ t.home_header_button_text_en | upcase }}
         </a>
       </div>
     </div>

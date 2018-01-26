@@ -6,7 +6,6 @@
 {% else %}
   <ul class="Linklist Linklist--padded u-layout-prose u-text-r-xs {% if include.dynamic %}Treeview Treeview--default js-Treeview{% endif %}">
 {% endif %}
-
   {% assign navurl = page.url | remove: 'index.html' %}
   {% for item in items %}
     {% unless include._internal %}
