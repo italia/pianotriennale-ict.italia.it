@@ -50,7 +50,7 @@ it:
     descrizione: |
       AgID definirà le regole e procedure di qualificazione dei Cloud Provider pubblici per consentire a Consip l'abilitazione dei nuovi CSP. I CSP già presenti sul MEPA o convenzioni o accordi quadro presentano la domanda di qualificazione entro 3 mesi dalla data di pubblicazione dei criteri di qualificazione.
     risultati: |
-      Circolare AgID “Criteri per la qualificazione dei Cloud Service Provider pubblici per la PA” (data di rilascio: ottobre 2017)
+      Circolare AgID “<a href="https://cloud-pa.readthedocs.io/it/latest/">Criteri per la qualificazione dei Cloud Service Provider pubblici per la PA</a>” (data di rilascio: ottobre 2018)
       Consip provvede ad abilitare l’accesso agli strumenti del mercato elettronico/convenzioni/accordi quadro ai soli Cloud Service Provider qualificati da AgID (data di rilascio: da ottobre 2017)
     numero: 4
     completata: false
@@ -973,7 +973,7 @@ en:
     descrizione: |
       AgID will define the rules and procedures for qualifying public Cloud Providers to allow Consip to enable the new CSPs. The CSPs already present on the MEPA, conventions or framework agreements shall present the application for qualification within 3 months from the date of publication of the qualification criteria.
     risultati: |
-      AgID Circular - "Criteria for the qualifying of Public Service Cloud Service Providers for the Public Administration" (release date: October 2017) 
+      AgID Circular - "<a href="https://cloud-pa.readthedocs.io/it/latest/">Criteria for the qualifying of Public Service Cloud Service Providers for the Public Administration</a>" (release date: October 2017) 
       Consip provides undertakes to access to the electronic market tools/conventions/framework agreements only to the Cloud Service Providers that are qualified by AgID (release date: from October 2017)
     numero: 4
     completata: false
