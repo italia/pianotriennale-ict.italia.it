@@ -21,7 +21,7 @@ This means that, unless otherwise specified, the contents of this site are freel
 ### Use of the site and downloading
 The Agency for Digital Italy constantly strives to ensure the quality of information published on the site, as well as its integrity, up-to-dateness, completeness, timeliness, ease of consultation and accessibility.
 
-To report an issue or make a suggestion, it is possible to write to the address [info@agid.gov.it](mailto:info@agid.gov.it).
+To report an issue or make a suggestion, it is possible to write to the address [protocollo@pec.agid.gov.it](mailto:protocollo@pec.agid.gov.it).
 
 Under no circumstances may the Agency for Digital Italy be held responsible for damages of any kind caused directly or indirectly by access to the site, nor by the inability or impossibility of accessing it.
 
