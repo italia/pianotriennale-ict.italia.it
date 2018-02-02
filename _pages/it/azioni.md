@@ -1,5 +1,8 @@
 ---
 title: Le azioni
+title_button:
+  label: get_json
+  url: azioni/azioni.json
 lang: it
 layout: page
 separator: ascending
