@@ -141,6 +141,15 @@ a.Button--default {
   text-transform: none !important;
 }
 
+.Button--title {
+  background-color: #fff;
+  color: #00c5ca;
+  border-color: #fff;
+  padding: .2em .75em;
+  margin-left: 1em;
+  font-size: 1.4rem!important;
+}
+
 @media screen and (max-width: 767px) {
   .ScrollTop {
     display: none !important;
@@ -149,7 +158,7 @@ a.Button--default {
   .Button {
     white-space: normal;
   }
-  
+
   .Tabs .tablist:before, .Tabs .tablist:after {
     display: none;
   }
@@ -184,7 +193,7 @@ a.Button--default {
 
 @media screen and (max-width: 767px) {
    .Header-title {
-      width: 50% !important; 
+      width: 50% !important;
    }
 }
 
@@ -240,7 +249,7 @@ a.Button--default {
   }
 
   .Headroom--unpinned {
-    transform: translateY(-100%); 
+    transform: translateY(-100%);
   }
 
   .Page-container {
@@ -302,7 +311,7 @@ a.Button--default {
   background-color: #0066cc;
   background-image: url('#{$base_url}assets/images/sea_header.jpg');
   background-repeat: no-repeat;
-  background-position: center top; 
+  background-position: center top;
 }
 
 @media screen and (max-width: 767px) {
@@ -417,7 +426,7 @@ html {
   width: 100%;
   background-image: url('#{$base_url}assets/images/bg-flat.jpg');
   background-repeat: no-repeat;
-  background-position: center top; 
+  background-position: center top;
 }
 
 .Home-hero {
