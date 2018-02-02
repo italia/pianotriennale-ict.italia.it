@@ -29,6 +29,7 @@ it:
     actions_from: 'da '
     actions_to: ' a '
     actions_by: 'entro '
+    get_json: Scarica il JSON
     months:
       '01': gennaio
       '02': febbraio
@@ -269,6 +270,7 @@ en:
     actions_from: 'from '
     actions_to: ' to '
     actions_by: 'by '
+    get_json: Get JSON
     months:
       '01': january
       '02': february

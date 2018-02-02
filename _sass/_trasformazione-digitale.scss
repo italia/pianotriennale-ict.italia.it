@@ -141,6 +141,15 @@ a.Button--default {
   text-transform: none !important;
 }
 
+.Button--title {
+  background-color: #fff;
+  color: #00c5ca;
+  border-color: #fff;
+  padding: .2em .75em;
+  margin-left: 1em;
+  font-size: 1.4rem!important;
+}
+
 @media screen and (max-width: 767px) {
   .ScrollTop {
     display: none !important;

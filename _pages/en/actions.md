@@ -1,5 +1,8 @@
 ---
 title: Actions
+title_button:
+  label: get_json
+  url: en/actions/actions.json
 lang: en
 layout: page
 separator: ascending
