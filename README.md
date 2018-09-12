@@ -20,7 +20,7 @@ Se vuoi contribuire allo sviluppo del sito, è sufficiente aprire una pull-reque
 
 ### Prerequisiti
 
-È necessario installare `ruby`, `ruby-dev`, `ruby-bundler` e `nodejs`.
+È necessario installare `ruby`, `ruby-dev`, `ruby-bundler`, `nodejs` e `yarn`.
 
 #### Linux (Ubuntu)
 
@@ -40,7 +40,7 @@ Istruzioni per [installare nodejs su macOS](https://nodejs.org/en/download/packa
 Per configurare un ambiente di sviluppo è sufficiente eseguire i seguenti comandi nella directory principale del progetto:
 
     $ bundle install
-    $ npm install
+    $ yarn install
 
 ### Come generare automaticamente il sito mentre si lavora sui contenuti o la struttura
 
@@ -104,7 +104,7 @@ If you want to contribute to the development, just go on and open a pull-request
 
 ### Prerequisites
 
-Install `ruby`, `ruby-dev`, `ruby-bundler` and `nodejs`.
+Install `ruby`, `ruby-dev`, `ruby-bundler`, `nodejs` and `yarn`.
 
 #### Linux (Ubuntu)
 
@@ -124,7 +124,7 @@ Instructions about [installing nodejs on macOS](https://nodejs.org/en/download/p
 In order to set-up a development environment just run the following commands within the project root directory:
 
     $ bundle install
-    $ npm install
+    $ yarn install
 
 ### Automatic rebuild
 
