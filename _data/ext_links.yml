@@ -10,7 +10,7 @@ it:
   modello-strategico:
     forum: 'https://forum.italia.it/c/piano-triennale'
     rtd: 'https://pianotriennale-ict.readthedocs.io/it/latest/doc/02_modello-strategico-di-evoluzione-dell-ict-della-pa.html'
-    pdf: '/assets/pdf/cap_2-Modello_strategico_di_evoluzione_del_sistema_informativo_della_Pubblica_amministrazione .pdf'
+    pdf: '/assets/pdf/cap_2-Modello_strategico_di_evoluzione_del_sistema_informativo_della_Pubblica_amministrazione.pdf'
   data-center-e-cloud:
     forum: 'https://forum.italia.it/c/piano-triennale/data-center-e-cloud'
     rtd: 'https://pianotriennale-ict.readthedocs.io/it/latest/doc/03_infrastrutture-fisiche.html#data-center-e-cloud'
@@ -22,11 +22,11 @@ it:
   dati-della-pa:
     forum: 'https://forum.italia.it/c/piano-triennale/dati'
     rtd: 'https://pianotriennale-ict.readthedocs.io/it/latest/doc/04_infrastrutture-immateriali.html#dati-della-pubblica-amministrazione'
-    pdf: '/assets/pdf/cap_4-Infrastrutture immateriali.pdf'
+    pdf: '/assets/pdf/cap_4-Infrastrutture_immateriali.pdf'
   piattaforme-abilitanti:
     forum: 'https://forum.italia.it/c/piano-triennale/piattaforme-abilitanti'
     rtd: 'https://pianotriennale-ict.readthedocs.io/it/latest/doc/04_infrastrutture-immateriali.html#piattaforme-abilitanti'
-    pdf: '/assets/pdf/cap_4-Infrastrutture immateriali.pdf'
+    pdf: '/assets/pdf/cap_4-Infrastrutture_immateriali.pdf'
   modello-di-interoperabilita:
     forum: 'https://forum.italia.it/c/piano-triennale/interoperabilita'
     rtd: 'https://pianotriennale-ict.readthedocs.io/it/latest/doc/05_modello-di-interoperabilita.html'
