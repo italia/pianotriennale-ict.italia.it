@@ -1,0 +1,123 @@
+# Ruby CircleCI 2.0 configuration file
+#
+# Check https://circleci.com/docs/2.0/language-ruby/ for more details
+#
+
+var_1: &cache_key v1-dependencies-{{ checksum "Gemfile.lock" }}
+
+defaults: &defaults
+  working_directory: /home/circleci/pianotriennale-ict.italia.it
+  docker:
+    - image: circleci/ruby:2.4.1-node
+      environment:
+        BUNDLE_JOBS: 3
+        BUNDLE_RETRY: 3
+        BUNDLE_PATH: vendor/bundle
+        JEKYLL_ENV: production
+        NOKOGIRI_USE_SYSTEM_LIBRARIES: true # speeds up installation of html-proofer
+
+# we use a rw SSH key instead of the default one injected by CircleCI because we
+# use it for deploy as well
+anchor_2: &add_ssh_keys
+    fingerprints:
+      - "74:59:4b:c8:32:b4:3e:db:a6:ad:1e:6f:e8:a2:53:b6"
+
+version: 2
+jobs:
+  build:
+    <<: *defaults
+    steps:
+      - add_ssh_keys: *add_ssh_keys
+      - checkout
+
+      # Download and cache dependencies
+      - restore_cache:
+          keys:
+          - *cache_key
+          # fallback to using the latest cache if no exact match is found
+          - v1-dependencies-
+
+      - run:
+          name: Install dependencies
+          command: bundle install
+
+      - save_cache:
+          paths:
+            - ./vendor/bundle
+          key: *cache_key
+
+      - run:
+          name: Build jekyll website
+          command: bundle exec jekyll build
+
+      - persist_to_workspace:
+          root: /home/circleci
+          paths:
+            - pianotriennale-ict.italia.it
+            # the following setting is needed in order to avoid errors
+            #  with known_hosts during the deploy job (git push)
+            - .ssh
+
+      - store_artifacts:
+          path: /home/circleci/pianotriennale-ict.italia.it/_site
+
+  test:
+    <<: *defaults
+    steps:
+      - attach_workspace:
+          at: /home/circleci
+      - run:
+          name: Run htmlproofer
+          command: bundle exec htmlproofer ./_site  --check-html --allow-hash-href --empty-alt-ignore --only-4xx --disable-external
+
+  deploy:
+    <<: *defaults
+    steps:
+      - attach_workspace:
+          at: /home/circleci
+
+      - add_ssh_keys: *add_ssh_keys
+
+      # Deploy the site to GitHub Pages
+      - checkout:
+          path: /tmp/gh-pages
+      - deploy:
+          name: Deploy
+          command: |
+            git config --global user.email no-reply@teamdigitale.governo.it
+            git config --global user.name "Deploy Bot"
+
+            cd /tmp/gh-pages
+            git checkout gh-pages || git checkout --orphan gh-pages
+            git rm -rf .
+
+            cp -a /home/circleci/pianotriennale-ict.italia.it/_site/. .
+            # copy .circleci as well so that the branch filter is honored
+            mkdir -p .circleci && cp -a /home/circleci/pianotriennale-ict.italia.it/.circleci/. .circleci/.
+
+            git add -A
+            git commit -m "Automated deployment to GitHub Pages: ${CIRCLE_SHA1}" --allow-empty
+            git push origin gh-pages
+
+workflows:
+  version: 2
+  build-deploy:
+    jobs:
+      - build:
+          filters:
+            branches:
+              ignore: gh-pages
+      - test:
+          requires:
+            - build
+          filters:
+            branches:
+              ignore: gh-pages
+      - deploy:
+          requires:
+            - test
+          filters:
+            branches:
+              only:
+                - master
+                - gh-pages-deploy
