@@ -237,8 +237,8 @@ it:
     owner_short: AgID
     owner_full: Agenzia per l'Italia Digitale
     owner_link: http://www.agid.gov.it
-    owner_logo: /assets/images/agid-logo-bb.svg
-    owner_logo_alt: /assets/images/agid-logo-alt-bb.svg
+    owner_logo: /assets/images/agid-logo.svg
+    owner_logo_alt: /assets/images/agid-logo-alt.svg
     partner_short: Team Digitale
     partner_full: Team per la Trasformazione Digitale
     partner_link: https://teamdigitale.governo.it
@@ -485,8 +485,8 @@ en:
     owner_short: AgID
     owner_full: Agenzia per l'Italia Digitale
     owner_link: http://www.agid.gov.it
-    owner_logo: /assets/images/agid-logo-bb.svg
-    owner_logo_alt: /assets/images/agid-logo-alt-bb.svg
+    owner_logo: /assets/images/agid-logo.svg
+    owner_logo_alt: /assets/images/agid-logo-alt.svg
     partner_short: Team Digitale
     partner_full: Digital Transformation Team
     partner_link: https://teamdigitale.governo.it/en
