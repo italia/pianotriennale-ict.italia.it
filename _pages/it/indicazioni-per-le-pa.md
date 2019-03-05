@@ -1,12 +1,11 @@
 ---
-title: Connettività
+title: Indicazioni per le PA
 lang: it
 layout: page
 separator: curved
 title-alignment: center
 cta-buttons: true
-chapter: infrastrutture-fisiche
-subchapter: connettivita
+chapter: indicazioni-per-le-pa
 linee-azione: true
-ref: connettivita
+ref: indicazioni-per-le-pa
 ---

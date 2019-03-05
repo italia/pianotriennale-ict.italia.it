@@ -1,12 +1,11 @@
 ---
-title: Data
+title: Interoperability model
 lang: en
 layout: page
 separator: curved
 title-alignment: center
 cta-buttons: true
-chapter: infrastrutture-immateriali
-subchapter: dati-della-pa
+chapter: modello-di-interoperabilita
 linee-azione: true
-ref: dati
+ref: modello-di-interoperabilita
 ---

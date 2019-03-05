@@ -1,12 +1,11 @@
 ---
-title: Data
+title: Legal context
 lang: en
 layout: page
 separator: curved
 title-alignment: center
 cta-buttons: true
-chapter: infrastrutture-immateriali
-subchapter: dati-della-pa
+chapter: contesto-normativo
 linee-azione: true
-ref: dati
+ref: contesto-normativo
 ---

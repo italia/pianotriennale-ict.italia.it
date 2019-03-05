@@ -6,30 +6,30 @@ it:
     liClass: 'Megamenu-item Megamenu-item--vert'
     subtitle: Gli assi portanti della trasformazione digitale
     subitems:
-    - title: Servizi digitali
-      url: /servizi-digitali/
+    - title: Contesto normativo
+      url: /contesto-normativo/
+    - title: Infrastrutture
+      url: /infrastrutture/
+    - title: Modello di interoperabilità
+      url: /modello-di-interoperabilita/
+    - title: Dati della pa
+      url: /dati-della-pa/
+    - title: Piattaforme
+      url: /piattaforme/
     - title: Ecosistemi
       url: /ecosistemi/
-    - title: Interoperabilità
-      url: /interoperabilita/
-    - title: Piattaforme abilitanti
-      url: /piattaforme-abilitanti/
-    - title: Dati
-      url: /dati/
-    - title: Connettività
-      url: /connettivita/
-    - title: Data center e Cloud
-      url: /data-center-e-cloud/
     - title: Sicurezza
       url: /sicurezza/
-    - title: Data & Analytics Framework
-      url: /daf/
-    - title: Gestione del cambiamento
-      url: /gestione-del-cambiamento/
+    - title: Servizi digitali
+      url: /servizi-digitali/
+    - title: Modelli e strumenti per l'innovazione
+      url: /modelli-e-strumenti-innovazione/
+    - title: Governare la trasformazione digitale
+      url: /governare-la-trasformazione-digitale/
     - title: Razionalizzazione della spesa
       url: /razionalizzazione-della-spesa/
-    - title: Principi per lo sviluppo di progetti digitali
-      url: /principi-per-lo-sviluppo-di-progetti-digitali/
+    - title: Indicazioni per le pa
+      url: /indicazioni-per-le-pa/
   - title: Le azioni
     url: /azioni/
   - title: Consultazioni pubbliche
@@ -47,30 +47,30 @@ en:
     liClass: 'Megamenu-item Megamenu-item--vert'
     subtitle: The pillars of digital transformation
     subitems:
-    - title: Digital Services
-      url: /en/digital-services/
-    - title: Ecosystems
-      url: /en/ecosystems/
-    - title: Interoperability
-      url: /en/interoperability/
-    - title: Enabling platforms
-      url: /en/enabling-platforms/
+    - title: Legal context
+      url: /en/legal-context/
+    - title: Infrastructure
+      url: /en/infrastructure/
+    - title: Interoperability model
+      url: /en/interoperability-model/
     - title: Data
       url: /en/data/
-    - title: Connectivity
-      url: /en/connectivity/
-    - title: Data Centres and Cloud
-      url: /en/data-centres-and-cloud/
+    - title: Platforms
+      url: /en/platforms/
+    - title: Ecosystems
+      url: /en/ecosystems/
     - title: Security
       url: /en/security/
-    - title: Data & Analytics Framework
-      url: /en/daf/
-    - title: Change Management
-      url: /en/change-management/
+    - title: Digital Services
+      url: /en/digital-services/
+    - title: Models and tools for innovation
+      url: /en/models-and-tools/
+    - title: Govern the digital transformation
+      url: /en/govern-digital-transformation/
     - title: Rationalisation of expenditure
       url: /en/rationalisation-of-expenditure/
-    - title: Principles for the development of digital projects
-      url: /en/principles-for-the-development-of-digital-projects/
+    - title: Indications for the Public administrations
+      url: /en/indications-for-pa/
   - title: Actions
     url: /en/actions/
   - title: Public Consultations

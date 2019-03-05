@@ -1,12 +1,12 @@
 ---
-title: Data
-lang: en
+title: Piattaforme abilitanti
+lang: it
 layout: page
 separator: curved
 title-alignment: center
 cta-buttons: true
 chapter: infrastrutture-immateriali
-subchapter: dati-della-pa
+subchapter: piattaforme-abilitanti
 linee-azione: true
-ref: dati
+ref: piattaforme-abilitanti
 ---

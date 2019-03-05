@@ -159,7 +159,11 @@ it:
       dati-della-pa: Dati della PA
       piattaforme-abilitanti: Piattaforme abilitanti
       modello-di-interoperabilita: Modello di interoperabilità
-      ecosistemi: Ecositemi
+      modelli-e-strumenti-innovazione: Modelli e strumenti per l'innovazione
+      infrastrutture: Infrastrutture
+      piattaforme: Piattaforme
+      governare-la-trasformazione-digitale: Governare la trasformazione digitale
+      ecosistemi: Ecosistemi
       strumenti-per-la-generazione-e-la-diffusione-di-servizi-digitali: Strumenti per la generazione e la diffusione di servizi digitali
       sicurezza: Sicurezza
       data-analytics-framework: Data & Analytics Framework
@@ -167,6 +171,7 @@ it:
       principi-per-lo-sviluppo-di-progetti-digitali: Principi per lo sviluppo di progetti digitali
       razionalizzazione-della-spesa: Razionalizzazione della spesa
       piano-triennale: Piano Triennale
+      contesto-normativo: Contesto Normativo
       modello-strategico: Modello strategico
       indicazioni-per-le-pa: Indicazioni per le PA
     capitoli_en:
@@ -175,7 +180,11 @@ it:
       dati-della-pa: Public Administration Data
       piattaforme-abilitanti: Enabling platforms
       modello-di-interoperabilita: Interoperability Model
+      modelli-e-strumenti-innovazione: Models and tools for innovation
       ecosistemi: Ecosystems
+      infrastrutture: Infrastructures
+      piattaforme: Platforms
+      governare-la-trasformazione-digitale: Govern the digital transformation
       strumenti-per-la-generazione-e-la-diffusione-di-servizi-digitali: Instruments for the generation and the spread of digital services
       sicurezza: Security
       data-analytics-framework: Data & Analytics Framework
@@ -183,6 +192,7 @@ it:
       principi-per-lo-sviluppo-di-progetti-digitali: Principles for the development of digital projects
       razionalizzazione-della-spesa: Rationalisation of costs
       piano-triennale: Three-Year Plan for IT in Public Administration
+      contesto-normativo: Legal Context
       modello-strategico: Strategic evolution model of the information system of the public administration
       indicazioni-per-le-pa: Indications for the Public administrations
     temi_title: I capitoli
@@ -196,36 +206,33 @@ it:
       ecosistemi: 
         name: Ecosistemi
         ref: ecosistemi
-      interoperabilita: 
-        name: Interoperabilità
-        ref: interoperabilita
-      piattaforme-abilitanti:
-        name: Piattaforme abilitanti
-        ref: piattaforme-abilitanti
-      dati: 
-        name: Dati
-        ref: dati
-      rete: 
-        name: Connettività
-        ref: connettivita
-      cloud: 
-        name: Data center e cloud
-        ref: data-center-e-cloud
+      modello-di-interoperabilita: 
+        name: Modello di interoperabilità
+        ref: modello-di-interoperabilita
+      piattaforme:
+        name: Piattaforme
+        ref: piattaforme
+      dati-della-pa: 
+        name: Dati della PA
+        ref: dati-della-pa
+      infrastrutture: 
+        name: Infrastrutture
+        ref: infrastrutture
       sicurezza: 
         name: Sicurezza
         ref: sicurezza
-      big-data: 
-        name: Data & Analytics Framework
-        ref: data-center-e-cloud
       gestione-del-cambiamento: 
         name: Gestione del cambiamento
         ref: gestione-del-cambiamento
       razionalizzazione-della-spesa:
         name: Razionalizzazione della spesa
         ref: razionalizzazione-della-spesa
-      principi-per-lo-sviluppo-di-progetti-digitali:
-        name: Principi per lo sviluppo di progetti digitali
-        ref: principi-per-lo-sviluppo-di-progetti-digitali
+      governare-la-trasformazione-digitale:
+        name: Governare la trasformazione digitale
+        ref: governare-la-trasformazione-digitale
+      modelli-e-strumenti-innovazione:
+        name: Modelli e strumenti per l'innovazione
+        ref: modelli-e-strumenti-innovazione
     gov_full: Presidenza del Consiglio dei Ministri
     gov_link: http://www.governo.it
     gov_logo: /assets/images/governo.svg
@@ -402,37 +409,47 @@ en:
         goto_label: Read the complete post on Medium
     capitoli_title: All the chapters of the plan
     capitoli:
-      data-center-e-cloud: Data Centres and Cloud
-      connettivita: Connectivity
-      dati-della-pa: PA Data
-      piattaforme-abilitanti: Enabling platforms
-      modello-di-interoperabilita: The interoperability model
-      ecosistemi: Ecosystems
-      strumenti-per-la-generazione-e-la-diffusione-di-servizi-digitali: Tools for the generation and dissemination of digital services
-      sicurezza: Security
-      data-analytics-framework: Data & Analytics Framework
-      gestione-del-cambiamento: Change Management
-      principi-per-lo-sviluppo-di-progetti-digitali: Principles for the development of digital projects
-      razionalizzazione-della-spesa: Rationalisation of expenditure
-      piano-triennale: Three-Year Plan
-      modello-strategico: Strategic model
-      indicazioni-per-le-pa: Instructions for the PAs
-    capitoli_en:
-      data-center-e-cloud: Data centres and Cloud
+      data-center-e-cloud: Data centres and cloud
       connettivita: Connectivity
       dati-della-pa: Public Administration Data
       piattaforme-abilitanti: Enabling platforms
       modello-di-interoperabilita: Interoperability Model
+      modelli-e-strumenti-innovazione: Models and tools for innovation
       ecosistemi: Ecosystems
-      strumenti-per-la-generazione-e-la-diffusione-di-servizi-digitali: Instruments for the generation and spread of digital services
+      infrastrutture: Infrastructures
+      piattaforme: Platforms
+      governare-la-trasformazione-digitale: Govern the digital transformation
+      strumenti-per-la-generazione-e-la-diffusione-di-servizi-digitali: Instruments for the generation and the spread of digital services
       sicurezza: Security
       data-analytics-framework: Data & Analytics Framework
-      gestione-del-cambiamento: Change management
+      gestione-del-cambiamento: Management of the change
       principi-per-lo-sviluppo-di-progetti-digitali: Principles for the development of digital projects
       razionalizzazione-della-spesa: Rationalisation of costs
       piano-triennale: Three-Year Plan for IT in Public Administration
-      modello-strategico: Strategic evolution model of the information system of the Public Administration
-      indicazioni-per-le-pa: Instructions for the Public Administrations
+      contesto-normativo: Legal Context
+      modello-strategico: Strategic evolution model of the information system of the public administration
+      indicazioni-per-le-pa: Indications for the Public administrations
+    capitoli_en:
+      data-center-e-cloud: Data centres and cloud
+      connettivita: Connectivity
+      dati-della-pa: Public Administration Data
+      piattaforme-abilitanti: Enabling platforms
+      modello-di-interoperabilita: Interoperability Model
+      modelli-e-strumenti-innovazione: Models and tools for innovation
+      ecosistemi: Ecosystems
+      infrastrutture: Infrastructures
+      piattaforme: Platforms
+      governare-la-trasformazione-digitale: Govern the digital transformation
+      strumenti-per-la-generazione-e-la-diffusione-di-servizi-digitali: Instruments for the generation and the spread of digital services
+      sicurezza: Security
+      data-analytics-framework: Data & Analytics Framework
+      gestione-del-cambiamento: Management of the change
+      principi-per-lo-sviluppo-di-progetti-digitali: Principles for the development of digital projects
+      razionalizzazione-della-spesa: Rationalisation of costs
+      piano-triennale: Three-Year Plan for IT in Public Administration
+      contesto-normativo: Legal Context
+      modello-strategico: Strategic evolution model of the information system of the public administration
+      indicazioni-per-le-pa: Indications for the Public administrations
     temi_title: The chapters
     modello_intro: Click on the section of interest
     partecipa: Participate

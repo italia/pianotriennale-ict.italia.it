@@ -4,7 +4,9 @@ layout: piano
 lang: it
 separator: ascending
 title-alignment: left
-chapters: [ piano-triennale, modello-strategico, data-center-e-cloud, connettivita, dati-della-pa, piattaforme-abilitanti, modello-di-interoperabilita, ecosistemi, strumenti-per-la-generazione-e-la-diffusione-di-servizi-digitali, sicurezza, data-analytics-framework, gestione-del-cambiamento, razionalizzazione-della-spesa, indicazioni-per-le-pa, principi-per-lo-sviluppo-di-progetti-digitali ]
+chapters: [ piano-triennale, contesto-normativo, infrastrutture, modello-di-interoperabilita, dati-della-pa, piattaforme, ecosistemi, sicurezza,
+strumenti-per-la-generazione-e-la-diffusione-di-servizi-digitali, modelli-e-strumenti-innovazione, governare-la-trasformazione-digitale, 
+razionalizzazione-della-spesa, indicazioni-per-le-pa ]
 ref: piano
 ---
 L’uso mirato delle nuove tecnologie mette al centro della sua azione cittadini e imprese, diventando la leva di trasformazione economica e sociale che rende l’innovazione digitale un investimento pubblico per una riforma strutturale del Paese.

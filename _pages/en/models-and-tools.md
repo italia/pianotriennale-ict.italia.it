@@ -1,0 +1,11 @@
+---
+title: Models and tools for innovation
+lang: en
+layout: page
+separator: curved
+title-alignment: center
+cta-buttons: true
+chapter: modelli-e-strumenti-innovazione
+linee-azione: true
+ref: modelli-e-strumenti-innovazione
+---

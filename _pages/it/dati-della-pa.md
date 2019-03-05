@@ -1,12 +1,12 @@
 ---
-title: Connettività
+title: Dati
 lang: it
 layout: page
 separator: curved
 title-alignment: center
 cta-buttons: true
-chapter: infrastrutture-fisiche
-subchapter: connettivita
+chapter: infrastrutture-immateriali
+subchapter: dati-della-pa
 linee-azione: true
-ref: connettivita
+ref: dati
 ---

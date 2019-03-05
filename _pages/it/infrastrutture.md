@@ -1,12 +1,11 @@
 ---
-title: Connettività
+title: Infrastrutture
 lang: it
 layout: page
 separator: curved
 title-alignment: center
 cta-buttons: true
-chapter: infrastrutture-fisiche
-subchapter: connettivita
+chapter: infrastrutture
 linee-azione: true
-ref: connettivita
+ref: infrastrutture
 ---

@@ -1,12 +1,11 @@
 ---
-title: Data
+title: Indications for the Public Administrations
 lang: en
 layout: page
 separator: curved
 title-alignment: center
 cta-buttons: true
-chapter: infrastrutture-immateriali
-subchapter: dati-della-pa
+chapter: indicazioni-per-le-pa
 linee-azione: true
-ref: dati
+ref: indicazioni-per-le-pa
 ---
