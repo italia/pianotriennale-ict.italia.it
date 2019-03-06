@@ -1,4 +1,4 @@
-# PIANO TRIENNALE PER L’INFORMATICA NELLA PUBBLICA AMMINISTRAZIONE 2017 - 2019
+# PIANO TRIENNALE PER L’INFORMATICA NELLA PUBBLICA AMMINISTRAZIONE 2019 - 2021
 
 [![CircleCI](https://circleci.com/gh/italia/pianotriennale-ict.italia.it.svg?style=svg)](https://circleci.com/gh/italia/pianotriennale-ict.italia.it)
 
@@ -14,7 +14,7 @@ Se vuoi contribuire allo sviluppo del sito, è sufficiente aprire una pull-reque
 [https://forum.italia.it/c/piano-triennale/](https://forum.italia.it/c/piano-triennale)
 
 ## Testo integrale del Piano Triennale
-[https://pianotriennale-ict.readthedocs.io/](https://pianotriennale-ict.readthedocs.io/)
+[https://docs.italia.it/italia/piano-triennale-ict/pianotriennale-ict-doc/](https://docs.italia.it/italia/piano-triennale-ict/pianotriennale-ict-doc/)
 
 ## Generazione del sito e pubblicazione
 
@@ -84,7 +84,7 @@ Dove `server` è nel formato `user@host`, `path` è il percorso completo alla di
 
 ***
 
-# THREE-YEAR PLAN FOR ICT IN PUBLIC ADMINISTRATION  2017 - 2019
+# THREE-YEAR PLAN FOR ICT IN PUBLIC ADMINISTRATION  2019 - 2021
 
 This repository contains the source code for the descriptive website about the *Three-Year Plan for ICT in Public Administration*.
 This website is based on Jekyll.
@@ -98,7 +98,7 @@ If you want to contribute to the development, just go on and open a pull-request
 [https://forum.italia.it/c/piano-triennale/](https://forum.italia.it/c/piano-triennale)
 
 ## Full text of the Three-Year Plan
-[https://pianotriennale-ict.readthedocs.io/](https://pianotriennale-ict.readthedocs.io/en/latest/)
+[https://docs.italia.it/italia/piano-triennale-ict/pianotriennale-ict-doc/](https://docs.italia.it/italia/piano-triennale-ict/pianotriennale-ict-doc/)
 
 ## Build and deployment
 
