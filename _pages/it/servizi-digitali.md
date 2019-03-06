@@ -1,11 +1,11 @@
 ---
-title: Servizi digitali
+title: Strumenti per la generazione e la diffusione di servizi digitali
 lang: it
 layout: page
 separator: curved
 title-alignment: center
 cta-buttons: true
-chapter: strumenti-per-la-generazione-e-la-diffusione-di-servizi-digitali
+chapter: servizi-digitali
 linee-azione: true
 ref: servizi-digitali
 ---
