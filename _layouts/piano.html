@@ -30,6 +30,7 @@ layout: default
     <div class="Grid-cell u-sizeFull u-md-size6of12 u-lg-size6of12">
       <div class="Prose">
         {{ content }}
+        {% if page.lang == 'it' %}
         <h4>{{ t.temi_title }}</h4>
         <p>{{ t.modello_intro }}</p>
         {% include modello.html %}
@@ -47,6 +48,7 @@ layout: default
            </div>
           {% endfor %}
          </div>
+         {% endif %}
       </div>
     </div>
     <div class="Grid-cell u-sizeFull u-md-before2of12 u-md-size4of12 u-lg-before2of12 u-lg-size4of12">
