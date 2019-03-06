@@ -1,30 +1,30 @@
 ﻿it:
   team-digitale:
-    nome: Team digitale
+    nome: Team per la trasformazione digitale
     tipo: amministrazioni_centrali
   agid:
-    nome: AgID
-    tipo: amministrazioni_centrali
-  consip:
-    nome: Consip
-    tipo: amministrazioni_centrali
-  governo:
-    nome: Governo
+    nome: AGID
     tipo: amministrazioni_centrali
   pa:
     nome: PA
     tipo: amministrazioni_centrali_e_territoriali
   tutte-le-pa:
-    nome: tutte le PA
+    nome: Tutte le PA
     tipo: amministrazioni_centrali_e_territoriali
-  pa-wifi:
-    nome: Tutte le Pubbliche Amministrazioni che gestiscono le reti Wi-Fi pubbliche
+  pa-interessate:
+    nome: PA interessate
     tipo: amministrazioni_centrali_e_territoriali
-  comuni: 
+  comuni:
     nome: Comuni
     tipo: amministrazioni_territoriali
   pa-basi-dati:
-    nome: Pubbliche Amministrazioni titolari di basi dati di interesse nazionale
+    nome: Pubbliche amministrazioni titolari di basi dati di interesse nazionale
+    tipo: amministrazioni_centrali_e_territoriali
+  pa-registri:
+    nome: Pubbliche amministrazioni detentrici di registri pubblici nazionali
+    tipo: amministrazioni_centrali
+  stazioni-appaltanti:
+    nome: Stazioni appaltanti
     tipo: amministrazioni_centrali_e_territoriali
   interno:
     nome: Ministero dell'Interno
@@ -42,13 +42,16 @@
     nome: Agenzia delle Entrate
     tipo: amministrazioni_centrali
   mise:
-    nome: Ministero dello Sviluppo Economico 
+    nome: Ministero dello Sviluppo Economico
     tipo: amministrazioni_centrali
   regioni:
     nome: Regioni
     tipo: amministrazioni_territoriali
-  unioncamere:
-    nome: Unioncamere
+  regioni_soggetti_aggregatori:
+    nome: Regioni (soggetti aggregatori)
+    tipo: amministrazioni_territoriali
+  sistema-camerale:
+    nome: Sistema camerale
     tipo: amministrazioni_centrali
   rgs:
     nome: Ragioneria Generale dello Stato
@@ -56,14 +59,8 @@
   bdi:
     nome: Banca d'Italia
     tipo: amministrazioni_centrali
-  bdt-pa:
-    nome: Big Data Team della Pubblica Amministrazione
-    tipo: amministrazioni_centrali
   garante-privacy:
     nome: Garante Privacy
-    tipo: amministrazioni_centrali
-  daf:
-    nome: DAF
     tipo: amministrazioni_centrali
   dfp:
     nome: Dipartimento della Funzione Pubblica
@@ -80,109 +77,139 @@
   salute:
     nome: Ministero della Salute
     tipo: amministrazioni_centrali
-  asl:
-    nome: ASL
-    tipo: amministrazioni_territoriali
   istat:
     nome: ISTAT
     tipo: amministrazioni_centrali
   miur:
     nome: Ministero dell'Istruzione, dell'Università e della Ricerca
     tipo: amministrazioni_centrali
-  altri-organismi-tecnici:
-    nome: Altri organismi tecnici
+  gestori-pubblici-servizi:
+    nome: Gestori di pubblici servizi
     tipo: amministrazioni_centrali_e_territoriali
-en:
-  team-digitale:
-    nome: Digital Team
+  societa-controllo-pubblico:
+    nome: Società a controllo pubblico
+    tipo: amministrazioni_territoriali
+  societa-controllate-da-pa:
+    nome: Società controllate dalla PA
+    tipo: amministrazioni_centrali_e_territoriali
+  amministrazioni-partecipanti:
+    nome: Amministrazioni partecipanti
+    tipo: amministrazioni_centrali_e_territoriali
+  ispra:
+    nome: Istituto superiore per la protezione e la ricerca ambientale
     tipo: amministrazioni_centrali
-  agid:
-    nome: AgID
+  mattm:
+    nome: Ministero dell'Ambiente e della Tutela del Territorio e del Mare
+    tipo: amministrazioni_centrali
+  pcm:
+    nome: Presidenza del Consiglio dei Ministri
+    tipo: amministrazioni_centrali
+  sedi-estere-pa:
+    nome: Sedi estere delle PA
+    tipo: amministrazioni_centrali
+  soggetti-aggregatori:
+    nome: Soggetti aggregatori
+    tipo: amministrazioni_centrali_e_territoriali
+  conferenza-stato-regioni:
+    nome: Conferenza Stato Regioni
+    tipo: amministrazioni_centrali_e_territoriali
+  amministrazioni-centrali-coinvolte:
+    nome: Amministrazioni centrali coinvolte
+    tipo: amministrazioni_centrali
+  altre-strutture-formative:
+    nome: Altre strutture formative della PA
+    tipo: amministrazioni_centrali_e_territoriali
+  pa-coinvolte:
+    nome: PA coinvolte
+    tipo: amministrazioni_centrali_e_territoriali
+  asp:
+    nome: Aziende Sanitarie Pubbliche
+    tipo: amministrazioni_centrali_e_territoriali
+  fornitori:
+    nome: Aziende fornitrici
+    tipo: amministrazioni_centrali_e_territoriali
+  soggetti-obbligati:
+    nome: Soggetti obbligati ad aderire
+    tipo: amministrazioni_centrali_e_territoriali
+  prestatori-servizio-pagamenti:
+    nome: Prestatori di Servizi di Pagamento aderenti
+    tipo:
+  inps:
+    nome: Istituto nazionale della previdenza sociale
+    tipo: amministrazioni_centrali
+  ce:
+    nome: Commissione Europea
+    tipo:
+  stati-membri:
+    nome: Stati membri
+    tipo:
+  mae:
+    nome: Ministero degli Affari Esteri e della Cooperazione Internazionale
+    tipo: amministrazioni_centrali
+  ipzs:
+    nome: Istituto Poligrafico e Zecca dello Stato
     tipo: amministrazioni_centrali
   consip:
     nome: Consip
     tipo: amministrazioni_centrali
-  governo:
-    nome: Government
+  associazioni-categoria:
+    nome: Associazioni di categoria
+    tipo:
+  consulenti-settore:
+    nome: Consulenti di settore
+    tipo:
+  aid:
+    nome: Agenzia Industrie Difesa
     tipo: amministrazioni_centrali
-  pa:
-    nome: PA
-    tipo: amministrazioni_centrali_e_territoriali
-  tutte-le-pa:
-    nome: all of the PAs
-    tipo: amministrazioni_centrali_e_territoriali
-  pa-wifi:
-    nome: All Public Administrations that manage public Wi-Fi networks
-    tipo: amministrazioni_centrali_e_territoriali
-  comuni: 
-    nome: Municipalities
+  notariato:
+    nome: Consiglio Nazionale del Notariato
+    tipo: amministrazioni_centrali
+  dg-archivi:
+    nome: Direzione generale Archivi
+    tipo: amministrazioni_centrali
+  capofila:
+    nome: Amministrazioni capofila
+    tipo:
+  gdl-ecosistemi:
+    nome: Gruppi di lavoro e tavoli tecnici degli ecosistemi
+    tipo: amministrazioni_centrali
+  pac:
+    nome: Pubblica Amministrazione Centrale 
+    tipo: amministrazioni_centrali
+  cnr:
+    nome: Consiglio Nazionale delle Ricerche
+    tipo: amministrazioni_centrali
+  pal:
+    nome: Pubbliche amministazioni locali
     tipo: amministrazioni_territoriali
-  pa-basi-dati:
-    nome: Public Administrations holding databases of national interest
+  istituzioni-scolastiche:
+    nome: Istituzioni scolastiche 
+    tipo: amministrazioni_territoriali
+  stakeholder:
+    nome: Stakeholder
+    tipo:
+  gdl-enti-locali:
+    nome: Gruppo pilota di Enti Locali
+    tipo: amministrazioni_territoriali
+  rtd:
+    nome: Responsabili della transizione al digitale
     tipo: amministrazioni_centrali_e_territoriali
-  interno:
-    nome: Ministry of the Interior
-    tipo: amministrazioni_centrali
-  mit:
-    nome: Ministry of Infrastructure and Transport
-    tipo: amministrazioni_centrali
-  mef:
-    nome: Ministry of Economics and Finance
-    tipo: amministrazioni_centrali
-  anac:
-    nome: The National Anti-corruption Authority
-    tipo: amministrazioni_centrali
-  ade:
-    nome: Inland Revenue Authority
-    tipo: amministrazioni_centrali
-  mise:
-    nome: Ministry of Economic Development
-    tipo: amministrazioni_centrali
-  regioni:
-    nome: Regions
+  universita-centri-ricerca:
+    nome: Università e centri di ricerca
     tipo: amministrazioni_territoriali
-  unioncamere:
-    nome: Unioncamere (Italian Union of Chambers of Commerce, Industry, Handicraft and Agriculture)
+  servizio-civile:
+    nome: Dipartimento della Gioventù e del Servizio Civile Nazionale
     tipo: amministrazioni_centrali
-  rgs:
-    nome: General State Accounting
-    tipo: amministrazioni_centrali
-  bdi:
-    nome: Banca d'Italia (Bank of Italy)
-    tipo: amministrazioni_centrali
-  bdt-pa:
-    nome: Big Data Team of the Public Administration
-    tipo: amministrazioni_centrali
-  garante-privacy:
-    nome: Data Protection Authority
-    tipo: amministrazioni_centrali
-  daf:
-    nome: DAF
-    tipo: amministrazioni_centrali
-  dfp:
-    nome: The Department of Public Services
-    tipo: amministrazioni_centrali
-  sogei:
-    nome: Sogei
-    tipo: amministrazioni_centrali
-  anci:
-    nome: National Association of Italian Municipalities
+  province-autonome:
+    nome: Province autonome
     tipo: amministrazioni_territoriali
-  acs:
-    nome: Central State Archive
-    tipo: amministrazioni_centrali
-  salute:
-    nome: Ministry of Health
-    tipo: amministrazioni_centrali
-  asl:
-    nome: Local Health Authority (ASL)
+  citta-metro:
+    nome: Città metropolitane e relativi comuni capolougo
     tipo: amministrazioni_territoriali
-  istat:
-    nome: National Institute of Statistics (ISTAT)
+  formez:
+    nome: FormezPA
     tipo: amministrazioni_centrali
-  miur:
-    nome: Ministry of Education, University and Research
+  sna:
+    nome: Scuola Nazionale dell'Amministrazione
     tipo: amministrazioni_centrali
-  altri-organismi-tecnici:
-    nome: Other technical bodies
-    tipo: amministrazioni_centrali_e_territoriali
+en:
