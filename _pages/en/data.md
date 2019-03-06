@@ -4,13 +4,18 @@ lang: en
 layout: page
 separator: curved
 title-alignment: center
-cta-buttons: true
+# cta-buttons: true
 chapter: infrastrutture-immateriali
 subchapter: dati-della-pa
-linee-azione: true
+# linee-azione: true
 ref: dati
 ---
-Data from the Public Administrations, together with the mechanisms and platforms created to provide services to citizens, are one of the major digital assets of the PA. To best exploit their potential, it is necessary to abandon the approach based on watertight compartments in favour of a systemic vision.
+**The three-year plan has recently been updated.**
+
+In a few weeks, the English version of the new text will be available.
+In the meantime you can consult the [Italian version]({{ site.baseurl }}{% link _pages/it/index.md %}) of the document.
+
+<!-- Data from the Public Administrations, together with the mechanisms and platforms created to provide services to citizens, are one of the major digital assets of the PA. To best exploit their potential, it is necessary to abandon the approach based on watertight compartments in favour of a systemic vision.
 
 The Plan has identified three areas of action for exploiting public information assets: databases of national interest, open data and controlled vocabularies.
 
@@ -18,4 +23,4 @@ Databases constitute the backbone of public information assets, and must be made
 
 Open data require a process where public data managed by the PAs are made open and free for reuse and redistribution, the only exception being data subject to specific restrictions.
 
-Controlled vocabularies and data models are useful in facilitating data exchanges among PAs via codes and shared ontologies.
+Controlled vocabularies and data models are useful in facilitating data exchanges among PAs via codes and shared ontologies. -->
