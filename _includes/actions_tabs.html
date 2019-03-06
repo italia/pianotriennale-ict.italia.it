@@ -27,9 +27,9 @@
             <span class="Accordion-number">{{ linea-azione.numero }}</span>
             <span class="Accordion-link u-text-r-xs u-flex u-flexAlignItemsCenter">
               {{ linea-azione.nome }}
-              {% if linea-azione.stato == 'completo' %}<span class="u-text-xxs u-alignMiddle u-margin-left-xs u-padding-right-xs u-padding-left-xs u-borderRadius-xl u-color-95 u-textWeight-400 u-textNoWrap u-background-green">{{ t.completo }}<span class="Icon Icon-check u-margin-left-xs"></span></span>{% endif %}
-              {% if linea-azione.stato == 'in corso' %}<span class="u-text-xxs u-alignMiddle u-margin-left-xs u-padding-right-xs u-padding-left-xs u-borderRadius-xl u-color-95 u-textWeight-400 u-textNoWrap u-background-yellow">{{ t.in_corso }}<span class="Icon Icon-settings u-margin-left-xs u-background-yellow"></span></span>{% endif %}
-              {% if linea-azione.stato == 'bloccato' %}<span class="u-text-xxs u-alignMiddle u-margin-left-xs u-padding-right-xs u-padding-left-xs u-borderRadius-xl u-color-95 u-textWeight-400 u-textNoWrap u-background-red">{{ t.bloccato }}<span class="Icon Icon-close u-margin-left-xs u-background-red"></span></span>{% endif %}
+              {% if linea-azione.stato == 'completo' %}<span class="u-text-xxs u-alignMiddle u-flexExpandLeft u-padding-right-xs u-padding-left-xs u-borderRadius-xl u-color-95 u-textWeight-400 u-textNoWrap u-background-green">{{ t.completo }}<span class="Icon Icon-check u-margin-left-xs"></span></span>{% endif %}
+              {% if linea-azione.stato == 'in corso' %}<span class="u-text-xxs u-alignMiddle u-flexExpandLeft u-padding-right-xs u-padding-left-xs u-borderRadius-xl u-color-95 u-textWeight-400 u-textNoWrap u-background-yellow">{{ t.in_corso }}<span class="Icon Icon-settings u-margin-left-xs u-background-yellow"></span></span>{% endif %}
+              {% if linea-azione.stato == 'bloccato' %}<span class="u-text-xxs u-alignMiddle u-flexExpandLeft u-padding-right-xs u-padding-left-xs u-borderRadius-xl u-color-95 u-textWeight-400 u-textNoWrap u-background-red">{{ t.bloccato }}<span class="Icon Icon-close u-margin-left-xs u-background-red"></span></span>{% endif %}
               {% if linea-azione.nota %}
               <span class="u-margin-left-xs Icon Icon-comment"></span>
               {% endif %}
@@ -43,25 +43,25 @@
                 {% assign tempi = t.actions_progress %}
                 {% if linea-azione.inizio %}
                 {% assign inizio = linea-azione.inizio | split: '/' %}
-                {% assign anno_inizio = inizio | last | preprend: '20' %}
+                {% assign anno_inizio = inizio | last %}
                 {% assign mese_inizio = inizio | first %}
                 {% assign tempi = t.actions_from | append: t.months[mese_inizio] | append: ' ' | append: anno_inizio %}
                 {% endif %}
                 {% if linea-azione.fine %}
                 {% assign fine = linea-azione.fine | split: '/' %}
-                {% assign anno_fine = fine | last | preprend: '20' %}
+                {% assign anno_fine = fine | last %}
                 {% assign mese_fine = fine | first %}
                 {% assign tempi = tempi | append: t.actions_to | append: t.months[mese_fine] | append: ' ' | append: anno_fine %}
                 {% endif %}
                 {% if linea-azione.a %}
                 {% assign a = linea-azione.a | split: '/' %}
-                {% assign anno = a | last | preprend: '20' %}
+                {% assign anno = a | last %}
                 {% assign mese = a | first %}
-                {% assign tempi = 'a ' | append: t.months[mese] | append: ' ' | append: anno %}
+                {% assign tempi = t.actions_at | append: t.months[mese] | append: ' ' | append: anno %}
                 {% endif %}
                 {% if linea-azione.entro %}
                 {% assign entro = linea-azione.entro | split: '/' %}
-                {% assign anno = entro | last | preprend: '20' %}
+                {% assign anno = entro | last %}
                 {% assign mese = entro | first %}
                 {% assign tempi = t.actions_by | append: t.months[mese] | append: ' ' | append: anno %}
                 {% endif %}
@@ -92,13 +92,13 @@
                   <ul>
                   {% for risultato in linea-azione.risultati %}
                   <li class="u-color-grey-90 u-margin-bottom-l">
-                    {{ risultato.descrizione }}
+                    {{ risultato.descrizione  | replace: newLine, newParagraph | markdownify }}
                     {% if risultato.stato %}
                     <span class="u-margin-top-m u-block">
                       {{ t.stato }}:
-                        {% if risultato.stato == 'completo' %}<span class="u-text-xxs u-alignMiddle u-margin-left-xs u-padding-right-xs u-padding-left-xs u-borderRadius-xl u-color-95 u-textWeight-400 u-textNoWrap u-background-green">{{ t.completo }}<span class="Icon Icon-check u-margin-left-xs"></span></span>{% endif %}
-                        {% if risultato.stato == 'in corso' %}<span class="u-text-xxs u-alignMiddle u-margin-left-xs u-padding-right-xs u-padding-left-xs u-borderRadius-xl u-color-95 u-textWeight-400 u-textNoWrap u-background-yellow">{{ t.in_corso }}<span class="Icon Icon-settings u-margin-left-xs u-background-yellow"></span></span>{% endif %}
-                        {% if risultato.stato == 'bloccato' %}<span class="u-text-xxs u-alignMiddle u-margin-left-xs u-padding-right-xs u-padding-left-xs u-borderRadius-xl u-color-95 u-textWeight-400 u-textNoWrap u-background-red">{{ t.bloccato }}<span class="Icon Icon-close u-margin-left-xs u-background-red"></span></span>{% endif %}
+                        {% if risultato.stato == 'completo' %}<span class="u-text-xxs u-alignMiddle u-flexExpandLeft u-padding-right-xs u-padding-left-xs u-borderRadius-xl u-color-95 u-textWeight-400 u-textNoWrap u-background-green">{{ t.completo }}<span class="Icon Icon-check u-margin-left-xs"></span></span>{% endif %}
+                        {% if risultato.stato == 'in corso' %}<span class="u-text-xxs u-alignMiddle u-flexExpandLeft u-padding-right-xs u-padding-left-xs u-borderRadius-xl u-color-95 u-textWeight-400 u-textNoWrap u-background-yellow">{{ t.in_corso }}<span class="Icon Icon-settings u-margin-left-xs u-background-yellow"></span></span>{% endif %}
+                        {% if risultato.stato == 'bloccato' %}<span class="u-text-xxs u-alignMiddle u-flexExpandLeft u-padding-right-xs u-padding-left-xs u-borderRadius-xl u-color-95 u-textWeight-400 u-textNoWrap u-background-red">{{ t.bloccato }}<span class="Icon Icon-close u-margin-left-xs u-background-red"></span></span>{% endif %}
                     </span>
                     {% endif %}
                     {% if risultato.nota %}
@@ -109,6 +109,14 @@
                   </ul>
                   {% endif %}
                 </div>
+                {% if linea-azione.aree-intervento %}
+                <div class="Grid-cell u-sizeFull u-sm-size1of5 u-md-size1of5 u-lg-size1of5 u-padding-r-left u-padding-r-right u-padding-top-xs">
+                  <span class="u-textItalic u-color-grey-90">{{ t.aree-intervento | capitalize }}:</span>
+                </div>
+                <div class="Grid-cell u-sizeFull u-sm-size4of5 u-md-size4of5 u-lg-size4of5 u-padding-r-left u-padding-r-right u-padding-top-xs u-padding-bottom-xxs">
+                  <div class="u-color-grey-90">{{ linea-azione.aree-intervento | replace: newLine, newParagraph | markdownify }}</div>
+                </div>
+                {% endif %}
                 {% if linea-azione.nota %}
                 <div class="Grid-cell u-sizeFull u-padding-r-left u-padding-r-right u-padding-top-s u-padding-bottom-xxs">
                   <div class="u-flex u-flexAlignItemsCenter">
@@ -142,9 +150,9 @@
             <span class="Accordion-number">{{ linea-azione.numero }}</span>
             <span class="Accordion-link u-text-r-xs u-flex u-flexAlignItemsCenter">
               {{ linea-azione.nome }}
-              {% if linea-azione.stato == 'completo' %}<span class="u-text-xxs u-alignMiddle u-margin-left-xs u-padding-right-xs u-padding-left-xs u-borderRadius-xl u-color-95 u-textWeight-400 u-textNoWrap u-background-green">{{ t.completo }}<span class="Icon Icon-check u-margin-left-xs"></span></span>{% endif %}
-              {% if linea-azione.stato == 'in corso' %}<span class="u-text-xxs u-alignMiddle u-margin-left-xs u-padding-right-xs u-padding-left-xs u-borderRadius-xl u-color-95 u-textWeight-400 u-textNoWrap u-background-yellow">{{ t.in_corso }}<span class="Icon Icon-settings u-margin-left-xs u-background-yellow"></span></span>{% endif %}
-              {% if linea-azione.stato == 'bloccato' %}<span class="u-text-xxs u-alignMiddle u-margin-left-xs u-padding-right-xs u-padding-left-xs u-borderRadius-xl u-color-95 u-textWeight-400 u-textNoWrap u-background-red">{{ t.bloccato }}<span class="Icon Icon-close u-margin-left-xs u-background-red"></span></span>{% endif %}
+              {% if linea-azione.stato == 'completo' %}<span class="u-text-xxs u-alignMiddle u-flexExpandLeft u-padding-right-xs u-padding-left-xs u-borderRadius-xl u-color-95 u-textWeight-400 u-textNoWrap u-background-green">{{ t.completo }}<span class="Icon Icon-check u-margin-left-xs"></span></span>{% endif %}
+              {% if linea-azione.stato == 'in corso' %}<span class="u-text-xxs u-alignMiddle u-flexExpandLeft u-padding-right-xs u-padding-left-xs u-borderRadius-xl u-color-95 u-textWeight-400 u-textNoWrap u-background-yellow">{{ t.in_corso }}<span class="Icon Icon-settings u-margin-left-xs u-background-yellow"></span></span>{% endif %}
+              {% if linea-azione.stato == 'bloccato' %}<span class="u-text-xxs u-alignMiddle u-flexExpandLeft u-padding-right-xs u-padding-left-xs u-borderRadius-xl u-color-95 u-textWeight-400 u-textNoWrap u-background-red">{{ t.bloccato }}<span class="Icon Icon-close u-margin-left-xs u-background-red"></span></span>{% endif %}
               {% if linea-azione.nota %}
               <span class="u-margin-left-xs Icon Icon-comment"></span>
               {% endif %}
@@ -153,30 +161,30 @@
           <div id="accordion-panel-pal-{{ linea-azione.numero }}" class="Accordion-panel fr-accordion__panel js-fr-accordion__panel">
               <div class="Grid u-padding-r-bottom">
                 <div class="Grid-cell u-size1of3 u-sm-size1of5 u-md-size1of5 u-lg-size1of5 u-padding-r-left u-padding-r-right u-padding-top-xs u-padding-bottom-xxs">
-                  <span class="u-color-grey-90">{{t.tempi}}:</span>
+                  <span class="u-textItalic u-color-grey-90">{{ t.tempi | capitalize }}:</span>
                 </div>
                 {% assign tempi = t.actions_progress %}
                 {% if linea-azione.inizio %}
                 {% assign inizio = linea-azione.inizio | split: '/' %}
-                {% assign anno_inizio = inizio | last | preprend: '20' %}
-                {% assign mese_inizio = inizio | first  %}
+                {% assign anno_inizio = inizio | last %}
+                {% assign mese_inizio = inizio | first %}
                 {% assign tempi = t.actions_from | append: t.months[mese_inizio] | append: ' ' | append: anno_inizio %}
                 {% endif %}
                 {% if linea-azione.fine %}
                 {% assign fine = linea-azione.fine | split: '/' %}
-                {% assign anno_fine = fine | last | preprend: '20' %}
+                {% assign anno_fine = fine | last %}
                 {% assign mese_fine = fine | first %}
                 {% assign tempi = tempi | append: t.actions_to | append: t.months[mese_fine] | append: ' ' | append: anno_fine %}
                 {% endif %}
                 {% if linea-azione.a %}
                 {% assign a = linea-azione.a | split: '/' %}
-                {% assign anno = a | last | preprend: '20' %}
+                {% assign anno = a | last %}
                 {% assign mese = a | first %}
                 {% assign tempi = 'a ' | append: t.months[mese] | append: ' ' | append: anno %}
                 {% endif %}
                 {% if linea-azione.entro %}
                 {% assign entro = linea-azione.entro | split: '/' %}
-                {% assign anno = entro | last | preprend: '20' %}
+                {% assign anno = entro | last %}
                 {% assign mese = entro | first  %}
                 {% assign tempi = t.actions_by | append: t.months[mese] | append: ' ' | append: anno %}
                 {% endif %}
@@ -184,7 +192,7 @@
                   <span class="u-color-grey-90">{{ tempi }}</span>
                 </div>
                 <div class="Grid-cell u-size1of3 u-sm-size1of5 u-md-size1of5 u-lg-size1of5 u-padding-r-left u-padding-r-right u-padding-top-xs u-padding-bottom-xxs">
-                  <span class="u-color-grey-90">{{t.attori}}:</span>
+                  <span class="u-textItalic u-color-grey-90">{{ t.attori | capitalize }}:</span>
                 </div>
                 <div class="Grid-cell u-size2of3 u-sm-size4of5 u-md-size4of5 u-lg-size4of5 u-padding-r-left u-padding-r-right u-padding-top-xs u-padding-bottom-xxs">
                   {% for attore in linea-azione.attori %}
@@ -192,10 +200,13 @@
                   {% endfor %}
                 </div>
                 <div class="Grid-cell u-size1of3 u-sm-size1of5 u-md-size1of5 u-lg-size1of5 u-padding-r-left u-padding-r-right u-padding-top-xs u-padding-bottom-xxs">
-                  <span class="u-color-grey-90">{{t.descrizione}}:</span>
+                  <span class="u-textItalic u-color-grey-90">{{ t.descrizione | capitalize }}:</span>
                 </div>
                 <div class="Grid-cell u-size2of3 u-sm-size4of5 u-md-size4of5 u-lg-size4of5 u-padding-r-left u-padding-r-right u-padding-top-xs u-padding-bottom-xxs">
                   <div class="u-color-grey-90">{{ linea-azione.descrizione | replace: newLine, newParagraph | markdownify }}</div>
+                </div>
+                <div class="Grid-cell u-sizeFull u-sm-size1of5 u-md-size1of5 u-lg-size1of5 u-padding-r-left u-padding-r-right u-padding-top-xs u-padding-bottom-xxs">
+                  <span class="u-textItalic u-color-grey-90">{{ t.risultati | capitalize }}:</span>
                 </div>
                 <div class="Grid-cell u-sizeFull u-sm-size4of5 u-md-size4of5 u-lg-size4of5 u-padding-r-left u-padding-r-right u-padding-top-xs u-padding-bottom-xxs">
                   {% if linea-azione.risultati == '---' %}
@@ -208,9 +219,9 @@
                     {% if risultato.stato %}
                     <span class="u-margin-top-m u-block">
                       {{ t.stato }}:
-                        {% if risultato.stato == 'completo' %}<span class="u-text-xxs u-alignMiddle u-margin-left-xs u-padding-right-xs u-padding-left-xs u-borderRadius-xl u-color-95 u-textWeight-400 u-textNoWrap u-background-green">{{ t.completo }}<span class="Icon Icon-check u-margin-left-xs"></span></span>{% endif %}
-                        {% if risultato.stato == 'in corso' %}<span class="u-text-xxs u-alignMiddle u-margin-left-xs u-padding-right-xs u-padding-left-xs u-borderRadius-xl u-color-95 u-textWeight-400 u-textNoWrap u-background-yellow">{{ t.in_corso }}<span class="Icon Icon-settings u-margin-left-xs u-background-yellow"></span></span>{% endif %}
-                        {% if risultato.stato == 'bloccato' %}<span class="u-text-xxs u-alignMiddle u-margin-left-xs u-padding-right-xs u-padding-left-xs u-borderRadius-xl u-color-95 u-textWeight-400 u-textNoWrap u-background-red">{{ t.bloccato }}<span class="Icon Icon-close u-margin-left-xs u-background-red"></span></span>{% endif %}
+                        {% if risultato.stato == 'completo' %}<span class="u-text-xxs u-alignMiddle u-flexExpandLeft u-padding-right-xs u-padding-left-xs u-borderRadius-xl u-color-95 u-textWeight-400 u-textNoWrap u-background-green">{{ t.completo }}<span class="Icon Icon-check u-margin-left-xs"></span></span>{% endif %}
+                        {% if risultato.stato == 'in corso' %}<span class="u-text-xxs u-alignMiddle u-flexExpandLeft u-padding-right-xs u-padding-left-xs u-borderRadius-xl u-color-95 u-textWeight-400 u-textNoWrap u-background-yellow">{{ t.in_corso }}<span class="Icon Icon-settings u-margin-left-xs u-background-yellow"></span></span>{% endif %}
+                        {% if risultato.stato == 'bloccato' %}<span class="u-text-xxs u-alignMiddle u-flexExpandLeft u-padding-right-xs u-padding-left-xs u-borderRadius-xl u-color-95 u-textWeight-400 u-textNoWrap u-background-red">{{ t.bloccato }}<span class="Icon Icon-close u-margin-left-xs u-background-red"></span></span>{% endif %}
                     </span>
                     {% endif %}
                     {% if risultato.nota %}
@@ -221,6 +232,14 @@
                   </ul>
                   {% endif %}
                 </div>
+                {% if linea-azione.aree-intervento %}
+                <div class="Grid-cell u-sizeFull u-sm-size1of5 u-md-size1of5 u-lg-size1of5 u-padding-r-left u-padding-r-right u-padding-top-xs">
+                  <span class="u-textItalic u-color-grey-90">{{ t.aree-intervento | capitalize }}:</span>
+                </div>
+                <div class="Grid-cell u-sizeFull u-sm-size4of5 u-md-size4of5 u-lg-size4of5 u-padding-r-left u-padding-r-right u-padding-top-xs u-padding-bottom-xxs">
+                  <div class="u-color-grey-90">{{ linea-azione.aree-intervento | replace: newLine, newParagraph | markdownify }}</div>
+                </div>
+                {% endif %}
                 {% if linea-azione.nota %}
                 <div class="Grid-cell u-sizeFull u-padding-r-left u-padding-r-right u-padding-top-s u-padding-bottom-xxs">
                   <div class="u-flex u-flexAlignItemsCenter">
