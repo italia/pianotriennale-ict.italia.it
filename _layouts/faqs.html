@@ -29,6 +29,9 @@ layout: default
 <div class="Content u-background-grey-15 u-layout-r-withGutter u-padding-r-top u-padding-bottom-xxl u-posRelative u-zindex-30">
   <div class="Grid">
     <div class="Grid-cell u-sizeFull u-md-size7of12 u-lg-size7of12">
+      <div class="Prose">
+        {{ content }}
+      </div>
       {% assign faqs = site.data.faqs[active_lang] %}
       <div class="Accordion Accordion--default fr-accordion js-fr-accordion" id="accordion-{{ forloop.index }}
         u-color-grey-30 u-border-bottom-xxs">
