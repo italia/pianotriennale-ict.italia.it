@@ -7,44 +7,107 @@ title-alignment: left
 content-alignment: left
 ref: privacy-policy
 ---
-In questa pagina si descrivono le modalità e le logiche del trattamento dei dati personali degli utenti (di seguito, anche gli Utenti) che consultano il sito: https://pianotriennale-ict.italia.it/ (di seguito, anche il Sito).
+# Informativa sul trattamento dei dati personali
+#### ai sensi degli artt. 13-14 del Regolamento (UE) 2016/679 del Parlamento europeo e del Consiglio
 
-L'informativa è resa ai sensi dell'art. 13 del D. Lgs. n. 196/2003 - Codice in materia di protezione dei dati personali a tutti gli Utenti che, interagendo con il Sito, forniscono all'Agenzia per l'Italia Digitale (di seguito, anche AgID) i propri dati personali.
+Questa pagina descrive le modalità di trattamento dei dati personali degli
+utenti che consultano il presente sito web. Le informazioni non riguardano altri
+siti, pagine o servizi online raggiungibili tramite link inseriti all’interno
+del sito, per i quali si rimanda alle relative privacy policy.
 
-La validità dell'informativa contenuta nella presente pagina è limitata al solo Sito e non si estende ad altri siti web eventualmente consultabili mediante collegamento ipertestuale.
+### Contitolari del trattamento dei dati
 
-### Il titolare e gli incaricati del trattamento
-Il Titolare del trattamento per i dati raccolti attraverso il Sito è AgID - Agenzia per l’Italia Digitale, con sede in via Liszt 21 - 00144 Roma, indirizzo email [protocollo@pec.agid.gov.it](mailto:protocollo@pec.agid.gov.it) alla quale, pertanto, gli interessati potranno rivolgersi per l’esercizio dei diritti di cui all’art. 7 del Codice privacy.
-I dati saranno trattati da personale del Titolare, previa nomina dei dipendenti e dei collaboratori interessati ad Incaricati del trattamento. Eventuali soggetti terzi ai quali i dati potrebbero essere comunicati per l’esecuzione di operazioni di trattamento connesse con le finalità specificate nella presente informativa, saranno preventivamente designati dal Titolare quali Responsabili del trattamento ai sensi dell’art. 29 del Codice in materia di protezione dei dati personali. I dati non formeranno oggetto di diffusione.
+AGID – Agenzia per l’Italia Digitale<br/>
+Via Liszt 21 - 00144 Roma<br/>
+PEC: protocollo@pec.agid.gov.it 
 
-### Luogo di trattamento dei dati
-Tutti i dati raccolti saranno trattati presso la sede dell'Agenzia per l'Italia Digitale.
+Commissario Straordinario per l’attuazione dell’Agenda Digitale<br/>
+Piazza Colonna 370 - 00187 Roma<br/>
+PEC: teamdigitale@pec.governo.it
 
-### Tipologia di dati trattati e finalità del trattamento
-Tutti i dati personali forniti attraverso il Sito saranno trattati in modo lecito e secondo correttezza al fine di fornire i servizi richiesti nonché di rispondere alle comunicazioni ed alle domande degli Utenti, sempre nel perseguimento degli scopi istituzionali dell'Agenzia così come previsti dalla Legge.
+### Contatti dei responsabili della protezione dei dati
 
-### Cookies
-I cookies sono piccoli file di testo che i siti visitati inviano al terminale dell'Utente, dove vengono memorizzati, per poi essere ritrasmessi agli stessi siti alla visita successiva.
+Per l’AGID:<br/>
+Via Liszt 21 - 00144 Roma<br/>
+e-mail: responsabileprotezionedatipersonali@agid.gov.it
 
-Il sito utilizza Cookies analytics per raccogliere informazioni, in forma aggregata, sul numero degli Utenti e su come gli stessi visitano il Sito. Il Sito si avvale del servizio Google Analytics, la cui cookie policy può essere visionata a questo link [https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage](https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage){:target="_blank"}. Al fine di rispettare la privacy dei nostri utenti, il servizio è utilizzato con la modalità “_anonymizeip” che consente di mascherare gli indirizzi IP degli utenti che navigano sul sito internet: maggiori informazioni sulla funzionalità [https://support.google.com/analytics/answer/2763052?hl=it](https://support.google.com/analytics/answer/2763052?hl=it){:target="_blank"}. Il sito raccoglie informazioni sulla navigazione anche attraverso il software open source Piwik [https://piwik.org/](https://piwik.org/){:target="_blank"} ospitato presso i server dell'Agenzia per l'Italia Digitale. I dati sono raccolti all'unico fine di elaborare informazioni statistiche anonime sull'uso del Sito e per verificare il corretto funzionamento dello stesso; i dati di navigazione potrebbero essere utilizzati in vista dell'identificazione dell'Utente solo nel caso in cui ciò fosse necessario per l'accertamento di reati di natura informatica. I cookies utilizzati dal Sito non consentono la raccolta di informazioni personali relative all'utente e si cancellano automaticamente con la chiusura del browser di navigazione.
-{: .u-textBreak }
+Per il Commissario Straordinario per l’attuazione dell’Agenda Digitale:<br/>
+Piazza Colonna 370 - 00187 Roma<br/>
+e-mail: dpo@teamdigitale.governo.it 
 
-I dati di navigazione sono cancellati subito dopo la relativa elaborazione statistica e in ogni caso non vengono conservati per oltre 7 giorni dal momento della raccolta, salvo che la loro ulteriore conservazione non si renda necessaria per l'accertamento di reati.
+### Autorità di controllo
 
-I cookies non sono utilizzati per attività di profilazione dell'Utente.
+Garante per la protezione dei dati personali<br/>
+Sito web: [https://www.garanteprivacy.it](https://www.garanteprivacy.it)
 
-L'Utente può scegliere di abilitare o disabilitare i cookies intervenendo sulle impostazioni del proprio browser di navigazione secondo le istruzioni rese disponibili dai relativi fornitori ai link di seguito indicati.
+### Categorie e fonte di dati personali, finalità e base giuridica del trattamento
+
+I dati personali trattati a mezzo del presente sito web sono unicamente quelli
+ottenuti durante la navigazione del sito, ovvero l’indirizzo IP acquisito
+mediante log di accesso al sito.
+
+Tali dati sono trattati per la gestione tecnica e per la raccolta di dati
+analitici sul traffico del sito web.
+
+I dati personali sono trattati nell’esecuzione dei compiti di interesse pubblico
+e/o comunque connessi all’esercizio di pubblici poteri. 
+
+### Categorie di destinatari dei dati personali
+
+I dati personali sono trattati dal personale afferente i titolari, che agisce
+sulla base di specifiche istruzioni fornite in ordine a finalità e modalità del
+trattamento medesimo.
+
+Sono destinatari dei dati personali, altresì, i fornitori di servizi tecnici e
+telematici, designati quali responsabili del trattamento.
+
+I titolari non trasferiscono alcun dato personale a Paesi terzi o a
+Organizzazioni internazionali.
+
+### Diritti degli utenti
+
+Gli utenti hanno il diritto di ottenere, nei casi previsti, l’accesso ai propri
+dati personali, la rettifica o la cancellazione degli stessi, la limitazione del
+relativo trattamento e il diritto di opporsi al trattamento.
+
+Le richieste vanno rivolte ai contitolari, contattando i responsabili della
+protezione dei dati.
+
+Fatto salvo il diritto di adire la competente Autorità giudiziaria, è diritto
+degli utenti proporre reclamo al Garante per la protezione dei dati personali
+qualora ritengano che il trattamento dei propri dati da parte dei contitolari
+violi il Regolamento.
+
+I contitolari garantiscono che non è prevista alcuna forma di processo
+decisionale automatizzato che comporti effetti giuridici sull’utente.
+
+## Cookie policy
+
+I cookies sono piccoli file di testo che i siti visitati inviano al terminale
+dell'Utente, dove vengono memorizzati, per poi essere ritrasmessi agli stessi
+siti alla visita successiva.
+
+Il sito utilizza cookies analytics per raccogliere informazioni, in forma
+aggregata, sul numero degli utenti e su come gli stessi visitano il sito. Il
+Sito si avvale del servizio Google Analytics, la cui cookie policy può essere
+visionata a questo link
+[https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage](https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage){:target="_blank"}.
+Al fine di rispettare la privacy dei nostri utenti, il servizio è utilizzato
+nella la modalità “_anonymizeip” che consente di mascherare gli indirizzi IP
+degli utenti che navigano sul sito internet: per maggiori informazioni sulla
+funzionalità
+[https://support.google.com/analytics/answer/2763052?hl=it](https://support.google.com/analytics/answer/2763052?hl=it){:target="_blank"}.
+
+I cookies non sono utilizzati per attività di profilazione dell'utente.
+
+L'Utente può scegliere di abilitare o disabilitare i cookies intervenendo sulle
+impostazioni del proprio browser di navigazione secondo le istruzioni rese
+disponibili dai relativi fornitori ai link di seguito indicati.
+
 - [Chrome](https://support.google.com/chrome/answer/95647?co=GENIE.Platform%3DDesktop&hl=it){:target="_blank"}
 - [Firefox](https://support.mozilla.org/it/kb/Attivare%20e%20disattivare%20i%20cookie){:target="_blank"}
 - [Safari](https://support.apple.com/it-it/HT201265){:target="_blank"}
 - [Internet Explorer](https://support.microsoft.com/it-it/help/17442/windows-internet-explorer-delete-manage-cookies){:target="_blank"}
 - [Opera](http://help.opera.com/Windows/10.00/it/cookies.html){:target="_blank"}
 
-### Modalità del trattamento
-I dati personali sono trattati con strumenti automatizzati per il tempo strettamente necessario a conseguire gli scopi per cui sono stati raccolti secondo quanto previsto dall'art. 11, lett. e) del Codice privacy. L'Agenzia adotta tutte le misure di sicurezza previste dal Codice privacy per proteggere i dati raccolti, al fine di scongiurare i rischi di perdita o furto dei dati, accessi non autorizzati, usi illeciti e non corretti.
-
-### Diritti degli interessati
-Gli Utenti possono esercitare in qualsiasi momento i diritti previsti dall'art. 7 del Codice privacy, al fine di ottenere la conferma dell'esistenza o meno dei loro dati personali e di conoscerne il contenuto e l'origine, verificarne l'esattezza o chiederne l'integrazione o l'aggiornamento, oppure la rettificazione. Ai sensi della medesima disposizione l'Utente potrà inoltre chiedere la cancellazione, la trasformazione in forma anonima o il blocco dei dati trattati in violazione di legge, nonché opporsi in ogni caso, per motivi legittimi, al loro trattamento. Le richieste andranno indirizzate a [protocollo@pec.agid.gov.it](mailto:protocollo@pec.agid.gov.it). Attraverso i medesimi recapiti, l'Utente potrà chiedere inoltre la lista aggiornata di tutti i Responsabili del trattamento nominati dal Titolare.
-
-### Aggiornamenti
-La Privacy Policy di questo Sito è soggetta ad aggiornamenti; gli Utenti sono pertanto invitati a verificarne periodicamente il contenuto.
+Ultimo aggiornamento: 08 marzo 2019.
