@@ -5,7 +5,7 @@ lang: it
 separator: ascending
 title-alignment: left
 quotes: 2019
-chapters: [ piano-triennale, contesto-normativo, infrastrutture, modello-di-interoperabilita, dati-della-pa, piattaforme, ecosistemi, sicurezza-informatica, strumenti-per-la-generazione-e-la-diffusione-di-servizi-digitali, modelli-e-strumenti-innovazione, governare-la-trasformazione-digitale, razionalizzazione-della-spesa, indicazioni-per-le-pa ]
+chapters: [ piano-triennale, contesto-normativo, infrastrutture, modello-di-interoperabilita, dati-della-pa, piattaforme, ecosistemi, sicurezza-informatica, servizi-digitali, modelli-e-strumenti-innovazione, governare-la-trasformazione-digitale, razionalizzazione-della-spesa, indicazioni-per-le-pa ]
 ref: piano
 redirect_from:
   - /principi-per-lo-sviluppo-di-progetti-digitali

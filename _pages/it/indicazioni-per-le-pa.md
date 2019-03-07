@@ -5,6 +5,7 @@ layout: page
 separator: curved
 title-alignment: center
 cta-buttons: true
+chapter: indicazioni-per-le-pa
 ref: indicazioni-per-le-pa
 ---
 Si riassume in un unico capitolo tutte quelle linee di azione che vedono

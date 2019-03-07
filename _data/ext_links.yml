@@ -47,7 +47,7 @@ it:
     forum: 'https://forum.italia.it/c/piano-triennale/sicurezza'
     rtd: 'https://docs.italia.it/italia/piano-triennale-ict/pianotriennale-ict-doc/it/2019-2021/08_sicurezza-informatica.html'
     pdf: '/assets/pdf/'
-  strumenti-per-la-generazione-e-la-diffusione-di-servizi-digitali:
+  servizi-digitali:
     forum: 'https://forum.italia.it/c/piano-triennale/servizi-digitali'
     rtd: 'https://docs.italia.it/italia/piano-triennale-ict/pianotriennale-ict-doc/it/2019-2021/09_strumenti-per-la-generazione-e-la-diffusione-di-servizi-digitali.html'
     pdf: '/assets/pdf/'
@@ -56,7 +56,7 @@ it:
     rtd: 'https://docs.italia.it/italia/piano-triennale-ict/pianotriennale-ict-doc/it/2019-2021/10_modelli-e-strumenti-innovazione.html'
     pdf: '/assets/pdf/'
   governare-la-trasformazione-digitale:
-    forum: 'https://forum.italia.it/c/piano-triennale/'
+    forum: 'https://forum.italia.it/c/piano-triennale/gestione-del-cambiamento'
     rtd: 'https://docs.italia.it/italia/piano-triennale-ict/pianotriennale-ict-doc/it/2019-2021/11_governare-la-trasformazione-digitale.html'
     pdf: '/assets/pdf/'
   razionalizzazione-della-spesa:
