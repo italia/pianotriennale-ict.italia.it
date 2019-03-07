@@ -105,7 +105,7 @@ it:
           - type: button
             icon: read
             label: Versione navigabile
-            href: 'https://pianotriennale-ict.readthedocs.io/'
+            href: 'https://docs.italia.it/italia/piano-triennale-ict/pianotriennale-ict-doc/'
             target_blank: true
           - icon: download-alt
             label: scarica il pdf
