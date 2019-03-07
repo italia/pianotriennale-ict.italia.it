@@ -26,7 +26,7 @@ Le principali novità del Piano 2019-2021 riguardano:
   europei sull’innovazione digitale;
 - il rafforzamento del paradigma Cloud della PA con l’applicazione del principio
   cloud first;
-- la definizione di Modelli e strumenti per l’innovazione per la PA con
+- la definizione di modelli e strumenti per l’innovazione per la PA con
   un’attenzione ai temi dell’open innovation e al paradigma smart landscape;
 - un maggiore risalto al ruolo delle amministrazioni territoriali, che saranno
   accompagnate nel loro percorso di trasformazione digitale, attraverso la
@@ -36,9 +36,9 @@ Le principali novità del Piano 2019-2021 riguardano:
 - la condivisione con le amministrazioni degli strumenti di monitoraggio delle
   azioni;
 - il rafforzamento del tema delle competenze manageriali e digitali all’interno
-  delle pubbliche amministrazioni con iniziative concrete di sensibilizzazione e
-  formazione;
-- l’adozione di una nuova chiave di lettura delle Linee d’azione, che individua
+  delle pubbliche amministrazioni, con iniziative concrete di sensibilizzazione
+  e formazione;
+- l’adozione di una nuova chiave di lettura delle linee d’azione, che individua
   le aree di intervento e l’impatto su cittadini, imprese e pubbliche
   amministrazioni, nel breve, medio e lungo periodo.
 
