@@ -31,9 +31,11 @@ layout: default
       <div class="Prose">
         {{ content }}
         {% if page.lang == 'it' %}
+        {% comment %}
         <h4>{{ t.temi_title }}</h4>
         <p>{{ t.modello_intro }}</p>
         {% include modello.html %}
+        {% endcomment %}
 
         <p>{{ t.forum_intro }}</p>
         {% assign buttonUrl = site.data.ext_links[page.lang].piano-triennale-index.forum %}
