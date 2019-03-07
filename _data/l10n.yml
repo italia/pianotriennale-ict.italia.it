@@ -122,6 +122,10 @@ it:
       plan: /piano
     quotes:
       2019:
+        dedica:
+          text: |
+            Questo Piano Triennale è dedicato ad Antonella Giulia Pizzaleo, innovatrice paziente e geniale della Pubblica Amministrazione, che su più tavoli ha rappresentato la Regione Lazio nei molti confronti durante il lavoro di redazione di questo Piano stesso e che ha fattivamente contribuito con i suoi suggerimenti e con le sue garbate osservazioni.
+            Con la nostra gratitudine per aver garantito, con costante impegno ed approccio propositivo, un impulso forte ed innovativo alla digitalizzazione della PA a livello territoriale e nazionale.
         conte:
           text: |
             «Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vehicula neque eu lectus congue dapibus. Nullam ex massa, congue sit amet turpis id, cursus eleifend eros. Cras auctor porta lacus.»
@@ -131,9 +135,9 @@ it:
           author_role: Presidente del Consiglio dei Ministri
         bongiorno:
           text: |
-            «Con il nuovo Piano Triennale si gettano le basi per consentire al settore pubblico di cominciare a correre e recuperare terreno nel percorso appena avviato verso una trasformazione digitale concreta e inclusiva. Un percorso non facile ma ragionevole e concreto, che fa perno sul Responsabile per la transizione al digitale e vede imprese e cittadino nuovi protagonisti di un progetto di crescita digitale che coinvolge tutto il Paese.»
+            «Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vehicula neque eu lectus congue dapibus. Nullam ex massa, congue sit amet turpis id, cursus eleifend eros. Cras auctor porta lacus.»
           text_short: |
-            «Con il nuovo Piano Triennale si gettano le basi per consentire al settore pubblico di cominciare a correre e recuperare terreno nel percorso appena avviato verso una trasformazione digitale concreta e inclusiva. Un percorso non facile ma ragionevole e concreto, che fa perno sul Responsabile per la transizione al digitale e vede imprese e cittadino nuovi protagonisti di un progetto di crescita digitale che coinvolge tutto il Paese.»
+            «Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vehicula neque eu lectus congue dapibus. Nullam ex massa, congue sit amet turpis id, cursus eleifend eros. Cras auctor porta lacus.»
           author_name: Giulia Bongiorno
           author_role: Ministro per la Pubblica Amministrazione
       2017:
@@ -361,12 +365,12 @@ en:
           text_short: |
             «Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vehicula neque eu lectus congue dapibus.»
           author_name: Giuseppe Conte
-          author_role: Presidente del Consiglio dei Ministri
+          author_role: President of the Council of Ministers
         bongiorno:
           text: |
-            «Con il nuovo Piano Triennale si gettano le basi per consentire al settore pubblico di cominciare a correre e recuperare terreno nel percorso appena avviato verso una trasformazione digitale concreta e inclusiva. Un percorso non facile ma ragionevole e concreto, che fa perno sul Responsabile per la transizione al digitale e vede imprese e cittadino nuovi protagonisti di un progetto di crescita digitale che coinvolge tutto il Paese.»
+            ««Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vehicula neque eu lectus congue dapibus.»
           text_short: |
-            «Con il nuovo Piano Triennale si gettano le basi per consentire al settore pubblico di cominciare a correre e recuperare terreno nel percorso appena avviato verso una trasformazione digitale concreta e inclusiva. Un percorso non facile ma ragionevole e concreto, che fa perno sul Responsabile per la transizione al digitale e vede imprese e cittadino nuovi protagonisti di un progetto di crescita digitale che coinvolge tutto il Paese.»
+            ««Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vehicula neque eu lectus congue dapibus.»
           author_name: Giulia Bongiorno
           author_role: Minister for Public Administration
       2017:
