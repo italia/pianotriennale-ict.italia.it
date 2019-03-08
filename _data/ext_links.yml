@@ -52,7 +52,7 @@ it:
     rtd: 'https://docs.italia.it/italia/piano-triennale-ict/pianotriennale-ict-doc/it/2019-2021/09_strumenti-per-la-generazione-e-la-diffusione-di-servizi-digitali.html'
     pdf: '/assets/pdf/'
   modelli-e-strumenti-innovazione:
-    forum: 'https://forum.italia.it/c/piano-triennale/'
+    forum: 'https://forum.italia.it/c/piano-triennale/modelli-strumenti-innovazione'
     rtd: 'https://docs.italia.it/italia/piano-triennale-ict/pianotriennale-ict-doc/it/2019-2021/10_modelli-e-strumenti-innovazione.html'
     pdf: '/assets/pdf/'
   governare-la-trasformazione-digitale:
