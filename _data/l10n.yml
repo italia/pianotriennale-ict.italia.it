@@ -222,7 +222,7 @@ it:
     dfp_link: http://www.funzionepubblica.gov.it
     dfp_logo: /assets/images/governo.svg
     dfp_logo_alt: /assets/images/governo-alt.svg
-    owner_short: AgID
+    owner_short: AGID
     owner_full: Agenzia per l'Italia Digitale
     owner_link: http://www.agid.gov.it
     owner_logo: /assets/images/agid-logo.svg
@@ -463,7 +463,7 @@ en:
     dfp_link: http://www.funzionepubblica.gov.it
     dfp_logo: /assets/images/governo.svg
     dfp_logo_alt: /assets/images/governo-alt.svg
-    owner_short: AgID
+    owner_short: AGID
     owner_full: Agenzia per l'Italia Digitale
     owner_link: http://www.agid.gov.it
     owner_logo: /assets/images/agid-logo.svg
