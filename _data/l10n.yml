@@ -134,29 +134,29 @@ it:
           author_name: Giulia Bongiorno
           author_role: Ministro per la Pubblica Amministrazione
       2017:
-      gentiloni:
-        text: |
-          «La trasformazione digitale è una priorità del Governo. Il Piano Triennale richiede un gioco di squadra per semplificare la Pubblica Amministrazione e la vita dei cittadini»
-        text_short: |
-          «La trasformazione digitale è una priorità del Governo. Il Piano Triennale richiede un gioco di squadra per semplificare la Pubblica Amministrazione e la vita dei cittadini»
-        author_name: Paolo Gentiloni
-        author_role: Presidente del Consiglio dei Ministri
-      madia:
-        text: |
-          «Con il Piano Triennale prosegue la trasformazione digitale che permetterà alle pubbliche amministrazioni di diventare più efficienti e mettere il cittadino al centro delle loro azioni. L’aggiornamento del Codice dell’Amministrazione Digitale sarà un ulteriore passo per liberare l’innovazione dai troppi regolamenti e rafforzare i diritti di cittadinanza digitale»
-        text_short: |
-          «Con il Piano Triennale prosegue la trasformazione digitale che permetterà alle pubbliche amministrazioni di diventare più efficienti e mettere il cittadino al centro delle loro azioni. L’aggiornamento del Codice dell’Amministrazione Digitale sarà un ulteriore passo per liberare l’innovazione dai troppi regolamenti e rafforzare i diritti di cittadinanza digitale»
-        author_name: Marianna Madia
-        author_role: Ministro per la semplificazione e la Pubblica Amministrazione
-      piacentini:
-        text: |
-          «Stiamo introducendo una modalità di partecipazione completamente nuova, certi che per raggiungere l’obiettivo della trasformazione digitale dei servizi della Pubblica Amministrazione si debba agire in maniera collaborativa»
-        text_short: |
-          «Stiamo introducendo una modalità di partecipazione completamente nuova, certi che per raggiungere l’obiettivo della trasformazione digitale dei servizi della Pubblica Amministrazione si debba agire in maniera collaborativa»
-        author_name: Diego Piacentini
-        author_role: Commissario straordinario per l'attuazione dell'Agenda Digitale
-        goto_link: 'https://medium.com/@diegopia/piano-triennale-trasformazione-digitale-pubblica-amministrazione-linee-guida-design-sviluppo-open-source-a54e27d55be9'
-        goto_label: Leggi il post completo su Medium
+        gentiloni:
+          text: |
+            «La trasformazione digitale è una priorità del Governo. Il Piano Triennale richiede un gioco di squadra per semplificare la Pubblica Amministrazione e la vita dei cittadini»
+          text_short: |
+            «La trasformazione digitale è una priorità del Governo. Il Piano Triennale richiede un gioco di squadra per semplificare la Pubblica Amministrazione e la vita dei cittadini»
+          author_name: Paolo Gentiloni
+          author_role: Presidente del Consiglio dei Ministri
+        madia:
+          text: |
+            «Con il Piano Triennale prosegue la trasformazione digitale che permetterà alle pubbliche amministrazioni di diventare più efficienti e mettere il cittadino al centro delle loro azioni. L’aggiornamento del Codice dell’Amministrazione Digitale sarà un ulteriore passo per liberare l’innovazione dai troppi regolamenti e rafforzare i diritti di cittadinanza digitale»
+          text_short: |
+            «Con il Piano Triennale prosegue la trasformazione digitale che permetterà alle pubbliche amministrazioni di diventare più efficienti e mettere il cittadino al centro delle loro azioni. L’aggiornamento del Codice dell’Amministrazione Digitale sarà un ulteriore passo per liberare l’innovazione dai troppi regolamenti e rafforzare i diritti di cittadinanza digitale»
+          author_name: Marianna Madia
+          author_role: Ministro per la semplificazione e la Pubblica Amministrazione
+        piacentini:
+          text: |
+            «Stiamo introducendo una modalità di partecipazione completamente nuova, certi che per raggiungere l’obiettivo della trasformazione digitale dei servizi della Pubblica Amministrazione si debba agire in maniera collaborativa»
+          text_short: |
+            «Stiamo introducendo una modalità di partecipazione completamente nuova, certi che per raggiungere l’obiettivo della trasformazione digitale dei servizi della Pubblica Amministrazione si debba agire in maniera collaborativa»
+          author_name: Diego Piacentini
+          author_role: Commissario straordinario per l'attuazione dell'Agenda Digitale
+          goto_link: 'https://medium.com/@diegopia/piano-triennale-trasformazione-digitale-pubblica-amministrazione-linee-guida-design-sviluppo-open-source-a54e27d55be9'
+          goto_label: Leggi il post completo su Medium
     capitoli_title: Tutti i capitoli del piano
     capitoli:
       piano-triennale: Piano Triennale
@@ -360,29 +360,29 @@ en:
           author_name: Giulia Bongiorno
           author_role: Minister for Public Administration
       2017:
-      gentiloni:
-        text: |
-          "Digital transformation is a priority of the Government. The Three-Year Plan requires a team effort to simplify Public Administration and the life of citizens."
-        text_short: |
-          "Digital transformation is a priority of the Government. The Three-Year Plan requires a team effort to simplify Public Administration and the life of citizens."
-        author_name: Paolo Gentiloni
-        author_role: President of the Council of Ministers
-      madia:
-        text: |
-          "Digital transformation continues with the Three-Year Plan, which will allow Public Administrations to become more efficient and put the citizen at the centre of their actions. Updating the Digital Administration Code will be an additional step towards freeing innovation from too many regulations and strengthen the rights of digital citizenship."
-        text_short: |
-          "Digital transformation continues with the Three-Year Plan, which will allow Public Administrations to become more efficient and put the citizen at the centre of their actions. Updating the Digital Administration Code will be an additional step towards freeing innovation from too many regulations and strengthen the rights of digital citizenship."
-        author_name: Marianna Madia
-        author_role: Minister for Public Administration and Simplification
-      piacentini:
-        text: |
-          "We are introducing a completely new way of participation, certain that in order to achieve the goal of digital transformation of the Public Administration services, we must act in a collaborative way."
-        text_short: |
-          "We are introducing a completely new way of participation, certain that in order to achieve the goal of digital transformation of the Public Administration services, we must act in a collaborative way."
-        author_name: Diego Piacentini
-        author_role: Government Commissioner for the Digital Agenda
-        goto_link: 'https://medium.com/team-per-la-trasformazione-digitale/three-year-digital-transformation-plan-italian-public-administration-guidelines-design-development-8bdb440f940d'
-        goto_label: Read the complete post on Medium
+        gentiloni:
+          text: |
+            "Digital transformation is a priority of the Government. The Three-Year Plan requires a team effort to simplify Public Administration and the life of citizens."
+          text_short: |
+            "Digital transformation is a priority of the Government. The Three-Year Plan requires a team effort to simplify Public Administration and the life of citizens."
+          author_name: Paolo Gentiloni
+          author_role: President of the Council of Ministers
+        madia:
+          text: |
+            "Digital transformation continues with the Three-Year Plan, which will allow Public Administrations to become more efficient and put the citizen at the centre of their actions. Updating the Digital Administration Code will be an additional step towards freeing innovation from too many regulations and strengthen the rights of digital citizenship."
+          text_short: |
+            "Digital transformation continues with the Three-Year Plan, which will allow Public Administrations to become more efficient and put the citizen at the centre of their actions. Updating the Digital Administration Code will be an additional step towards freeing innovation from too many regulations and strengthen the rights of digital citizenship."
+          author_name: Marianna Madia
+          author_role: Minister for Public Administration and Simplification
+        piacentini:
+          text: |
+            "We are introducing a completely new way of participation, certain that in order to achieve the goal of digital transformation of the Public Administration services, we must act in a collaborative way."
+          text_short: |
+            "We are introducing a completely new way of participation, certain that in order to achieve the goal of digital transformation of the Public Administration services, we must act in a collaborative way."
+          author_name: Diego Piacentini
+          author_role: Government Commissioner for the Digital Agenda
+          goto_link: 'https://medium.com/team-per-la-trasformazione-digitale/three-year-digital-transformation-plan-italian-public-administration-guidelines-design-development-8bdb440f940d'
+          goto_label: Read the complete post on Medium
     capitoli_title: All the chapters of the plan
     capitoli:
       data-center-e-cloud: Data Centres and Cloud
