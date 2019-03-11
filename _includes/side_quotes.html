@@ -1,4 +1,4 @@
-{% for quote in include.quotes %}
+{% for quote in include.quotes[page.quotes] %}
 <div class="Side-quote u-color-grey-50 u-padding-r-all">
   <div class="Side-quote-text u-margin-bottom-xl u-textItalic u-lineHeight-xl">
     {{ quote[1].text | newline_to_br }}

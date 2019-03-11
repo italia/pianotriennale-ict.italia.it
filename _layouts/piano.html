@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-
 {% include setlang.html %}
 
 <div class="Page-title u-background-50 u-padding-top-xxl project-title-wrapper u-text{{ page.title-alignment | capitalize }}">
@@ -30,9 +29,12 @@ layout: default
     <div class="Grid-cell u-sizeFull u-md-size6of12 u-lg-size6of12">
       <div class="Prose">
         {{ content }}
+        {% if page.lang == 'it' %}
+        {% comment %}
         <h4>{{ t.temi_title }}</h4>
         <p>{{ t.modello_intro }}</p>
         {% include modello.html %}
+        {% endcomment %}
 
         <p>{{ t.forum_intro }}</p>
         {% assign buttonUrl = site.data.ext_links[page.lang].piano-triennale-index.forum %}
@@ -47,6 +49,7 @@ layout: default
            </div>
           {% endfor %}
          </div>
+         {% endif %}
       </div>
     </div>
     <div class="Grid-cell u-sizeFull u-md-before2of12 u-md-size4of12 u-lg-before2of12 u-lg-size4of12">

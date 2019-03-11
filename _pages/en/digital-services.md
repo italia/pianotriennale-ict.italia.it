@@ -4,12 +4,17 @@ lang: en
 layout: page
 separator: curved
 title-alignment: center
-cta-buttons: true
+# cta-buttons: true
 chapter: strumenti-per-la-generazione-e-la-diffusione-di-servizi-digitali
-linee-azione: true
+# linee-azione: true
 ref: servizi-digitali
 ---
-The Plan promotes the development of public digital services by means of different strategies, such as:  
+**The three-year plan has recently been updated.**
+
+In a few weeks, the English version of the new text will be available.
+In the meantime you can consult the [Italian version]({{ site.baseurl }}{% link _pages/it/index.md %}) of the document.
+
+<!-- The Plan promotes the development of public digital services by means of different strategies, such as:  
 - dissemination of enabling platforms,
 - production of dedicated guidelines and development kits, 
 - creation of a community of developers, designers and digital service managers that can collaborate and participate in the growth of the public administration.
@@ -23,4 +28,4 @@ These are the main objectives:
 - to provide useful guidelines and toolkits for the development of applications and services with adequate levels of design, user experience, security and usability;
 - to promote the development of digital products and services based on the use of databases, APIs and information made available by the PAs;
 - to share information and software components that will reduce the implementation cost for new digital products, encouraging the reuse and interoperability;
-- to support the administrations in the dissemination and popularisation of services and tools necessary for communicating the Three-Year Plan&#39;s implementation path.
+- to support the administrations in the dissemination and popularisation of services and tools necessary for communicating the Three-Year Plan&#39;s implementation path. -->

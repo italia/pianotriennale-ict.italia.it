@@ -8,20 +8,20 @@ layout: default
   <div class="Home-background rellax" data-rellax-speed="6"></div>
   <div class="Home-content">
 
-    <div class="u-textCenter u-padding-r-all u-textCenter u-padding-bottom-xxl u-posRelative">
+    <!--<div class="u-textCenter u-padding-r-all u-textCenter u-padding-bottom-xxl u-posRelative">
        <div class="Home-hero u-layoutCenter u-margin-bottom-l">
       <h2 class="u-text-r-xl u-textWeight-300 u-color-white u-margin-top-l u-lineHeight-l">
         <span class="u-hidden u-sm-block u-md-block u-lg-block">{{ t.home_hero | newline_to_br }}</span>
         <span class="u-sm-hidden u-md-hidden u-lg-hidden">{{ t.home_hero_mobile | newline_to_br }}</span>
       </h2>
        <div class="">
-          <p class="u-text-r-xs u-textWeight-600 u-padding-bottom-xs u-color-white u-text-r-l u-textRight">{{ t.quotes.gentiloni.author_name }}</p>
-          <p class="u-text-r-xxs u-textWeight-200 u-color-white u-text-r-l u-textRight">{{ t.quotes.gentiloni.author_role }}</p>
+          <p class="u-text-r-xs u-textWeight-600 u-padding-bottom-xs u-color-white u-text-r-l u-textRight">{{ t.quotes[2019].conte.author_name }}</p>
+          <p class="u-text-r-xxs u-textWeight-200 u-color-white u-text-r-l u-textRight">{{ t.quotes[2019].conte.author_role }}</p>
       </div>
           </div>
-    </div>
+    </div>-->
 
-    <section class="u-layout-r-withGutter u-padding-r-top u-padding-bottom-xxl">
+    <section class="u-layout-r-withGutter u-padding-top-xxl u-padding-bottom-xxl">
 
       <div class="u-layout-wide u-layoutCenter">
         
@@ -39,42 +39,34 @@ layout: default
           </div>
 
           <div class="Grid-cell u-md-size5of12 u-md-before2of12 u-lg-size5of12 u-lg-before2of12 u-margin-r-bottom u-posRelative">
-          {%
-            include card.html
-            authorName = t.quotes.madia.author_name
-            authorRole = t.quotes.madia.author_role
-            text = t.quotes.madia.text_short
-            textClasses = 'u-color-white u-text-r-m u-textRight'
-            classes = 'u-background-transparent u-padding-right-xxl'
-            flat = true
-          %}
-          </div>
-          <div class="Grid-cell u-md-size5of12 u-lg-size5of12 u-margin-r-top u-margin-r-bottom u-posRelative">
-          {%
-            include card.html
-            authorName = t.quotes.piacentini.author_name
-            authorRole = t.quotes.piacentini.author_role
-            text = t.quotes.piacentini.text_short
-            textClasses = 'u-color-white u-text-r-m'
-            classes = 'u-background-transparent  u-padding-left-xxl'
-            flat = true
-            goto = true
-            gotoLink = t.quotes.piacentini.goto_link
-            gotoLabel = t.quotes.piacentini.goto_label
-          %}
-          </div>
-		      <div class="Grid-cell u-md-size5of12 u-md-before2of12 u-lg-size5of12 u-lg-before2of12 u-margin-r-top u-margin-r-bottom u-posRelative" id="home-pt-howto">
-          {%
-            include card.html
-            title = t.home_pt_howto_title
-            text = t.home_pt_howto
-          %}
+            <div class="u-padding-bottom-xxl">
+            {% assign authorName = t.quotes[2019].bongiorno.author_name %}
+            {% assign authorRole = t.quotes[2019].bongiorno.author_role %}
+            {% assign text = t.quotes[2019].bongiorno.text %}
+            {%
+              include card.html
+              authorName = authorName
+              authorRole = authorRole
+              text = text
+              textClasses = 'u-color-white u-text-r-m u-textRight'
+              classes = 'u-background-transparent u-padding-right-xxl'
+              flat = true
+            %}
+            </div>
+
+            <div class="u-margin-top-xxl">
+            {%
+              include card.html
+              title = t.home_pt_howto_title
+              text = t.home_pt_howto
+            %}
+            </div>
           </div>
         </div>
 
       </div>
 
-    <div class="Home-space"></div>
+    <!--<div class="Home-space"></div>-->
 
     <div class="Sticky-bottom Grid Grid--alignMiddle u-sm-hidden u-md-hidden u-lg-hidden u-background-50">
       <div class="Grid-cell u-size1of3 u-padding-r-all">

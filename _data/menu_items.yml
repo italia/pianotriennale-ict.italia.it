@@ -6,30 +6,32 @@ it:
     liClass: 'Megamenu-item Megamenu-item--vert'
     subtitle: Gli assi portanti della trasformazione digitale
     subitems:
-    - title: Servizi digitali
-      url: /servizi-digitali/
-    - title: Ecosistemi
-      url: /ecosistemi/
-    - title: Interoperabilità
-      url: /interoperabilita/
-    - title: Piattaforme abilitanti
-      url: /piattaforme-abilitanti/
-    - title: Dati
-      url: /dati/
+    - title: Cloud della PA
+      url: /cloud-della-pa/
+    - title: Data center
+      url: /data-center/
     - title: Connettività
       url: /connettivita/
-    - title: Data center e Cloud
-      url: /data-center-e-cloud/
-    - title: Sicurezza
+    - title: Modello di interoperabilità
+      url: /interoperabilita/
+    - title: Dati della Pubblica Amministrazione
+      url: /dati-della-pa/
+    - title: Piattaforme
+      url: /piattaforme/
+    - title: Ecosistemi
+      url: /ecosistemi/
+    - title: Sicurezza informatica
       url: /sicurezza/
-    - title: Data & Analytics Framework
-      url: /daf/
-    - title: Gestione del cambiamento
-      url: /gestione-del-cambiamento/
+    - title: Strumenti per la generazione e la diffusione di servizi digitali
+      url: /servizi-digitali/
+    - title: Modelli e strumenti per l'innovazione
+      url: /modelli-e-strumenti-innovazione/
+    - title: Governare la trasformazione digitale
+      url: /governare-la-trasformazione-digitale/
     - title: Razionalizzazione della spesa
       url: /razionalizzazione-della-spesa/
-    - title: Principi per lo sviluppo di progetti digitali
-      url: /principi-per-lo-sviluppo-di-progetti-digitali/
+    - title: Indicazioni per le pubbliche amministrazioni
+      url: /indicazioni-per-le-pa/
   - title: Le azioni
     url: /azioni/
   - title: Consultazioni pubbliche

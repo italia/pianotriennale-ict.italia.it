@@ -23,7 +23,7 @@ it:
     external: true
   docs:
     title: header_link_docs
-    url: 'https://docs.developers.italia.it/'
+    url: 'https://docs.italia.it/'
     external: true
   github:
     title: header_link_github
@@ -54,7 +54,7 @@ en:
     external: true
   docs:
     title: header_link_docs
-    url: 'https://docs.developers.italia.it/'
+    url: 'https://docs.italia.it/'
     external: true
   github:
     title: header_link_github

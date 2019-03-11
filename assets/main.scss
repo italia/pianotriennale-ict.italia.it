@@ -5,4 +5,5 @@
 
 $base_url: "{{ '/' | relative_url }}";
 
+@import "fonts";
 @import "trasformazione-digitale";

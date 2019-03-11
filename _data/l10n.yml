@@ -25,10 +25,11 @@ it:
     in_collaboration_with: In collaborazione con
     footer_note: Cover image courtesy of [Matteo Vistocco](https://unsplash.com/@biscuits94)
     footer_public_domain: Donazione al Pubblico Dominio
-    actions_progress: in corso
-    actions_from: 'da '
+    actions_progress: In corso
+    actions_from: 'Da '
     actions_to: ' a '
-    actions_by: 'entro '
+    actions_by: 'Entro '
+    actions_at: 'A '
     get_json: Scarica il JSON
     months:
       '01': gennaio
@@ -60,6 +61,7 @@ it:
     goto_chapter: vai al capitolo
     goto_chapter_en: read the chapter
     goto_forum: partecipa
+    goto_plan-2017: leggi la versione 2017-2019
     deepen: per approfondire
     download_chapter: scarica il capitolo
     discuss: per confrontarti
@@ -73,28 +75,28 @@ it:
     attori: attori
     descrizione: descrizione
     risultati: risultati
+    aree-intervento: aree di intervento
     stato: stato
     completata: completata
     completo: completo
     in_corso: in corso
     bloccato: bloccato
     home_hero: |
-      «La trasformazione digitale è una priorità del Governo.
-      Il Piano Triennale richiede un gioco di squadra per semplificare la Pubblica Amministrazione e la vita dei cittadini»
+      «Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Etiam vehicula neque eu lectus congue dapibus. Nullam ex massa, congue sit amet turpis id, cursus eleifend eros.»
     home_hero_mobile: |
-      «La trasformazione digitale è una priorità del Governo.
-      Il Piano Triennale richiede un gioco di squadra per semplificare la Pubblica Amministrazione e la vita dei cittadini»
+      «Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Etiam vehicula neque eu lectus congue dapibus. Nullam ex massa, congue sit amet turpis id, cursus eleifend eros.»
     home_tools_title: Strumenti
     home_tools_subtitle: Ci appoggiamo a strumenti già esistenti e molto conosciuti per fornirti le informazioni, il codice e il supporto di cui hai bisogno
     home_header_button_text: vai al piano
     home_pt_title: Cos'è il Piano Triennale
     home_pt_description: |
-      È il documento di indirizzo strategico ed economico destinato a tutta la Pubblica Amministrazione che accompagna la trasformazione digitale del Paese.
-
-      Il Piano definisce:
-      - le linee operative di sviluppo dell’informatica pubblica;
-      - il Modello strategico di evoluzione del sistema informativo della PA;
-      - gli investimenti ICT del settore pubblico secondo le linee guida europee e del Governo.
+      Il Piano Triennale 2019-2021 indica le linee di azione per promuovere la trasformazione digitale del settore pubblico e del Paese. Nel proseguire gli indirizzi contenuti nella versione 2017-2019, il Piano:
+        - sostiene il percorso inclusivo di crescita digitale delle PA centrali e locali con un maggiore coinvolgimento della figura del Responsabile per la transizione al digitale;
+        - definisce i principi architetturali fondamentali, le regole di interoperabilità delle infrastrutture nazionali e il modello di cooperazione fra ecosistemi e piattaforme;
+        - facilita il rapporto tra le PA e il mercato, coinvolgendo anche i soggetti privati nello sviluppo di servizi integrati ed interoperabili;
+        - introduce una nuova chiave di lettura delle iniziative di trasformazione digitale che individua le aree di intervento e l’impatto sugli interlocutori e gli attori principali del percorso: i cittadini, le imprese e le PA.
     home_pt_howto_title: Consulta il Piano
     home_pt_howto:
       - text: |
@@ -104,128 +106,108 @@ it:
           - type: button
             icon: read
             label: Versione navigabile
-            href: 'https://pianotriennale-ict.readthedocs.io/'
+            href: 'https://docs.italia.it/italia/piano-triennale-ict/pianotriennale-ict-doc/'
             target_blank: true
           - icon: download-alt
             label: scarica il pdf
-            href: '/assets/pdf/Piano_Triennale_per_l_informatica_nella_Pubblica_Amministrazione.pdf'
+            href: '/assets/pdf/2019-2021/Piano-Triennale-ICT-2019-2021.pdf'
             target_blank: true
-      - text: Hai bisogno di chiarimenti? Consulta le [FAQ](/faq), partecipa al forum di discussione dedicato oppure proponi una modifica al testo su [GitHub](https://github.com/italia/pianotriennale-ict-doc).
+      - text: Hai bisogno di chiarimenti? Consulta le [domande frequenti](/faq). Scopri le novità del Piano sul [sito di AGID](https://wwww.agid.gov.it).
         links:
           - type: button
             icon: forum
             label: partecipa
             href: 'https://forum.italia.it/c/piano-triennale'
             target_blank: true
-    home_pt_en_title: The Three-Year Plan
-    home_pt_en:
-      - text: The Three-Year Plan for ICT in the Public Administration was translated by Artificial Intelligence. It is available online on mobile optimized navigation.
-        links:
-          - type: button
-            icon: read
-            label: Read It
-            href: 'https://pianotriennale-ict.readthedocs.io/en/latest'
-            target_blank: true
     home_links:
       plan: /piano
     quotes:
-      gentiloni:
-        text: |
-          «La trasformazione digitale è una priorità del Governo. Il Piano Triennale richiede un gioco di squadra per semplificare la Pubblica Amministrazione e la vita dei cittadini»
-        text_short: |
-          «La trasformazione digitale è una priorità del Governo. Il Piano Triennale richiede un gioco di squadra per semplificare la Pubblica Amministrazione e la vita dei cittadini»
-        author_name: Paolo Gentiloni
-        author_role: Presidente del Consiglio dei Ministri
-      madia:
-        text: |
-          «Con il Piano Triennale prosegue la trasformazione digitale che permetterà alle pubbliche amministrazioni di diventare più efficienti e mettere il cittadino al centro delle loro azioni. L’aggiornamento del Codice dell’Amministrazione Digitale sarà un ulteriore passo per liberare l’innovazione dai troppi regolamenti e rafforzare i diritti di cittadinanza digitale»
-        text_short: |
-          «Con il Piano Triennale prosegue la trasformazione digitale che permetterà alle pubbliche amministrazioni di diventare più efficienti e mettere il cittadino al centro delle loro azioni. L’aggiornamento del Codice dell’Amministrazione Digitale sarà un ulteriore passo per liberare l’innovazione dai troppi regolamenti e rafforzare i diritti di cittadinanza digitale»
-        author_name: Marianna Madia
-        author_role: Ministro per la semplificazione e la Pubblica Amministrazione
-      piacentini:
-        text: |
-          «Stiamo introducendo una modalità di partecipazione completamente nuova, certi che per raggiungere l’obiettivo della trasformazione digitale dei servizi della Pubblica Amministrazione si debba agire in maniera collaborativa»
-        text_short: |
-          «Stiamo introducendo una modalità di partecipazione completamente nuova, certi che per raggiungere l’obiettivo della trasformazione digitale dei servizi della Pubblica Amministrazione si debba agire in maniera collaborativa»
-        author_name: Diego Piacentini
-        author_role: Commissario straordinario per l'attuazione dell'Agenda Digitale
-        goto_link: 'https://medium.com/@diegopia/piano-triennale-trasformazione-digitale-pubblica-amministrazione-linee-guida-design-sviluppo-open-source-a54e27d55be9'
-        goto_label: Leggi il post completo su Medium
+      2019:
+        dedica:
+          text: |
+            Questo Piano Triennale è dedicato ad Antonella Giulia Pizzaleo, innovatrice paziente e geniale della Pubblica Amministrazione, che su più tavoli ha rappresentato la Regione Lazio nei molti confronti durante il lavoro di redazione di questo Piano stesso e che ha fattivamente contribuito con i suoi suggerimenti e con le sue garbate osservazioni.
+            Con la nostra gratitudine per aver garantito, con costante impegno ed approccio propositivo, un impulso forte ed innovativo alla digitalizzazione della PA a livello territoriale e nazionale.
+        bongiorno:
+          text: |
+            «Con il nuovo Piano Triennale si gettano le basi per consentire al settore pubblico di cominciare a correre e recuperare terreno nel percorso appena avviato verso una trasformazione digitale concreta e inclusiva. Un percorso non facile ma ragionevole e concreto, che fa perno sul Responsabile per la transizione al digitale e vede imprese e cittadini protagonisti di un progetto di crescita digitale del Paese.»
+          text_short: |
+            «Con il nuovo Piano Triennale si gettano le basi per consentire al settore pubblico di cominciare a correre e recuperare terreno nel percorso appena avviato verso una trasformazione digitale concreta e inclusiva. Un percorso non facile ma ragionevole e concreto, che fa perno sul Responsabile per la transizione al digitale e vede imprese e cittadini protagonisti di un progetto di crescita digitale del Paese.»
+          author_name: Giulia Bongiorno
+          author_role: Ministro per la Pubblica Amministrazione
+      2017:
+        gentiloni:
+          text: |
+            «La trasformazione digitale è una priorità del Governo. Il Piano Triennale richiede un gioco di squadra per semplificare la Pubblica Amministrazione e la vita dei cittadini»
+          text_short: |
+            «La trasformazione digitale è una priorità del Governo. Il Piano Triennale richiede un gioco di squadra per semplificare la Pubblica Amministrazione e la vita dei cittadini»
+          author_name: Paolo Gentiloni
+          author_role: Presidente del Consiglio dei Ministri
+        madia:
+          text: |
+            «Con il Piano Triennale prosegue la trasformazione digitale che permetterà alle pubbliche amministrazioni di diventare più efficienti e mettere il cittadino al centro delle loro azioni. L’aggiornamento del Codice dell’Amministrazione Digitale sarà un ulteriore passo per liberare l’innovazione dai troppi regolamenti e rafforzare i diritti di cittadinanza digitale»
+          text_short: |
+            «Con il Piano Triennale prosegue la trasformazione digitale che permetterà alle pubbliche amministrazioni di diventare più efficienti e mettere il cittadino al centro delle loro azioni. L’aggiornamento del Codice dell’Amministrazione Digitale sarà un ulteriore passo per liberare l’innovazione dai troppi regolamenti e rafforzare i diritti di cittadinanza digitale»
+          author_name: Marianna Madia
+          author_role: Ministro per la semplificazione e la Pubblica Amministrazione
+        piacentini:
+          text: |
+            «Stiamo introducendo una modalità di partecipazione completamente nuova, certi che per raggiungere l’obiettivo della trasformazione digitale dei servizi della Pubblica Amministrazione si debba agire in maniera collaborativa»
+          text_short: |
+            «Stiamo introducendo una modalità di partecipazione completamente nuova, certi che per raggiungere l’obiettivo della trasformazione digitale dei servizi della Pubblica Amministrazione si debba agire in maniera collaborativa»
+          author_name: Diego Piacentini
+          author_role: Commissario straordinario per l'attuazione dell'Agenda Digitale
+          goto_link: 'https://medium.com/@diegopia/piano-triennale-trasformazione-digitale-pubblica-amministrazione-linee-guida-design-sviluppo-open-source-a54e27d55be9'
+          goto_label: Leggi il post completo su Medium
     capitoli_title: Tutti i capitoli del piano
     capitoli:
-      data-center-e-cloud: Data center e cloud
-      connettivita: Connettività
-      dati-della-pa: Dati della PA
-      piattaforme-abilitanti: Piattaforme abilitanti
-      modello-di-interoperabilita: Modello di interoperabilità
-      ecosistemi: Ecositemi
-      strumenti-per-la-generazione-e-la-diffusione-di-servizi-digitali: Strumenti per la generazione e la diffusione di servizi digitali
-      sicurezza: Sicurezza
-      data-analytics-framework: Data & Analytics Framework
-      gestione-del-cambiamento: Gestione del cambiamento
-      principi-per-lo-sviluppo-di-progetti-digitali: Principi per lo sviluppo di progetti digitali
-      razionalizzazione-della-spesa: Razionalizzazione della spesa
       piano-triennale: Piano Triennale
-      modello-strategico: Modello strategico
-      indicazioni-per-le-pa: Indicazioni per le PA
-    capitoli_en:
-      data-center-e-cloud: Data centres and cloud
-      connettivita: Connectivity
-      dati-della-pa: Public Administration Data
-      piattaforme-abilitanti: Enabling platforms
-      modello-di-interoperabilita: Interoperability Model
-      ecosistemi: Ecosystems
-      strumenti-per-la-generazione-e-la-diffusione-di-servizi-digitali: Instruments for the generation and the spread of digital services
-      sicurezza: Security
-      data-analytics-framework: Data & Analytics Framework
-      gestione-del-cambiamento: Management of the change
-      principi-per-lo-sviluppo-di-progetti-digitali: Principles for the development of digital projects
-      razionalizzazione-della-spesa: Rationalisation of costs
-      piano-triennale: Three-Year Plan for IT in Public Administration
-      modello-strategico: Strategic evolution model of the information system of the public administration
-      indicazioni-per-le-pa: Indications for the Public administrations
+      contesto-normativo: Contesto normativo
+      infrastrutture: Infrastrutture
+      modello-di-interoperabilita: Modello di interoperabilità
+      dati-della-pa: Dati della Pubblica Amministrazione
+      piattaforme: Piattaforme
+      ecosistemi: Ecosistemi
+      sicurezza-informatica: Sicurezza informatica
+      servizi-digitali: Strumenti per la generazione e la diffusione di servizi digitali
+      modelli-e-strumenti-innovazione: Modelli e strumenti per l'innovazione
+      governare-la-trasformazione-digitale: Governare la trasformazione digitale
+      razionalizzazione-della-spesa: Razionalizzazione della spesa
+      indicazioni-per-le-pa: Indicazioni per le pubbliche amministrazioni
     temi_title: I capitoli
-    modello_intro: Clicca sulla sezione che ti interessa
+    modello_intro: Clicca sulla sezione che ti interessa.
     partecipa: Partecipa
-    forum_intro: "Chiunque può partecipare al forum di discussione e contribuire alla diffusione e all'implementazione' del Piano Triennale."
+    forum_intro: "Chiunque può partecipare al forum di discussione e contribuire alla diffusione e all'implementazione del Piano Triennale."
     temi:
       servizi-digitali: 
         name: Servizi digitali
         ref: servizi-digitali
+      modelli-e-strumenti-innovazione:
+        name: Modelli e strumenti per l'innovazione
+        ref: modelli-e-strumenti-innovazione
       ecosistemi: 
         name: Ecosistemi
         ref: ecosistemi
-      interoperabilita: 
-        name: Interoperabilità
-        ref: interoperabilita
-      piattaforme-abilitanti:
-        name: Piattaforme abilitanti
-        ref: piattaforme-abilitanti
-      dati: 
-        name: Dati
-        ref: dati
-      rete: 
-        name: Connettività
-        ref: connettivita
-      cloud: 
-        name: Data center e cloud
-        ref: data-center-e-cloud
+      piattaforme:
+        name: Piattaforme
+        ref: piattaforme
+      dati-della-pa: 
+        name: Dati della PA
+        ref: dati-della-pa
+      modello-di-interoperabilita: 
+        name: Modello di interoperabilità
+        ref: modello-di-interoperabilita
+      infrastrutture: 
+        name: Infrastrutture
+        ref: infrastrutture
+      governare-la-trasformazione-digitale:
+        name: Governare la trasformazione digitale
+        ref: governare-la-trasformazione-digitale
       sicurezza: 
         name: Sicurezza
         ref: sicurezza
-      big-data: 
-        name: Data & Analytics Framework
-        ref: data-center-e-cloud
-      gestione-del-cambiamento: 
-        name: Gestione del cambiamento
-        ref: gestione-del-cambiamento
-      razionalizzazione-della-spesa:
-        name: Razionalizzazione della spesa
-        ref: razionalizzazione-della-spesa
-      principi-per-lo-sviluppo-di-progetti-digitali:
-        name: Principi per lo sviluppo di progetti digitali
-        ref: principi-per-lo-sviluppo-di-progetti-digitali
+      pdnd:
+        name: Piattaforma Digitale Nazionale Dati
+        ref: dati-della-pa
     gov_full: Presidenza del Consiglio dei Ministri
     gov_link: http://www.governo.it
     gov_logo: /assets/images/governo.svg
@@ -234,11 +216,11 @@ it:
     dfp_link: http://www.funzionepubblica.gov.it
     dfp_logo: /assets/images/governo.svg
     dfp_logo_alt: /assets/images/governo-alt.svg
-    owner_short: AgID
+    owner_short: AGID
     owner_full: Agenzia per l'Italia Digitale
     owner_link: http://www.agid.gov.it
-    owner_logo: /assets/images/agid-logo-bb.svg
-    owner_logo_alt: /assets/images/agid-logo-alt-bb.svg
+    owner_logo: /assets/images/agid-logo.svg
+    owner_logo_alt: /assets/images/agid-logo-alt.svg
     partner_short: Team Digitale
     partner_full: Team per la Trasformazione Digitale
     partner_link: https://teamdigitale.governo.it
@@ -270,10 +252,11 @@ en:
     footer_link_legal_notes: legal notices
     footer_link_credits: credits
     footer_title: ''
-    actions_progress: in progress
-    actions_from: 'from '
+    actions_progress: In progress
+    actions_from: 'From '
     actions_to: ' to '
-    actions_by: 'by '
+    actions_by: 'By '
+    actions_at: 'In '
     get_json: Get JSON
     months:
       '01': january
@@ -308,6 +291,7 @@ en:
     goto_chapter: go to the chapter
     goto_chapter_en: read the chapter
     goto_forum: join the forum
+    goto_plan-2017: read the 2017-2019 version
     deepen: further reading
     download_chapter: download the chapter
     discuss: share your view
@@ -321,6 +305,7 @@ en:
     attori: players
     descrizione: description
     risultati: results
+    aree-intervento: areas of intervention
     stato: status
     completata: completed
     completo: complete
@@ -365,41 +350,41 @@ en:
             label: join the forum
             href: 'https://forum.italia.it/c/piano-triennale'
             target_blank: true
-    home_pt_en_title: The Three-Year Plan
-    home_pt_en:
-      - text: The Three-Year Plan for ICT in the Public Administration was translated by Artificial Intelligence. It is available online with optimised mobile navigation.
-        links:
-          - type: button
-            icon: read
-            label: Read It
-            href: 'https://pianotriennale-ict.readthedocs.io/en/latest'
-            target_blank: true
     home_links:
       plan: /en/plan
     quotes:
-      gentiloni:
-        text: |
-          "Digital transformation is a priority of the Government. The Three-Year Plan requires a team effort to simplify Public Administration and the life of citizens."
-        text_short: |
-          "Digital transformation is a priority of the Government. The Three-Year Plan requires a team effort to simplify Public Administration and the life of citizens."
-        author_name: Paolo Gentiloni
-        author_role: President of the Council of Ministers
-      madia:
-        text: |
-          "Digital transformation continues with the Three-Year Plan, which will allow Public Administrations to become more efficient and put the citizen at the centre of their actions. Updating the Digital Administration Code will be an additional step towards freeing innovation from too many regulations and strengthen the rights of digital citizenship."
-        text_short: |
-          "Digital transformation continues with the Three-Year Plan, which will allow Public Administrations to become more efficient and put the citizen at the centre of their actions. Updating the Digital Administration Code will be an additional step towards freeing innovation from too many regulations and strengthen the rights of digital citizenship."
-        author_name: Marianna Madia
-        author_role: Minister for Public Administration and Simplification
-      piacentini:
-        text: |
-          "We are introducing a completely new way of participation, certain that in order to achieve the goal of digital transformation of the Public Administration services, we must act in a collaborative way."
-        text_short: |
-          "We are introducing a completely new way of participation, certain that in order to achieve the goal of digital transformation of the Public Administration services, we must act in a collaborative way."
-        author_name: Diego Piacentini
-        author_role: Government Commissioner for the Digital Agenda
-        goto_link: 'https://medium.com/team-per-la-trasformazione-digitale/three-year-digital-transformation-plan-italian-public-administration-guidelines-design-development-8bdb440f940d'
-        goto_label: Read the complete post on Medium
+      2019:
+        bongiorno:
+          text: |
+            «Con il nuovo Piano Triennale si gettano le basi per consentire al settore pubblico di cominciare a correre e recuperare terreno nel percorso appena avviato verso una trasformazione digitale concreta e inclusiva. Un percorso non facile ma ragionevole e concreto, che fa perno sul Responsabile per la transizione al digitale e vede imprese e cittadini protagonisti di un progetto di crescita digitale del Paese.»
+          text_short: |
+            «Con il nuovo Piano Triennale si gettano le basi per consentire al settore pubblico di cominciare a correre e recuperare terreno nel percorso appena avviato verso una trasformazione digitale concreta e inclusiva. Un percorso non facile ma ragionevole e concreto, che fa perno sul Responsabile per la transizione al digitale e vede imprese e cittadini protagonisti di un progetto di crescita digitale del Paese.»
+          author_name: Giulia Bongiorno
+          author_role: Minister for Public Administration
+      2017:
+        gentiloni:
+          text: |
+            "Digital transformation is a priority of the Government. The Three-Year Plan requires a team effort to simplify Public Administration and the life of citizens."
+          text_short: |
+            "Digital transformation is a priority of the Government. The Three-Year Plan requires a team effort to simplify Public Administration and the life of citizens."
+          author_name: Paolo Gentiloni
+          author_role: President of the Council of Ministers
+        madia:
+          text: |
+            "Digital transformation continues with the Three-Year Plan, which will allow Public Administrations to become more efficient and put the citizen at the centre of their actions. Updating the Digital Administration Code will be an additional step towards freeing innovation from too many regulations and strengthen the rights of digital citizenship."
+          text_short: |
+            "Digital transformation continues with the Three-Year Plan, which will allow Public Administrations to become more efficient and put the citizen at the centre of their actions. Updating the Digital Administration Code will be an additional step towards freeing innovation from too many regulations and strengthen the rights of digital citizenship."
+          author_name: Marianna Madia
+          author_role: Minister for Public Administration and Simplification
+        piacentini:
+          text: |
+            "We are introducing a completely new way of participation, certain that in order to achieve the goal of digital transformation of the Public Administration services, we must act in a collaborative way."
+          text_short: |
+            "We are introducing a completely new way of participation, certain that in order to achieve the goal of digital transformation of the Public Administration services, we must act in a collaborative way."
+          author_name: Diego Piacentini
+          author_role: Government Commissioner for the Digital Agenda
+          goto_link: 'https://medium.com/team-per-la-trasformazione-digitale/three-year-digital-transformation-plan-italian-public-administration-guidelines-design-development-8bdb440f940d'
+          goto_label: Read the complete post on Medium
     capitoli_title: All the chapters of the plan
     capitoli:
       data-center-e-cloud: Data Centres and Cloud
@@ -417,22 +402,6 @@ en:
       piano-triennale: Three-Year Plan
       modello-strategico: Strategic model
       indicazioni-per-le-pa: Instructions for the PAs
-    capitoli_en:
-      data-center-e-cloud: Data centres and Cloud
-      connettivita: Connectivity
-      dati-della-pa: Public Administration Data
-      piattaforme-abilitanti: Enabling platforms
-      modello-di-interoperabilita: Interoperability Model
-      ecosistemi: Ecosystems
-      strumenti-per-la-generazione-e-la-diffusione-di-servizi-digitali: Instruments for the generation and spread of digital services
-      sicurezza: Security
-      data-analytics-framework: Data & Analytics Framework
-      gestione-del-cambiamento: Change management
-      principi-per-lo-sviluppo-di-progetti-digitali: Principles for the development of digital projects
-      razionalizzazione-della-spesa: Rationalisation of costs
-      piano-triennale: Three-Year Plan for IT in Public Administration
-      modello-strategico: Strategic evolution model of the information system of the Public Administration
-      indicazioni-per-le-pa: Instructions for the Public Administrations
     temi_title: The chapters
     modello_intro: Click on the section of interest
     partecipa: Participate
@@ -482,11 +451,11 @@ en:
     dfp_link: http://www.funzionepubblica.gov.it
     dfp_logo: /assets/images/governo.svg
     dfp_logo_alt: /assets/images/governo-alt.svg
-    owner_short: AgID
+    owner_short: AGID
     owner_full: Agenzia per l'Italia Digitale
     owner_link: http://www.agid.gov.it
-    owner_logo: /assets/images/agid-logo-bb.svg
-    owner_logo_alt: /assets/images/agid-logo-alt-bb.svg
+    owner_logo: /assets/images/agid-logo.svg
+    owner_logo_alt: /assets/images/agid-logo-alt.svg
     partner_short: Team Digitale
     partner_full: Digital Transformation Team
     partner_link: https://teamdigitale.governo.it/en

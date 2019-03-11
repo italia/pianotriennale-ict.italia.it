@@ -11,16 +11,18 @@
         <a class="js-fr-offcanvas-open u-nojsDisplayInlineBlock" href="#network" aria-controls="network" aria-label="{{ t.toggle_network_menu_label }}" title="{{ t.toggle_network_menu_label }}"><span class="Icon Icon-small-burger u-color-white u-alignMiddle"></span></a>
       </div>
       <span class="u-color-white">{{t.header_title}}</span>
-      {% include lang_switch.html %}
+      {% comment %}{% include lang_switch.html %}{% endcomment %}
       <div class="u-hidden u-md-block u-lg-block u-floatRight">
       {% include slim_header.html %}
       </div>
     </div>
   </div>
+  <!--
   <div class="u-padding-all-m u-background-teal-30 u-color-white u-text-r-xxs u-textWeight-300 u-textCenter">
     The Three-Year Plan for ICT in the Public Administration and this site were translated by Artificial Intelligence.
     <a href="https://github.com/italia/pianotriennale-ict.italia.it" class="u-textWeight-600 u-color-white">Help us improving them on GitHub</a>
   </div>
+  -->
   <div class="Header-navbar u-background-50">
     <div class="u-layout-wide Grid Grid--alignMiddle u-layoutCenter">
       <div class="Header-logo Grid-cell u-hidden u-md-block u-lg-block" aria-hidden="true">
@@ -60,12 +62,6 @@
             {% endfor %}
           </ul>
         </div>
-
-        {% if include.hasSearch %}
-        <div class="Header-search" id="header-search">
-          {% include search_form.html %}
-        </div>
-        {% endif %}
 
         {% if include.hasButton %}
         <div>

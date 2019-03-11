@@ -1,6 +1,5 @@
-{% assign temi_in_body = 'servizi-digitali,ecosistemi,interoperabilita,piattaforme-abilitanti,dati,rete,cloud,gestione-del-cambiamento,razionalizzazione-della-spesa,principi-per-lo-sviluppo-di-progetti-digitali' | split: ',' %}
-{% assign temi_in_footer = 'sicurezza,big-data' | split: ',' %}
-
+{% assign temi_in_body = 'servizi-digitali,modelli-e-strumenti-innovazione,ecosistemi,piattaforme,dati-della-pa,modello-di-interoperabilita,infrastrutture,governare-la-trasformazione-digitale' | split: ',' %}
+{% assign temi_in_footer = 'sicurezza,pdnd' | split: ',' %}
 
 <div class="Modello-strategico u-textCenter u-margin-bottom-xl u-background-teal-30 u-borderRadius-m u-padding-r-all">
   <div class="Grid">
@@ -13,23 +12,22 @@
 
           <a href="{{ refpage.url | relative_url }}" class="u-borderRadius-m u-block u-background-white u-margin-r-bottom u-padding-r-all u-textCenter u-color-50 u-textClean u-text-r-xs">
             {{ t.temi[tema].name }}
-
           </a>
         {% endfor %}
       </div>
     </div>
 
+    <div class="Grid-cell u-flex u-sizeFull u-flexAlignItemsStretch u-flexJustifyBetween" style="margin-top: -1.8rem">
     {% for tema in temi_in_footer %}
      {% assign refpages = site.pages | where: "ref", t.temi[tema].ref %}
      {% assign refpage = refpages | where: "lang", page.lang | first %}
-      <div class="Grid-cell u-size1of2" style="margin-top: -1.8rem">
-      <div class="u-sizeFill u-flex u-flexCol u-margin-right-xs u-borderRadius-m u-background-50">
-        <a href="{{ refpage.url | relative_url }}" class="u-flexExpandTop u-sizeFull u-block u-textClean
+      <div class="u-borderRadius-m u-background-50 u-size5of12 u-flex u-flexAlignItemsCenter">
+        <a href="{{ refpage.url | relative_url }}" class="u-sizeFull u-block u-textClean
         u-color-white u-padding-r-all u-text-r-xs">
           {{ t.temi[tema].name }}
         </a>
       </div>
-      </div>
     {% endfor %}
+    </div>
   </div>
 </div>

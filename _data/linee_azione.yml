@@ -1,1121 +1,1396 @@
-### start data-center-e-cloud
 it:
-  - chapter: infrastrutture-fisiche
-    subchapter: data-center-e-cloud
-    nome: Attuazione delle indicazioni fornite nella Circolare AgID 2/2016
-    attori: [ pa ]
-    descrizione: |
-      Durante il periodo di esecuzione del Piano, le PA non potranno effettuare spese o investimenti in materia di data center, secondo le indicazioni e le eccezioni indicate nella circolare 2 del 24 giugno 2016 dell’AgID.
-      Le PA, che non vi abbiano già provveduto, realizzano i progetti di consolidamento e virtualizzazione dei propri data center o di migrazione verso SPC Cloud. In caso di mancato utilizzo della gara SPC - Cloud lotto 1 predisposta da Consip, forniscono le motivazioni ad AgID e ANAC.
-    risultati: ---
+### start infrastrutture
+  - chapter: infrastrutture
+    subchapter: cloud-della-pa
     numero: 1
-
-  - chapter: infrastrutture-fisiche
-    subchapter: data-center-e-cloud
-    nome: Censimento patrimonio ICT della PA
-    inizio: 06/2017
-    fine: 12/2018
-    attori: [ agid, pa ]
-    descrizione: |
-      Censimento del patrimonio ICT in esercizio presso la Pubblica amministrazione, anche per individuare le Pubbliche amministrazioni che sono in possesso di infrastrutture fisiche che possono candidarsi a ricoprire il ruolo di Polo strategici nazionali.
-    risultati:
-      - descrizione: |
-          Rapporto del censimento (data di rilascio prima release: dicembre 2017 - ulteriori rilasci ogni 6 mesi).
-        stato: completo
-        nota: |
-          Emanata circolare n. 5 il 30/11/17 (definizione attività censimento).  dicembre 2017 - febbraio 2018: 1^ fase censimento Regioni, In house e città metropolitane (dati in fase di elaborazione).
-    numero: 2
-    stato: completo
-    
-  - chapter: infrastrutture-fisiche
-    subchapter: data-center-e-cloud
-    nome: Qualificazione di soluzioni SaaS erogabili sul Cloud SPC e modalità di procurement
-    entro: 03/2018
-    attori: [ agid, consip ]
-    descrizione: |
-      Individuazione dei requisiti minimi di qualificazione di una soluzione SaaS per la PA erogabile sul Cloud SPC. Definizione di una Circolare operativa AgID con direttive operative utili per i fornitori e le PA a qualificare come SaaS il proprio contesto applicativo.
-      Definizione da parte di AgID e Consip della procedura di procurement dei servizi SaaS utilizzabili nell'ambito del Cloud SPC.
-      AgID specifica i requisiti tecnici ed organizzativi della piattaforma di MarketPlace dei servizi SaaS dell’ambiente Cloud SPC della PA.
-      Nel caso in cui non sia possibile provvedere tramite Accordi o Contratti quadro Consip espleterà una gara nel rispetto del codice appalti.
-    risultati:
-      - descrizione: |
-          Circolare AgID “<a href="https://cloud-pa.readthedocs.io/it/latest/">Criteri per la qualificazione di servizi SaaS per il Cloud della PA</a>” (data di rilascio in consultazione pubblica: 29 dicembre 2017)
-        stato: completo
-        nota: |
-          Pubblicata circolare n. 3 (09/04/2018)
-      - descrizione: |
-          Disposizioni per il procurement dei servizi SaaS per il Cloud della PA (data di rilascio: giugno 2017)
-        stato: completo
-        nota: Pubblicato
-      - descrizione: |
-          Capitolato tecnico per la realizzazione di un MarketPlace dei servizi SaaS per il Cloud della PA (data di rilascio: settembre 2017)
-        stato: completo
-        nota: |
-          Capitolato realizzato all'interno del Piano dei fabbisogni in acquisizione attraverso un contratto quadro Consip
-      - descrizione: |
-          Aggiudicazione tramite strumenti di acquisto Consip (data di rilascio: entro marzo 2018)
-        stato: in corso
-        nota: |
-          Stipula del contratto in corso (riferimento al rilascio precedente - Capitolato)
-    numero: 3
-    stato: in corso
-    
-  - chapter: infrastrutture-fisiche
-    subchapter: data-center-e-cloud
-    nome: Qualificazione dei Cloud Service Provider per la PA
-    entro: 12/2017
-    attori: [ agid, consip ]
-    descrizione: |
-      AgID definirà le regole e procedure di qualificazione dei Cloud Provider pubblici per consentire a Consip l'abilitazione dei nuovi CSP. I CSP già presenti sul MEPA o convenzioni o accordi quadro presentano la domanda di qualificazione entro 3 mesi dalla data di pubblicazione dei criteri di qualificazione.
-    risultati:
-      - descrizione: |
-          Circolare AgID “<a href="https://cloud-pa.readthedocs.io/it/latest/">Criteri per la qualificazione dei Cloud Service Provider pubblici per la PA</a>” (data di rilascio: ottobre 2018)
-        stato: completo
-        nota: |
-          Pubblicata circolare n. 2 (09/04/2018)
-      - descrizione: |
-          Consip provvede ad abilitare l’accesso agli strumenti del mercato elettronico/convenzioni/accordi quadro ai soli Cloud Service Provider qualificati da AgID (data di rilascio: da ottobre 2017)
-    numero: 4
-    stato: in corso
-
-  - chapter: infrastrutture-fisiche
-    subchapter: data-center-e-cloud
-    nome: Evoluzione del Cloud della PA
-    entro: 06/2018
-    attori: [ agid ]
-    descrizione: |
-      AgID avvierà uno studio strategico per la definizione dei requisiti tecnici ed organizzativi per la definizione di un ambiente cloud dedicato alla PA che prevederà anche la definizione di una piattaforma di cloud brokering della PA, al fine di semplificare l’acquisizione ed il monitoraggio delle risorse ICT rese disponibili nell’ambiente Cloud della PA anche con l’eventuale realizzazione di prototipi tramite il Pre-Commercial Procurement PCP.
-    risultati:
-      - descrizione: |
-          Studio strategico per la definizione di ambiente cloud multifornitore per la PA (data di rilascio: entro giugno 2018)
-      - descrizione: |  
-          Eventuale Capitolato tecnico per la realizzazione di un sistema di Cloud brokering della PA (data di rilascio: da definire)
-      - descrizione: |  
-          Acquisizione tramite Consip (data di rilascio: da definire)
-    numero: 5
-
-  - chapter: infrastrutture-fisiche
-    subchapter: data-center-e-cloud
-    nome: Azioni funzionali alla razionalizzazione dei data center della PA
-    inizio: 05/2017
-    fine: 12/2018
-    attori: [ agid, governo ]
-    descrizione: |
-      AgID definisce i requisiti necessari alla qualificazione di una PA a “Polo strategico nazionale” tramite l’emanazione di apposita circolare.
-      AgID verifica inoltre i criteri per l’ottenimento ed il mantenimento della qualificazione a Polo strategico nazionale.
-      AgID identifica i primi 3 Poli strategici nazionali Pilota (nazionali e/o locali).
-      Il Governo ufficializzerà l’elenco dei Poli strategici nazionali.
-      AgID regolerà il rapporto tecnico e il modello di servizio ed economico con i Poli strategici nazionali attraverso la definizione di un Protocollo di adesione che permetta anche di identificare l’eventuale percorso di adeguamento normativo, tecnico ed organizzativo, cui le PA dovranno aderire per regolare la loro qualificazione e mettere a disposizione delle altre PA le risorse ICT e gli spazi di cui sono proprietarie.
-    risultati:
-      - descrizione: |
-          Circolare AgID per la qualificazione di un Polo strategico nazionale della PA (data di rilascio: settembre 2017)
-        stato: completo
-        nota: Pubblicato
-      - descrizione: |
-          Risultanze assessment AgID su candidati a Polo strategico nazionale (maggio 2018)
-        stato: in corso
-      - descrizione: |
-          Elenco Ufficiale dei Poli strategici nazionali (data di rilascio: giugno 2018)
-        stato: in corso
-      - descrizione: |
-          Schema di convenzione AgID-Poli strategici nazionali (data di rilascio: luglio 2018)
-        stato: in corso
-      - descrizione: |
-          Stipula convenzioni (entro dicembre 2018)
-      - descrizione: |
-          Linee guida per lo sviluppo e la manutenzione di applicazioni per il cloud della PA (data di rilascio: dicembre 2017)
-        stato: in corso
-      - descrizione: |
-          Linee guida per la migrazione di applicazioni Legacy verso l’ambiente di cloud della PA (data di rilascio: giugno 2018)
-    numero: 6
-    stato: in corso
-
-  - chapter: infrastrutture-fisiche
-    subchapter: data-center-e-cloud
-    nome: Piani di razionalizzazione del patrimonio ICT delle PA
-    inizio: 01/2018
-    fine: 04/2018
-    attori: [ agid, pa ]
-    descrizione: |
-      A valle del censimento previsto dalla linea di azione “Censimento patrimonio ICT della PA” AgID definisce delle Linee guida per la razionalizzazione del patrimonio ICT delle Pubbliche amministrazioni, in raccordo alle strategie di realizzazione del Piano Triennale declinate negli altri livelli della Mappa.
-      Le PA attuano le indicazioni definendo propri piani di razionalizzazione che, a richiesta, devono essere forniti ad Agid. La verifica delle azioni di razionalizzazione sono rilevate da AgID mediante il censimento annuale del patrimonio ICT della PA. 
-    risultati:
-      - descrizione: |
-          Linee guida per la razionalizzazione del patrimonio ICT delle Pubbliche amministrazioni (data di rilascio prima release: gennaio 2018)
-        stato: in corso
-      - descrizione: |
-          Piano di razionalizzazione del patrimonio ICT delle PA (da febbraio 2018 ad aprile 2018)
-        stato: in corso
-        nota: Azione da realizzare da parte delle PA
-    numero: 7
-    stato: in corso
-
-  - chapter: infrastrutture-fisiche
-    subchapter: data-center-e-cloud
-    nome: Costituzione dei Poli strategici nazionali
-    inizio: 07/2018
-    attori: [ pa ]
-    descrizione: |
-      Le Amministrazioni identificate come Polo strategico nazionale adeguano i loro data center nei tempi specificati nel proprio Piano di razionalizzazione del patrimonio ICT.
-      AgID assicura il controllo e monitoraggio delle azioni realizzate dalle PA.
-    risultati: ---
-    numero: 8
-
-  - chapter: infrastrutture-fisiche
-    subchapter: data-center-e-cloud
-    nome: "Gruppo A: Adeguamento data center"
-    inizio: 04/2018
-    attori: [ pa ]
-    descrizione: |
-      Le Amministrazioni appartenenti al Gruppo A dovranno consolidare i sistemi applicativi in uso presso gli attuali data center e utilizzare il cloud della PA attraverso la gara SPC-Cloud per garantire la continuità di servizi critici o il disaster recovery.
-      AgID assicura il controllo e monitoraggio delle azioni realizzate dalle PA.
-    risultati: ---
-    numero: 9
-    stato: in corso
-
-  - chapter: infrastrutture-fisiche
-    subchapter: data-center-e-cloud
-    nome: "Gruppo B: Migrazione dei data center"
-    inizio: 02/2018
-    attori: [ pa ]
-    descrizione: |
-      Le Amministrazioni appartenenti al Gruppo B dovranno consolidare i sistemi applicativi in uso presso gli attuali data center per migrare verso uno dei Poli strategici nazionali o migrare verso il Cloud della PA attraverso la gara SPC-Cloud.
-      AgID assicura il controllo e monitoraggio delle azioni realizzate dalle PA.
-    risultati: ---
-    numero: 10
-    stato: in corso
-
-  ### end data-center-e-cloud
-  ### start connettivita
-
-  - chapter: infrastrutture-fisiche
-    subchapter: connettivita
-    nome: Pubblicazione e adeguamento alle Linee guida per la realizzazione di reti Wi-Fi pubbliche
-    inizio: 01/2018
-    attori: [ agid, pa-wifi ]
-    descrizione: |
-      AgID pubblicherà le linee guida per l’utilizzo delle Wi-Fi che le Pubbliche amministrazioni rendono accessibili ai cittadini negli uffici e nei luoghi pubblici, redatte anche sulla base delle maggiori esperienze di Wi-Fi pubblico già in essere nella PA.
-      Le Amministrazioni definiscono e realizzano il Piano di adeguamento alle linee guida emanate da AgID per le Wi-Fi che favoriscono l’accesso alla rete Internet da uffici pubblici e luoghi pubblici.
-    risultati:
-      - descrizione: |
-          Linee guida per la realizzazione di reti Wi-Fi pubbliche (data di rilascio: dicembre 2017)
-        stato: completo
-        nota: Pronte e in fase di adeguamento con progetto Wi-Fi Italia
-      - descrizione: |
-          Adeguamento alle Linee guida (da gennaio 2018)
-        stato: in corso
-        nota: vedi risultato precedente
-    numero: 11
-    stato: in corso
-
-  - chapter: infrastrutture-fisiche
-    subchapter: connettivita
-    nome: Supporto all’utilizzo del Contratto quadro SPC Connettività
-    inizio: 09/2018
-    attori: [ agid, consip ]
-    descrizione: |
-      AgID, con il contributo di Consip, fornirà indicazioni operative per potenziare l’utilizzo di tale canale di approvvigionamento, in base alle caratteristiche dei fabbisogni delle diverse Amministrazioni.
-    risultati: ---
-    numero: 12
-
-  ### end connettivita
-  ### start dati-della-pa
-
-  - chapter: infrastrutture-immateriali
-    subchapter: dati-della-pa
-    nome: Utilizzo delle anagrafi IPA e INI-PEC
-    entro: 06/2018
-    attori: [ pa ]
-    descrizione: |
-      Le Pubbliche amministrazioni completano il popolamento e mantengono aggiornati i loro dati su IPA, come documentato sul relativo sito.
-      Le Pubbliche amministrazioni utilizzano IPA e INI-PEC nella gestione dei propri procedimenti.
-    risultati: ---
-    numero: 13
-
-  - chapter: infrastrutture-immateriali
-    subchapter: dati-della-pa
-    nome: Pubblicazione elenco basi di dati di interesse nazionale
-    entro: 07/2017
-    attori: [ agid, pa ]
-    descrizione: |
-      AgID renderà disponibile sul proprio sito istituzionale e sul portale dati.gov.it, l’elenco delle basi di dati di interesse nazionale e le relative schede informative raccolte.
-      Le Pubbliche amministrazioni titolari di basi di dati di interesse nazionale provvedono a descrivere le stesse mediante una specifica scheda informativa che illustra le modalità di fruizione e i principali riferimenti tecnico-normativi delle basi di dati.
-    risultati:
-      - descrizione: |
-          Schede informative (data di rilascio: giugno 2017)
-        stato: completo
-        nota: Pubblicato
-      - descrizione: |
-          Pagina web con elenco basi di dati di interesse nazionale (data di rilascio: luglio 2017)
-        stato: completo
-        nota: Pubblicato
-    numero: 14
-    stato: completo
-
-  - chapter: infrastrutture-immateriali
-    subchapter: dati-della-pa
-    nome: Integrazione tra il repertorio nazionale dei dati territoriali e il catalogo dati.gov.it
-    entro: 12/2017
-    attori: [ agid ]
-    descrizione:
-      AgID curerà l’allineamento delle informazioni contenute nel Repertorio nazionale dei dati territoriali (RNDT) rispetto al catalogo dati.gov.it, fornendo le opportune indicazioni operative per le amministrazioni e utilizzando gli strumenti utili per lo scambio di descrizioni dei dati e dei servizi territoriali che sono stati definiti in ambito europeo “Geo DCAT-AP”.
-    risultati: 
-      - descrizione: |
-          Indicazioni tecniche (data di rilascio: dicembre 2017)
-        stato: completo
-        nota: Pubblicato
-    numero: 15
-    stato: completo
-
-  - chapter: infrastrutture-immateriali
-    subchapter: dati-della-pa
-    nome: Alimentazione del repertorio nazionale dei dati territoriali
-    attori: [ pa ]
-    descrizione: |
-      La documentazione dei dati territoriali (o geografici) deve avvenire attraverso il solo Repertorio nazionale dei dati territoriali (RNDT).
-      Per la documentazione di tali dati le PA utilizzano il profilo nazionale di metadati INSPIRE/RNDT.
-    risultati: ---
-    numero: 16
-
-  - chapter: infrastrutture-immateriali
-    subchapter: dati-della-pa
-    nome: Realizzazione Catalogo dei servizi (servizi.gov.it) e suo popolamento
-    attori: [ agid, pa ]
-    descrizione: |
-      AgID completa la prima fase di implementazione del Catalogo dei servizi (servizi.gov.it) rilasciando un’applicazione che consenta alle PA di documentare i propri servizi.
-      AgID individua dei cosiddetti early adopter tra le PA che sperimentano l’uso dell’applicazione.
-      A partire da aprile 2017 saranno inoltre intraprese azioni di promozione per sensibilizzare e guidare le PA all’inserimento dei dati nel catalogo.
-      Le pubbliche amministrazioni early adopter, a partire da aprile 2017, provvedono a documentare i propri servizi nel catalogo dei servizi rispettando le specifiche del profilo di interoperabilità CPSV-AP_IT e riferendosi alla relativa ontologia. Dal 2018 le PA provvedono al popolamento del catalogo. 
-    risultati:
-      - descrizione: |
-          Applicazione per la raccolta dati (data di rilascio: aprile 2017)
-        stato: completo
-        nota: in beta
-      - descrizione: |
-          Individuazione early adopter (data di rilascio: aprile 2017)
-        stato: completo
-        nota: Fatto
-    numero: 17
-    stato: completo
-
-  - chapter: infrastrutture-immateriali
-    subchapter: dati-della-pa
-    nome: Completamento del popolamento di ANPR
-    entro: 12/2018
-    attori: [ comuni, interno, sogei ]
-    descrizione: Tutti i dati delle anagrafi comunali (APR) migrano ad ANPR, in collaborazione tra Comuni, Ministero dell’Interno, e Sogei.
-    risultati: 
-      - descrizione: |
-          ANPR popolato con tutti i dati anagrafici dei Comuni italiani (data di rilascio: dicembre 2018)
-    numero: 18
-
-  - chapter: infrastrutture-immateriali
-    subchapter: dati-della-pa
-    nome: Adeguamento delle basi di dati di interesse nazionale al Modello di interoperabilità
-    inizio: 01/2018
-    attori: [ pa-basi-dati ]
-    descrizione: |
-      Le amministrazioni titolari di basi di dati di interesse nazionale devono adottare tutte le misure che consentano la piena attuazione delle linee guida e delle relative regole tecniche e l’accesso alle stesse secondo i principi definiti dal Modello di interoperabilità.
-      Le basi di dati di interesse nazionale dovranno assicurare il flusso di dati verso il Data & Analytics Framework della Pubblica amministrazione.
-    risultati: ---
-    numero: 19
-
-  - chapter: infrastrutture-immateriali
-    subchapter: dati-della-pa
-    nome: Integrazione delle basi di dati con il DAF
-    inizio: 01/2018 
-    attori: [ pa, daf ]
-    descrizione: |
-      Le PA interessante titolari delle basi di dati descritte nel capitolo provvedono a implementare dei canali di comunicazione con il Data & Analytics Framework, in modo da garantire l'aggiornamento dei dati nel DAF al momento della loro generazione. Le modalità di comunicazione saranno definite dall'owner del DAF e descritte in opportune linee guida.
-    risultati:
-      - descrizione: |
-          Linee guida per l'integrazione con il DAF (data di rilascio: da definire)
-      - descrizione: |
-          Implementazione dei meccanismi di popolamento e messa in produzione dalle PA titolari dei dati (data di rilascio: da definire)
-    numero: 20
-
-  - chapter: infrastrutture-immateriali
-    subchapter: dati-della-pa
-    nome: Banca dati degli operatori economici BDOE
-    entro: 07/2018
-    attori: [ mit, agid, pa-basi-dati ]
-    descrizione: |
-      La Banca dati degli operatori economici (BDOE) funge da intermediario unico delle richieste da parte della stazione appaltante di documenti o dati di comprova dei requisiti dichiarati dall’operatore economico in fase di sottomissione dell’offerta. Permette inoltre di certificare il rispetto da parte della stazione appaltante dell’obbligo indicato al comma 1 Art.81 del D.Lgs 50/2016 .
-      La BDOE fornisce anche il servizio di comprova indicato da e-Certis per verificare le dichiarazioni degli operatori economici italiani.
-      Le basi di dati utilizzate dalla BDOE per recuperare le suddette informazioni sono i registri nazionali messi a disposizione dalle seguenti Amministrazioni: MISE, Agenzia delle Entrate, Unioncamere/Infocamere, Ministero della Giustizia, Ministero dell’Interno, ANAC, Ministero del Lavoro, INPS, INAIL, Casse Edili, Accredia, InarCassa e altre Casse professionali.
-      Il piano di integrazione della BDOE con le suddette basi di dati contempla anche l’adeguamento di queste ultime al fine di una gestione completamente digitale delle informazioni, prevedendone la storicizzazione.
-    risultati:
-      - descrizione: |
-          Specifiche tecniche di integrazione della Banca dati degli operatori economici con le stazioni appaltanti e con le basi di dati che forniscono le informazioni di comprova (data di rilascio: settembre 2017)
-        stato: in corso
-        nota: Schema di DM trasmesso per parere al Consiglio di Stato il 21/03/2018 (successivamente trasmesso al DAGL per il nulla osta)
-      - descrizione: |
-          Integrazione della Banca dati degli operatori economici con le basi di dati che già dispongono delle informazioni in formato digitale (data di rilascio: dicembre 2017)
-      - descrizione: |
-          Completamento dell’integrazione con le basi di dati e operatività della Banca dati degli operatori economici (data di rilascio: aprile 2018)
-    numero: 21
-    stato: in corso
-
-  - chapter: infrastrutture-immateriali
-    subchapter: dati-della-pa
-    nome: Aggiornamento delle linee guida per la valorizzazione del patrimonio informativo pubblico e predisposizione di standard per la gestione e la fruizione degli open data
-    entro: 12/2017
-    attori: [ agid, team-digitale ]
-    descrizione: |
-      Aggiornamento delle linee guida per la valorizzazione del patrimonio informativo pubblico per la descrizione dei processi di gestione e condivisione dei dataset che rientrano all'interno del catalogo nazionale dei dati. 
-      Introduzione delle specifiche relative al rilascio di una piattaforma open source per la gestione del ciclo di vita degli open data delle PA (ad es. catalogazione, procedure di inserimento e aggiornamento dei dati, modalità di esposizione).
-    risultati:
-      - descrizione: |
-          Linee guida (data di rilascio: luglio 2017)
-        stato: completo
-        note: Pubblicate
-      - descrizione: |
-          Prototipo piattaforma open source su repository pubblico (data di rilascio: dicembre 2017)
-        stato: completo
-        nota: Fatto
-    numero: 22
-    stato: completo
-
-  - chapter: infrastrutture-immateriali
-    subchapter: dati-della-pa
-    nome: Individuazione delle basi di dati chiave
-    entro: 06/2017
-    attori: [ agid, team-digitale ]
-    descrizione: |
-      Individuazione di basi di dati chiave di particolare interesse per la collettività, da rendere disponibili come open data a livello nazionale, interrogabili secondo i principi descritti nel capitolo 5 “Modello di interoperabilità” e che usino Modelli di dati condivisi (sezione 4.1.4)
-    risultati:
-      - descrizione: |
-          Elenco delle basi di dati chiave (data di rilascio: giugno 2017)
-        stato: completo
-        nota: Pubblicato
-    numero: 23
-    stato: completo
-
-  - chapter: infrastrutture-immateriali
-    subchapter: dati-della-pa
-    nome: Evoluzione dati.gov.it
-    entro: 12/2017
-    attori: [ agid, team-digitale ]
-    descrizione: |
-      AgID, in collaborazione con il Team digitale, provvederà all’evoluzione dell’attuale catalogo dati.gov.it come spazio dedicato a:
-      - documentare sia dati aperti sia basi di dati delle PA;
-      - mostrare il livello di adeguamento delle PA al profilo di metadatazione DCAT-AP_IT;
-      - monitorare lo stato di avanzamento del processo di apertura dei dati della PA, gli aspetti di qualità e il riutilizzo dei dati;
-      - visualizzare i dati con strumenti di data visualization;
-      - facilitare l’interrogazione dei dati via API, al fine di supportare lo sviluppo di applicazioni e servizi;
-      - condividere modelli di dati comuni;
-      - condividere principi e best practice relative al dato e alla sua gestione.
-      Il catalogo inoltre rappresenterà l’unico punto di accesso nazionale per l’interazione con analoghe iniziative europee in materia di dati.
-      Il progetto di sviluppo di dati.gov.it sarà reso aperto, disponibile su repository pubblico al fine di fornire una piattaforma di default pronta per il riuso da parte delle PA.
-    risultati:
-      - descrizione: |
-          Evoluzione dati.gov.it (data di rilascio: dicembre 2017)
-        stato: completo
-        nota: Evoluto l'utilizzo di dati.gov a supporto delle policy di utilizzo Open Data - presente release su Developers Italia
-    numero: 24
-    stato: completo
-
-  - chapter: infrastrutture-immateriali
-    subchapter: dati-della-pa
-    nome: Popolamento di dati.gov.it
-    attori: [ pa ]
-    descrizione: |
-      Le Pubbliche amministrazioni provvedono, nel rispetto delle Linee guida per la valorizzazione del patrimonio informativo pubblico, al corretto popolamento del catalogo nazionale dei dati.
-      Le PA dovranno dotarsi delle infrastrutture di gestione e pubblicazione dei dati previste dalle sopra citate linee guida, o, in mancanza, adottare la piattaforma di default messa a disposizione da AgID e dal Team digitale secondo quanto stabilito nell’azione precedente.
-    risultati: ---
-    numero: 25
-
-  - chapter: infrastrutture-immateriali
-    subchapter: dati-della-pa
-    nome: Predisposizione dei metadati che descrivono basi di dati e dati aperti secondo il profilo DCAT-AP_IT
-    entro: 12/2017
-    attori: [ pa ]
-    descrizione: |
-      Le PA espongono i metadati, relativi alle basi di dati e dati aperti di cui sono titolari, rispettando le specifiche DCAT-AP_IT (profilo nazionale di metadatazione pienamente conforme a quello europeo DCAT-AP) e seguendo la semantica espressa dalla relativa ontologia pubblicata su dati.gov.it.
-    risultati:
-      - descrizione: |
-          Metadati conformi a DCAT-AP_IT (data di rilascio: dicembre 2017)
-    numero: 26
-
-  - chapter: infrastrutture-immateriali
-    subchapter: dati-della-pa
-    nome: Definizione e approvazione del paniere dinamico di dataset (Agenda nazionale per la valorizzazione del patrimonio informativo pubblico)
-    inizio: 04/2017
-    attori: [ agid, team-digitale, tutte-le-pa ]
-    descrizione: |
-      AgID e il Team digitale raccolgono in un unico documento, aggiornabile di anno in anno:
-      - le basi di dati individuate nelle precedenti azioni;
-      - le informazioni relative alle richieste di apertura di dataset da parte della società civile;
-      - le informazioni su impegni di apertura provenienti da iniziative istituzionali quali per esempio l’Open Government Partnership (OGP);
-      - le segnalazioni di dataset chiave che le PA intendono rendere disponibili in open data secondo i propri piani di rilascio e nel rispetto di quanto è complessivamente previsto nel paniere stesso.
-      L’allegato 5 “Paniere dataset per open data” rappresenta un primo insieme di dataset e una prima azione di monitoraggio. Il Paniere è stato predisposto considerando tutti i dataset inclusi nelle agende per la valorizzazione del patrimonio informativo pubblico degli anni 2013, 2014 e 2015, nonché i dataset derivanti da iniziative internazionali (ad es. Open Data Charter, Open Government Partnership), dai piani di rilascio di alcune Regioni e PA centrali e da alcune richieste della società civile emerse a seguito di consultazioni pubbliche ufficiali.
-      AgID pubblica il Paniere sul proprio sito istituzionale e su dati.gov.it.
-    risultati:
-      - descrizione: |
-          Paniere dinamico di dataset (data di rilascio: febbraio di ogni anno)
-        stato: completo
-        nota: Pubblicaro come allegato 5 del Piano Triennale
-    numero: 27
-    stato: completo
-
-  - chapter: infrastrutture-immateriali
-    subchapter: dati-della-pa
-    nome: Monitoraggio open data (Rapporto annuale per la valorizzazione del patrimonio informativo pubblico)
-    attori: [ agid, dfp, tutte-le-pa ]
-    descrizione: |
-      AgID utilizza il Paniere dinamico come base di riferimento per l’espletamento di azioni di monitoraggio previste nel contesto dell’Accordo di Partenariato Italia 2014-2020, dell’art. 52 del CAD e dell'implementazione della direttiva europea PSI 2.0 (Public Sector Information).
-      In particolare, AgID definisce e mantiene aggiornato un indicatore di monitoraggio (che considera anche aspetti di qualità dei dati aperti) e predispone il Rapporto per la valorizzazione del patrimonio informativo pubblico (art. 52 del CAD).
-      Entro il mese di gennaio di ogni anno, AgID sottopone il Rapporto al Dipartimento della Funzione Pubblica che lo approva entro il mese di febbraio. AgID pubblica il Rapporto in open data sul proprio sito istituzionale e su dati.gov.it.
-    risultati:
-      - descrizione: |
-          Rapporto di monitoraggio (data di rilascio: febbraio di ogni anno)
-        stato: completo
-        nota: il comma relativo a questa attività è stato abrogato nella nuova versione del CAD, oggi AgID aggiorna il paniere dinamico di dataset
-    numero: 28
-    stato: completo
-
-  - chapter: infrastrutture-immateriali
-    subchapter: dati-della-pa
-    nome: Realizzazione del Registro dei vocabolari controllati e dei modelli dei dati
-    inizio: 05/2017
-    attori: [ agid, pa ]
-    descrizione: |
-      - analisi delle ontologie di riferimento e dei vocabolari controllati per la PA;
-      - definizione delle ontologie di riferimento per le basi di dati chiave individuate in 4.1.3 e per dati trasversali ai diversi domini applicativi (ad es. luoghi e organizzazioni);
-      - pubblicazione delle ontologie e dei vocabolari controllati attraverso il nuovo dati.gov.it;
-      - analisi delle necessità e delle risorse già disponibili;
-      - individuazione di un primo insieme di vocabolari controllati e dei relativi owner;
-      - definizione del Registro.
-    risultati:
-      - descrizione: |
-          Rilascio prima versione del Registro (data di rilascio: gennaio 2018)
-        stato: completo
-        nota: Pubblicato su Github il repository delle ontologie e dei vocabolari controllati a supporto del lavoro da svolgere per l'elenco delle basi di dati chiave
-    numero: 29
-    stato: completo
-
-  - chapter: infrastrutture-immateriali
-    subchapter: dati-della-pa
-    nome: Utilizzo del Registro dei vocabolari controllati e dei modelli dei dati
-    inizio: 01/2018
-    attori: [ pa ]
-    descrizione: |
-      Le PA titolari delle banche dati di interesse nazionale, così come definite all’art. 60 del CAD, sono tenute a normalizzare i dati sulla base delle risorse contenute Registro dei vocabolari controllati e dei modelli dei dati.
-      Le altre PA avviano un processo di normalizzazione dei propri dati sulla base delle risorse contenute nei vocabolari controllati e dei modelli dei dati.
-    risultati: ---
-    numero: 30
-
-  ### end dati-della-pa
-  ### start piattaforme-abilitanti
-
-  - chapter: infrastrutture-immateriali
-    subchapter: piattaforme-abilitanti
-    nome: Integrazione con SPID
-    entro: 03/2018
-    attori: [ agid, pa ]
-    descrizione: |
-      Le Pubbliche amministrazioni devono implementare SPID in tutti i servizi digitali che richiedono autenticazione sia quelli già esistenti che quelli di nuova attivazione, entro marzo 2018, ovvero entro 24 mesi dall’attivazione del primo Identity Provider, come definito dal D.P.C.M. 24 ottobre 2014. L’implementazione si conclude con la controfirma, da parte di AgID, della convenzione SPID inviata dalla PA.
-    risultati:
-      - descrizione: |
-          Completamento dell’integrazione di SPID nei servizi on line della PA (data di rilascio: marzo 2018)
-        stato: in corso
-        nota: azione da realizzare da parte delle PA
-    numero: 31
-    stato: in corso
-      
-  - chapter: infrastrutture-immateriali
-    subchapter: piattaforme-abilitanti
-    nome: Definizione dei piani di adesione e attivazione a PagoPA
-    entro: 12/2017
-    attori: [ agid, pa ]
-    descrizione: |
-      Le Pubbliche amministrazioni devono inviare ad AgID, attraverso il portale di adesione, i piani di attivazione e integrazione della piattaforma abilitante PagoPA nelle loro soluzioni applicative.
-      Le Amministrazioni che entro giugno 2017 non hanno ancora completato l’adesione, dovranno adottare, in logica di sussidiarietà, le soluzioni già disponibili attuate dalle altre amministrazioni quali, ad esempio, piattaforme di regioni o di altre amministrazioni, che si propongono con il ruolo di intermediario previsto dal sistema.
-    risultati:
-      - descrizione: |
-          Piani di attivazione PagoPA (data di rilascio: dicembre 2017)
-        stato: in corso
-        nota: Su web è attiva da marzo 2018 una funzionalità che consente alle PA di selezionare un Piano già creato o di aggiungerne uno nuovo
-    numero: 32
-    stato: in corso
-
-  - chapter: infrastrutture-immateriali
-    subchapter: piattaforme-abilitanti
-    nome: Disegno dell’architettura del sistema ComproPA
-    entro: 09/2017
-    attori: [ mef, mit, anac, agid, consip, regioni, anci ]
-    descrizione: |
-      MEF, MIT, ANAC, AgID, Consip, Regioni e ANCI, ognuno secondo i compiti e le competenze disposti dal Codice degli appalti provvedono a definire:
-      - le regole tecniche delle piattaforme telematiche di acquisto e negoziazione delle stazioni appaltanti, in conformità agli standard e alle best practice europee di riferimento e alle regole tecniche per il colloquio e l'interoperabilità dei dati tra i sistemi di e-procurement emanate da AgID;
-      - le infrastrutture necessarie al funzionamento del sistema ComproPA attraverso l'interconnessione delle piattaforme di e-procurement con le basi di dati e i sistemi nazionali coinvolti nel processo di public procurement.
-    risultati:
-      - descrizione: |
-          Definizione delle regole e disegno dell’infrastruttura (data di rilascio prima versione: settembre 2017)
-        stato: in corso
-        nota: Le Linee Guida sono connesse a un DM in attesa di emanazione
-    numero: 33
-    stato: in corso
-      
-  - chapter: infrastrutture-immateriali
-    subchapter: piattaforme-abilitanti
-    nome: Messa in esercizio del sistema ComproPA
-    entro: 10/2018 
-    attori: [ pa, mef, mit, anac, agid, consip, regioni, anci ]
-    descrizione: |
-      Le amministrazioni aderiscono al sistema ComproPA in via graduale nel rispetto delle scadenze previste dalle direttive europee sui contratti pubblici.
-      Le amministrazioni esercitano le proprie funzioni di stazione appaltante attraverso l'utilizzo di piattaforme telematiche di acquisto e negoziazione conformi a quanto definito dal disegno dell’architettura del sistema ComproPA, nei seguenti termini:
-      - utilizzo di una piattaforma già in possesso dell’amministrazione;
-      - utilizzo della piattaforma messa a disposizione da uno dei soggetti aggregatori individuati da ANAC tra cui Consip;
-      - riuso del software delle piattaforme già in uso presso altre Amministrazioni pubbliche.
-      AgID, in accordo con MEF, MIT, ANAC, Consip, Regioni e ANCI:
-      - coordina le attività di implementazione delle infrastrutture necessarie al funzionamento del sistema ComproPA;
-      - programma le necessarie azioni di gestione del cambiamento e di sussidiarietà per favorire l’adeguamento delle Pubbliche amministrazioni alle normative nei tempi stabiliti.
-    risultati:
-      - descrizione: |
-          Sistema ComproPA in esercizio (data di rilascio: ottobre 2018)
-    numero: 34
-      
-  - chapter: infrastrutture-immateriali
-    subchapter: piattaforme-abilitanti
-    nome: Fatturazione elettronica
-    entro: 11/2018 
-    attori: [ mef, ade, agid, regioni, anci ]
-    descrizione: |
-      Le Amministrazioni e in generale tutti i soggetti IVA adottano la fatturazione elettronica mediante l’integrazione con il Sistema di interscambio (SDI) in conformità con la normativa vigente.
-      Il MEF, in accordo con l’Agenzia delle Entrate, l’AgID, le Regioni e l’ANCI, emana i provvedimenti di recepimento della Direttiva 2014/55/UE sulla fatturazione elettronica europea, a seguito dei quali si dovranno adeguare i sistemi per consentire l’emissione e la ricezione delle fatture elettroniche in formato europeo.
-      Le Amministrazioni fanno evolvere i propri sistemi per consentire l'integrazione della fattura elettronica con i processi contabili e l'automazione del ciclo dell'ordine in conformità alle regole tecniche per il colloquio e l'interoperabilità dei dati tra i sistemi di e-procurement emanate da AgID.
-    risultati:
-      - descrizione: |
-          Recepimento Direttiva 2014/55/UE
-      - descrizione: |
-          Adeguamento SDI
-      - descrizione: |
-          Adeguamento sistemi fatturazione elettronica PA (data di rilascio: novembre 2018)
-    numero: 35
-      
-  - chapter: infrastrutture-immateriali
-    subchapter: piattaforme-abilitanti
-    nome: Completamento servizio CIE
-    entro: 12/2018 
-    attori: [ interno, comuni ]
-    descrizione: |
-      Nell’ambito del progetto CIE, realizzato dal Ministero dell’Interno, i Comuni provvedono ad attivare i servizi di distribuzione della Carta d’identità elettronica.
-      Secondo la pianificazione approvata dal Ministero dell’Interno, entro ottobre 2017 circa 450 Comuni provvederanno ad attivare il sistema e la distribuzione della CIE ai propri cittadini, permettendo di raggiungere complessivamente il 50% della popolazione.
-      Da ottobre 2017 è prevista la diffusione del sistema nei restanti Comuni. 
-    risultati:
-      - descrizione: |
-          Servizi CIE attivati in tutti i Comuni (data di rilascio: dicembre 2018)
-    numero: 36
-      
-  - chapter: infrastrutture-immateriali
-    subchapter: piattaforme-abilitanti
-    nome: Progetto SPID
-    entro: 12/2017
-    attori: [ agid ]
-    descrizione: |
-      Evoluzione del sistema SPID, anche in raccordo con il progetto CIE, attraverso le necessarie azioni di manutenzione, razionalizzazione, semplificazione degli strumenti di autenticazione. Integrazione con il Sistema pubblico di prevenzione delle frodi nel settore del credito a consumo - Furto d'Identità (SCIPAFI).
-    risultati:
-      - descrizione: |
-          Sistema SPID evoluto (data di rilascio: dicembre 2017)
-        stato: in corso
-        nota: |
-          Prossimi all'attivazione di SPID per privati e di SCIPAFI (06/02/2018: pubblicazione determina per accesso dei privati a SPID)
-    numero: 37
-    stato: in corso
-
-  - chapter: infrastrutture-immateriali
-    subchapter: piattaforme-abilitanti
-    nome: Monitoraggio implementazione SPID da parte delle PA
-    entro: 03/2018
-    attori: [ agid, pa ]
-    descrizione: |
-      AgID provvederà a stilare un piano di implementazione di SPID con le PA che non hanno ancora provveduto a farlo e ne monitorerà l’esecuzione.
-    risultati:
-      - descrizione: |
-          Effettiva adesione a SPID da parte delle PA (data di rilascio: entro marzo 2018)
-        stato: in corso
-        nota: |
-          Azione da realizzare congiuntamente AgID-PA (da raccordare con il Catalogo dei Servizi)
-    numero: 38
-    stato: in corso
-
-  - chapter: infrastrutture-immateriali
-    subchapter: piattaforme-abilitanti
-    nome: Progetto PagoPA
-    attori: [ agid ]
-    descrizione: |
-      Evoluzione del sistema PagoPA, anche in raccordo con il progetto SPID, attraverso le necessarie azioni di manutenzione, razionalizzazione, semplificazione per migliorare la user experience, aggiungere una interfaccia utente mobile, aprire a nuove forme di pagamento.
-    risultati:
-      - descrizione: |
-          Sistema PagoPA evoluto (data di rilascio: dicembre 2017)
-        stato: completo
-        nota: APP mobile in fase di lancio
-    numero: 39
-    stato: completo
-
-  - chapter: infrastrutture-immateriali
-    subchapter: piattaforme-abilitanti
-    nome: Sistema di avvisi e notifiche di cortesia
-    inizio: 04/2017 
-    attori: [ agid, pa ]
-    descrizione: |
-      Realizzazione di un sistema che consenta al cittadino di ricevere avvisi e notifiche di cortesia in formato digitale, anche con valore legale, da tutta la PA.
-      Le Amministrazioni avviano e diffondono l’utilizzo dell’infrastruttura nazionale per l’emissione di avvisi e notifiche di cortesia da inviare ai cittadini, sui diversi canali digitali, per un pieno utilizzo del domicilio digitale. 
-    risultati:
-      - descrizione: |
-          Primo rilascio del progetto (data di rilascio: dicembre 2017)
-        stato: in corso
-        nota: |
-          Online versione pre-trattino alfa (partire dall'estate 2018 test su pilota)
-      - descrizione: |
-          Avvio dell’utilizzo da parte delle PA (data di rilascio: gennaio 2018)
-    numero: 40
+    nome: Attuazione del Programma nazionale di abilitazione al Cloud della PA
     stato: in corso 
- 
-  - chapter: infrastrutture-immateriali
-    subchapter: piattaforme-abilitanti
-    nome: Standardizzazione a livello nazionale dei servizi alle imprese
-    entro: 12/2017
-    attori: [ agid, dfp, mise, regioni, unioncamere ]
+    attori: [ agid, team-digitale, consip ]
     descrizione: |
-      In prosecuzione delle attività per l’attuazione dell’Agenda per la semplificazione, relativamente al tema dell’interoperabilità dei sistemi dei soggetti coinvolti, si definirà l’architettura complessiva dei servizi alle imprese attraverso l’individuazione delle componenti e delle relative interfacce nel rispetto del Modello di interoperabilità della PA.
-      La presente linea di azione avvia l’ecosistema Sviluppo e sostenibilità, per quanto concerne la missione Competitività e sviluppo delle imprese.
+      Definizione delle linee guida per lo sviluppo di servizi cloud native per il Cloud della PA e del Modello di abilitazione al Cloud della PA, nell’ambito del Programma.
+      Pubblicazione da parte di Consip delle gare previste nel [Piano gare strategiche ICT 2018](http://www.consip.it/media/news-e-comunicati/agid-e-consip-definito-il-quadro-delle-gare-strategiche-ict-per-la-realizzazione-del-piano-triennale-per-l-informatica-nella-pa) (definito da AGID e Consip) e successiva stipula dei contratti a supporto del Programma di abilitazione al Cloud della PA.
     risultati:
       - descrizione: |
-          Definizione di architettura, componenti e interfacce applicative (data di rilascio: dicembre 2017)
-        stato: in corso
-        nota: Standardizzazione realizzata con rilascio di moduli da parte del DFP, analisi processi e architettura in corso in funzione del rilascio delle Linee Guida di interoperabilità
-    numero: 41
-    stato: in corso
+          AGID e Team per la trasformazione digitale pubblicano, in consultazione, le Linee guida per lo sviluppo di servizi cloud native per il Cloud della PA (maggio 2019).
+      - descrizione: |
+          AGID e Team per la trasformazione digitale pubblicano, in consultazione, le Linee guida per il modello di abilitazione e migrazione al Cloud della PA e la definizione dei centri di competenze (novembre 2019).
+      - descrizione: |
+          Consip stipula tramite le gare strategiche “Public Cloud: Servizi qualificati di Cloud Computing (IAAS/PAAS/SAAS) in un modello di Public Cloud” e “Digital Transformation: Servizi specialistici di supporto al piano di trasformazione digitale della PA” i contratti a supporto del Programma di abilitazione al Cloud della PA (entro dicembre 2020).
+    aree-intervento: |
+      Nel medio periodo, impatto sulle PA, su Consip, e sulle imprese che rivestono il ruolo di Cloud Service Provider.
 
-  - chapter: infrastrutture-immateriali
-    subchapter: piattaforme-abilitanti
-    nome: Evoluzione del sistema SIOPE (SIOPE+)
-    attori: [ rgs, bdi, agid, pa ]
+  - chapter: infrastrutture
+    subchapter: cloud-della-pa
+    numero: 2
+    nome: Migrazione dei sistemi informativi delle PA verso il cloud
+    stato: in corso 
+    attori: [ pa, agid, team-digitale ]
     descrizione: |
-      Risulta conclusa la fase di definizione del dettaglio di tutti gli aspetti organizzativi, architetturali e funzionali del nuovo sistema ed è avviata la fase di realizzazione, che si concluderà entro giugno 2017. Al termine:
-      - si renderanno disponibili tutte le componenti infrastrutturali e applicative di SIOPE+ da sviluppare sulle piattaforme della Banca d'Italia e del MEF;
-      - si coinvolgerà un gruppo pilota di banche ed enti, individuato di concerto con le associazioni degli stakeholders, che dovrà realizzare le modifiche procedurali necessarie per l’avvio della fase pilota.
-      Nel mese di luglio 2017 si avvierà la fase pilota.
-      Da gennaio 2018, si procederà ad allargare il perimetro dei soggetti coinvolti dal nuovo progetto rafforzando, se necessario, le componenti infrastrutturali al fine di gestire correttamente i nuovi volumi. In particolare saranno ultimate le componenti IT necessarie all’estensione della rilevazione agli incassi e alle operazioni delle PA centrali.
-      Le amministrazioni provvedono ad adottare sistemi per aderire al SIOPE+ secondo il piano definito dalla Ragioneria Generale dello Stato, d’intesa con Banca d’Italia e AgID e le rappresentanze delle PA locali.
-      Le amministrazioni possono partecipare adottando propri sistemi o quelli offerti dalla Ragioneria Generale dello Stato in logica di sussidiarietà o in alternativa avvalendosi di servizi resi da altri intermediari. 
+      Un gruppo di amministrazioni pilota individuate da AGID e Team per la trasformazione digitale eseguono i piani di migrazione dei sistemi informativi verso il Cloud della PA definiti nell’ambito del Programma nazionale di abilitazione al Cloud.
+      Nei contratti aventi ad oggetto servizi cloud (IaaS/PaaS/SaaS) qualificati, le amministrazioni prevedono gli accordi sulla qualità dei servizi offerti utilizzando gli indicatori dei livelli di servizio (SLI - Service level indicator) previsti nella tabella "Indicatori della Qualità del Servizio" di cui all'Allegato A della Circolare n. 2 del 2018.  
     risultati:
       - descrizione: |
-          Conclusione realizzazione SIOPE+ (data di rilascio: giugno 2017)
-        stato: completo
+          Migrazione verso il Cloud della PA dei sistemi informativi di un primo gruppo di amministrazioni pilota (dicembre 2019).
       - descrizione: |
-          Realizzazione fase pilota (data di rilascio: dicembre 2017)
-        stato: completo
-      - descrizione: |
-          Avvio di SIOPE+ (data di rilascio: da gennaio 2018)
-        stato: completo
-    numero: 42
-    stato: completo
-
-  - chapter: infrastrutture-immateriali
-    subchapter: piattaforme-abilitanti
-    nome: Evoluzione del sistema NoiPA
-    attori: [ mef, agid, pa ]
+          Conclusione migrazione verso il Cloud della PA dei sistemi informativi di almeno 5 amministrazioni pilota e avvio migrazione di un ulteriore gruppo di PA (entro dicembre 2021).
+    aree-intervento: |
+      Nel medio periodo, impatto sulle PA, su Consip, e sulle imprese che rivestono il ruolo di Cloud Service Provider.Nel breve e medio periodo impatto verso le PA coinvolte e Consip. Nel medio e lungo periodo impatto su imprese e professionisti settore IT.
+    
+  - chapter: infrastrutture
+    subchapter: cloud-della-pa
+    numero: 3
+    nome: Definizione dei requisiti tecnici delle infrastrutture IT
+    stato: in corso 
+    attori: [ agid, team-digitale ]
     descrizione: |
-      La strategia di intervento prevede di realizzare (i) il nuovo sistema di gestione del personale pubblico a copertura di tutti i processi amministrativi di gestione del personale e (ii) la base di dati del personale della PA.
-      Il MEF entro il 2018 provvederà alla realizzazione del nuovo sistema NoiPA.
-      Le Amministrazioni non ancora aderenti al sistema potranno procedere a comunicare la propria adesione per programmare la migrazione nel 2018, provvedendo successivamente ad adottare il sistema NoiPA con la programmazione concordata con il MEF.
+      AGID e Team per la trasformazione digitale definiscono lo scopo e le finalità dei PSN oltre a dettagliare i requisiti tecnici relativi alle caratteristiche dei siti geografici dei data center e alla gestione operativa e tecnica dei PSN.
+      AGID e Team per la trasformazione digitale eseguono gli assessment sulle infrastrutture fisiche dei soggetti candidati a PSN e trasmettono al Governo, per successivi atti di competenza, un documento di gap analysis contenente la proposta tecnica di evoluzione delle infrastrutture fisiche appartenenti a potenziali PSN.
     risultati:
       - descrizione: |
-          Conclusione del nuovo sistema NoiPA (data di rilascio: dicembre 2018)
+          AGID pubblica una circolare in cui:
+          - si definisce lo scopo e le finalità dei PSN;
+          - si dettagliano i requisiti tecnici relativi alle caratteristiche dei siti geografici dei data center e alla gestione operativa e tecnica dei PSN;
+          - si definiscono i requisiti tecnici ai fini della classificazione delle infrastrutture IT del gruppo A;
+          - si aggiornano le modalità per l’approvazione delle spese in materia di data center (giugno 2019).
       - descrizione: |
-          Adesioni delle PA (data di rilascio: a partire dal 2018)
-        stato: completo
-        nota: Azione da realizzare da parte delle PA (lato AgID è stata fornita l'interfaccia SPID)
-    numero: 43
-    stato: in corso
-
-  - chapter: infrastrutture-immateriali
-    subchapter: piattaforme-abilitanti
-    nome: Realizzazione Sistema di gestione dei procedimenti amministrativi nazionali
-    attori: [ agid, pa ]
-    descrizione: |
-      Il Sistema di gestione dei procedimenti amministrativi nazionali è realizzato attraverso la definizione, a carico di AgID, delle regole di interoperabilità dei flussi documentali (documento, fascicolo, protocollo) che le Pubbliche amministrazioni implementano per aderire al sistema. Tra le regole di implementazione saranno definite le modalità di realizzazione di un sistema di verifica da parte del cittadino dell'autenticità del documento.
-    risultati:
+          AGID e Team per la trasformazione digitale pubblicano in consultazione, le Linee guida per la progettazione e realizzazione di data center nell’ambito dei Poli strategici nazionali (giugno 2019);
       - descrizione: |
-          Linee guida e regole di interoperabilità (data di rilascio: dicembre 2017)
-        stato: in corso
+          AGID e Team per la trasformazione digitale predispongono un documento di gap analysis sui candidati a Polo strategico nazionale (dicembre 2019);
       - descrizione: |
-          Implementazione delle API conformi alle regole di interoperabilità (data di rilascio: a partire da gennaio 2018)
-    numero: 44
-    stato: in corso
+          A seguito dell’emanazione del decreto di individuazione dei PSN da parte del Governo, AGID dà seguito a quanto previsto e definito all’interno della [Circolare AGID n.5/2017](https://www.censimentoict.italia.it/it/latest/docs/circolari/2017113005.html) (dicembre 2021).
+    aree-intervento: |
+      Nel breve periodo impatto sul Governo per la scelta dei PSN e del modello di governance degli stessi. Nel medio periodo impatto sulle PA candidabili a PSN e sulle imprese del settore ICT.
 
-  - chapter: infrastrutture-immateriali
-    subchapter: piattaforme-abilitanti
-    nome: Realizzazione Poli di Conservazione 
-    inizio: 05/2017
-    attori: [ pa, acs ]
-    descrizione: |
-      Le Amministrazioni partecipano con l’Archivio centrale dello Stato alla messa a punto dei Poli di Conservazione degli archivi digitali e alla definizione di regole di interscambio per l’interoperabilità dei sistemi di conservazione. Sarà avviato un percorso di adeguamento normativo utile ad assicurare che i servizi di conservazione garantiscano la presenza sul territorio nazionale di almeno una copia operativa per ciascun documento informatico conservato. 
-    risultati:
-      - descrizione: |
-          Costituzione Poli di Conservazione (data di rilascio: entro dicembre 2018)
-    numero: 45
-
-  - chapter: infrastrutture-immateriali
-    subchapter: piattaforme-abilitanti
-    nome: ANPR
-    entro: 12/2018
-    attori: [ interno, comuni ]
-    descrizione: |
-      Il Ministero dell’Interno integra nel sistema ANPR le funzionalità necessarie alla gestione dei servizi di stato civile e delle liste di leva.
-      I Comuni adottano le funzionalità di ANPR esteso mediante l’integrazione applicativa con i loro sistemi oppure mediante l’uso della web application.
-    risultati:
-      - descrizione: |
-          Utilizzo da parte dei Comuni di ANPR (data di rilascio: entro 2018)
-    numero: 46
-
-  ### end piattaforme-abilitanti
-  ### start modello-di-interoperabilita
-
-  - chapter: modello-di-interoperabilita
-    nome: Linee guida del nuovo Modello di interoperabilità
-    entro: 12/2017
+  - chapter: infrastrutture
+    subchapter: data-center
+    numero: 4
+    nome: Comunicazione dei risultati del censimento del Patrimonio ICT
+    stato: in corso 
     attori: [ agid ]
     descrizione: |
-      Emanazione delle linee guida utili alle Pubbliche amministrazioni e agli altri attori del Sistema informativo della PA per aderire al Modello di interoperabilità. Più precisamente verranno fornite le indicazioni che dovranno essere adottate (in termini di standard tecnologici, di profili di interoperabilità e di protocolli di comunicazione) per la realizzazione delle API necessarie all’adeguamento delle componenti descritte nel capitolo 4 “Infrastrutture immateriali” e nel capitolo 6 “Ecosistemi”. Verranno altresì fornite le indicazioni per la realizzazione delle nuove applicazioni per gli utenti finali, descritte nel capitolo 7 “Strumenti per la generazione e diffusione di servizi digitali” e per il popolamento del Data & Analytics Framework.
-      La pubblicazione delle linee guide sarà preceduta dall’emissione di un documento riportante la roadmap di evoluzione dal vecchio al nuovo modello ed un piano di phase-out per gli elementi infrastrutturali, previsti dal vecchio modello, in via di dismissione.
+      In seguito alla conclusione del censimento del patrimonio ICT della PA, AGID comunica alle PA l’esito della classificazione delle infrastrutture fisiche secondo le tre categorie (candidabili a PSN, Gruppo A, Gruppo B).
     risultati:
       - descrizione: |
-          Linee guida per transitare al nuovo Modello di interoperabilità (data di rilascio: maggio 2017)
-        stato: completo
-        nota: Pubblicate
-      - descrizione: |
-          Linee guida del nuovo Modello di interoperabilità (data di rilascio versione 1.0: dicembre 2017)
-        stato: completo
-        nota: Pubblicate e in consultazione dal 08/05/2018 al 07/06/2018 su ReadTheDocs
-    numero: 47
-    stato: completo
-      
-  - chapter: modello-di-interoperabilita
-    nome: Adozione del Modello da parte delle PA
-    inizio: 05/2017 
-    attori: [ agid, pa ]
-    descrizione: |
-      Per le piattaforme esistenti e per le attività progettuali già in corso le PA adottano le linee guida di transizione, mentre per le nuove realizzazioni si adeguano al nuovo Modello.
-    risultati: ---
-    numero: 48
-    stato: in corso
+          AGID comunica i risultati delle fasi 1 e 2 del censimento del Patrimonio ICT (entro aprile 2019).
+    aree-intervento: |
+      Nel breve periodo, impatto sulle PA.
 
-  - chapter: modello-di-interoperabilita
-    nome: Catalogo delle API
-    inizio: 06/2017 
-    attori: [ agid ]
+  - chapter: infrastrutture
+    subchapter: data-center
+    numero: 5
+    nome: Avvio del consolidamento e della dismissione dei data center di Gruppo A
+    stato: in corso 
+    attori: [ agid, team-digitale, pa ]
     descrizione: |
-      AgID realizzerà un apposito Catalogo delle API, che consentirà la condivisione delle API realizzate dalla PA. Attraverso le informazioni registrate nel Catalogo si realizza un punto di esposizione nel quale saranno censite e documentate le API condivise dagli utenti e utili agli sviluppatori e agli altri soggetti coinvolti negli Ecosistemi. Nondimeno, nel rispetto del diritto alla privacy in merito ai dati trattati, le API potranno essere utilizzate anche da soggetti esterni alla PA.
-      AgID definirà un apposito set di regole di utilizzo e un modello di governance per la gestione.
+      I soggetti detentori delle infrastrutture fisiche delle PA appartenenti al Gruppo A pianificano congiuntamente ad AGID e Team per la trasformazione digitale il consolidamento dei data center secondo quanto previsto dal Programma nazionale di abilitazione al Cloud della PA. AGID e Team per la trasformazione digitale assicurano il controllo e monitoraggio dei piani di migrazione trasmessi dalle PA.
     risultati:
       - descrizione: |
-          Prima release del Catalogo (data di rilascio: dicembre 2017)
-        stato: in corso
-    numero: 49
-    stato: in corso
+          AGID e Team per la trasformazione digitale pubblicano il Primo Rapporto sullo stato d’avanzamento della migrazione al Cloud della PA del Gruppo A (novembre 2019). Le PA del Gruppo A trasmettono ad AGID e i propri piani di migrazione al Cloud della PA (novembre 2020)
+    aree-intervento: |
+      Nel medio periodo, impatto sulle PA appartenenti al Gruppo A e sulle imprese ICT.
 
-  - chapter: modello-di-interoperabilita
-    nome: Popolamento catalogo API
-    inizio: 01/2018 
+  - chapter: infrastrutture
+    subchapter: data-center
+    numero: 6
+    nome: Dismissione dei data center di Gruppo B 
+    stato: in corso 
+    attori: [ agid, team-digitale, pa ]
+    descrizione: |
+      Le infrastrutture fisiche delle PA appartenenti al Gruppo B provvedono alla migrazione al Cloud della PA secondo quanto previsto dal Programma nazionale di abilitazione al Cloud della PA. Le PA comunicano ad AGID il numero dei data center dismessi. AGID e Team per la trasformazione digitale elaborano i rapporti sullo stato di avanzamento dei data center dismessi.
+      AGID assicura il controllo e monitoraggio delle azioni realizzate dalle PA pubblicando un report annuale.
+    risultati:
+      - descrizione: |
+          Le PA del Gruppo B che dismettono i propri data center ne danno comunicazione ad AGID (giugno 2020, a seguire con frequenza semestrale);
+      - descrizione: |
+          AGID e il Team per la trasformazione digitale pubblicano il Primo Rapporto annuale sullo stato di dismissione dei data center di Gruppo B (dicembre 2020).
+    aree-intervento: |
+      Nel breve periodo, impatto sulle PA appartenenti al Gruppo B e imprese ICT. Nel lungo periodo impatto sui professionisti ICT.
+
+  - chapter: infrastrutture
+    subchapter: connettivita
+    numero: 7
+    nome: Aggiornamento del modello di connettività
+    a: 03/2020
+    attori: [ agid, team-digitale ]
+    descrizione: |
+      AGID e Team per la trasformazione digitale elaborano un documento che descrive lo sviluppo del modello di connettività per la PA al fine di supportare al meglio il paradigma cloud e introdurre nuovi servizi nell’ambito della connettività.  
+    risultati:
+      - descrizione: |
+          AGID e Team per la trasformazione digitale pubblicano in consultazione un documento di indirizzo che descrive l’evoluzione del sistema pubblico di connettività. (marzo 2020)
+    aree-intervento: |
+      Nel lungo periodo, impatto sulle PA e cittadini. 
+
+  - chapter: infrastrutture
+    subchapter: connettivita
+    numero: 8
+    nome: Adeguamento della capacità di connessione della PA
+    stato: in corso 
     attori: [ pa ]
     descrizione: |
-      Le PA, nell’attuazione delle regole del Modello di interoperabilità, daranno seguito all’implementazione di API e al successivo popolamento del Catalogo, al fine di agevolarne l’utilizzo da parte degli sviluppatori.
-    risultati: ---
-    numero: 50
-    stato: completo
+      Le amministrazioni adeguano la propria capacità di connessione per garantire il completo dispiegamento dei servizi e delle piattaforme, adottando alternativamente:
+      - soluzioni di connettività basate sull’adesione ai Contratti quadro SPC, salvo i casi in cui le esigenze di banda e le caratteristiche trasmissive richieste non trovino potenziale soddisfacimento in tali ambiti contrattuali;
+      - i servizi resi disponibili, in base al principio della sussidiarietà, nel proprio territorio di riferimento dalla Regione o da altro ente pubblico locale che abbia già realizzato strutture di connessione territoriali conformi ai requisiti dettati da AGID e interconnesse con la rete SPC.
+    risultati:
+      - descrizione: |
+          Le amministrazioni adeguano la propria capacità di connessione (entro dicembre 2020). 
+    aree-intervento: |
+      Nel breve periodo, impatto sulle PA. 
 
-  ### end modello-di-interoperabilita
-  ### start ecosistemi
+  - chapter: infrastrutture
+    subchapter: connettivita
+    numero: 9
+    nome: Operatività dei nuovi contratti per la connettività S-RIPA per le sedi estere delle Pubbliche Amministrazioni
+    stato: in corso 
+    attori: [ sedi-estere-pa, consip ]
+    descrizione: |
+      Consip ha indetto la gara a procedura ristretta per la stipula di un accordo quadro avente ad oggetto la progettazione della rete e l’erogazione dei servizi di connettività della Rete Internazionale della PA, nonché servizi di sicurezza, VoIP, comunicazione evoluta e servizi professionali. È in corso l’aggiudicazione. L’accordo quadro avrà una durata di 60 mesi, decorrenti dalla data di attivazione. Successivamente, le sedi estere potranno procedere con la migrazione e l’utilizzo dei servizi della nuova S-RIPA. 
+    risultati:
+      - descrizione: |
+          Le sedi estere delle amministrazioni, a seguito dell’aggiudicazione della nuova gara da parte di Consip, realizzano la migrazione e procedono all’utilizzo dei servizi della nuova S-RIPA (dicembre 2021). 
+    aree-intervento: |
+      Nel medio periodo, impatto sulle sedi estere delle PA e nel lungo periodo sulle imprese italiane all’estero e cittadini italiani all’estero.
 
-  - chapter: ecosistemi
-    nome: Gruppi di Lavoro degli ecosistemi
-    inizio: 05/2017 
+  - chapter: infrastrutture
+    subchapter: connettivita
+    numero: 10
+    nome: Realizzazione dei servizi in conformità alle Linee guida per la realizzazione di reti wi-fi pubbliche
+    stato: in corso 
+    attori: [ pa ]
+    descrizione: |
+      AGID pubblica in consultazione le Linee guida per l’utilizzo delle wi-fi che le pubbliche amministrazioni rendono accessibili ai cittadini negli uffici e nei luoghi pubblici, redatte anche sulla base delle migliori esperienze di wi-fi pubblico già in essere nella PA. 
+      Le amministrazioni definiscono e realizzano il Piano di adeguamento alle linee guida emanate da AGID per le wi-fi.
+      AGID adegua periodicamente le linee guida in funzione degli aggiornamenti tecnologici e normativi e sulla base di buone pratiche messe in campo dalle pubbliche amministrazioni.
+    risultati:
+      - descrizione: |
+          Pubblicazione di Linee guida wi-fi da parte di AGID (entro settembre 2019).
+      - descrizione: |
+          Le amministrazioni mettono a disposizione la propria rete wi-fi per la fruizione gratuita da parte dei cittadini negli uffici e luoghi pubblici (entro agosto 2020)
+    aree-intervento: |
+      Nel breve periodo, impatto su PA, imprese, professionisti e cittadini.
+
+### end infrastrutture 
+
+### modello-di-interoperabilita
+
+  - chapter: modello-di-interoperabilita
+    numero: 11
+    nome: Transizione dei servizi SP-Coop al nuovo Modello da parte delle PA
+    stato: in corso
     attori: [ pa, agid ]
     descrizione: |
-      Per ciascun ecosistema, i GdL danno seguito alle attività operative attraverso l’individuazione degli obiettivi specifici dell’ecosistema stesso, la pianificazione dei progetti e la costituzione di luoghi di discussione tecnica.
-      AgID, su richiesta, può supportare le attività dell’ecosistema, in particolare per quanto riguarda la finalizzazione delle attività del GdL.
-    risultati: ---
-    numero: 51
+      Per le piattaforme esistenti e per le attività progettuali in corso, le PA seguono le indicazioni nelle [Linee guida per transitare al nuovo Modello di interoperabilità](https://www.agid.gov.it/sites/default/files/repository_files/upload_avvisi/linee_guida_passaggio_nuovo_modello_interoperabilita.pdf) emanate da AGID con Determina 219/2017.
+      Per dismettere SP-Coop, di specie le porte di dominio (PdD) in esso previste, le PA erogatrici predispongono un “piano di interfacciamento diretto” per assicurare l’accesso ai servizi attualmente in produzione. Nell’allegato 3 “Indicazioni operative per la migrazione dei servizi SP-Coop” sono riportate le indicazioni operative per la predisposizione dei citati piani.     AGID pubblica le pianificazioni ricevute sul proprio sito istituzionale. Questo consente alle PA di pianificare:
+      - i tempi per reindirizzare i sistemi che fruiscono di servizi attualmente in produzione verso le predisposte Interfacce di servizio con accesso diretto;
+      - la data di definitiva dismissione delle porte di dominio, anch’essa da comunicare all’AGID.
+      Qualora il servizio di una PA erogatrice all’interno del dominio SP-Coop debba essere fruito da una nuova entità senza PdD, l’interfacciamento diretto deve essere previsto con tempi compatibili con le necessità del nuovo fruitore.
+    risultati:
+      - descrizione: |
+          Le PA erogatrici di servizi predispongono ed inviano ad AGID i “piani di interfacciamento diretto” (entro aprile 2019).	
+      - descrizione: |
+          AGID pubblica le pianificazioni ricevute sul proprio sito istituzionale (entro giugno 2019).
+    aree-intervento: |
+      Nel breve periodo, impatto sulle PA
+
+  - chapter: modello-di-interoperabilita
+    numero: 12
+    nome: Adozione delle linee guida del nuovo Modello di interoperabilità
     stato: in corso
-      
-  - chapter: ecosistemi
-    nome: Evoluzione del Fascicolo sanitario elettronico (FSE)
-    attori: [ salute, mef, agid, regioni, asl ]
+    attori: [ agid, pa, gestori-pubblici-servizi, societa-controllo-pubblico ]
     descrizione: |
-      Il Ministero della Salute, di concerto con il MEF e l’AgID, ha messo a punto il progetto di adeguamento delle infrastrutture alle disposizioni del D.P.C.M. 178/2015. 
-      Il decreto ministeriale e le regole di interoperabilità che regolano il funzionamento del sistema sono pubblicate entro aprile 2017.
-      Le Amministrazioni regionali dovranno procedere alla realizzazione dei propri sistemi di Fascicolo sanitario elettronico regionale, interoperabili con la infrastruttura nazionale, secondo i piani presentati e comunque entro il 2018.
-      Le Amministrazioni che entro giugno 2017 non avranno completato l’adozione di sistemi autonomi dovranno adottare, secondo il principio di sussidiarietà, le soluzioni messe a disposizione dal MEF.
-      Le Regioni provvedono a completare la diffusione del Fascicolo sanitario elettronico sul proprio territorio a tutti i propri assistiti.
+      Emanazione delle Linee guida del Modello di interoperabilità per le pubbliche amministrazioni e gli altri soggetti interessati (cittadini e imprese).
+      Le Linee guida individuano gli standard tecnologici e le modalità di utilizzo da parte delle PA. Le PA realizzano le Interfacce di servizio per abilitare la comunicazione tra i sistemi informatici della PA e di questi con cittadini ed imprese. 
+      Le Linee guida sono costituite da:
+      - presentazione del Modello di Interoperabilità 2018;
+      - tecnologie ed approcci all’Integrazione ed Interoperabilità;
+      - pattern e profili di interoperabilità;
+      - governance del Modello di interoperabilità;
+      - registri e Cataloghi.
+      I documenti sopra elencati sono messi in consultazione pubblica, favorendo la consapevolezza delle PA sul nuovo modello. A chiusura della fase di consultazione, le Linee guida seguiranno le modalità di emanazione previste dall’articolo 71 comma 1 del CAD.
     risultati:
       - descrizione: |
-          Decreto ministeriale che definisce le regole di interoperabilità (data di rilascio: giugno 2017)
-        stato: completo
-        nota: Formalizzato
+          AGID pubblica in consultazione i documenti che costituiscono le Linee guida del Modello di interoperabilità (entro giugno 2019).
       - descrizione: |
-          Realizzazione dei sistemi FSE Regionali (data di rilascio: entro dicembre 2018)
-    numero: 52
-    stato: in corso
+          Le PA adottano le Linee guida a completamento del processo di emanazione. 
+    aree-intervento: |      
+      Nel breve periodo, impatto sulle PA
 
-  ### end ecosistemi
-  ### start strumenti-per-la-generazione-e-la-diffusione-di-servizi-digitali
-
-  - chapter: strumenti-per-la-generazione-e-la-diffusione-di-servizi-digitali
-    nome: Community
-    attori: [ agid, team-digitale ]
+  - chapter: modello-di-interoperabilita
+    numero: 13
+    nome: Realizzazione e popolamento del “Catalogo delle Interfacce di Servizio"
+    inizio: 12/2019
+    attori: [ agid, pa ]
     descrizione: |
-      Le attività previste nella presente azione intendono dare seguito alla costituzione delle designer community e developer community attraverso la realizzazione e lo sviluppo continuo dei necessari strumenti digitali da mettere a disposizione delle stesse community, quali, a titolo di esempio, siti Internet, ambienti di test, forum, repository per il software, sistemi di gestione dei contenuti e della documentazione.
-      All’interno della developer community sarà presente anche la documentazione e il supporto tecnologico per l’utilizzo delle risorse API in riferimento al catalogo previsto nel capitolo 2 “Infrastrutture immateriali”.
-      Il continuo aggiornamento delle Linee guida per il design dei servizi digitali della pubblica amministrazione, realizzato con il contributo delle community, rappresenta un’ulteriore attività realizzata dalla presente azione.
+      AGID realizza il “Catalogo delle Interfacce di servizio” che consente la condivisione delle Interfacce di servizio realizzate dalla PA. AGID definisce le modalità per la gestione del Catalogo, che tiene conto:
+      - della specificità dei territori e dei diversi ambiti entro cui la PA opera;
+      - della necessità di evitare ridondanze e/o sovrapposizioni in termini di competenze e contenuti.
+      Le PA, nell’attuazione delle regole del Modello di interoperabilità, implementano le proprie Interfacce di servizio e popolano il Catalogo, al fine di agevolarne l’utilizzo da parte degli sviluppatori.
     risultati:
       - descrizione: |
-          Primi strumenti per le Community (data di rilascio: da marzo 2017)
-        stato: completo
-        nota: Pubblicato sito Developers
-    numero: 53
-    stato: completo
-      
-  - chapter: strumenti-per-la-generazione-e-la-diffusione-di-servizi-digitali
-    nome: Strumenti e modelli condivisi per la progettazione e la realizzazione di servizi
-    attori: [ agid, team-digitale ]
+          AGID realizza la prima release del Catalogo (dicembre 2020).  
+      - descrizione: |
+          Le PA pubblicano le Interfacce di servizio (da gennaio 2021).
+    aree-intervento: |
+      Nel medio periodo impatto sulle PA e sulle imprese; nel lungo periodo, impatto sui cittadini.
+
+### end modello-di-interoperabilita
+
+### start dati-della-pa
+
+  - chapter: dati-della-pa
+    numero: 14
+    nome: Definizione delle linee di sviluppo delle basi di dati di interesse nazionale
+    inizio: 01/2019
+    attori: [ pa-basi-dati, agid ]
     descrizione: |
-      Verranno realizzati, mantenuti e messi a disposizione linee guida, toolkit e strumenti utili all’intera fase di prototipazione, sviluppo e diffusione di applicazioni e servizi. Verranno inoltre suggeriti e, dove possibile, resi disponibili strumenti di analisi del comportamento degli utenti, quali, a titolo esemplificativo, strumenti di web analytics, tool di analisi dell’usabilità, strumenti per effettuare indagini di soddisfazione.
-      A tal fine verranno avviati progetti pilota in collaborazione con le amministrazioni, per la definizione e il test sul campo delle soluzioni proposte.
-    risultati:
+      Tavoli di lavoro congiunto tra AGID e le PA titolari di basi di dati di interesse nazionale lavorano alla definizione dei Piani di sviluppo e aggiornamento dei servizi per l’utilizzo delle medesime basi di dati al fine di favorire la fruibilità delle informazioni ivi contenute da parte di tutti i soggetti aventi titolo secondo i principi stabiliti nel Piano Triennale. 
+    risultati: 
       - descrizione: |
-          Partenza progetti pilota (data di rilascio: giugno 2017)
-        stato: completo
-        nota: |
-          Pubblicato sito Designers - partito pilota MIUR
-      - descrizione: |
-          Modellazione dei principali servizi e contenuti da erogare (data di rilascio: luglio 2017)
-        stato: completo
-        nota: Pilota iniziato con MIUR
-      - descrizione: |
-          Template versioni alpha (data di rilascio: settembre 2017)
-        stato: completo
-        nota: Pubblicato
-    numero: 54
-    stato: completo
+          Ciascun Tavolo di lavoro redige un documento programmatico per le linee di sviluppo per le basi dati di interesse nazionale (dicembre 2020).
+    aree-intervento: |
+      nel breve periodo impatto su PA titolari di basi di dati di interesse nazionale e su tutta la PA. Nel medio/lungo impatto su imprese, cittadini, altri soggetti istituzionali e categorie specifiche di utenza.
 
-  ### end strumenti-per-la-generazione-e-la-diffusione-di-servizi-digitali
-  ### start sicurezza
+  - chapter: dati-della-pa
+    numero: 15
+    nome: Implementazione standard Geo - DCAT-AP_IT
+    stato: in corso  
+    attori: [ agid, pa ]
+    descrizione: |
+      Il rilascio della nuova versione del Repertorio nazionale dei dati territoriali consente di procedere alle attività di sviluppo applicativo per l’implementazione dello standard GeoDCAT-AP, in coerenza con le indicazioni contenute nelle [Linee guida](http://geodati.gov.it/geoportale/documenti/12-documenti/277-linee-guida-nazionali-geodcat-ap) rese disponibili da AGID (obiettivo del precedente Piano Triennale 2017-2019).
+    risultati: 
+      - descrizione: |
+          Implementazione dello standard “Geo DCAT-AP” (entro giugno 2019) sul Repertorio nazionale dei dati territoriali.
+      - descrizione: |
+          Adozione dello standard da parte delle regioni e delle PA centrali coinvolte (giugno 2020). 
+    aree-intervento: |
+      Nel breve periodo, impatto sulle PA; nel medio-lungo periodo impatto su imprese, cittadini, altri soggetti istituzionali e categorie specifiche di utenza.
 
-  - chapter: sicurezza
-    nome: CERT-PA
+  - chapter: dati-della-pa
+    numero: 16
+    nome: Disponibilità Catalogo dei servizi (servizi.gov.it)
+    stato: in corso   
+    attori: [ agid, pa ]
+    descrizione: |
+      AGID implementa nuove funzionalità del Catalogo dei servizi (servizi.gov.it) volte alla completa interoperabilità con sistemi terzi e attua iniziative finalizzate al popolamento del Catalogo. Le PA procedono al popolamento del Catalogo sia in maniera diretta (attraverso backend), sia attraverso terze parti (API).
+    risultati: 
+      - descrizione: |
+          testo.Le PA inseriscono i propri servizi nel Catalogo attuale (da gennaio 2019).
+      - descrizione: |
+          AGID rilascia le nuove funzionalità del Catalogo (entro dicembre 2019).
+    aree-intervento: |
+      Nel breve periodo, impatto sulle PA.
+
+  - chapter: dati-della-pa
+    numero: 17
+    nome: Completamento del popolamento di ANPR
+    stato: in corso   
+    attori: [ interno, sogei, comuni ]
+    descrizione: |
+      Completamento del popolamento di ANPR con i dati delle anagrafi comunali (APR) e delle anagrafi della popolazione residente all’estero (AIRE). 
+    risultati:  
+      - descrizione: |
+          I 7.954 Comuni italiani popolano ANPR effettuando la migrazione delle APR e AIRE locali (data di rilascio: in fase di riprogrammazione).
+    aree-intervento: | 
+      Nel breve periodo sulle PA e sui cittadini.
+
+  - chapter: dati-della-pa
+    numero: 18
+    nome: Sperimentazione dell’archivio nazionale informatizzato dei registri di stato civile in ANPR
+    inizio: 01/2019
+    attori: [ interno, sogei, comuni ]
+    descrizione: |
+      Attraverso la sperimentazione su un campione significativo di Comuni italiani si provvederà alla realizzazione di prototipi di registri di stato civile, valutando le possibili semplificazioni derivanti dalla digitalizzazione e centralizzazione degli stessi.
+    risultati: 
+      - descrizione: |
+          Sperimentazione dell’archivio nazionale informatizzato dei registri di stato civile (dicembre 2019).
+    aree-intervento: |
+      Nel breve periodo, impatto sulle PA coinvolte. Nel medio-lungo periodo, impatto sui cittadini.
+
+  - chapter: dati-della-pa
+    numero: 19
+    nome: Adozione delle Linee Guida IPA
+    stato: in corso  
+    attori: [ agid, pa, gestori-pubblici-servizi ]
+    descrizione: |
+      AGID ha redatto le Linee Guida relative alle Regole tecniche da seguire per l’iscrizione e l’aggiornamento dei dati in IPA.  Le amministrazioni e i gestori di pubblici servizi devono attenersi alle regole prescritte.  
+    risultati:  
+      - descrizione: |
+          AGID pubblica Linee Guida sul sito web, dandone notizia in Gazzetta Ufficiale (giugno 2019).
+    aree-intervento: |
+      Nel breve periodo, impatto su tutte le PA, sui gestori di pubblici servizi e sui cittadini.
+
+  - chapter: dati-della-pa
+    numero: 20
+    nome: Strategia complessiva per valorizzazione dei dati 
+    inizio: 01/2019 
+    attori: [ dfp, agid, regioni_soggetti_aggregatori ]
+    descrizione: |
+      Il Dipartimento della Funzione Pubblica, in collaborazione con AGID e Regioni, definisce una strategia finalizzata al riutilizzo dei dati aperti, in coerenza con le regole di implementazione della direttiva PSI, e le iniziative di collaborazione e confronto tra PA e stakeholders nel contesto delle azioni definite nell’ambito dell’Open Government Partnership (OGP). Viene predisposto un documento di strategia complessiva che delinei obiettivi di riutilizzo e valorizzazione dei dati della Pubblica Amministrazione.
+    risultati: 
+      - descrizione: |
+          Il Dipartimento della Funzione pubblica, in collaborazione con AGID e le Regioni, definisce un primo documento di strategia per le politiche di valorizzazione del patrimonio pubblico (giugno 2019).
+    aree-intervento: |
+      Nel breve periodo, impatto sulle PA e, nel medio/lungo periodo, impatto su imprese, cittadini, altri soggetti istituzionali.
+
+  - chapter: dati-della-pa
+    numero: 21
+    nome: Indagine sul grado di maturità degli open data e sullo stato di attuazione della direttiva PSI
+    inizio: 02/2019 
+    attori: [ agid, amministrazioni-partecipanti ]
+    descrizione: |
+      Attraverso il coinvolgimento delle amministrazioni interessate, in particolare le Regioni, AGID procede alla raccolta di dati e informazioni utili rispetto all’iniziativa comunitaria finalizzata al rilevamento del grado di maturità degli open data e sullo stato di attuazione della direttiva PSI negli stati membri.
+    risultati:  
+      - descrizione: |
+          AGID pubblica il Report relativo all’Indagine sul Portale nazionale dati.gov.it e fornisce riscontro all’iniziativa comunitaria ai fini della elaborazione dell’Open data Maturity Report (ottobre 2019).
+    aree-intervento: |
+      Nel breve periodo, impatto sulle PA partecipanti.
+
+  - chapter: dati-della-pa
+    numero: 22
+    nome: Evoluzione del Catalogo nazionale dati.gov.it 
+    inizio: 03/2019
     attori: [ agid ]
     descrizione: |
-      CERT-PA, già operante dal 2013, aumenterà progressivamente la sua capacità operativa, completando l’infrastruttura ICT di erogazione dei servizi di base e realizzando il primo embrione di sistema informativo sulle minacce cibernetiche, anche attraverso l’implementazione delle soluzioni: Infosharing CERT PA e National Vulnerability Database.
-    risultati: ---
+      Evoluzione del Catalogo nazionale dati.gov.it. L’evoluzione deve riguardare:
+      - il possibile ampliamento del servizio di ricerca anche per le informazioni riferite alle basi di dati della pubblica amministrazione raccolte in attuazione dell'art. 24-quater, comma 2, del D.L. n. 90/2014, convertito in Legge 11 agosto 2014, n. 114;
+      - la conformità  del catalogo al profilo DCAT-AP_IT;
+      - l’inclusione di nuove amministrazioni sulla base della metadatazione DCAT-AP_IT;
+      - Il raccordo con il repertorio dei dati territoriali.
+    risultati:  
+      - descrizione: |
+          AGID rilascia la nuova versione del Catalogo nazionale che offre le suddette funzionalità (entro dicembre 2019).
+    aree-intervento: |
+      Nel medio periodo, impatto su PA, cittadini e imprese.
+
+  - chapter: dati-della-pa
+    numero: 23
+    nome: Aggiornamento delle Linee guida per la valorizzazione del patrimonio informativo pubblico
+    inizio: 01/2019
+    attori: [ agid ]
+    descrizione: |
+      AGID aggiorna le Linee guida per la valorizzazione del patrimonio informativo pubblico, insieme ai documenti ad esse collegati (tra cui, le Linee guida per i cataloghi dati, l’elenco delle basi dati di interesse nazionale e l’elenco delle basi di dati chiave), tenendo conto per esempio delle variazioni normative, dei lavori europei e internazionali nonché di quelli italiani che mirano, tra gli altri, a fornire strumenti per una migliore attuazione delle azioni elencate nelle linee guida.   
+    risultati: 
+      - descrizione: |
+          Linee guida per la valorizzazione del patrimonio informativo pubblico aggiornate per la consultazione pubblica (giugno 2019).
+    aree-intervento: |
+      Nel breve periodo, impatto sulle PA.
+
+  - chapter: dati-della-pa
+    numero: 24
+    nome: Ruoli e procedure per la gestione del Registry 
+    inizio: 03/2019 
+    attori: [ agid, ispra, mattm ]
+    descrizione: |
+      È necessaria la definizione dei ruoli e delle procedure di aggiornamento e pubblicazione che consentano alle amministrazioni titolari di vocabolari, tassonomie e nomenclature, ecc. di concorrere e partecipare alla gestione dei registri pubblicati nel Sistema di Registri.
+    risultati: 
+      - descrizione: |
+          AGID rilascia la guida operativa utile alle amministrazioni per gestire, in autonomia, i registri di propria competenza (entro dicembre 2019).
+    aree-intervento: |
+      Nel medio periodo, impatto su PA, cittadini e imprese.
+
+  - chapter: dati-della-pa
+    numero: 25
+    nome: Sviluppo ontologie
+    stato: in corso 
+    attori: [ agid, pa-interessate ]
+    descrizione: |
+      Sviluppo di ontologie su input e in collaborazione con:
+      - il MiBAC, per la definizione di ontologie e vocabolari controllati attinenti al Sistema museale nazionale, in coerenza con gli obiettivi fissati con il citato Decreto 21 febbraio 2018;
+      - le PA interessate e gli enti di ricerca, anche in base a iniziative quali l’Open Government Partnership.
+    risultati:  
+      - descrizione: |
+          AGID e PA lavorano alla definizione di ontologie e/o vocabolari controllati di riferimento. (giugno 2020).
+    aree-intervento: |
+      Nel medio periodo, impatto su PA, cittadini e imprese.
+
+  - chapter: dati-della-pa 
+    numero: 26 
+    nome: Progettazione della PDND, sperimentazione e prima applicazione della stessa
+    stato: in corso   
+    attori: [ pcm, team-digitale, garante-privacy ]
+    descrizione: |
+      La PDND si basa sullo sviluppo di una Piattaforma big data e sulla costituzione di un team di data scientist, big data architect e data engineer. Il Team per la trasformazione digitale, ha il compito di gestire attivamente la fase di sviluppo concettuale e implementativo dell’infrastruttura, insieme a tutte le fasi del ciclo di vita del dato, dall’ingestione all’analisi e sviluppo di applicazioni. Il Team per la trasformazione digitale progetta e, sentito il Garante per la protezione dei dati personali, definisce le modalità realizzative e di uso della Piattaforma big data della PA attraverso:
+      - l’individuazione del modello di governance che preveda un ruolo di guida e controllo da parte della Presidenza del Consiglio dei Ministri/Team per la trasformazione digitale, sentito il Garante della privacy;
+      - la predisposizione degli atti necessari alla realizzazione del progetto e la proposta degli eventuali adeguamenti normativi che la favoriscano;
+      - la definizione, sentito il Garante, delle sorgenti di dati del data lake e le relative modalità di popolamento. Queste saranno inserite nelle linee guida prodotte nell’ambito del Modello di interoperabilità;
+      - la definizione dell’architettura logica della piattaforma e l’individuazione delle tecnologie implementative;
+      - l’identificazione delle esigenze informative utili alla definizione di politiche guidate dai dati e alla realizzazione dei relativi strumenti analitici;
+      - il coinvolgimento della comunità scientifica per la promozione di iniziative atte a favorire la conduzione di attività ricerca su tematiche di interesse per la PA;
+      - le direttive di utilizzo e consultazione.
+    risultati:  
+      - descrizione: |
+          Aggiornamento del Piano di sviluppo della PDND, anche attraverso il consolidamento della piattaforma predisposta sulla base dei casi d’uso fissati con il gruppo di PA centrali e locali che vi hanno collaborato, sentito il Garante per la protezione dei dati personali.  (giugno 2019).
+    aree-intervento: |
+      Nel breve periodo impatto sulle PA.
+
+  - chapter: dati-della-pa 
+    numero: 27 
+    nome: Messa in produzione della PDND
+    inizio: 07/2019
+    attori: [ team-digitale, pa ]
+    descrizione: |
+      Il Team per la trasformazione digitale predisporrà le procedure atte al subentro del futuro gestore della PDND che gestirà l’operatività e l’evoluzione del progetto. Il gestore della PDND curerà le interazioni con le PA per definire piani di inclusione delle relative basi di dati e casi d’uso. Le PA di volta in volta coinvolte definiranno le modalità di ingestione dei dati e utilizzo della PDND consone alle proprie attività, nel rispetto dei limiti, delle condizioni e delle modalità stabilite dal Garante per la protezione dei dati personali e dal Decreto di cui al comma 4 dell’art. 50 ter del CAD.
+    risultati: 
+      - descrizione: |
+          Piattaforma a disposizione delle PA (dicembre 2020).
+    aree-intervento: |
+      Nel breve periodo impatto sulle PA.
+
+### end dati della pubblica amministrazione
+
+### start piattaforme
+
+  - chapter: piattaforme
+    numero: 28
+    nome: Adeguamento/evoluzione delle piattaforme telematiche  
+    stato: in corso  
+    attori: [ pa ]
+    descrizione: |
+      Le amministrazioni esercitano le proprie funzioni di stazione appaltante avvalendosi di sistemi telematici di acquisto e negoziazione (piattaforme telematiche). L’utilizzo di tali sistemi avviene nei seguenti termini:
+      - utilizzo di una piattaforma già in possesso dell’amministrazione;
+      - utilizzo di una piattaforma messa a disposizione da uno dei soggetti aggregatori e/o da Centrali di committenza;
+      - riuso del software messo a disposizione da altre PA;
+      - utilizzo di servizi per le piattaforme offerti in SaaS da operatori di mercato.  
+      Nella fase di adozione delle piattaforme telematiche di e-procurement, l’Agenzia fornirà supporto alle Regioni nello sviluppo di piattaforme che saranno messe a disposizione delle amministrazioni territoriali.
+    risultati:  
+      - descrizione: |
+          Le piattaforme dovranno adeguarsi alle regole tecniche del Decreto ministeriale di cui all’articolo 44 del Codice dei Contratti Pubblici (dalla data di pubblicazione del decreto attuativo).
+    aree-intervento: |
+      Nel breve e medio periodo, impatto sulle PA e sulle imprese fornitrici delle piattaforme.
+
+  - chapter: piattaforme
+    numero: 29
+    nome: Messa in esercizio della BDOE
+    stato: in corso  
+    attori: [ mit, agid, anac, pa-basi-dati, soggetti-aggregatori ]
+    descrizione: |
+      A seguito della messa in esercizio della BDOE da parte del MIT, saranno individuate le linee di intervento evolutive cui si dovranno adeguare le stazioni appaltanti per integrare le proprie piattaforme di acquisto alla BDOE.
+    risultati: 
+      - descrizione: |
+          La BDOE verrà messa in esercizio attraverso l’integrazione con le basi dati degli enti titolari dei registri pubblici (dalla data di pubblicazione del decreto attuativo).
+    aree-intervento: |
+      Nel breve periodo, impatto su PA e imprese.
+
+  - chapter: piattaforme
+    numero: 30
+    nome: Gestione elettronica degli ordini verso i fornitori 
+    inizio: 10/2019 
+    attori: [ rgs, agid, conferenza-stato-regioni, salute, sogei, asp, fornitori ]
+    descrizione: |
+      La Legge di Bilancio 2018 prevede - per gli enti del Sistema Sanitario Nazionale (SSN) - la trasmissione in forma elettronica dei documenti attestanti l’ordinazione e l’esecuzione degli acquisti di beni e servizi. La trasmissione è effettuata attraverso il Nodo di smistamento degli ordini.  
+    risultati:  
+      - descrizione: |
+          RGS avvia e mette in esercizio il sistema di gestione (Nodo di smistamento degli ordini) come da Decreto attuativo ai sensi art.1 comma 414 della Legge 205/2017 (Legge di Bilancio 2018). Le PA adeguano i propri sistemi per emettere e trasmettere ordini elettronici attraverso NSO nel settore sanitario (da ottobre 2019).
+    aree-intervento: |
+      Nel breve periodo, impatto su aziende sanitarie e imprese del settore.
+
+  - chapter: piattaforme
+    numero: 31
+    nome: Gestione del formato europeo della Fattura Elettronica (EN) 
+    inizio: 04/2019
+    attori: [ mef, ade, agid, sogei, anci ]
+    descrizione: |
+      Recepimento, da parte dell’Agenzia delle Entrate, della Direttiva europea 2014/55 sulla fatturazione elettronica negli appalti pubblici che prevede l’obbligo da parte delle PA di accettare le fatture elettroniche anche in formato europeo.
+    risultati:  
+      - descrizione: |
+          Adeguamento del Sistema di Interscambio per gestire le fatture elettroniche in formato europeo prevedendo la possibile traduzione nel formato FatturaPA. 
+      - descrizione: |
+          Le PAC aggiornano i propri sistemi per la ricezione e conservazione delle fatture (da aprile 2019). Le PAL aggiornano i propri sistemi per la ricezione e conservazione delle fatture (da aprile 2020).
+    aree-intervento: |
+      Nel breve periodo, impatto su PAC. Nel medio periodo, impatto su PAL.
+
+  - chapter: piattaforme
+    numero: 32
+    nome: Evoluzione tecnologica della piattaforma
+    stato: in corso  
+    attori: [ agid, team-digitale, bdi ]
+    descrizione: |
+      Continuo adeguamento tecnologico della piattaforma agli standard dei servizi di pagamento previsti dagli standard europei e internazionali in collaborazione e attraverso il coordinamento di Banca d’Italia per ottenere un miglioramento continuo dell’esperienza dei cittadini, delle pubbliche amministrazioni e dei Prestatori di Servizi di Pagamento. 
+    risultati: 
+      - descrizione: |
+          Nuova versione back end di pagoPA (giugno 2019).
+    aree-intervento: |
+      Nel breve periodo impatto, su PA e prestatori di servizi di pagamento.
+
+  - chapter: piattaforme
+    numero: 33 
+    nome: Completamento dell’adesione alla piattaforma
+    stato: in corso  
+    attori: [ agid, team-digitale, soggetti-obbligati ]
+    descrizione: |
+      Completamento dell’attivazione dei servizi da parte di tutti i soggetti obbligati all’adesione alla piattaforma dei pagamenti entro i termini previsti dal CAD.
+      AGID, in collaborazione con le Regioni, svolge attività sul territorio indirizzate alla sensibilizzazione dei soggetti obbligati ad aderire, al fine di supportare la risoluzione delle problematiche bloccanti per l’adesione alla piattaforma. Sono forniti strumenti informatici e documentazione tecnica per favorire l’integrazione con pagoPA e ambienti di test a supporto degli sviluppatori; AGID e Team per la trasformazione digitale pubblicano i dati sull’evoluzione dell’adesione.
+    risultati:  
+      - descrizione: |
+          I soggetti obbligati ad aderire attivano i servizi nei tempi previsti dal CAD (dicembre 2019)
+    aree-intervento: |
+      Nel breve periodo, impatto su PA e prestatori di servizi di pagamento.
+
+  - chapter: piattaforme
+    numero: 34
+    nome: Monitoraggio tecnico e dell’attivazione dei servizi
+    stato: in corso   
+    attori: [ agid, team-digitale, soggetti-obbligati, prestatori-servizio-pagamenti ]
+    descrizione: |
+      AGID effettua sia il monitoraggio continuo dello stato di avanzamento dell’attivazione dei servizi da parte dei soggetti obbligati ad aderire a pagoPA, sia il monitoraggio continuo delle performance del sistema e dell’efficacia delle procedure operative, rispetto ad indicatori di qualità definiti. Rileva la presenza di problemi, individua le soluzioni e mette in atto azioni di accompagnamento.
+    risultati:  
+      - descrizione: |
+          Aumento dei transati a partire dagli attuali 13 mln, da gennaio 2019, a circa 30 mln. (dicembre 2019).
+    aree-intervento: |
+      Nel breve periodo, impatto su PA e cittadini.
+
+  - chapter: piattaforme
+    numero: 35
+    nome: Dispiegamento del sistema SIOPE+ 
+    stato: in corso   
+    attori: [ rgs, bdi, agid, pa ]
+    descrizione: |
+      A fronte della conclusione delle fasi di sperimentazione, chiuse nel 2017, il sistema è andato a regime nel 2018 per tutti i Comuni, le Regioni, le ASL e le Aziende ospedaliere. Da gennaio 2019 entrano in SIOPE+ anche le Università, Enti di Ricerca, Autorità Portuali, Enti Parco e, con successivi decreti, verranno individuati gli ulteriori enti (scuole, istituti di formazione, ecc.).
+      AGID emette le regole tecniche per gestione dei documenti informatici relativi agli ordinativi di incasso e pagamento e le Linee guida intese come vademecum per l’adozione delle regole tecniche stesse, secondo un piano di attività che prevede un aggiornamento periodico degli standard OPI.
+    risultati:  
+      - descrizione: |
+          AGID emette nuove versioni delle regole tecniche OPI e delle Linee guida (luglio 2019).
+      - descrizione: |
+          MEF-RGS fornisce supporto alle amministrazioni per l’adesione al sistema e per l’estensione ad altri Enti pubblici (da gennaio 2019).
+      - descrizione: |
+          Banca d’Italia gestisce l’infrastruttura IT del sistema (da gennaio 2019).
+    aree-intervento: |
+      Nel breve periodo, impatto sulle PA.
+
+  - chapter: piattaforme
+    numero: 36
+    nome: Revisione della piattaforma open data Soldipubblici
+    inizio: 06/2019 
+    attori: [ rgs, bdi, agid, pa ]
+    descrizione: |
+      Soldipubblici](http://soldipubblici.gov.it/it/home) è una piattaforma open data che rende facilmente accessibili ai cittadini i dati dei pagamenti della Pubblica Amministrazione. Fino ad oggi l’obiettivo è stato quello di garantire la piena trasparenza e permettere sia ai cittadini che alle stesse pubbliche amministrazioni l’analisi e il monitoraggio costante delle spese.
+      L’ipotesi di revisione prevede una evoluzione del ruolo di Soldipubblici verso uno strumento, wizard like, di aggregazione e visualizzazione di dati ed informazioni di previsione, di entrata e di spesa. I dati dei pagamenti della PA sono estratti dalle banche dati del sistema informativo SIOPE, il quale alimenta anche la Banca Dati delle Amministrazioni Pubbliche (BDAP) che, oltre ai dati di incasso e pagamento ha anche molte altre informazioni, previsionali e di consuntivo, di natura economico-finanziaria. Esistono poi tutti i cataloghi open data, in larga parte federati da dati.gov.it, che le amministrazioni, sia centrali che locali, hanno prodotto e alimentano costantemente. Tutte le fonti di dati possono dare un contributo alla costruzione di una informazione strutturata e multilivello di cui Soldipubblici potrebbe essere lo strumento di visualizzazione evoluta.
+      Gli attori effettuano la revisione della piattaforma integrandola con ulteriori servizi di estrazione dati (ad es. per territorio, per categoria di ente, per voce di bilancio ecc.)  
+    risultati:  
+      - descrizione: |
+          Piattaforma Soldipubblici aggiornata (dicembre 2019).
+    aree-intervento: |
+      Nel breve periodo, impatto su PA; nel medio periodo, impatto su cittadini e imprese.
+
+  - chapter: piattaforme
+    numero: 37
+    nome: Evoluzione del sistema NoiPA e valorizzazione del patrimonio informativo gestito
+    stato: in corso   
+    attori: [ mef, agid, pa, dfp, inps ]
+    descrizione: |
+      Le attività previste sono:
+      - realizzare il nuovo sistema di gestione del personale pubblico a copertura di tutti i processi amministrativi di gestione del personale (servizi anagrafici, servizi integrati stipendiali, servizi di rilevazione presenze, servizi giuridici);
+      - realizzare e rilasciare componenti aggiuntivi collegati ad esigenze di valutazione e sviluppo del personale pubblico;
+      - realizzare la base dati del personale della PA;
+      - valorizzare il patrimonio informativo gestito attraverso l’implementazione di componenti specifici per abilitare l’integrazione con informazioni e servizi di altri stakeholder istituzionali coinvolti nei processi di gestione del personale pubblico.
+      Le amministrazioni non ancora aderenti al sistema potranno procedere a comunicare entro il 2019 la propria adesione per successivamente migrare ed adottare il sistema NoiPA, secondo la programmazione concordata con il MEF.
+    risultati:  
+      - descrizione: |
+          Completamento del nuovo sistema NoiPA (data di rilascio: dicembre 2020).
+      - descrizione: |
+          Richiesta di adesioni delle PA (entro il 2019).
+      - descrizione: |
+          Avvio dell’erogazione del servizio (giugno 2019).
+      - descrizione: |
+          Abilitazione della condivisione del patrimonio informativo gestito (giugno 2019).
+    aree-intervento: |
+      Nel breve periodo, impatto sulle PA e stakeholder istituzionali coinvolti.
+
+  - chapter: piattaforme
+    numero: 38
+    nome: Linee Guida SPID 
+    stato: in corso   
+    attori: [ agid ]
+    descrizione: |
+      Al fine di favorire l’avvio dell’iter per l’emanazione ai sensi dell’art 71 del CAD, AGID predispone e pubblica in consultazione Linee guida relative ai seguenti argomenti:
+      - identità digitali per uso professionale;
+      - user experience;
+      - firma ex art. 20 del Codice dell’amministrazione digitale;
+      - adesione delle Attribute authority;
+      - OpenID Connect.
+      A chiusura della fase di consultazione, le linee guida seguiranno le modalità di emanazione previste dall’articolo 71 comma 1 del CAD.
+    risultati:  
+      - descrizione: |
+          Linee guida per il rilascio delle identità digitali per uso professionale (giugno 2019).
+      - descrizione: |
+          Linee guida user experience (giugno 2019).
+      - descrizione: |
+          Linee guida per l’implementazione di sistemi per la firma ex art. 20 del Codice dell’amministrazione digitale attraverso SPID (giugno 2019).
+      - descrizione: |
+          Linee guida per l’adesione in SPID delle Attribute authority in qualità di gestori di attributi qualificati (giugno 2019).
+      - descrizione: |
+          Linee guida OpenID connect (giugno 2019).
+    aree-intervento: |
+      Nel breve periodo, impatto sulle PA e sulle imprese (identity provider e service provider privati).
+
+  - chapter: piattaforme
+    numero: 39
+    nome: Attività a seguito della notifica di SPID alla Commissione Europea
+    stato: in corso 
+    attori: [ agid, ce, stati-membri, pa ]
+    descrizione: |
+      Riconoscimento del sistema di identificazione elettronica SPID da parte degli altri Stati membri e possibilità di utilizzo per l’accesso ai servizi in rete della PA.
+    risultati:  
+      - descrizione: |
+          SPID è abilitato all’uso per l’accesso ai servizi online delle PA all’interno dell’Unione Europea (ottobre 2019).
+    aree-intervento: |
+      Nel breve periodo, impatto sulle PA degli Stati membri e sui cittadini.
+
+  - chapter: piattaforme
+    numero: 40
+    nome: Integrazione con le identità digitali a livello europeo
+    stato: in corso   
+    attori: [ agid ]
+    descrizione: |
+      Le identità digitali, notificate ai sensi del regolamento eIDAS, consentiranno di accedere ai servizi offerti da tutti gli Stati membri dell’Unione Europea. Attraverso il progetto FICEP è in via di completamento il primo “server trasfrontaliero italiano” che consente circolarità delle identità digitali.  
+    risultati:  
+      - descrizione: |
+          Messa in esercizio del nodo FICEP.
+      - descrizione: |
+          Primo report sull’onboarding delle pubbliche amministrazioni e dei privati (entro dicembre 2019).
+    aree-intervento: |
+      Nel breve periodo, impatto sulle PA europee e sui cittadini.
+
+  - chapter: piattaforme
+    numero: 41
+    nome: Analisi diffusione di SPID ai fini dello switch-off
+    stato: in corso  
+    attori: [ agid ]
+    descrizione: |
+      AGID sviluppa uno studio sulla stabilità del sistema SPID ai fini del suo utilizzo esclusivo quale sistema di identificazione ai servizi online, ai sensi dell’art. 64 del CAD.
+    risultati:  
+      - descrizione: |
+          Pubblicazione studio relativo alla stabilità di SPID ai fini dello switch-off (ottobre 2019).
+    aree-intervento: |
+      Nel breve periodo, impatto sulle PA.
+
+  - chapter: piattaforme
+    numero: 42
+    nome: Emissione della CIE all’estero
+    stato: in corso    
+    attori: [ agid, interno, mae, comuni, ipzs ]
+    descrizione: |
+      Rendere le sedi di alcuni Consolati pilota in grado di accettare le richieste di CIE da parte degli italiani residenti all’estero.
+    risultati:  
+      - descrizione: |
+          Emissione della CIE all’estero nei Consolati pilota (da aprile 2019).
+    aree-intervento: |
+      Nel breve periodo, impatto su PA e cittadini.
+
+  - chapter: piattaforme
+    numero: 43
+    nome: Notifica eIDAS
+    stato: in corso   
+    attori: [ agid, interno, ipzs ]
+    descrizione: |
+      Riconoscimento della CIE come strumento di autenticazione ai servizi in rete della PA degli altri Stati membri della UE. Predisposizione da parte di AGID del processo previsto per la necessaria notifica alla Commissione Europea del sistema CIE come mezzo di identificazione elettronica riconosciuto tra gli Stati membri della UE, come previsto dall’art. 9 del Regolamento eIDAS e successiva Decisione Esecutiva EU 2015/1984.
+    risultati:  
+      - descrizione: |
+          Avvio da parte di AGID del processo previsto per la notifica alla Commissione Europea del sistema CIE come mezzo di identificazione elettronica riconosciuto tra gli Stati membri dell’UE, come previsto dall’art. 9 del Regolamento eIDAS e successiva Decisione Esecutiva EU 2015/1984 (da aprile 2019).
+    aree-intervento: |
+      Nel breve periodo, impatto su PA degli Stati membri dell’UE.
+
+  - chapter: piattaforme
+    numero: 44
+    nome: Accesso ai servizi online con CIE
+    inizio: 12/2019
+    attori: [ agid, interno, ipzs ]
+    descrizione: |
+      Realizzazione di un'infrastruttura in grado di permettere la realizzazione di servizi online, anche mobile, che utilizzino la CIE come sistema di identificazione.
+    risultati:  
+      - descrizione: |
+          Integrazione della CIE come strumento di identificazione nei servizi online della PA (entro dicembre 2019).
+    aree-intervento: |
+      Nel breve periodo, impatto sulle PA.
+
+  - chapter: piattaforme
+    numero: 45 
+    nome: Nuove Linee Guida per la formazione, gestione e conservazione dei documenti informatici 
+    stato: in corso  
+    attori: [ agid, conferenza-stato-regioni, garante-privacy, amministrazioni-partecipanti ]
+    descrizione: |
+      Attraverso l’analisi dettagliata delle regole tecniche vigenti, si intendono aggiornare le attuali Linee guida e addivenire ad un unicum che contempli tutti gli aspetti previsti all’art. 71 dal nuovo CAD (ex D.Lgs. 217/2017) in materia di formazione, gestione e conservazione del documento digitale. 
+      Redazione, consultazione, approvazione e pubblicazione delle Linee guida (secondo i passaggi istituzionali).
+    risultati:  
+      - descrizione: |
+          Linee guida per la formazione, gestione e conservazione dei documenti informatici (giugno 2019).
+    aree-intervento: |
+      Nel breve periodo, impatto sulle PA e su conservatori accreditati.
+
+  - chapter: piattaforme
+    numero: 46
+    nome: Modelli per l'interoperabilità tra sistemi di gestione documentale delle PA 
+    inizio: 01/2019 
+    attori: [ agid, pa, associazioni-categoria, consulenti-settore ]
+    descrizione: |
+      Definizione, progettazione e sviluppo di modelli e applicativi standard, conformi alle Linee guida e regole di interoperabilità delle PA che saranno definite da AGID entro il 2019. I componenti applicativi sviluppati, una volta diffusi all’interno delle PA coinvolte, garantiranno:
+      - l'interoperabilità tra i sistemi di gestione documentale già esistenti nelle pubbliche amministrazioni;
+      - l’integrazione tra sistemi di gestione documentale e poli di conservazione, con funzionalità di ricerca e monitoraggio di tipo avanzato.
+      Tali moduli potranno essere adottati in sussidiarietà dalle amministrazioni al fine di velocizzare la gestione completamente digitale del documento amministrativo.
+      L’obiettivo è quello di consentire a cittadini ed imprese un accesso razionalizzato ai documenti prodotti nell’ambito di tali procedimenti.
+    risultati:  
+      - descrizione: |
+          Realizzazione moduli di interoperabilità (giugno 2020).
+    aree-intervento: |
+      Nel breve periodo, impatto sulle PA e su conservatori accreditati.
+
+  - chapter: piattaforme
+    numero: 47
+    nome: Progetto di redazione di linee guida di interoperabilità tra sistemi di conservazione 
+    stato: in corso  
+    attori: [ agid, aid, notariato, acs, dg-archivi ]
+    descrizione: |
+      Gli attori condividono le esperienze maturate in materia di conservazione dei documenti informatici, con particolare attenzione alle soluzioni metodologiche, organizzative e tecniche adottate, nonché all’analisi delle tipologie di documenti e oggetti digitali (testo, immagini, filmati) prodotti e che dovranno essere oggetto di conservazione da parte della PA (formati, procedure di sicurezza, firme, dematerializzazione). È svolta una sperimentazione finalizzata a identificare e analizzare eventuali problematiche nella trasmissione di pacchetti di conservazione tra le parti e a individuare le modalità di comunicazione più idonee adottabili per la comunicazione tra diversi sistemi di conservazione. Gli attori definiscono infine uno schema architetturale e funzionale di procedure che consentano la conservazione permanente e le attività di scarto e di controllo su fascicoli e documenti che devono andare in conservazione. 
+      Il progetto sarà sviluppato in quattro fasi di lavoro: 
+      - identificazione delle soluzioni adottabili per garantire l’interoperabilità e la comunicazione tra sistemi di conservazione; 
+      - definizione delle modalità più opportune per garantire l’invio delle diverse tipologie di documenti informatici in conservazione, nel rispetto delle caratteristiche di qualità, sicurezza, integrità ed immodificabilità; 
+      - identificazione delle caratteristiche tecnologico-organizzative della rete dei Poli di conservazione e di un punto di accesso ai documenti in conservazione per l’Archivio Centrale dello Stato; 
+      - identificazione di regole per l’interoperabilità e la trasferibilità dei documenti informatici tra i sistemi di conservazione diversi, da mettere in consultazione pubblica.
+    risultati:  
+      - descrizione: |
+          Pubblicazione, previa consultazione pubblica, da parte di AGID delle regole di interoperabilità per i sistemi di conservazione a livello nazionale (dicembre 2021). 
+    aree-intervento: |
+      Nel medio periodo, impatto sulle PA.
+
+  - chapter: piattaforme
+    numero: 48 
+    nome: Progetto di dematerializzazione documenti della PA
+    stato: in corso 
+    attori: [ agid, pa ]
+    descrizione: |
+      Promuovere la piena digitalizzazione dell’attività amministrativa attraverso la progressiva dematerializzazione degli archivi correnti. Supportare le amministrazioni nell’individuazione di soluzioni e modelli organizzativi orientati alla completa digitalizzazione dei processi. Le amministrazioni comunicano ad AGID l’avvio e la conclusione del processo di dematerializzazione avviato all’interno di ciascuna Area Organizzativa Omogenea (AOO). AGID pubblica il primo report a fine 2021. 
+    risultati:  
+      - descrizione: |
+          Dematerializzazione degli archivi correnti delle pubbliche amministrazioni centrali: il 40% delle PA hanno concluso progetti di dematerializzazione degli archivi correnti e quindi risolto contratti di locazione degli spazi di stoccaggio degli archivi cartacei. (dicembre 2021).
+    aree-intervento: |
+      Nel medio periodo, impatto sulle PA.
+
+  - chapter: piattaforme
+    numero: 49
+    nome: Promozione della circolarità anagrafica
+    stato: in corso   
+    attori: [ interno, agid, sogei, pa, gestori-pubblici-servizi, societa-controllate-da-pa ]
+    descrizione: |
+      La linea di azione si sviluppa in due fasi:
+      1. Definizione di un modello di Accordo di servizio e di un processo facilitato per le stipule che indichi:
+      - le finalità istituzionali per cui si richiede l’accesso ai dati ANPR;  
+      - le modalità tecnico-amministrative con cui accedere;
+      - la definizione dei data service a cui poter accedere.
+      Verrà predisposto un sistema web per facilitare l’adesione all’Accordo di servizio ai soggetti che ne hanno diritto. 
+      2. Stipula degli Accordi di servizio
+    risultati:  
+      - descrizione: |
+          Modello di Accordo di servizio e processo per la stipula degli Accordi (gennaio 2019);
+      - descrizione: |
+          Stipula degli Accordi (da febbraio 2019).
+    aree-intervento: |
+      Nel breve e medio periodo impatto sulle PA, gestori di pubblici servizi, società controllate dalle PA.
+
+  - chapter: piattaforme
+    numero: 50
+    nome: Visura anagrafica e Certificazione anagrafica nazionale
+    stato: in corso   
+    attori: [ interno, agid, sogei ]
+    descrizione: |
+      ANPR permette a tutti i cittadini di visualizzare, anche attraverso SPID, la propria situazione anagrafica (visura anagrafica), e quella della famiglia anagrafica in cui è inserito, consultabili tramite web app resa disponibile a livello nazionale.
+      ANPR rende possibile, anche attraverso i servizi fiduciari previsti dal regolamento europeo eIDAS, per garantire l’autenticità della fonte, la realizzazione di un servizio di certificazione anagrafica nazionale on-line.
+    risultati:  
+      - descrizione: |
+          Disponibilità visura anagrafica on-line per i cittadini (gennaio 2019).
+      - descrizione: |
+          Disponibilità certificazione dei dati anagrafici on-line per i cittadini (dicembre 2019).
+    aree-intervento: |
+      Visura anagrafica: nel breve periodo sui cittadini le PA locali
+      Certificazione online: nel medio periodo sui cittadini, le PA locali e gli ordini professionali.
+
+###end piattaforme
+
+### start ecosistemi
+
+  - chapter: ecosistemi
+    numero: 51 
+    nome: Convocazione dei Gruppi di lavoro degli ecosistemi e definizione dei tavoli di lavoro tecnici 
+    inizio: 01/2019  
+    attori: [ capofila, agid ]
+    descrizione: |
+      Fase di envisioning - Per ciascun ecosistema, l’amministrazione capofila istituisce il Gruppo di lavoro, coinvolge gli stakeholder di riferimento per l’ecosistema (tramite, ad esempio, delle audizioni) e, una volta raccolte le loro esigenze, definisce il perimetro di riferimento dell’ecosistema stesso e ne descrive la vision con le progettualità e gli interventi prioritari. I Gruppi di lavoro inoltre definiscono gli eventuali tavoli tecnici necessari allo sviluppo degli ecosistemi. 
+    risultati:  
+      - descrizione: |
+          Le Amministrazioni capofila costituiscono, con il supporto di AGID, i Gruppi di lavoro per almeno 4 ecosistemi: Finanza pubblica, Sviluppo e sostenibilità, Beni culturali e turismo, Welfare (entro dicembre 2019).
+    aree-intervento: |
+      Nel breve periodo, impatto su PA capofila e stakeholder dell’ecosistema.
+
+  - chapter: ecosistemi
+    numero: 52
+    nome: Design degli ecosistemi 
+    inizio: 01/2020  
+    attori: [ gdl-ecosistemi ]
+    descrizione: |
+      Fase di design - I Gruppi di lavoro ed i tavoli tecnici, attraverso il coinvolgimento dei diversi stakeholder interessati, identificano le progettualità ed i servizi prioritari da sviluppare a beneficio dei cittadini e delle imprese, gli eventuali progetti già esistenti da integrare nel disegno dell’ecosistema, nonché le basi dati ed i sistemi informativi da collegare e correlare. Output di questa fase di lavoro dovrà essere un documento contenente la visione, il perimetro e la strategia di sviluppo dell’ecosistema, da sottoporre ad una consultazione pubblica della durata minima di 60 giorni. 
+    risultati:
+      - descrizione: |
+          I gruppi di lavoro degli ecosistemi prioritari producono ciascuno un documento contenente visione, perimetro e strategie di sviluppo degli ecosistemi - da mettere in consultazione pubblica (giugno 2020).
+    aree-intervento: |
+      Nel breve periodo, impatto su PA coinvolte e stakeholder degli ecosistemi.
+
+  - chapter: ecosistemi 
+    numero: 53
+    nome: Realizzazione delle analisi as-is degli ecosistemi
+    inizio: 06/2020
+    attori: [ gdl-ecosistemi ]
+    descrizione: |
+      Fase di Make or Buy - I Gruppi di lavoro ed i tavoli tecnici favoriscono e supportano le attività di realizzazione delle progettualità, studiano meccanismi di incentivazione all’utilizzo dei servizi digitali e istituiscono dei forum tematici per l’ascolto del mercato e dei cittadini. Definiscono e condividono una metodologia di monitoraggio delle azioni avviate.
+    risultati:  
+      - descrizione: |
+          I gruppi di lavoro degli ecosistemi monitorano lo sviluppo dell’ecosistema a partire dalla situazione di partenza (As-Is) e condividono una metodologia di monitoraggio. I gruppi di lavoro degli ecosistemi istituiscono inoltre Forum tematici (dicembre 2020).
+    aree-intervento: |
+      Nel breve periodo, impatto su PA coinvolte e stakeholder degli ecosistemi.
+
+  - chapter: ecosistemi 
+    numero: 54 
+    nome: Accompagnamento allo sviluppo degli ecosistemi
+    inizio: 01/2021
+    attori: [ gdl-ecosistemi ]
+    descrizione: |
+      Fase di Crescita (Growth) - I Gruppi di lavoro ed i tavoli tecnici degli ecosistemi accompagnano e monitorano lo sviluppo degli ecosistemi e delle diverse progettualità avviate e proseguono con le attività di ascolto e coinvolgimento attraverso i forum tematici.
+    risultati:
+      - descrizione: |
+          I gruppi di lavoro degli ecosistemi avviano azioni di accompagnamento e realizzano attività di monitoraggio sullo sviluppo degli ecosistemi (dicembre 2021).
+    aree-intervento: |
+      Nel breve periodo, impatto su PA coinvolte e stakeholder degli ecosistemi.
+
+### end ecosistemi
+
+### start sicurezza-informatica
+
+  - chapter: sicurezza-informatica 
     numero: 55
-    stato: completo
-      
-  - chapter: sicurezza
-    nome: Pubblicazione e adeguamento alle Regole tecniche per la sicurezza ICT delle Pubbliche amministrazioni
-    entro: 09/2017 
-    attori: [ agid, dfp, pa ]
+    nome: CERT-PA - ampliamento capacità operativa
+    stato: in corso   
+    attori: [ agid ]
     descrizione: |
-      AgID redige le Regole tecniche per la sicurezza ICT delle Pubbliche amministrazioni che forniranno alle PA le indicazioni sulle misure da adottare.
-      Il Dipartimento della Funzione Pubblica emana le Regole tecniche predisposte da AgID.
-      Le Pubbliche amministrazioni si adeguano alle Regole tecniche per la sicurezza ICT delle Pubbliche amministrazioni, attraverso la predisposizione e l'esecuzione di Piani di adeguamento alle regole tecniche emanate da AgID.
-      In attesa dell’emanazione delle suddette Regole tecniche, tutte le Pubbliche amministrazioni sono in grado di adeguarsi alle “Misure Minime Di Sicurezza ICT per le Pubbliche amministrazioni” già pubblicate da AgID.
+      CERT-PA, operante dal 2013, aumenterà progressivamente la sua capacità operativa, rafforzando l’infrastruttura ICT di erogazione dei servizi di base e potenziando il primo sistema informativo sulle minacce cibernetiche (Cyber Security Knowledge Base), anche attraverso l’implementazione delle soluzioni [Infosharing CERT-PA](https://portal.cert-pa.it/web/guest/login) e National Vulnerability Database(NVD).
     risultati:
       - descrizione: |
-          Regole tecniche per la sicurezza ICT delle Pubbliche amministrazioni (data di rilascio: giugno 2017)
-        stato: completo
-        nota: Pubblicate Misure minime di sicurezza
-      - descrizione: |
-          Piani di adeguamento delle PA (data di rilascio: nel rispetto dei vincoli di norma determinati dall’emanazione delle Regole tecniche)
+          Ampliamento della propria constituency, gestione della piattaforma di infosharing in modalità autonoma da parte delle amministrazioni accreditate. Costituzione del NVD tramite la piattaforma Infosec.
+    aree-intervento: |
+      Nel breve periodo, impatto sulle PA.
+
+  - chapter: sicurezza-informatica  
     numero: 56
-    stato: completo
-
-  - chapter: sicurezza
-    nome: Architettura della sicurezza per servizi critici
-    entro: 09/2017
-    attori: [ agid, pa ]
+    nome: CERT-PA - Piattaforma Infosec
+    inizio: 06/2019
+    attori: [ agid ]
     descrizione: |
-      Definizione dei principi e delle linee guida del modello architetturale di gestione dei servizi critici e contestualizzazione rispetto al cluster dei dati gestiti.
-      Le PA owner di servizi critici predispongono un Piano di adeguamento e adeguano o realizzano i servizi critici nel rispetto delle linee guida.
+      CERT-PA ridisegna e rende disponibile la piattaforma Infosec al fine di offrire un supporto altamente tecnico per gli analisti di sicurezza. La piattaforma sarà punto di riferimento tecnico operativo e informativo per tutte le PA. 
     risultati:
       - descrizione: |
-          Linee guida del modello architetturale di gestione dei servizi critici (data di rilascio: giugno 2017)
-        stato: in corso
-        nota: |
-          Predisposto documento su metodologie di architettura e sviluppo di servizi sicuri (dicembre 2017) in fase di approvazione. Tool su risk assessment in uscita a luglio 2018
-      - descrizione: |
-          Piano di adeguamento delle Amministrazioni owner di servizi critici (Da avviare entro settembre 2017)
-        stato: in corso
-        nota: |
-          In definizione un Piano di adeguamento che tenga conto della Direttiva NIS n. 1148/2016 e del DPCM 17/02/2017
+          Rilascio della piattaforma (luglio 2019).
+    aree-intervento: |
+      Nel breve periodo, impatto sulle PA.
+
+  - chapter: sicurezza-informatica  
     numero: 57
-    stato: in corso
-      
-  - chapter: sicurezza
-    nome: Continuous monitoring
-    attori: [ pa ]
-    descrizione: |
-      Per assicurare il continuous monitoring, raccomandato dalle best practices di sicurezza (es. ISO 27001, documentazione NIST), le Pubbliche amministrazioni provvederanno alla verifica dello stato di aggiornamento dei software impiegati in ogni singola amministrazione rispetto a vulnerabilità note pubblicate da uno o più soggetti di riferimento (ad es. CERT nazionali o basi di dati di vulnerabilità).
-      Per dare seguito alla presente azione si provvederà alla scansione dei software mediante strumenti automatici e alla successiva analisi dei risultati (e del possibile impatto di una vulnerabilità nota eventualmente non corretta) demandata ad un soggetto competente. AgID si riserva la possibilità di eseguire penetration test a campione. 
-    risultati:
-      - descrizione: |
-          Pubblicazione periodica dei risultati.    
-    numero: 58
-    
-  - chapter: sicurezza
-    nome: Segnalazioni incidenti Informatici al CERT-PA
-    attori: [ pa ]
-    descrizione: |
-      Tutte le Pubbliche amministrazioni sono tenute a monitorare e segnalare prontamente al CERT-PA gli incidenti informatici e ogni situazione di potenziale rischio, utilizzando i canali di comunicazione riportati nella sezione dedicata del sito AgID. 
-      Per tutti i soggetti accreditati su Infosharing CERT PA è disponibile un’apposita funzionalità di segnalazione.
-    risultati: ---
-    numero: 59
-
-  - chapter: sicurezza
-    nome: Riorganizzazione del dominio “gov.it”
+    nome: Adeguamento delle PA agli standard Trasmissione automatizzata IoC 
+    stato: in corso   
     attori: [ agid, pa ]
     descrizione: |
-      AgID emana le disposizioni per il riordino del dominio “gov.it”, al fine di riorganizzarlo con una segmentazione che risponda a criteri internazionali e consenta di raggruppare i siti delle amministrazioni centrali.
-      Simmetricamente entro 12 mesi le PA completano le attività.
+      Definizione degli standard per la trasmissione automatizzata degli indicatori di compromissione (IoC), emanazione delle linee guida del modello architetturale per la trasmissione automatizzata degli IoC.
+      Le PA, al fine di aderire all’architettura per la trasmissione automatizzata degli IoC, adottano gli standard emanati e predispongono un piano di adeguamento e realizzano i servizi nel rispetto delle Linee guida.
     risultati:
       - descrizione: |
-          Disposizioni per il riordino del dominio “gov.it” (data di rilascio: giugno 2017)
-        stato: completo
-        nota: |
-          Pubblicata determinazione n. 36/2018, in corso le azioni conseguenti
+          Emanazione standard e Linee guida del modello architetturale di gestione della trasmissione automatizzata degli IoC (settembre 2019).
       - descrizione: |
-          Adeguamento da parte delle PA alle suddette disposizioni (entro giugno 2018)
-        stato: in corso
+          Piano di adeguamento delle amministrazioni (dicembre 2019).
+    aree-intervento: |
+      Nel breve periodo, impatto sulle PA.
+
+  - chapter: sicurezza-informatica  
+    numero: 58
+    nome: Realizzazione piattaforma nazionale della PA per la trasmissione automatizzata degli IoC
+    stato: in corso  
+    attori: [ agid, pa ]
+    descrizione: |
+      AGID realizza, in via sperimentale, per le pubbliche amministrazioni, una piattaforma nazionale di trasmissione automatizzata degli IoC.
+    risultati:
+      - descrizione: |
+          Al fine di poter utilizzare tale piattaforma, le PA adottano gli standard emanati e predispongono le proprie infrastrutture all’utilizzo della piattaforma secondo gli standard e le Linee guida emanate da AGID (luglio 2019).
+    aree-intervento: |
+      Nel breve periodo, impatto sulle PA.
+
+  - chapter: sicurezza-informatica 
+    numero: 59
+    nome: Segnalazioni incidenti Informatici al CERT-PA
+    stato: in corso   
+    attori: [ pa ]
+    descrizione: |
+      Tutte le pubbliche amministrazioni sono tenute a monitorare e segnalare prontamente al CERT-PA gli incidenti informatici e ogni situazione di potenziale rischio, utilizzando i canali di comunicazione riportati nella [sezione dedicata del sito AGID](http://www.agid.gov.it/agenda-digitale/infrastrutture-architetture/cert-pa). Per tutti i soggetti accreditati su Infosharing CERT-PA è disponibile un’apposita funzionalità di segnalazione. 
+    risultati:
+      - descrizione: |
+          attività ricorrente.
+    aree-intervento: |
+      Nel breve periodo, impatto sulle PA.
+
+  - chapter: sicurezza-informatica 
     numero: 60
-    stato: in corso
-
-  ### end sicurezza
-  ### start data-analytics-framework
-
-  - chapter: data-analytics-framework
-    nome: Definizione e realizzazione del piano di sviluppo della fase di sperimentazione del Data & Analytics Framework
-    entro: 12/2017 
-    attori: [ agid, team-digitale ]
+    nome: Emanazione Linee Guida di sicurezza cibernetica per le PA 
+    stato: in corso  
+    attori: [ agid, pa ]
     descrizione: |
-      Individuazione del modello di governance del DAF e delle PA che faranno parte della fase di sperimentazione. Definizione dell’architettura della piattaforma e della sua roadmap di evoluzione. Definizione dei casi d'uso per lo sviluppo di servizi per Pubbliche amministrazioni, cittadini e imprese. Questa attività è coordinata con il Garante della privacy. 
-      Realizzazione dell’infrastruttura tecnologica, coerentemente con il piano di sviluppo della fase di sperimentazione del DAF, che implementa tutte le componenti necessarie per il funzionamento della Piattaforma.
+      A supporto e complemento delle Misure minime di sicurezza ICT, documento di natura prescrittiva che indirizza adempimenti tecnici puntuali, AGID emana documenti che indirizzano i temi strategici, organizzativi ed operativi necessari alle PA per innalzare il proprio livello di sensibilità, conoscenza, preparazione e capacità di risposta relativamente alla crescente minaccia cibernetica. 
     risultati:
       - descrizione: |
-          Piano di sviluppo del DAF (data di rilascio: giugno 2017)
-        stato: completo
-        nota: Pubblicato
-      - descrizione: |
-          Cluster big data e Test delle componenti e dei casi d'uso (data di rilascio: dicembre 2017)
-        stato: completo
-        nota: Realizzato
+          Emanazione delle Linee guida di sicurezza cibernetica per le PA (entro dicembre 2019).
+    aree-intervento: |
+      Nel breve periodo, impatto sulle PA.
+
+### end sicurezza informatica
+
+### start strumenti-servizi-digitali
+
+  - chapter: servizi-digitali
     numero: 61
-    stato: completo
-
-  - chapter: data-analytics-framework
-    nome: Ingestione dei dati nel DAF - Fase sperimentale
-    inizio: 06/2017
-    fine: 12/2017
-    attori: [ pa, agid, team-digitale ]
+    nome: Adeguamento alle Linee guida di design dei siti e servizi web delle PA 
+    stato: in corso   
+    attori: [ pa ]
     descrizione: |
-      Definizione delle basi di dati da inserire nel progetto in fase sperimentale e messa in esercizio delle procedure di estrazione e ingestione. Definizione dei rapporti tra il gestore del DAF e le PA aderenti all'iniziativa.
+      Le PA centrali indicate nella [Determinazione AGID n.36/2018](https://www.agid.gov.it/sites/default/files/repository_files/36_-_dt_dg_n._36_-_12_feb_2018_-_riorganizzazione_dominio_gov_22.12.2017_003_1_4.pdf) e non ancora aderenti alle Linee guida di design, nonché le PA regionali e locali, comunicano  ad AGID la data entro cui termineranno i lavori di adeguamento.
     risultati:
       - descrizione: |
-          Regolazione dei rapporti con le PA, definizione standard operativi nel rispetto delle norme sulla privacy, Definizione delle procedure di ingestione dei dati nella piattaforma, Alimentazione del DAF (data di rilascio: dicembre 2017).
-        stato: completo
-        nota: Realizzato
+          Le PA comunicano ad AGID le date entro cui saranno rilasciati siti e servizi digitali conformi alle Linee guida di design (ottobre 2019).
+    aree-intervento: |
+      Nel breve periodo, impatto sulle PA.
+
+  - chapter: servizi-digitali
     numero: 62
-    stato: completo
-
-  - chapter: data-analytics-framework
-    nome: Messa in Produzione del DAF
-    inizio: 01/2018
-    attori: [ team-digitale, agid, pa ]
+    nome: Linee guida di design dei siti della PA nei capitolati di gara
+    inizio: 06/2019 
+    attori: [ pa ]
     descrizione: |
-      Il Team digitale e AgID predisporranno le procedure atte al subentro del futuro owner del DAF che gestirà l'operatività e l'evoluzione del progetto.
-      L'owner del DAF curerà le interazioni con le PA per definire piani di inclusione delle relative basi di dati e casi d'uso. Le PA di volta in volta coinvolte definiranno le modalità di ingestione dei dati e utilizzo del DAF consone alle proprie attività.
+      Le pubbliche amministrazioni e i relativi fornitori seguono i processi metodologici e implementativi indicati dalle Linee guida di design e su Designers Italia.
     risultati:
       - descrizione: |
-          Piano di subentro. Operatività corrente (data di rilascio: da definire).
-        stato: in corso
+          Nei capitolati di gara relativi alla realizzazione di siti e servizi online, le PA indicano gli strumenti e le metodologie progettuali descritte nelle linee guida di design (da dicembre 2019).
+    aree-intervento: |
+      Nel breve periodo, impatto sulle PA e sulle imprese ICT.
+
+  - chapter: servizi-digitali
     numero: 63
-    stato: in corso
-    
-  - chapter: data-analytics-framework
-    nome: Realizzazione strumenti di supporto al monitoraggio del Piano
-    inizio: 04/2017
-    attori: [ agid, team-digitale ]
+    nome: Rilascio di un kit per il design e lo sviluppo dei siti dei comuni e delle scuole
+    inizio: 04/2019
+    attori: [ team-digitale, miur, comuni ]
     descrizione: |
-      Il Team digitale e AgID realizzano strumenti che, sulla base delle informazioni contenute nel DAF, forniscono informazioni utili alle attività di monitoraggio del Piano descritte nel capitolo 10 “Gestione del Cambiamento”. 
+      Il kit di design mette a disposizione uno standard per i siti web dei comuni e delle scuole basato sulle Linee guida di design. I due modelli, costruiti con pattern testati e verificati con gli utenti, intendono rendere più efficace l’interazione con il sito. A partire da aprile 2019, tutti i Comuni e le scuole potranno utilizzare lo starter kit disponibile. Una prima sperimentazione pilota sarà supportata da Team per la trasformazione digitale con un numero limitato di Comuni e scuole per verificare e consolidare il modello in vista di una sua adozione su scala più ampia.
     risultati:
       - descrizione: |
-          Strumenti di supporto al monitoraggio del Piano (da gennaio 2018)
-        stato: completo
-        nota: A partire dal mese di gennaio 2018 
+          Modello standard di servizio ed esperienza utente attivo nei Comuni e nelle scuole che prendono parte alla sperimentazione pilota (da agosto 2019).  
+    aree-intervento: |
+      Nel breve periodo, impatto su Comuni, scuole e cittadini.
+
+  - chapter: servizi-digitali
     numero: 64
-    stato: completo
+    nome: Pubblicazione delle linee guida di design contenenti regole, standard e guide tecniche, secondo l’articolo 71 del CAD 
+    inizio: 07/2019 
+    attori: [ agid ]
+    descrizione: |
+      Ai sensi degli articoli 14-bis e 71 del CAD, AGID emana, sotto forma di regole tecniche, le Linee guida di design dei siti e dei servizi web della PA.
+    risultati:
+      - descrizione: |
+          Pubblicazione, su apposita sezione del sito web AGID, delle Linee guida di design dei siti e dei servizi web della PA secondo quanto previsto dall’art 71 del CAD. 
+      - descrizione: |
+          Le linee guida contengono regole tecniche e definizione degli aspetti di dettaglio, in apposito allegato tecnico costituente parte integrante delle linee guida stesse (luglio 2019).
+    aree-intervento: |
+      Nel breve periodo, impatto su PA e fornitori.
 
-  ### end data-analytics-framework
-  ### start gestione-del-cambiamento
+  - chapter: servizi-digitali 
+    numero: 65
+    nome: Pubblicazione obiettivi di accessibilità
+    entro: 03/2019
+    attori: [ pa ]
+    descrizione: |
+      Le PA effettuano annualmente una ricognizione interna circa gli interventi e le soluzioni da porre in essere per migliorare l’accessibilità dei siti e dei servizi online erogati (ad es. i corsi di aggiornamento sull’accessibilità, inclusi quelli relativi alle modalità di creazione, gestione e aggiornamento di contenuti accessibili dei siti web e delle applicazioni mobili oppure l’eliminazione dei documenti in formato immagine), inserendo anche la previsione temporale per la realizzazione di tali interventi e lo comunicano negli obiettivi di accessibilità.
+    risultati:
+      - descrizione: |
+          Le PA pubblicano sul sito web istituzionale gli [obiettivi annuali di accessibilità](https://www.agid.gov.it/it/Circolare-n1-2016-Agenzia-Italia-Digitale) nella sezione “Amministrazione trasparente – Altri contenuti – Accessibilità e Catalogo di dati, metadati e banche dati” (entro 31 marzo di ogni anno).
+    aree-intervento: |
+      Nel breve periodo, impatto sulle PA.
 
-  - chapter: gestione-del-cambiamento
-    nome: Sistema di monitoraggio
+  - chapter: servizi-digitali
+    numero: 66
+    nome: Attuazione Direttiva europea 2016/2102 sull’accessibilità dei siti web
+    stato: in corso  
+    attori: [ pa ]
+    descrizione: |
+      I siti web pubblicati dopo il mese di settembre 2018 dovranno essere aderenti agli adempimenti previsti dalla Direttiva europea recepita col D.Lgs. 106/2018.
+    risultati:
+      - descrizione: |
+          Le PA pubblicano sul loro sito istituzionale la dichiarazione di accessibilità dal 23 settembre 2019.
+      - descrizione: |
+          Entrata in piena applicazione per i siti web pubblicati dal 23 settembre 2018, a decorrere dal 23 settembre 2019.
+      - descrizione: |
+          Entrata in piena applicazione per i siti web pubblicati prima del 23 settembre 2018, a decorrere dal 23 settembre 2020.
+      - descrizione: |
+          Entrata in piena applicazione per le applicazioni mobili, a decorrere dal 23 giugno 2021.
+    aree-intervento: |
+      Nel breve periodo, impatto su PA e cittadini.
+
+  - chapter: servizi-digitali
+    numero: 67
+    nome: Utilizzo del protocollo eGLU per i test usabilità dei siti web delle PA centrali
+    inizio: 01/2019
+    attori: [ pac ]
+    descrizione: |
+      Le pubbliche amministrazioni centrali, elencate nella [Determinazione AGID n.36/2018](https://www.agid.gov.it/sites/default/files/repository_files/36_-_dt_dg_n._36_-_12_feb_2018_-_riorganizzazione_dominio_gov_22.12.2017_003_1_4.pdf), effettuano dei test di usabilità sui propri siti istituzionali utilizzando il [“Protocollo eGLU LG per la realizzazione di test di usabilità”](https://docs.italia.it/italia/designers-italia/design-linee-guida-docs/it/stabile/doc/user-research/usabilita.html#protocollo-eglu-lg-per-la-realizzazione-di-test-di-usabilita), e i relativi [kit di usabilità](https://designers.italia.it/kit/usability-test/) messi a disposizione su Designers.italia.it. 
+    risultati:
+      - descrizione: |
+          Le PA inviano ad AGID il report finale del test di usabilità (giugno 2019) e alcuni dei risultati più rilevanti vengono pubblicati sul sito Designers.Italia.it. 
+      - descrizione: |
+          AGID e il Dipartimento di Funzione Pubblica organizzano un incontro annuale con le PA per presentare e discutere i risultati (da dicembre 2019, con cadenza annuale).
+    aree-intervento: |
+      Nel breve periodo, impatto sulle PA.
+
+  - chapter: servizi-digitali
+    numero: 68
+    nome: Nuovi strumenti per il riuso delle soluzioni delle PA
+    inizio: 01/2019
+    attori: [ agid, team-digitale, pa ]
+    descrizione: |
+      Verranno definiti e realizzati strumenti operativi per fornire alle PA indicazioni puntuali per realizzare la condivisione dei software aperti.
+    risultati:
+      - descrizione: |
+          Linee guida in attuazione degli artt.68 e 69 del CAD, contenenti:
+          - modello per la scelta del tipo di licenza (giugno 2019);
+          - indicazioni per la gestione della maintainance compresa l’individuazione della modalità di condivisione della spesa (giugno 2019);
+          - individuazione degli strumenti per diffondere e rendere disponibile il software open source di proprietà delle PA - nuovo catalogo del riuso presso Developers Italia (giugno 2019).
+    aree-intervento: |
+      Nel breve periodo, impatto su PA.
+
+  - chapter: servizi-digitali
+    numero: 69
+    nome: Evoluzione della piattaforma Docs Italia
+    inizio: 06/2019
+    attori: [ team-digitale, agid ]
+    descrizione: |
+      La piattaforma Docs Italia è oggetto di un continuo processo di evoluzione che comprenderà, tra l’altro, la creazione di un nuovo front end responsive e accessibile, un convertitore di documenti, un efficace motore di ricerca e la possibilità di commentare i documenti per rendere più efficace i processi di consultazione.
+    risultati:
+      - descrizione: |
+          Pubblicazione progressiva di un nucleo sempre più ampio di tipologie di documenti.
+    aree-intervento: |
+      Nel breve periodo, impatto su PA e cittadini.
+
+  - chapter: servizi-digitali
+    numero: 70
+    nome: Sperimentazione dell’adozione di Docs Italia per documentare progetti pubblici legati all’Agenda digitale 
+    inizio: 12/2019
     attori: [ pa, agid, team-digitale ]
     descrizione: |
-      AgID fornisce alle PA l’insieme minimo di indicatori da valorizzare per la misurazione dello stato di avanzamento del Piano. 
-      Le PA raccolgono i dati per la valorizzazione dei suddetti indicatori e li comunicano ad AgID secondo le modalità che verranno indicate da AgID.
-      AgID e Team digitale progettano e realizzano uno strumento che, avvalendosi anche delle esperienze dei sistemi di monitoraggio già in uso delle PA, assicuri:
-      - la raccolta automatizzata di dati relativi ai singoli progetti (dati descrittivi, economici, di SAL, ecc.);
-      - l’analisi in forma aggregata e puntuale su scala territoriale e nazionale, e che consenta di condividere il progresso sull’attuazione della strategia digitale.
-      La realizzazione del sistema di monitoraggio si avvarrà anche degli strumenti messi a disposizione dal DAF. 
-      Lo strumento sarà reso disponibile alle PA aggregatrici. 
+      Realizzazione di un progetto pilota che prevede l’identificazione di un nucleo ristretto di amministrazioni e progetti (documenti descrittivi, documenti tecnici) che verranno documentati esclusivamente attraverso Docs Italia
     risultati:
       - descrizione: |
-          Insieme minimo di Indicatori per la misurazione dello stato di avanzamento del Piano (data di rilascio: luglio 2017)
-        stato: completo
-        nota: Presentato alle Regioni
-      - descrizione: |
-          Prima release del sistema di monitoraggio (data di rilascio: marzo 2018)
-        stato: in corso
-        nota: Rilascio imminente
-    numero: 65
-    stato: in corso
-      
-  - chapter: gestione-del-cambiamento
-    nome: Comunicazione del Piano Triennale
-    attori: [ agid, team-digitale ]
-    descrizione: |
-      Ideazione di iniziative di comunicazione per la diffusione e l’implementazione del Piano Triennale.
-    risultati:
-      - descrizione: |
-          Materiali di comunicazione (data di rilascio: da giugno 2017)
-        stato: completo
-        nota: |
-          Sito, incontri a ForumPA, incontri con Software House e Regioni
-    numero: 66
-    stato: completo
+          I documenti delle pubbliche amministrazioni identificati nel progetto pilota sono ospitati sulla piattaforma Docs Italia (da giugno 2019).
+    aree-intervento: |
+      Nel breve periodo, impatto su PA e cittadini.
 
-  - chapter: gestione-del-cambiamento
-    nome: Identificazione dei principali profili e azioni di promozione per la creazione di competenze digitali nella PA
-    inizio: 09/2017
-    attori: [ dfp, istat, miur, agid, altri-organismi-tecnici ]
+  - chapter: servizi-digitali
+    numero: 71
+    nome: Avvio del processo di onboarding alla piattaforma “Web analytics Italia”
+    inizio: 10/2019
+    attori: [ pa-coinvolte, agid ]
     descrizione: |
-      Raccordo tra gli attori per la definizione delle figure professionali identificate dal piano con la messa a punto di specifici percorsi formativi.
+      A seguito di una sperimentazione pilota, le amministrazioni effettuano l’onboarding alla piattaforma “Web analytics Italia” per l’utilizzo in autonomia della piattaforma.
     risultati:
       - descrizione: |
-          Revisione dei profili UNINFO e ISTAT per le nuove figure professionali con competenze digitali
-        stato: in corso
-        nota: Sono stati definiti i profili, le figure sono in attesa di individuazione da parte del DFP
+          Le amministrazioni coinvolte da AGID partecipano al progetto pilota ed effettuano l’analisi dei siti web o servizi digitali di propria competenza (da ottobre 2019).
       - descrizione: |
-          Realizzazione di format di corsi, workshop e master
-        stato: completo
-        nota: Es. erogazione corsi in collaborazione con SNA
-    numero: 67
-    stato: in corso
+          AGID apre la piattaforma a tutte le amministrazioni interessate (dicembre 2019).
+    aree-intervento: |
+      Nel breve periodo, impatto sulle PA. Nel medio e lungo periodo impatto sui soggetti istituzionali coinvolti, imprese, professionisti e cittadini.
 
-### end gestione-del-cambiamento
-### start data-center-e-cloud 
+  - chapter: servizi-digitali
+    numero: 72
+    nome: Progettazione e sviluppo dell’app e della piattaforma
+    inizio: 01/2019
+    attori: [ team-digitale ]
+    descrizione: |
+      Implementazione dell’app (backend-frontend). IO è un’applicazione progettata per soddisfare i bisogni del cittadino, fornendo un luogo digitale di accesso all’esperienza di cittadinanza digitale. L’applicazione e i suoi componenti sviluppati come open source, il backlog delle attività e il codice saranno accessibili liberamente.
+    risultati:
+      - descrizione: |
+          Test della prima closed-beta dell’app che implementa le funzionalità di notifica, pagamento, gestione del wallet pagoPA (settembre 2019)
+    aree-intervento: |
+      Nel breve periodo, impatto su PA e cittadini.
+
+  - chapter: servizi-digitali
+    numero: 73
+    nome: Onboarding delle PA sulla piattaforma IO
+    inizio: 01/2020
+    attori: [ team-digitale, pa-coinvolte ]
+    descrizione: |
+      Gli enti erogatori dei servizi si qualificano presso i sistemi di IO e iniziano a veicolare i propri servizi anche tramite le API messe a disposizione.
+    risultati:
+      - descrizione: |
+          Le PA coinvolte veicolano almeno 50 servizi centrali e locali (settembre 2020).
+    aree-intervento: |
+      Nel breve periodo, impatto su PA e cittadini.
+
+  - chapter: servizi-digitali
+    numero: 74
+    nome: Supporto alla migrazione verso il dominio .edu e il dominio .it
+    stato: in corso  
+    attori: [ miur, cnr, agid, pal, istituzioni-scolastiche ]
+    descrizione: |
+      AGID, CNR e MIUR hanno costituito un tavolo di lavoro per supportare il passaggio degli istituti scolastici al dominio “.edu.it”. MIUR e CNR hanno predisposto una [pagina informativa](http://www.miur.gov.it/web/guest/nuovo-dominio-edu.it) di supporto. AGID ha pubblicato una [manifestazione d’interesse](https://www.agid.gov.it/sites/default/files/repository_files/manifestazioneinteresse_7set2018_uv.pdf) rivolta ai fornitori di servizi di gestione dei domini internet alle PA individuate dalla  Determinazione n.36/2018 per la richiesta di disponibilità a fornire, nel periodo transitorio, i servizi necessari alla corretta migrazione dei domini. 
+      Da settembre 2018, tutte le scuole di ogni ordine e grado possono registrare il nome a dominio .edu.it attraverso il portale del CNR, Registro.it.
+      Analogamente, sullo stesso portale tutti gli enti territoriali possono [procedere alla registrazione del dominio.it](https://www.nic.it/registra-tuo-it/registrare-it) secondo le indicazioni in esso contenute.
+    risultati:
+      - descrizione: |
+          Migrazione delle scuole al dominio “edu.it” e degli enti territoriali al dominio “.it” (ottobre 2019).
+    aree-intervento: |
+      Nel breve periodo, impatto su PA coinvolte (MIUR, scuole e enti territoriali).
+
+### end strumenti-servizi-digitali
+
+### start strumenti-innovazione
+
+  - chapter: modelli-e-strumenti-innovazione
+    numero: 75
+    nome: Attivazione e sperimentazione della Piattaforma per gli appalti di innovazione
+    stato: in corso   
+    attori: [ agid, stakeholder ]
+    descrizione: |
+      Quest’azione mira a rilasciare:
+      - la piattaforma di accordi istituzionali comprendente, tra le altre, le amministrazioni individuate nell’art. 19 del D.L. 179/2012;
+      - la vetrina delle best practice degli appalti di innovazione, quale strumento di condivisione della conoscenza delle esperienze migliori;
+      - lo strumento per l’emersione e la sistematizzazione dei fabbisogni di innovazione;
+      - il forum come strumento di open innovation, per favorire l’aggregazione della domanda pubblica e la partecipazione del mercato.
+    risultati:
+      - descrizione: |
+          AGID mette a disposizione la Piattaforma e sperimentazione dell’innovation procurement broker (giugno 2019).
+    aree-intervento: |
+      Nel breve periodo impatto sulle PA, nel medio periodo impatto sulle imprese
+
+  - chapter: modelli-e-strumenti-innovazione
+    numero: 76
+    nome: Promozione e monitoraggio degli appalti di innovazione
+    stato: in corso  
+    attori: [ agid, pa ]
+    descrizione: |
+      Sollecitare le amministrazioni all’utilizzo delle pratiche per appalti di innovazione: consultazioni di mercato, procedure negoziate, dialogo competitivo, partenariato per l’innovazione a condividere le informazioni chiave, così da favorire:
+      - la collaborazione tra PA innovative;
+      - l’identificazione e la condivisione delle migliori pratiche;
+      - il coinvolgimento di un mercato sempre più ampio ed eterogeneo
+    risultati:
+      - descrizione: |
+          Attivazione di uno strumento di monitoraggio della spesa in appalti precommerciali e di innovazione, con aspettativa di incremento annuo del 10% della spesa complessiva in materia di acquisti d’innovazione nel triennio 2019/2021 (dicembre 2021, con report di misurazione ogni sei mesi).   
+    aree-intervento: |
+      Nel breve periodo, impatto sulle PA (continuo nel triennio).
+
+  - chapter: modelli-e-strumenti-innovazione
+    numero: 77
+    nome: Definizione e implementazione del modello Smart Landscape 
+    stato: in corso    
+    attori: [ agid, gdl-enti-locali, rtd, stakeholder ]
+    descrizione: |
+      La definizione di un modello di Smart Landscape Engine vedrà in prima battuta il coinvolgimento delle Amministrazioni e dei loro Responsabili della Transizione al Digitale, oltre che degli altri stakeholder citati precedentemente, al fine di effettuare un assessment dei progetti in atto e di ottenere contributi e dati territoriali in modo proattivo. Con la stipula di accordi di collaborazione si addiverrà ad una prima implementazione del modello attraverso la sperimentazione di innovazioni tecnologiche in contesti controllati che riproducano le dinamiche e le interazioni dell’ambiente urbano e non, anche attraverso attività di studio e di ricerca. 
+    risultati:
+      - descrizione: |
+          Primo modello di riferimento (da dicembre 2019).
+    aree-intervento: |
+      Nel breve periodo, impatto sulle PA.
+
+  - chapter: modelli-e-strumenti-innovazione
+    numero: 78
+    nome: Progettazione e realizzazione del primo prototipo del motore predittivo a supporto della governance della Smart Landscape
+    inizio: 01/2020
+    attori: [ agid, rtd, universita-centri-ricerca ]
+    descrizione: |
+      Attraverso la definizione della strategia di procurement si definirà un percorso di ricerca e sviluppo della soluzione innovativa basata su tecniche di Intelligenza artificiale. Il motore predittivo implementato verrà reso fruibile su una Piattaforma (Smart Landscape Platform - SLaP), in fase di progettazione, che faciliterà l’attuazione del modello proposto e l’integrazione di servizi tra PA e operatori economici, grazie all’interazione con il cittadino.
+    risultati:
+      - descrizione: |
+          Prima validazione del prototipo scalabile su ulteriori aree di intervento (dicembre 2021).
+    aree-intervento: |
+      Nel breve periodo, impatto sulle PA.
+
+### end strumenti-innovazione
+
+### governare-la-trasformazione-digitale
+
+  - chapter: governare-la-trasformazione-digitale
+    numero: 79
+    nome: Costituzione di Unità di Program Management Office nazionali e regionali
+    stato: in corso 
+    attori: [ agid, regioni ]
+    descrizione: | 
+      Istituzione di unità di Program Management Office regionali (PMOR) dedicate alle attività regionali, con il compito di coordinare le attività operative oggetto dell’accordo regionale, sviluppare e manutenere il Master Plan di progetto e interagire con il Project Management Office Centrale AGID che può ingaggiare all’occorrenza i Centri di Competenza Tematici, (CDCT) che, oltre a fornire il supporto specialistico richiesto dal PMO, hanno anche il compito di sviluppare metodologie per la messa a disposizione degli asset necessari all’implementazione.
+    risultati:
+      - descrizione: |
+          Creazione di una piattaforma per il PMO e di un modello operativo di azione (giugno 2019);
+      - descrizione: |
+          Avvio del PMO regionale su 3 Regioni Pilota (dicembre 2019).
+    aree-intervento: |
+      Impatto a breve termine sulle PA.
+
+  - chapter: governare-la-trasformazione-digitale
+    numero: 80
+    nome: Laboratori digitali per i territori
+    inizio: 01/2019
+    attori: [ agid, dfp, pal ]
+    descrizione: |
+      Il processo di digitalizzazione del Paese deve coinvolgere tutte le realtà territoriali, a partire dai piccoli Comuni, e il primo passo è quello di informare, sensibilizzare e dare ascolto alle esigenze che vengono dal basso. Saranno costituiti “Laboratori digitali” con piccoli Comuni o con aggregazioni di essi per: i) definire modelli di organizzazione, anche territoriale, finalizzati all’introduzione delle iniziative di digitalizzazione previste dal Piano; ii) rilevare i fabbisogni di competenze del personale all’interno di tali amministrazioni e delineare le opportune iniziative formative; iii) individuare canali di finanziamento degli interventi, in collaborazione con le Regioni e le città metropolitane; iv) avviare progetti pilota all’interno dei Laboratori. 
+    risultati:
+      - descrizione: |
+          Costituzione di almeno 10 laboratori digitali entro dicembre 2019.
+    aree-intervento: |
+      Nel breve periodo, impatto sulle PA.
+
+  - chapter: governare-la-trasformazione-digitale
+    numero: 81
+    nome: Istituzione del servizio civile digitale
+    inizio: 01/2019
+    attori: [ dfp, agid, servizio-civile, regioni, province-autonome, citta-metro, comuni ]
+    descrizione: |
+      I Comuni inseriscono progetti di trasformazione digitale all’interno dei bandi per il servizio civile. Saranno premiate le proposte progettuali delle unioni di Comuni che, al fine di razionalizzare la spesa pubblica rendere efficienti i procedimenti amministrativi, intendano aggregare funzioni e servizi. I giovani intenzionati ad attivare il servizio civile che sceglieranno un progetto di trasformazione o di formazione digitale (riduzione del digital divide), dopo un breve corso di formazione presso AGID, attraverso un toolkit che verrà loro messo a disposizione, potranno realizzare delle attività di formazione ai dipendenti dei comuni in materia di Piano Triennale per l’informatizzazione della pubblica amministrazione e/o potranno seguire direttamente i progetti di digitalizzazione avviati dal Comune stesso. 
+    risultati:
+      - descrizione: |
+          Avvio del progetto in fase sperimentale (entro dicembre 2020).
+    aree-intervento: |
+      Impatto a breve-medio termine su PA e cittadini.
+
+  - chapter: governare-la-trasformazione-digitale
+    numero: 82
+    nome: Il Responsabile della Transizione alla modalità digitale
+    stato: in corso 
+    attori: [ agid, dfp, pac, regioni, citta-metro ]
+    descrizione: 
+      AGID promuove la creazione di un gruppo di lavoro permanente partendo da dai RTD di PA Centrali, Regioni, Città Metropolitane e relativi Comuni capoluogo, per supportare le amministrazioni ed attuare gli obiettivi di transizione al digitale previsti dal Piano Triennale. Tale rete ha il compito di evidenziare e condividere fabbisogni, esperienze e criticità, al fine di definire strumenti, metodologie, soluzioni replicabili in tutte le PA. 
+      Il Dipartimento della Funzione Pubblica e AGID, al fine di rafforzare il ruolo degli RTD, costruiscono e condividono modelli organizzativi comuni e obiettivi di performance correlati alla digitalizzazione.
+      Riunioni periodiche e tematiche dei RTD consentiranno di definire tavoli di lavoro specifici al cui interno le Amministrazioni avranno un ruolo proattivo nel condividere dati, esperienze, proposte. A tale scopo saranno utilizzati spazi di discussione (es. forum.italia.it) e gruppi di lavoro online.
+    risultati:
+      - descrizione: |
+          AGID istituisce la rete dei RTD (entro marzo 2019) e promuove la costituzione di una conferenza permanente dei RTD (entro dicembre 2019). 
+    aree-intervento: |
+      Impatto a breve termine sulle PA
+
+  - chapter: governare-la-trasformazione-digitale
+    numero: 83
+    nome: Iniziative della Rete dei RTD
+    inizio: 07/2019 
+    attori: [ agid, dfp, formez, sna, pac, regioni, citta-metro ]
+    descrizione: |
+      Per collaborare alla realizzazione della trasformazione digitale AGID supporta i RTD mettendo a disposizione figure di supporto specialistico, strumenti e aree di collaborazione, che hanno l’obiettivo di trasferire conoscenze e strategie di digitalizzazione da attuare all’interno delle amministrazioni per la realizzazione del Piano e di accrescimento della capacità amministrativa, come spazi di discussione, e gruppi di lavoro online. La Rete dei RTD, in sinergia con gli attori indicati, elabora e utilizza risorse comuni (es.: modelli applicativi e studi), promuove attività di formazione di competenze digitali specialistiche e trasversali, avvia iniziative di sensibilizzazione e diffusione, anche sul territorio anche allo scopo di valorizzare le migliori best practice.
+    risultati:
+      - descrizione: |
+          La Rete dei RTD sviluppa modelli applicativi e studi e promuove incontri ed eventi di formazione, divulgazione, condivisione (entro dicembre 2019).
+    aree-intervento: |
+      Impatto a breve termine sulle PA.
+
+  - chapter: governare-la-trasformazione-digitale
+    numero: 84
+    nome: Evoluzione della strategia di monitoraggio
+    inizio: 01/2019
+    attori: [ agid, amministrazioni-partecipanti ]
+    descrizione: |
+      AGID ha avviato un’attività di ricognizione e di definizione delle modalità di calcolo degli attuali indicatori presenti nella Strategia per la crescita digitale, accogliendo peraltro le sollecitazioni in tal senso pervenute da amministrazioni territoriali ed enti nel corso di specifici incontri sul tema . Tale ricognizione è stata lo spunto per individuare nuovi indicatori per monitorare, con maggiore incisività, le iniziative strategicamente rilevanti per AGID e per riflettere sulla definizione di una metodologia univoca per la raccolta dei dati utili alla misurazione dei diversi indicatori individuati. Per il consolidamento della metodologia si intende coinvolgere, in modo permanente, le amministrazioni territoriali che si confronteranno per:
+      - individuare un livello comune minimo di dati da rilevare presso tutte le amministrazioni;
+      - individuare modalità di reperimento dei dati senza gravare sulle amministrazioni che detengono il dato evitando di dover fornire sempre gli stessi dati;
+      - individuare una correlazione con gli indicatori dell’eGovernment Benchmark per consentire la verifica degli impatti degli avanzamenti sugli indicatori definiti dall’Europa.
+      - aggiornare la metodologia in funzione delle strategie di contesto (es. aggiornamenti del Piano Triennale, nuova programmazione 2021-2027, ecc.);
+      - definire le rappresentazioni e i dataset comuni che saranno gestiti dalla piattaforma di monitoraggio.
+    risultati:
+      - descrizione: |
+          Definizione di una metodologia utile a monitorare le agende digitali regionali e gli interventi di trasformazione digitale (entro dicembre 2019).
+    aree-intervento: |
+      Impatto a breve termine sulle PA.
+
+  - chapter: governare-la-trasformazione-digitale
+    numero: 85
+    nome: Rilascio e messa in esercizio della piattaforma di monitoraggio
+    inizio: 06/2019
+    attori: [ agid, pa-coinvolte ]
+    descrizione: |
+      Verrà rilasciata la piattaforma di monitoraggio sulla base della quale si avvierà la sperimentazione di applicazione del modello di monitoraggio per la raccolta dei dati utili al calcolo degli indicatori. La piattaforma consentirà anche il monitoraggio delle attività dei Program Management Office e dovrà essere in grado di:
+      - raccogliere le informazioni provenienti da diverse basi dati in maniera automatizzata o grazie alla collaborazione di altre Amministrazioni che detengono i dati. Questa seconda modalità sarà garantita grazie all’accesso tramite SPID ad un’area specifica della piattaforma di monitoraggio, definita per l’imputazione periodica dei dati sulla base dell’indicatore da alimentare;
+      - mostrare pubblicamente l’avanzamento di tutti gli indicatori individuati (di avanzamento delle azioni del Piano, di output e di risultato coerenti con la “Strategia per la crescita digitale”, ecc.) consentendo di filtrarli attraverso diverse dimensioni di analisi (per territorio, per periodo di rilevazione, per tematica, ecc.);
+      - rappresentare i dati in forma grafica e intuitiva, consentendone la disponibilità in formato aperto.
+    risultati:
+      - descrizione: |
+          Piattaforma di monitoraggio in esercizio per la raccolta dei dati e la rappresentazione degli indicatori (dicembre 2019). 
+    aree-intervento: |
+      Impatto a breve termine sulle PA.
+
+  - chapter: governare-la-trasformazione-digitale
+    numero: 86
+    nome: Progettazione ed erogazione di corsi di ICT project management per RTD
+    inizio: 01/2019
+    attori: [ sna, formez, agid, team-digitale, altre-strutture-formative, universita-centri-ricerca, pa-coinvolte ]
+    descrizione: |
+      Tutte le strutture formative della PA saranno impegnate a progettare ed erogare corsi dedicati ai Responsabili della transizione al digitale, a vari livelli di approfondimento e con differenti modalità di veicolazione dei contenuti: da corsi brevi i cui contenuti vengono riassunti in brevi manuali (quick reference manual), a webinar e MOOC, a corsi di approfondimento sui temi del Piano Triennale, a veri e propri master sulla reingegnerizzazione dei processi.
+    risultati:
+      - descrizione: |
+          Almeno 10 iniziative di formazione erogate per ciascuna annualità del Piano Triennale: almeno 30 iniziative alla fine del triennio (dicembre 2021).
+    aree-intervento: |
+      Impatto a breve termine sulle PA.
+
+  - chapter: governare-la-trasformazione-digitale
+    numero: 87
+    nome: Progettazione ed erogazione di iniziative di formazione di base e specialistica per PA
+    inizio: 01/2019
+    attori: [ sna, formez, agid, team-digitale, altre-strutture-formative, universita-centri-ricerca ]
+    descrizione: |
+      Facendo seguito all’esperienza condotta nell’ambito del precedente Piano Triennale, è in corso la progettazione e la realizzazione iniziative di formazione di base e di formazione specialistica per i dipendenti delle PA, con due finalità: fornire a tutti, anche a chi non si occupa di informatica, un quadro per orientarsi in tema di trasformazione digitale del Paese ed illustrarne i vantaggi in tema di semplificazione e migliore efficienza della macchina amministrativa. Le attività di erogazione di seminari in presenza, di webinar di alfabetizzazione e di corsi specialistici saranno organizzate sia livello nazionale, sia insieme con Regioni, Città metropolitane, Comuni, offrendo modelli innovativi di formazione.
+    risultati:
+      - descrizione: |
+          Almeno 50 iniziative di formazione erogate alla fine del triennio 2019-2021.
+    aree-intervento: |
+      Impatto a breve termine sulle PA.
+
+  - chapter: governare-la-trasformazione-digitale
+    numero: 88
+    nome: Interazione della figura del Difensore civico per il digitale con la rete dei Responsabili per la transizione al digitale 
+    inizio: 07/2019
+    attori: [ agid, pac ]
+    descrizione: |
+      individuazione e valutazione di modelli possibili utilizzabili di interazione tra i Responsabili per la transizione al digitale delle PAC ed il Difensore civico; avvio di una sperimentazione per la creazione di una rete sinergica. 
+    risultati:
+      - descrizione: |
+          AGID e PAC avviano le attività della rete (da gennaio 2020).
+    aree-intervento: |
+      Impatto a breve e medio termine sulle PA.
+
+  - chapter: governare-la-trasformazione-digitale
+    numero: 89
+    nome: Redazione Guida sui diritti di cittadinanza digitale
+    stato: in corso 
+    attori: [ agid ]
+    descrizione: |
+      Predisposizione di una Guida per i cittadini che illustri i principali diritti digitali contenuti nel CAD che regolano e semplificano il rapporto dei cittadini e delle imprese nei confronti della PA.  Il documento nasce per essere strumento, pratico e agile, a disposizione dei cittadini e delle imprese per informarsi ed essere aggiornati sui propri diritti digitali e sulle forme di tutela nel caso in cui le amministrazioni non consentano loro di esercitarli.
+      La Guida è, inoltre, uno strumento di trasparenza, volto anche a generare conoscenza e consapevolezza dei diritti dei cittadini e delle imprese di usare in modo accessibile ed efficace le tecnologie nei rapporti e nelle comunicazioni con le pubbliche amministrazioni. Oltre alla descrizione del diritto, nel documento è possibile trovare l’indicazione:
+      -	delle piattaforme abilitanti (quali ad esempio: pagoPA, Anagrafe Nazione Popolazione Residente (ANPR), Sistema pubblico d’identità digitale (SPID), Carta d’identità digitale (CIE), Fatturazione Elettronica, ecc.);
+      -	dei riferimenti normativi ed eventuali provvedimenti attuativi;
+      -	degli strumenti specifici di tutela.
+      La parte conclusiva è dedicata alle forme di tutela nei confronti delle pubbliche amministrazioni.
+    risultati:
+      - descrizione: |
+          AGID pubblica la Guida dei diritti di cittadinanza digitale (entro dicembre 2019).
+    aree-intervento: |
+      Impatto a breve termine sui cittadini.
+
+  - chapter: governare-la-trasformazione-digitale
+    numero: 90
+    nome: La semplificazione amministrativa degli sportelli unici delle attività produttive e dell’edilizia 
+    stato: in corso
+    attori: [ dfp, agid, regioni, comuni, sistema-camerale, pa ]
+    descrizione: |
+      A partire dalla ricognizione dei procedimenti amministrativi, si definiranno, secondo un approccio BPM (Business process management), i processi inter-istituzionali per l’attuazione dei regimi amministrativi. Contestualmente andrà continuata l'attività di standardizzazione della modulistica per le restanti attività produttive con relativa elaborazione degli schemi dati XML.
+      Tutti i moduli, i relativi schemi e i connessi processi interistituzionali, verranno veicolati mediante nuovi Accordi in Conferenza unificata
+    risultati:
+      - descrizione: |
+          Report di monitoraggio del livello di adozione della modulistica standardizzata da parte delle amministrazioni interessate e dei relativi schemi XML che dovrà partire:
+          - dalla presenza della nuova modulistica standardizzata sui siti web istituzionali delle amministrazioni interessate;
+          - dalla verifica dell’utilizzo degli schemi dati XML all’interno dei servizi digitali realizzati dalle PA (dicembre 2019).
+    aree-intervento: |
+      Impatto a breve termine su PA e imprese.
+
+### end governare-la-trasformazione-digitale
+
 en:
   - chapter: infrastrutture-fisiche
     subchapter: data-center-e-cloud
@@ -2035,5 +2310,3 @@ en:
       Creation of course, workshop and specialisation training formats.
     numero: 67
     completata: false
-
-  ### end gestione-del-cambiamento

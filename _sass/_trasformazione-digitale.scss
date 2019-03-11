@@ -86,7 +86,7 @@ ul.Footer-socialIcons {
 
 .Footer-notes li a {
   color: #5a6772 !important;
-  font-weight: 200 !important;
+  font-weight: 300 !important;
   text-decoration: underline !important;
   font-size: small !important;
 }
@@ -253,7 +253,7 @@ a.Button--default {
   }
 
   .Page-container {
-    margin-top: 180px;
+    margin-top: 140px;
   }
 }
 
@@ -269,7 +269,7 @@ a.Button--default {
 }
 
 .Header-slim a {
-  font-weight: 200;
+  font-weight: 300;
   text-decoration: none;
   padding-bottom: 1.7rem;
   padding-right: 1rem !important;
@@ -368,7 +368,7 @@ html {
   margin-top: 1rem !important;
   border: 1px solid #0066cc;
   color: #0066cc;
-  font-weight: 200;
+  font-weight: 300;
   text-align: center;
   float: left;
   line-height: 1.8em;
@@ -401,6 +401,7 @@ html {
   background-color: #0066cc;
   position: relative;
   z-index: 5;
+  overflow: hidden;
 }
 
 .Home-content {
@@ -414,6 +415,8 @@ html {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0066cc', endColorstr='#0066cc', GradientType=0 );
   position: relative;
   z-index: 20;
+  padding-top: 5rem;
+  padding-bottom: 30rem;
 }
 
 .Home-gradient {
@@ -434,7 +437,7 @@ html {
 .Home-background {
   position: absolute;
   top: -420px;
-  height: 100%;
+  height: 150%;
   width: 100%;
   background-image: url('#{$base_url}assets/images/bg-flat.jpg');
   background-repeat: no-repeat;
@@ -642,5 +645,7 @@ html {
   ========= */
 
 .Modello-strategico * {
-  font-size: 1.8rem!important;
+  @media screen and (min-width: 768px) {
+    font-size: 1.8rem!important;
+  }
 }
