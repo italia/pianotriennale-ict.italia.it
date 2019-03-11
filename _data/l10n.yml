@@ -112,7 +112,7 @@ it:
             label: scarica il pdf
             href: '/assets/pdf/2019-2021/Piano-Triennale-ICT-2019-2021.pdf'
             target_blank: true
-      - text: Hai bisogno di chiarimenti? Consulta le [domande frequenti](/faq). Scopri le novità del Piano sul [sito di AGID](https://wwww.agid.gov.it).
+      - text: Hai bisogno di chiarimenti? Consulta le [domande frequenti](/faq). Scopri le novità del Piano sul [sito di AGID](https://www.agid.gov.it).
         links:
           - type: button
             icon: forum
