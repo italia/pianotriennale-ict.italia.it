@@ -67,6 +67,7 @@ it:
     forum: 'https://forum.italia.it/c/piano-triennale'
     rtd: 'https://docs.italia.it/italia/piano-triennale-ict/pianotriennale-ict-doc/it/2019-2021/13_indicazioni-per-le-pubbliche-amministrazioni.html'
     pdf: '/assets/pdf/2019-2021/Piano-Triennale-ICT-2019-2021-13-indicazioni-per-le-pa.pdf'
+  piano-triennale-2017-index: https://docs.italia.it/italia/piano-triennale-ict/pianotriennale-ict-doc/it/2017-2019/
 en:
   piano-triennale-index:
     forum: 'https://forum.italia.it/c/piano-triennale'

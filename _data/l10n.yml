@@ -61,6 +61,7 @@ it:
     goto_chapter: vai al capitolo
     goto_chapter_en: read the chapter
     goto_forum: partecipa
+    goto_plan-2017: leggi la versione 2017-2019
     deepen: per approfondire
     download_chapter: scarica il capitolo
     discuss: per confrontarti
@@ -290,6 +291,7 @@ en:
     goto_chapter: go to the chapter
     goto_chapter_en: read the chapter
     goto_forum: join the forum
+    goto_plan-2017: read the 2017-2019 version
     deepen: further reading
     download_chapter: download the chapter
     discuss: share your view
