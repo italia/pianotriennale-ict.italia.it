@@ -15,9 +15,10 @@ indirizzi per mettere in atto una strategia condivisa con tutti i possibili
 attori della trasformazione digitale del Paese: Pubblica amministrazione,
 cittadini, imprese, mercato, mondo della ricerca. 
 
-Il Piano 2019-2021 prosegue o integra le linee di azione della versione
-2017-2019 e ne aggiunge altre, in un nuovo quadro di collaborazione strutturata
-con tutti gli interlocutori.
+Il Piano 2019-2021 prosegue o integra le linee di azione della [versione
+2017-2019]({{ site.baseurl }}{% link _pages/it/piano-2017-2019.md %}) e ne aggiunge
+altre, in un nuovo quadro di collaborazione strutturata con tutti gli
+interlocutori.
 
 Le principali novità del Piano 2019-2021 riguardano:
 
