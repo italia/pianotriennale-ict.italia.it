@@ -401,6 +401,7 @@ html {
   background-color: #0066cc;
   position: relative;
   z-index: 5;
+  overflow: hidden;
 }
 
 .Home-content {
@@ -414,6 +415,8 @@ html {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0066cc', endColorstr='#0066cc', GradientType=0 );
   position: relative;
   z-index: 20;
+  padding-top: 5rem;
+  padding-bottom: 30rem;
 }
 
 .Home-gradient {
@@ -434,7 +437,7 @@ html {
 .Home-background {
   position: absolute;
   top: -420px;
-  height: 100%;
+  height: 150%;
   width: 100%;
   background-image: url('#{$base_url}assets/images/bg-flat.jpg');
   background-repeat: no-repeat;
