@@ -10,6 +10,7 @@ linee-azione: true
 ref: piattaforme
 redirect_from:
   - /piattaforme-abilitanti
+  - /piattaforme-abilitanti/
 ---
 Le Piattaforme offrono funzionalità fondamentali, trasversali e riusabili nella
 digitalizzazione dei processi della PA, sollevando le amministrazioni dalla

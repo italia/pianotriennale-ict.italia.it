@@ -10,7 +10,9 @@ linee-azione: true
 ref: dati-della-pa
 redirect_from:
   - /dati
+  - /dati/
   - /daf
+  - /daf/
 ---
 Il Piano individua due aree di azione per la valorizzazione del patrimonio
 informativo pubblico: le basi di dati di interesse nazionale e i dati aperti.

@@ -9,6 +9,7 @@ chapters: [ piano-triennale, contesto-normativo, infrastrutture, modello-di-inte
 ref: piano
 redirect_from:
   - /principi-per-lo-sviluppo-di-progetti-digitali
+  - /principi-per-lo-sviluppo-di-progetti-digitali/
 ---
 Il Piano Triennale per l’informatica nella Pubblica Amministrazione detta
 indirizzi per mettere in atto una strategia condivisa con tutti i possibili
