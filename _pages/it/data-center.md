@@ -11,6 +11,7 @@ linee-azione: true
 ref: data-center
 redirect_from:
   - /data-center-e-cloud
+  - /data-center-e-cloud/
 ---
 La politica di razionalizzazione delle infrastrutture IT delle PA si realizza
 attraverso azioni di consolidamento dei data center e dismissione/migrazione

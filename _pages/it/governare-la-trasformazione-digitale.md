@@ -10,6 +10,7 @@ linee-azione: true
 ref: governare-la-trasformazione-digitale
 redirect_from:
   - /gestione-del-cambiamento
+  - /gestione-del-cambiamento/
 ---
 I processi di transizione digitale richiedono visione strategica, capacità
 realizzativa ed efficacia della governance. 
