@@ -1037,7 +1037,7 @@ it:
     numero: 67
     nome: Utilizzo del protocollo eGLU per i test usabilità dei siti web delle PA centrali
     inizio: 01/2019
-    attori: [ pac ]
+    attori: [ pac, agid, dfp ]
     descrizione: |
       Le pubbliche amministrazioni centrali, elencate nella [Determinazione AGID n.36/2018](https://www.agid.gov.it/sites/default/files/repository_files/36_-_dt_dg_n._36_-_12_feb_2018_-_riorganizzazione_dominio_gov_22.12.2017_003_1_4.pdf), effettuano dei test di usabilità sui propri siti istituzionali utilizzando il [“Protocollo eGLU LG per la realizzazione di test di usabilità”](https://docs.italia.it/italia/designers-italia/design-linee-guida-docs/it/stabile/doc/user-research/usabilita.html#protocollo-eglu-lg-per-la-realizzazione-di-test-di-usabilita), e i relativi [kit di usabilità](https://designers.italia.it/kit/usability-test/) messi a disposizione su Designers.italia.it. 
     risultati:
