@@ -15,13 +15,14 @@
   </ul>
   <div id="panel-0" class="Linee-azione panel" aria-labelledby="tab-0" role="tabpanel">
   {% for linea-azione in linee-azione %}
-    {% assign not-yet-inserted = true %}
+    {% assign not-yet-added = true %}
     {% if linea-azione.chapter == page.chapter or page.linee-azione-all %}
     {% if linea-azione.subchapter == page.subchapter or page.linee-azione-all %}
     {% for attore in linea-azione.attori %}
-    {% if site.data.attori[page.lang][attore].tipo == 'amministrazioni_centrali' or site.data.attori[page.lang][attore].tipo == 'amministrazioni_centrali_e_territoriali' %}
-    {% if not-yet-inserted %}
-      {% assign not-yet-inserted = false %}
+    {% if linea-azione.ambito == 'pac' or linea-azione.ambito == 'pac_pal' or site.data.attori[page.lang][attore].tipo == 'amministrazioni_centrali' or site.data.attori[page.lang][attore].tipo == 'amministrazioni_centrali_e_territoriali' %}
+    {% if linea-azione.ambito != 'pal' %}
+    {% if not-yet-added %}
+      {% assign not-yet-added = false %}
       <div class="Accordion Accordion--default fr-accordion js-fr-accordion" id="linea-azione-pac-{{ linea-azione.numero }}">
           <h3 class="Accordion-header js-fr-accordion__header fr-accordion__header" id="accordion-header-pac-{{ linea-azione.numero }}">
             <span class="Accordion-number">{{ linea-azione.numero }}</span>
@@ -130,6 +131,7 @@
         </div>
     {% endif %}
     {% endif %}
+    {% endif %}
     {% endfor %}
     {% endif %}
     {% endif %}
@@ -138,13 +140,14 @@
 
   <div id="panel-1" class="Linee-azione panel" aria-labelledby="tab-1" role="tabpanel">
   {% for linea-azione in linee-azione %}
-    {% assign not-yet-inserted = true %}
+    {% assign not-yet-added = true %}
     {% if linea-azione.chapter == page.chapter or page.linee-azione-all %}
     {% if linea-azione.subchapter == page.subchapter or page.linee-azione-all %}
     {% for attore in linea-azione.attori %}
-    {% if site.data.attori[page.lang][attore].tipo == 'amministrazioni_territoriali' or site.data.attori[page.lang][attore].tipo == 'amministrazioni_centrali_e_territoriali' %}
-    {% if not-yet-inserted %}
-      {% assign not-yet-inserted = false %}
+    {% if linea-azione.ambito == 'pal' or linea-azione.ambito == 'pac_pal' or site.data.attori[page.lang][attore].tipo == 'amministrazioni_territoriali' or site.data.attori[page.lang][attore].tipo == 'amministrazioni_centrali_e_territoriali' %}
+    {% if linea-azione.ambito != 'pac' %}
+    {% if not-yet-added %}
+      {% assign not-yet-added = false %}
       <div class="Accordion Accordion--default fr-accordion js-fr-accordion" id="linea-azione-pal-{{ linea-azione.numero }}">
           <h3 class="Accordion-header js-fr-accordion__header fr-accordion__header" id="accordion-header-pal-{{ linea-azione.numero }}">
             <span class="Accordion-number">{{ linea-azione.numero }}</span>
@@ -251,6 +254,7 @@
               </div>
           </div>
         </div>
+    {% endif %}
     {% endif %}
     {% endif %}
     {% endfor %}
