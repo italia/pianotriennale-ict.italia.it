@@ -19,7 +19,7 @@
     tipo: amministrazioni_territoriali
   pa-basi-dati:
     nome: Pubbliche amministrazioni titolari di basi dati di interesse nazionale
-    tipo: amministrazioni_centrali_e_territoriali
+    tipo: amministrazioni_centrali
   pa-registri:
     nome: Pubbliche amministrazioni detentrici di registri pubblici nazionali
     tipo: amministrazioni_centrali

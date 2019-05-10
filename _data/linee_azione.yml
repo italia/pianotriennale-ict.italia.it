@@ -18,6 +18,7 @@ it:
           Consip stipula tramite le gare strategiche “Public Cloud: Servizi qualificati di Cloud Computing (IAAS/PAAS/SAAS) in un modello di Public Cloud” e “Digital Transformation: Servizi specialistici di supporto al piano di trasformazione digitale della PA” i contratti a supporto del Programma di abilitazione al Cloud della PA (entro dicembre 2020).
     aree-intervento: |
       Nel medio periodo, impatto sulle PA, su Consip, e sulle imprese che rivestono il ruolo di Cloud Service Provider.
+    ambito: pac_pal
 
   - chapter: infrastrutture
     subchapter: cloud-della-pa
@@ -360,6 +361,7 @@ it:
           AGID rilascia la nuova versione del Catalogo nazionale che offre le suddette funzionalità (entro dicembre 2019).
     aree-intervento: |
       Nel medio periodo, impatto su PA, cittadini e imprese.
+    ambito: pac_pal
 
   - chapter: dati-della-pa
     numero: 23
@@ -441,7 +443,7 @@ it:
 
   - chapter: piattaforme
     numero: 28
-    nome: Adeguamento/evoluzione delle piattaforme telematiche  
+    nome: Adeguamento/evoluzione delle piattaforme telematiche di e-procurement
     stato: in corso  
     attori: [ pa ]
     descrizione: |
@@ -500,7 +502,7 @@ it:
 
   - chapter: piattaforme
     numero: 32
-    nome: Evoluzione tecnologica della piattaforma
+    nome: Evoluzione tecnologica della piattaforma pagoPA
     stato: in corso  
     attori: [ agid, team-digitale, bdi ]
     descrizione: |
@@ -513,7 +515,7 @@ it:
 
   - chapter: piattaforme
     numero: 33 
-    nome: Completamento dell’adesione alla piattaforma
+    nome: Completamento dell’adesione alla piattaforma pagoPA
     stato: in corso  
     attori: [ agid, team-digitale, soggetti-obbligati ]
     descrizione: |
@@ -527,7 +529,7 @@ it:
 
   - chapter: piattaforme
     numero: 34
-    nome: Monitoraggio tecnico e dell’attivazione dei servizi
+    nome: Monitoraggio tecnico e dell’attivazione dei servizi di pagoPA
     stato: in corso   
     attori: [ agid, team-digitale, soggetti-obbligati, prestatori-servizio-pagamenti ]
     descrizione: |
@@ -654,7 +656,7 @@ it:
     numero: 41
     nome: Analisi diffusione di SPID ai fini dello switch-off
     stato: in corso  
-    attori: [ agid ]
+    attori: [ agid, pa ]
     descrizione: |
       AGID sviluppa uno studio sulla stabilità del sistema SPID ai fini del suo utilizzo esclusivo quale sistema di identificazione ai servizi online, ai sensi dell’art. 64 del CAD.
     risultati:  
@@ -763,6 +765,7 @@ it:
           Dematerializzazione degli archivi correnti delle pubbliche amministrazioni centrali: il 40% delle PA hanno concluso progetti di dematerializzazione degli archivi correnti e quindi risolto contratti di locazione degli spazi di stoccaggio degli archivi cartacei. (dicembre 2021).
     aree-intervento: |
       Nel medio periodo, impatto sulle PA.
+    ambito: pac
 
   - chapter: piattaforme
     numero: 49
@@ -818,6 +821,7 @@ it:
           Le Amministrazioni capofila costituiscono, con il supporto di AGID, i Gruppi di lavoro per almeno 4 ecosistemi: Finanza pubblica, Sviluppo e sostenibilità, Beni culturali e turismo, Welfare (entro dicembre 2019).
     aree-intervento: |
       Nel breve periodo, impatto su PA capofila e stakeholder dell’ecosistema.
+    ambito: pac_pal
 
   - chapter: ecosistemi
     numero: 52
@@ -831,6 +835,7 @@ it:
           I gruppi di lavoro degli ecosistemi prioritari producono ciascuno un documento contenente visione, perimetro e strategie di sviluppo degli ecosistemi - da mettere in consultazione pubblica (giugno 2020).
     aree-intervento: |
       Nel breve periodo, impatto su PA coinvolte e stakeholder degli ecosistemi.
+    ambito: pac_pal
 
   - chapter: ecosistemi 
     numero: 53
@@ -844,6 +849,7 @@ it:
           I gruppi di lavoro degli ecosistemi monitorano lo sviluppo dell’ecosistema a partire dalla situazione di partenza (As-Is) e condividono una metodologia di monitoraggio. I gruppi di lavoro degli ecosistemi istituiscono inoltre Forum tematici (dicembre 2020).
     aree-intervento: |
       Nel breve periodo, impatto su PA coinvolte e stakeholder degli ecosistemi.
+    ambito: pac_pal
 
   - chapter: ecosistemi 
     numero: 54 
@@ -857,6 +863,7 @@ it:
           I gruppi di lavoro degli ecosistemi avviano azioni di accompagnamento e realizzano attività di monitoraggio sullo sviluppo degli ecosistemi (dicembre 2021).
     aree-intervento: |
       Nel breve periodo, impatto su PA coinvolte e stakeholder degli ecosistemi.
+    ambito: pac_pal
 
 ### end ecosistemi
 
@@ -1166,6 +1173,7 @@ it:
           AGID mette a disposizione la Piattaforma e sperimentazione dell’innovation procurement broker (giugno 2019).
     aree-intervento: |
       Nel breve periodo impatto sulle PA, nel medio periodo impatto sulle imprese
+    ambito: pac_pal
 
   - chapter: modelli-e-strumenti-innovazione
     numero: 76
@@ -1215,7 +1223,7 @@ it:
 
   - chapter: governare-la-trasformazione-digitale
     numero: 79
-    nome: Costituzione di Unità di Program Management Office nazionali e regionali
+    nome: Costituzione di Unità di Program Management Office regionali
     stato: in corso 
     attori: [ agid, regioni ]
     descrizione: | 
@@ -1227,6 +1235,7 @@ it:
           Avvio del PMO regionale su 3 Regioni Pilota (dicembre 2019).
     aree-intervento: |
       Impatto a breve termine sulle PA.
+    ambito: pal
 
   - chapter: governare-la-trasformazione-digitale
     numero: 80
