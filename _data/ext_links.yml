@@ -72,56 +72,56 @@ en:
   piano-triennale-index:
     forum: 'https://forum.italia.it/c/piano-triennale'
     rtd: 'https://pianotriennale-ict.readthedocs.io/en/latest/'
-    pdf: 'http://readthedocs.org/projects/pianotriennale-ict-en/downloads/pdf/latest/'
+    pdf: 'https://docs.italia.it/projects/pianotriennale-ict-doc-en/downloads/pdf/stabile/'
   piano-triennale:
     forum: 'https://forum.italia.it/c/piano-triennale'
     rtd: 'https://pianotriennale-ict.readthedocs.io/en/latest/doc/01_piano-triennale-per-informatica-nella-pa.html'
-    pdf: 'http://readthedocs.org/projects/pianotriennale-ict-en/downloads/pdf/latest/'
+    pdf: 'https://docs.italia.it/projects/pianotriennale-ict-doc-en/downloads/pdf/stabile/'
   contesto-normativo:
     forum: 'https://forum.italia.it/c/piano-triennale'
     rtd: 'https://pianotriennale-ict.readthedocs.io/en/latest/doc/02_contesto-normativo-europeo-e-nazionale.html'
-    pdf: 'http://readthedocs.org/projects/pianotriennale-ict-en/downloads/pdf/latest/'
+    pdf: 'https://docs.italia.it/projects/pianotriennale-ict-doc-en/downloads/pdf/stabile/'
   infrastrutture:
     forum: 'https://forum.italia.it/c/piano-triennale/data-center-e-cloud'
     rtd: 'https://pianotriennale-ict.readthedocs.io/en/latest/doc/03_infrastrutture.html'
-    pdf: 'http://readthedocs.org/projects/pianotriennale-ict-en/downloads/pdf/latest/'
+    pdf: 'https://docs.italia.it/projects/pianotriennale-ict-doc-en/downloads/pdf/stabile/'
   modello-di-interoperabilita:
     forum: 'https://forum.italia.it/c/piano-triennale/interoperabilita'
     rtd: 'https://pianotriennale-ict.readthedocs.io/en/latest/doc/04_modello-di-interoperabilita.html'
-    pdf: 'http://readthedocs.org/projects/pianotriennale-ict-en/downloads/pdf/latest/'
+    pdf: 'https://docs.italia.it/projects/pianotriennale-ict-doc-en/downloads/pdf/stabile/'
   dati-della-pa:
     forum: 'https://forum.italia.it/c/piano-triennale/dati'
     rtd: 'https://pianotriennale-ict.readthedocs.io/en/latest/doc/05_dati-della-pubblica-amministrazione.html'
-    pdf: 'http://readthedocs.org/projects/pianotriennale-ict-en/downloads/pdf/latest/'
+    pdf: 'https://docs.italia.it/projects/pianotriennale-ict-doc-en/downloads/pdf/stabile/'
   piattaforme:
     forum: 'https://forum.italia.it/c/piano-triennale/piattaforme-abilitanti'
     rtd: 'https://pianotriennale-ict.readthedocs.io/en/latest/doc/06_piattaforme'
-    pdf: 'http://readthedocs.org/projects/pianotriennale-ict-en/downloads/pdf/latest/'
+    pdf: 'https://docs.italia.it/projects/pianotriennale-ict-doc-en/downloads/pdf/stabile/'
   ecosistemi:
     forum: 'https://forum.italia.it/c/piano-triennale/ecosistemi'
     rtd: 'https://pianotriennale-ict.readthedocs.io/en/latest/doc/07_ecosistemi'
-    pdf: 'http://readthedocs.org/projects/pianotriennale-ict-en/downloads/pdf/latest/'
+    pdf: 'https://docs.italia.it/projects/pianotriennale-ict-doc-en/downloads/pdf/stabile/'
   sicurezza:
     forum: 'https://forum.italia.it/c/piano-triennale/sicurezza'
     rtd: 'https://pianotriennale-ict.readthedocs.io/en/latest/doc/08_sicurezza-informatica.html'
-    pdf: 'http://readthedocs.org/projects/pianotriennale-ict-en/downloads/pdf/latest/'
+    pdf: 'https://docs.italia.it/projects/pianotriennale-ict-doc-en/downloads/pdf/stabile/'
   strumenti-per-la-generazione-e-la-diffusione-di-servizi-digitali:
     forum: 'https://forum.italia.it/c/piano-triennale/servizi-digitali'
     rtd: 'https://pianotriennale-ict.readthedocs.io/en/latest/doc/09_strumenti-per-la-generazione-e-la-diffusione-di-servizi-digitali.html'
-    pdf: 'http://readthedocs.org/projects/pianotriennale-ict-en/downloads/pdf/latest/'
+    pdf: 'https://docs.italia.it/projects/pianotriennale-ict-doc-en/downloads/pdf/stabile/'
   modelli-e-strumenti-innovazione:
     forum: 'https://forum.italia.it/c/piano-triennale/'
     rtd: 'https://pianotriennale-ict.readthedocs.io/en/latest/doc/10_modelli-e-strumenti-innovazione.html'
-    pdf: 'http://readthedocs.org/projects/pianotriennale-ict-en/downloads/pdf/latest/'
+    pdf: 'https://docs.italia.it/projects/pianotriennale-ict-doc-en/downloads/pdf/stabile/'
   governare-la-trasformazione-digitale:
     forum: 'https://forum.italia.it/c/piano-triennale/'
     rtd: 'https://pianotriennale-ict.readthedocs.io/en/latest/doc/11_governare-la-trasformazione-digitale.html'
-    pdf: 'http://readthedocs.org/projects/pianotriennale-ict-en/downloads/pdf/latest/'
+    pdf: 'https://docs.italia.it/projects/pianotriennale-ict-doc-en/downloads/pdf/stabile/'
   razionalizzazione-della-spesa:
     forum: 'https://forum.italia.it/c/piano-triennale/razionalizzazione-della-spesa'
     rtd: 'https://pianotriennale-ict.readthedocs.io/en/latest/doc/12_razionalizzazione-della-spesa.html'
-    pdf: 'http://readthedocs.org/projects/pianotriennale-ict-en/downloads/pdf/latest/'
+    pdf: 'https://docs.italia.it/projects/pianotriennale-ict-doc-en/downloads/pdf/stabile/'
   indicazioni-per-le-pa:
     forum: 'https://forum.italia.it/c/piano-triennale'
     rtd: 'https://pianotriennale-ict.readthedocs.io/en/latest/doc/13_indicazioni-per-le-pubbliche-amministrazioni.html'
-    pdf: 'http://readthedocs.org/projects/pianotriennale-ict-en/downloads/pdf/latest/'
+    pdf: 'https://docs.italia.it/projects/pianotriennale-ict-doc-en/downloads/pdf/stabile/'
