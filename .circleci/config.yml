@@ -84,7 +84,7 @@ jobs:
       - deploy:
           name: Deploy
           command: |
-            git config --global user.email no-reply@teamdigitale.governo.it
+            git config --global user.email no-reply@innovazione.gov.it
             git config --global user.name "Deploy Bot"
 
             cd /tmp/gh-pages
