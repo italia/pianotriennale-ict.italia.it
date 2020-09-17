@@ -1,6 +1,6 @@
 <footer class="Footer">
 
-  <div class="Grid Grid--withGutter u-padding-top-xl u-flex">
+  <div class="Grid Grid--withGutter u-padding-top-xl u-flex u-flexJustifyBetween">
     <div class="Owner Grid-cell u-sm-size1of2 u-md-size1of5 u-lg-size1of5 u-padding-r-bottom">
       <div class="Grid">
         <div class="u-inlineBlock">
@@ -14,7 +14,7 @@
       </div>
     </div>
     
-    <div class="Owner Grid-cell u-sm-size1of2 u-md-size1of5 u-lg-size1of5 u-padding-r-bottom">
+    <!-- <div class="Owner Grid-cell u-sm-size1of2 u-md-size1of5 u-lg-size1of5 u-padding-r-bottom">
       <div class="Grid"> 
          <div class="u-inlineBlock">
           <a href="{{ t.dfp_link }}" title="{{ t.dfp_full | escape }}">
@@ -25,9 +25,9 @@
           <a href="{{ t.dfp_link }}" title="{{ t.dfp_full | escape }}" class="u-color-white u-textClean">{{ t.dfp_full | escape }}</a>
         </p>
       </div>
-    </div>
+    </div> -->
     
-    <div class="Owner Grid-cell u-sm-size1of2 u-md-size1of4 u-lg-size1of4 u-padding-r-bottom">
+    <div class="Owner Grid-cell u-sm-size1of2 u-md-size1of3 u-lg-size1of3 u-padding-r-bottom">
       <div class="Grid">     
         <div class="u-inlineBlock">
           <a href="{{ t.owner_link }}" title="{{ t.owner_full | escape }}">
@@ -37,20 +37,20 @@
       </div>
     </div>
 
-    <div class="Partner Grid-cell u-sm-size1of2 u-md-size1of4 u-lg-size1of4 u-padding-r-bottom td-footer">
+    <div class="Partner Grid-cell u-sm-size1of2 u-md-size1of3 u-lg-size1of3 u-padding-r-bottom td-footer">
       <div class="Grid">
         <div class="u-inlineBlock">
             <a href="{{ t.partner_link }}" title="{{ t.owner_full | escape }}"><img class="u-padding-right-xxs" src="{{ t.partner_logo | relative_url }}" alt=""
             style="height: 4em; max-width: 100%"></a>
         </div>
         <div class="Grid-cell u-size1of12 u-padding-left-none team-bar"></div>
-        <p class="Grid-cell u-size5of12 Footer-siteName u-padding-left-xs u-text-r-xs">
+        <p class="Grid-cell u-size6of12 Footer-siteName u-padding-left-xs u-text-r-xs">
           <a href="{{ t.partner_link }}" title="{{ t.partner_full | escape }}" class="u-color-white u-textClean">{{ t.partner_full | upcase }}</a>
         </p>
       </div>
     </div>
 
-    <div class="Social Grid-cell u-lg-sizeFull u-flex u-flexJustifyEnd u-textRight u-padding-r-bottom u-flexAlignSelfEnd">
+    <div class="Social Grid-cell u-lg-sizeFull u-flex u-flexJustifyEnd u-textRight u-padding-r-bottom u-padding-r-top u-flexAlignSelfEnd">
       <h2 class="u-md-flexInline u-lg-flexInline u-text-p u-color-white u-textWeight-400
         u-hidden u-margin-r-right u-flexAlignSelfCenter">{{ t.follow_us | capitalize }}</h2>
       <ul class="Footer-socialIcons">
