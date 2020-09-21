@@ -8,7 +8,7 @@ var_1: &cache_key v1-dependencies-{{ checksum "Gemfile.lock" }}
 defaults: &defaults
   working_directory: /home/circleci/pianotriennale-ict.italia.it
   docker:
-    - image: circleci/ruby:2.4.1-node
+    - image: circleci/ruby:2.7.1-node
       environment:
         BUNDLE_JOBS: 3
         BUNDLE_RETRY: 3
