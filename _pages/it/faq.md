@@ -6,4 +6,5 @@ layout: faqs
 separator: descending
 title-alignment: left
 ref: faq
+redirect_to: /piano
 ---

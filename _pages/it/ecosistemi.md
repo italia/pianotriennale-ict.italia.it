@@ -8,6 +8,7 @@ cta-buttons: true
 chapter: ecosistemi
 linee-azione: true
 ref: ecosistemi
+redirect_to: /piano
 ---
 Il Piano, rispetto alla versione precedente, presenta un modello costruzione ed
 evoluzione degli ecosistemi che facilita l’integrazione tra le diverse pubbliche

@@ -6,6 +6,7 @@ separator: descending
 title-alignment: left
 content-alignment: left
 ref: consultazioni-pubbliche
+redirect_to: /piano
 ---
 I documenti in consultazione pubblica sono elencati nella sezione di Forum
 Italia - [Consultazioni

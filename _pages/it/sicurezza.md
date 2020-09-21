@@ -8,6 +8,7 @@ cta-buttons: true
 chapter: sicurezza-informatica
 linee-azione: true
 ref: sicurezza
+redirect_to: /piano
 ---
 La sicurezza riveste un’importanza fondamentale per assicurare la disponibilità,
 l’integrità, la riservatezza delle informazioni proprie del Sistema informativo

@@ -8,6 +8,7 @@ cta-buttons: true
 chapter: piattaforme
 linee-azione: true
 ref: piattaforme
+redirect_to: /piano
 redirect_from:
   - /piattaforme-abilitanti
   - /piattaforme-abilitanti/

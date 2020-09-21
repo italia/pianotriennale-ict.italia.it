@@ -8,6 +8,7 @@ cta-buttons: true
 chapter: servizi-digitali
 linee-azione: true
 ref: servizi-digitali
+redirect_to: /piano
 ---
 Il Piano Triennale, rispetto alla versione precedente, comprende un insieme di
 iniziative per facilitare e supportare lo sviluppo di servizi digitali pubblici.

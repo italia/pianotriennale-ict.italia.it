@@ -10,38 +10,6 @@ ref: piano
 redirect_from:
   - /principi-per-lo-sviluppo-di-progetti-digitali
   - /principi-per-lo-sviluppo-di-progetti-digitali/
-  - /cloud-della-pa
-  - /cloud-della-pa/
-  - /data-center
-  - /data-center/
-  - /connettivita
-  - /connettivita/
-  - /interoperabilita
-  - /interoperabilita/
-  - /dati-della-pa
-  - /dati-della-pa/
-  - /piattaforme
-  - /piattaforme/
-  - /ecosistemi
-  - /ecosistemi/
-  - /sicurezza
-  - /sicurezza/
-  - /servizi-digitali
-  - /servizi-digitali/
-  - /modelli-e-strumenti-innovazione
-  - /modelli-e-strumenti-innovazione/
-  - /governare-la-trasformazione-digitale
-  - /governare-la-trasformazione-digitale/
-  - /razionalizzazione-della-spesa
-  - /razionalizzazione-della-spesa/
-  - /indicazioni-per-le-pa
-  - /indicazioni-per-le-pa/
-  - /azioni
-  - /azioni/
-  - /consultazioni-pubbliche
-  - /consultazioni-pubbliche/
-  - /faq/
-  - /faq
 ---
 Gli obiettivi del Piano sono basati sulle indicazioni che emergono dalla nuova
 programmazione europea 2021-2027, sui principi dell'eGovernment Action Plan

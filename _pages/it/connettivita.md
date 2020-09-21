@@ -9,6 +9,7 @@ chapter: infrastrutture
 subchapter: connettivita
 linee-azione: true
 ref: connettivita
+redirect_to: /piano
 ---
 La connettività della PA è finalizzata a garantire l’erogazione e la fruizione
 dei servizi in interoperabilità, l’interconnessione tra più sedi di una stessa

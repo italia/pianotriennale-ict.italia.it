@@ -10,4 +10,5 @@ title-alignment: left
 linee-azione: true
 linee-azione-all: true
 ref: azioni
+redirect_to: /piano
 ---
