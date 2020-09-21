@@ -1,8 +1,8 @@
 it:
   piano-triennale-index:
     forum: 'https://forum.italia.it/c/piano-triennale'
-    rtd: 'https://docs.italia.it/italia/piano-triennale-ict/pianotriennale-ict-doc/it/2019-2021/'
-    pdf: '/assets/pdf/2019-2021/Piano-Triennale-ICT-2019-2021.pdf'
+    rtd: 'https://docs.italia.it/italia/piano-triennale-ict/pianotriennale-ict-doc/it/2020-2022/'
+    pdf: 'https://www.agid.gov.it/sites/default/files/repository_files/piano_triennale_per_linformatica_nella_pa_2020_2022.pdf'
   piano-triennale:
     forum: 'https://forum.italia.it/c/piano-triennale'
     rtd: 'https://docs.italia.it/italia/piano-triennale-ict/pianotriennale-ict-doc/it/2019-2021/01_piano-triennale-per-informatica-nella-pa.html'
