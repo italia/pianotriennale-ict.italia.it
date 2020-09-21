@@ -23,7 +23,7 @@ it:
     owner: mid
     link: https://www.facebook.com/MinisteroInnovazione/
   - name: linkedin
-    owner: mind
+    owner: mid
     link: https://www.linkedin.com/company/ministeroinnovazione/
 en:
   - name: facebook
@@ -50,5 +50,5 @@ en:
     owner: mid
     link: https://www.facebook.com/MinisteroInnovazione/
   - name: linkedin
-    owner: mind
+    owner: mid
     link: https://www.linkedin.com/company/ministeroinnovazione/
