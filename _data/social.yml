@@ -14,17 +14,17 @@ it:
     owner: agid
     link: https://medium.com/@AgidGov
   - name: twitter
-    owner: teamdigitale
-    link: https://twitter.com/teamdigitaleIT
+    owner: mid
+    link: https://twitter.com/InnovazioneGov
   - name: medium
-    owner: teamdigitale
-    link: https://medium.com/team-per-la-trasformazione-digitale
+    owner: mid
+    link: https://medium.com/blog-per-la-trasformazione-digitale
+  - name: facebook
+    owner: mid
+    link: https://www.facebook.com/MinisteroInnovazione/
   - name: linkedin
-    owner: teamdigitale
-    link: https://www.linkedin.com/company/teamdigitale
-  - name: behance
-    owner: teamdigitale
-    link: https://behance.com/italia
+    owner: mind
+    link: https://www.linkedin.com/company/ministeroinnovazione/
 en:
   - name: facebook
     owner: agid
@@ -41,14 +41,14 @@ en:
     owner: agid
     link: https://medium.com/@AgidGov
   - name: twitter
-    owner: teamdigitale
-    link: https://twitter.com/ITdigitalteam
+    owner: mid
+    link: https://twitter.com/InnovazioneGov
   - name: medium
-    owner: teamdigitale
-    link: https://medium.com/team-per-la-trasformazione-digitale/tagged/english-language
+    owner: mid
+    link: https://medium.com/blog-per-la-trasformazione-digitale
+  - name: facebook
+    owner: mid
+    link: https://www.facebook.com/MinisteroInnovazione/
   - name: linkedin
-    owner: teamdigitale
-    link: https://www.linkedin.com/company/teamdigitale
-  - name: behance
-    owner: teamdigitale
-    link: https://behance.com/italia
+    owner: mind
+    link: https://www.linkedin.com/company/ministeroinnovazione/
