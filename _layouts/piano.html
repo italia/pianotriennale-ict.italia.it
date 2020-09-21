@@ -40,6 +40,7 @@ layout: default
         {% assign buttonUrl = site.data.ext_links[page.lang].piano-triennale-index.forum %}
         {% include button.html label = 'goto_forum' url = buttonUrl  icon = 'forum' target_blank = true %}
 
+        {% comment %}
         <h4>{{ t.capitoli_title }}</h4>
          <div class="Grid Grid--withGutter">
            {% for chapter in page.chapters %}
@@ -49,6 +50,7 @@ layout: default
            </div>
           {% endfor %}
          </div>
+         {% endcomment %}
          {% endif %}
       </div>
     </div>
