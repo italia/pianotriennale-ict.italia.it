@@ -8,6 +8,7 @@ cta-buttons: true
 chapter: modelli-e-strumenti-innovazione
 linee-azione: true
 ref: modelli-e-strumenti-innovazione
+redirect_to: /piano
 ---
 Il Piano Triennale introduce per la prima volta una sezione dedicata alle
 amministrazioni che stanno affrontando progettualità in un’ottica di

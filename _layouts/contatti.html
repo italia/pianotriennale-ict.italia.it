@@ -77,7 +77,7 @@ layout: default
          </div>
          <div>
             <ul class="Footer-socialIcons u-margin-r-bottom">
-            {% assign socials = site.data.social[page.lang] | where: 'owner', 'teamdigitale' %}
+            {% assign socials = site.data.social[page.lang] | where: 'owner', 'mid' %}
             {% for social in socials %}
                <li>
                   <a href="{{ social.link }}" title="{{ social.name }}" target="_blank"><span class="Icon-{{ social.name }}"></span>

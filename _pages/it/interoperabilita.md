@@ -8,6 +8,7 @@ cta-buttons: true
 chapter: modello-di-interoperabilita
 linee-azione: true
 ref: modello-di-interoperabilita
+redirect_to: /piano
 ---
 Il Modello di interoperabilità rappresenta un asse portante dell’intero Sistema
 informativo della PA, per assicurare le condizioni necessarie all’interazione e

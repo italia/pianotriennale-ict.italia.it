@@ -8,6 +8,7 @@ cta-buttons: true
 chapter: governare-la-trasformazione-digitale
 linee-azione: true
 ref: governare-la-trasformazione-digitale
+redirect_to: /piano
 redirect_from:
   - /gestione-del-cambiamento
   - /gestione-del-cambiamento/

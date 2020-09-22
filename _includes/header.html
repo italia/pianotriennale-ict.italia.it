@@ -10,8 +10,10 @@
       <div class="Header-slim-toggle u-md-hidden u-lg-hidden u-floatLeft u-border-right-xxs u-margin-right-xs u-padding-right-xs">
         <a class="js-fr-offcanvas-open u-nojsDisplayInlineBlock" href="#network" aria-controls="network" aria-label="{{ t.toggle_network_menu_label }}" title="{{ t.toggle_network_menu_label }}"><span class="Icon Icon-small-burger u-color-white u-alignMiddle"></span></a>
       </div>
-      <span class="u-color-white">{{t.header_title}}</span>
-      {% comment %}{% include lang_switch.html %}{% endcomment %}
+      {% comment %}
+        <span class="u-color-white">{{t.header_title}}</span>
+        {% include lang_switch.html %}
+      {% endcomment %}
       <div class="u-hidden u-md-block u-lg-block u-floatRight">
       {% include slim_header.html %}
       </div>

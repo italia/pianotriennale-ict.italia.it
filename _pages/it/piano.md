@@ -4,47 +4,56 @@ layout: piano
 lang: it
 separator: ascending
 title-alignment: left
-quotes: 2019
-chapters: [ piano-triennale, contesto-normativo, infrastrutture, modello-di-interoperabilita, dati-della-pa, piattaforme, ecosistemi, sicurezza-informatica, servizi-digitali, modelli-e-strumenti-innovazione, governare-la-trasformazione-digitale, razionalizzazione-della-spesa, indicazioni-per-le-pa ]
+quotes: 2020
+chapters: []
 ref: piano
 redirect_from:
   - /principi-per-lo-sviluppo-di-progetti-digitali
   - /principi-per-lo-sviluppo-di-progetti-digitali/
 ---
-Il Piano Triennale per l’informatica nella Pubblica Amministrazione detta
-indirizzi per mettere in atto una strategia condivisa con tutti i possibili
-attori della trasformazione digitale del Paese: Pubblica amministrazione,
-cittadini, imprese, mercato, mondo della ricerca. 
+Gli obiettivi del Piano sono basati sulle indicazioni che emergono dalla nuova
+programmazione europea 2021-2027, sui principi dell'eGovernment Action Plan
+2016-2020 e sulle azioni previste dalla eGovernment Declaration di Tallinn
+(2017-2021), i cui indicatori misurano il livello di digitalizzazione in tutta
+l’UE e rilevano l’effettiva presenza e l’uso dei servizi digitali da parte dei
+cittadini e imprese.
 
-Il Piano 2019-2021 prosegue o integra le linee di azione della [versione
-2017-2019]({{ site.baseurl }}{% link _pages/it/piano-2017-2019.md %}) e ne aggiunge
-altre, in un nuovo quadro di collaborazione strutturata con tutti gli
-interlocutori.
+Pur nella continuità con i precedenti Piani, il Piano triennale 2020-2022
+introduce un'importante innovazione con riferimento ai destinatari degli
+obiettivi individuati per ciascuna delle tematiche affrontate. Saranno infatti
+le singole amministrazioni a dover realizzare le azioni per il raggiungimento
+degli obiettivi contenuti nel Piano. Il Piano si caratterizza inoltre per un
+forte accento sulla misurazione dei risultati. La cultura della misurazione, e
+conseguentemente della qualità dei dati, diventa uno dei motivi portanti di
+questo approccio.
 
-Le principali novità del Piano 2019-2021 riguardano:
+I principi guida del Piano sono: 
 
-- il recepimento delle ultime modifiche introdotte del Codice
-  dell’Amministrazione Digitale (CAD) e delle recenti direttive e regolamenti
-  europei sull’innovazione digitale;
-- il rafforzamento del paradigma Cloud della PA con l’applicazione del principio
-  cloud first;
-- la definizione di modelli e strumenti per l’innovazione per la PA con
-  un’attenzione ai temi dell’open innovation e al paradigma smart landscape;
-- un maggiore risalto al ruolo delle amministrazioni territoriali, che saranno
-  accompagnate nel loro percorso di trasformazione digitale, attraverso la
-  condivisione di strategie e piani operativi, ma anche di buone pratiche già
-  adottate che aiutino a colmare rapidamente il divario digitale tra i diversi
-  territori del Paese;
-- la condivisione con le amministrazioni degli strumenti di monitoraggio delle
-  azioni;
-- il rafforzamento del tema delle competenze manageriali e digitali all’interno
-  delle pubbliche amministrazioni, con iniziative concrete di sensibilizzazione
-  e formazione;
-- l’adozione di una nuova chiave di lettura delle linee d’azione, che individua
-  le aree di intervento e l’impatto su cittadini, imprese e pubbliche
-  amministrazioni, nel breve, medio e lungo periodo.
-
-Il Piano rappresenta uno strumento in continua evoluzione, che va nella
-direzione di un coinvolgimento sempre più esteso delle amministrazioni che
-operano sul territorio ma anche dei veri destinatari finali della trasformazione
-digitale della PA. 
+- *digital & mobile first* per i servizi, che devono essere accessibili in via
+  esclusiva con sistemi di identità digitale definiti dalla normativa
+  assicurando almeno l’accesso tramite SPID;
+- *cloud first* (cloud come prima opzione): le pubbliche amministrazioni, in fase
+  di definizione di un nuovo progetto e di sviluppo di nuovi servizi, adottano
+  primariamente il paradigma cloud, tenendo conto della necessità di prevenire
+  il rischio di lock-in;
+- servizi inclusivi e accessibili che vengano incontro alle diverse esigenze
+  delle persone e dei singoli territori e siano interoperabili by design in modo
+  da poter funzionare in modalità integrata e senza interruzioni in tutto il
+  mercato unico esponendo le opportune API;
+- sicurezza e *privacy by design*: i servizi digitali devono essere progettati ed
+  erogati in modo sicuro e garantire la protezione dei dati personali;
+- *user-centric*, *data driven* e agile: le amministrazioni sviluppano i servizi
+  digitali, prevedendo modalità agili di miglioramento continuo, partendo
+  dall’esperienza dell'utente e basandosi sulla continua misurazione di
+  prestazioni e utilizzo e rendono disponibili a livello transfrontaliero i
+  servizi pubblici digitali rilevanti secondo il principio transfrontaliero by
+  design;
+- *once only*: le pubbliche amministrazioni devono evitare di chiedere ai
+  cittadini e alle imprese informazioni già fornite;
+- dati pubblici un bene comune: il patrimonio informativo della pubblica
+  amministrazione è un bene fondamentale per lo sviluppo del Paese e deve essere
+  valorizzato e reso disponibile ai cittadini e alle imprese, in forma aperta e
+  interoperabile;
+- codice aperto: le pubbliche amministrazioni devono prediligere l’utilizzo di
+  software con codice aperto e, nel caso di software sviluppato per loro conto,
+  deve essere reso disponibile il codice sorgente.

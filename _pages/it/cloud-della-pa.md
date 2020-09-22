@@ -9,6 +9,7 @@ chapter: infrastrutture
 subchapter: cloud-della-pa
 linee-azione: true
 ref: cloud-della-pa
+redirect_to: /piano
 ---
 Il Cloud, nell’ambito della trasformazione digitale, rappresenta una tecnologia
 *disruptive* di efficacia dirompente, con notevoli vantaggi in termini di

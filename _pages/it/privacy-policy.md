@@ -21,9 +21,9 @@ AGID – Agenzia per l’Italia Digitale<br/>
 Via Liszt 21 - 00144 Roma<br/>
 PEC: protocollo@pec.agid.gov.it 
 
-Commissario Straordinario per l’attuazione dell’Agenda Digitale<br/>
-Piazza Colonna 370 - 00187 Roma<br/>
-PEC: teamdigitale@pec.governo.it
+Presidenza del Consiglio dei Ministri, Dipartimento per la Trasformazione Digitale<br/>
+Largo Pietro di Brazzà 86 - 00187 Roma<br/>
+PEC: diptrasformazionedigitale@pec.governo.it
 
 ### Contatti dei responsabili della protezione dei dati
 
@@ -31,9 +31,9 @@ Per l’AGID:<br/>
 Via Liszt 21 - 00144 Roma<br/>
 e-mail: responsabileprotezionedatipersonali@agid.gov.it
 
-Per il Commissario Straordinario per l’attuazione dell’Agenda Digitale:<br/>
-Piazza Colonna 370 - 00187 Roma<br/>
-e-mail: dpo@teamdigitale.governo.it 
+Per la Presidenza del Consiglio dei Ministri, Dipartimento per la Trasformazione Digitale:<br/>
+Largo Pietro di Brazzà 86 - 00187 Roma<br/>
+e-mail: responsabileprotezionedatipcm@governo.it
 
 ### Autorità di controllo
 
@@ -110,4 +110,4 @@ disponibili dai relativi fornitori ai link di seguito indicati.
 - [Internet Explorer](https://support.microsoft.com/it-it/help/17442/windows-internet-explorer-delete-manage-cookies){:target="_blank"}
 - [Opera](http://help.opera.com/Windows/10.00/it/cookies.html){:target="_blank"}
 
-Ultimo aggiornamento: 08 marzo 2019.
+Ultimo aggiornamento: 17 settembre 2020.

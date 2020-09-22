@@ -202,8 +202,12 @@ a.Button--default {
   font-weight: 600!important;
 }
 
-.Header-owner > a {
-  font-weight: initial !important;
+.Header-owner {
+  height: 57px;
+
+  > a {
+    font-weight: initial !important;
+  }
 }
 
 @media screen and (max-width: 767px) {

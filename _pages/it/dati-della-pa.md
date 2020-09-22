@@ -8,6 +8,7 @@ cta-buttons: true
 chapter: dati-della-pa
 linee-azione: true
 ref: dati-della-pa
+redirect_to: /piano
 redirect_from:
   - /dati
   - /dati/

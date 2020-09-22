@@ -16,7 +16,7 @@
 
 title: Trasformazione Digitale
 description: "Piano Triennale per l'informatica nella Pubblica Amministrazione"
-author: Team Digitale e AGID
+author: AGID e Dipartimento per la Trasformazione Digitale
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://pianotriennale-ict.italia.it"
@@ -48,16 +48,16 @@ theme_color: "#0066cc"
 css_theme: t-Pac
 owner_short: AGID
 owner_full: Agenzia per l'Italia Digitale
-owner_link: http://www.agid.gov.it
+owner_link: https://www.agid.gov.it
 logo: /assets/images/logo-it.svg
 owner_logo: /assets/images/agid-logo.svg
 owner_logo_alt: /assets/images/agid-logo-alt.svg
-partner_short: Team Digitale
-partner_full: Team per la Trasformazione Digitale
-partner_link: https://teamdigitale.governo.it
+partner_short: MID
+partner_full: Ministro per l’Innovazione tecnologica e la digitalizzazione
+partner_link: https://innovazione.gov.it/
 privacy_link: https://developers.italia.it/it/privacy-policy
-partner_logo: /assets/images/dt-logo.svg
-partner_logo_alt: /assets/images/dt-logo-alt.svg
+partner_logo: /assets/images/logo-mid-white.svg
+partner_logo_alt: /assets/images/logo-mid-white-alt.svg
 gov_full: Presidenza del Consiglio dei Ministri
 gov_link: http://www.governo.it
 gov_logo: /assets/images/governo.svg
@@ -67,7 +67,7 @@ dfp_link: http://www.funzionepubblica.gov.it
 dfp_logo: /assets/images/governo.svg
 dfp_logo_alt: /assets/images/governo-alt.svg
 
-pill: 2019-2021
+pill: 2020-2022
 
 collections:
   pages:

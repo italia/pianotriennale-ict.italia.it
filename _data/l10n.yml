@@ -92,27 +92,30 @@ it:
     home_header_button_text: vai al piano
     home_pt_title: Cos'è il Piano Triennale
     home_pt_description: |
-      Il Piano Triennale 2019-2021 indica le linee di azione per promuovere la trasformazione digitale del settore pubblico e del Paese. Nel proseguire gli indirizzi contenuti nella versione 2017-2019, il Piano:
-        - sostiene il percorso inclusivo di crescita digitale delle PA centrali e locali con un maggiore coinvolgimento della figura del Responsabile per la transizione al digitale;
-        - definisce i principi architetturali fondamentali, le regole di interoperabilità delle infrastrutture nazionali e il modello di cooperazione fra ecosistemi e piattaforme;
-        - facilita il rapporto tra le PA e il mercato, coinvolgendo anche i soggetti privati nello sviluppo di servizi integrati ed interoperabili;
-        - introduce una nuova chiave di lettura delle iniziative di trasformazione digitale che individua le aree di intervento e l’impatto sugli interlocutori e gli attori principali del percorso: i cittadini, le imprese e le PA.
+      Il Piano triennale per l’informatica nella Pubblica Amministrazione 2020-2022 indica le linee di azione per promuovere la trasformazione digitale del settore pubblico e del Paese. Nel proseguire gli indirizzi contenuti nelle due versioni precedenti - laddove la prima edizione poneva l’accento sull'introduzione del Modello strategico dell’informatica nella PA e la seconda si proponeva di dettagliare l’implementazione del Modello - la terza versione del Piano triennale si focalizza sulla realizzazione delle azioni previste.
+      Le linee strategiche del Piano intendono:
+        - favorire lo sviluppo di una società digitale, in cui i servizi mettono al centro i cittadini e le imprese, attraverso la digitalizzazione della Pubblica amministrazione, che costituisce il motore di sviluppo per tutto il Paese;
+        - promuovere lo sviluppo sostenibile, etico ed inclusivo, attraverso l’innovazione e la digitalizzazione al servizio delle persone, delle comunità e dei territori, nel rispetto della sostenibilità ambientale;
+        - contribuire alla diffusione delle nuove tecnologie digitali nel tessuto produttivo italiano, incentivando la standardizzazione, l’innovazione e la sperimentazione nell’ambito dei servizi pubblici.
     home_pt_howto_title: Consulta il Piano
     home_pt_howto:
+      # - text: |
+      #    Nelle pagine di questo sito vengono riassunti i contenuti del Piano Triennale, suddivisi per [capitoli](/piano) e [azioni](/azioni).
+      #    Il documento completo è disponibile online in versione navigabile ottimizzata per dispositivi mobili o in PDF.
       - text: |
-         Nelle pagine di questo sito vengono riassunti i contenuti del Piano Triennale, suddivisi per [capitoli](/piano) e [azioni](/azioni).
-         Il documento completo è disponibile online in versione navigabile ottimizzata per dispositivi mobili o in PDF.
+          Il documento completo è disponibile online in versione navigabile ottimizzata per dispositivi mobili o in PDF.
         links:
           - type: button
             icon: read
             label: Versione navigabile
-            href: 'https://docs.italia.it/italia/piano-triennale-ict/pianotriennale-ict-doc/'
+            href: 'https://docs.italia.it/italia/piano-triennale-ict/pianotriennale-ict-doc/it/2020-2022/'
             target_blank: true
           - icon: download-alt
             label: scarica il pdf
-            href: '/assets/pdf/2019-2021/Piano-Triennale-ICT-2019-2021.pdf'
+            href: 'https://www.agid.gov.it/sites/default/files/repository_files/piano_triennale_per_linformatica_nella_pa_2020_2022.pdf'
             target_blank: true
-      - text: Hai bisogno di chiarimenti? Consulta le [domande frequenti](/faq). Scopri le novità del Piano sul [sito di AGID](https://www.agid.gov.it).
+      # - text: Hai bisogno di chiarimenti? Consulta le [domande frequenti](/faq). Scopri le novità del Piano sul [sito di AGID](https://www.agid.gov.it).
+      - text: Scopri le novità del Piano sul [sito di AGID](https://www.agid.gov.it).
         links:
           - type: button
             icon: forum
@@ -122,6 +125,15 @@ it:
     home_links:
       plan: /piano
     quotes:
+      2020:
+        pisano:
+          text: |
+            Ringrazio l'Agenzia per l'Italia digitale e il Dipartimento per la Trasformazione digitale per la stesura del piano. Entrambi - insieme alle amministrazioni centrali e locali - avranno un ruolo operativo in tutte le aree del piano: dal miglioramento della capacità di generare ed erogare nuovi servizi, all'evoluzione di quelli esistenti fino alla migrazione dei servizi su infrastrutture sicure, efficienti e sostenibili.<br>
+            I nostri prossimi obiettivi hanno scadenza 28/02/2021 e vedranno tutti noi  impegnati  a promuovere l’utilizzo di SPID (Sistema Pubblico di Identità Digitale) e CIE (Carta d'Identità elettronica) come le sole credenziali di accesso ai servizi digitali della Pubblica amministrazione, la piattaforma pagoPa come sistema di pagamento elettronico e l'avvio  dei processi di digitalizzazione per erogare tutti i servizi al cittadino attraverso l'applicazione 'IO'
+          text_short: |
+            Ringrazio l'Agenzia per l'Italia digitale e il Dipartimento per la Trasformazione digitale per la stesura del piano. Entrambi - insieme alle amministrazioni centrali e locali - avranno un ruolo operativo in tutte le aree del piano: dal miglioramento della capacità di generare ed erogare nuovi servizi, all'evoluzione di quelli esistenti fino alla migrazione dei servizi su infrastrutture sicure, efficienti e sostenibili.
+          author_name: Paola Pisano
+          author_role: Ministra per l'Innovazione Tecnologica e la Digitalizzazione
       2019:
         dedica:
           text: |
@@ -218,15 +230,15 @@ it:
     dfp_logo_alt: /assets/images/governo-alt.svg
     owner_short: AGID
     owner_full: Agenzia per l'Italia Digitale
-    owner_link: http://www.agid.gov.it
+    owner_link: https://www.agid.gov.it
     owner_logo: /assets/images/agid-logo.svg
     owner_logo_alt: /assets/images/agid-logo-alt.svg
-    partner_short: Team Digitale
-    partner_full: Team per la Trasformazione Digitale
-    partner_link: https://teamdigitale.governo.it
+    partner_short: MID
+    partner_full: Ministro per l’Innovazione tecnologica e la digitalizzazione
+    partner_link: https://innovazione.gov.it/
     privacy_link: https://developers.italia.it/it/privacy-policy
-    partner_logo: /assets/images/dt-logo.svg
-    partner_logo_alt: /assets/images/dt-logo-alt.svg
+    partner_logo: /assets/images/logo-mid-white.svg
+    partner_logo_alt: /assets/images/logo-mid-white-alt.svg
 
 en:
   code: eng
@@ -453,12 +465,12 @@ en:
     dfp_logo_alt: /assets/images/governo-alt.svg
     owner_short: AGID
     owner_full: Agenzia per l'Italia Digitale
-    owner_link: http://www.agid.gov.it
+    owner_link: https://www.agid.gov.it
     owner_logo: /assets/images/agid-logo.svg
     owner_logo_alt: /assets/images/agid-logo-alt.svg
-    partner_short: Team Digitale
-    partner_full: Digital Transformation Team
-    partner_link: https://teamdigitale.governo.it/en
+    partner_short: MID
+    partner_full: Ministro per l’Innovazione tecnologica e la digitalizzazione
+    partner_link: https://innovazione.gov.it/
     privacy_link: https://developers.italia.it/en/privacy-policy
-    partner_logo: /assets/images/dt-logo.svg
-    partner_logo_alt: /assets/images/dt-logo-alt.svg
+    partner_logo: /assets/images/logo-mid-white.svg
+    partner_logo_alt: /assets/images/logo-mid-white-alt.svg

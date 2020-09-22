@@ -7,6 +7,7 @@ title-alignment: center
 cta-buttons: true
 chapter: razionalizzazione-della-spesa
 ref: razionalizzazione-della-spesa
+redirect_to: /piano
 ---
 Nel Piano Triennale è sintetizzata l’attività di ricerca e analisi sulla spesa
 ICT nella PA, svolta nel 2018 coinvolgendo le principali amministrazioni
