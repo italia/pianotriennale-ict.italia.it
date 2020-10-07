@@ -129,7 +129,7 @@ it:
         links:
           - icon: download-alt
             label: scarica il pdf
-            href: '/assets/pdf/2020-2022/DPCM_17_luglio 2020_Approvazione_Piano_triennale_per_linformatica_nella_PA_2020-2022.pdf'
+            href: '/assets/pdf/2020-2022/DPCM_17_luglio_2020_pdf_testo.pdf'
             target_blank: true
     home_links:
       plan: /piano
@@ -378,7 +378,7 @@ en:
         links:
           - icon: download-alt
             label: download the pdf
-            href: '/assets/pdf/2020-2022/DPCM_17_luglio 2020_Approvazione_Piano_triennale_per_linformatica_nella_PA_2020-2022.pdf'
+            href: '/assets/pdf/2020-2022/DPCM_17_luglio_2020_pdf_testo.pdf'
             target_blank: true
     home_links:
       plan: /en/plan
