@@ -21,6 +21,7 @@ it:
     footer_link_privacy_policy: privacy
     footer_link_legal_notes: note legali
     footer_link_credits: crediti
+    footer_link_accessibility_statement: Dichiarazione di accessibilità
     footer_title: ''
     in_collaboration_with: In collaborazione con
     footer_note: Cover image courtesy of [Matteo Vistocco](https://unsplash.com/@mrsunflower94)
@@ -272,6 +273,7 @@ en:
     footer_link_privacy_policy: privacy
     footer_link_legal_notes: legal notices
     footer_link_credits: credits
+    footer_link_accessibility_statement: accessibility statement
     footer_title: ''
     actions_progress: In progress
     actions_from: 'From '
