@@ -5,6 +5,9 @@ it:
   legal:
     title: footer_link_legal_notes
     url: '/note-legali'
+  a11y:
+    title: footer_link_accessibility_statement
+    url: 'https://form.agid.gov.it/view/083b58e0-aac3-4edb-8ebf-b17ac112a227/'
 en:
   privacy:
     title: footer_link_privacy_policy
@@ -12,3 +15,6 @@ en:
   legal:
     title: footer_link_legal_notes
     url: '/en/legal-notices'
+  a11y:
+    title: footer_link_accessibility_statement
+    url: 'https://form.agid.gov.it/view/083b58e0-aac3-4edb-8ebf-b17ac112a227/'
