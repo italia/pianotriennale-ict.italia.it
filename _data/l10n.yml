@@ -113,7 +113,7 @@ it:
             target_blank: true
           - icon: download-alt
             label: scarica il pdf
-            href: 'https://www.agid.gov.it/sites/default/files/repository_files/piano_triennale_per_linformatica_nella_pa_2020_2022.pdf'
+            href: 'https://www.agid.gov.it/sites/default/files/repository_files/piano_triennale_per_l_informatica_nella_pa_2020_2022.pdf'
             target_blank: true
       # - text: Hai bisogno di chiarimenti? Consulta le [domande frequenti](/faq). Scopri le novità del Piano sul [sito di AGID](https://www.agid.gov.it).
       - text: Scopri le novità del Piano sul [sito di AGID](https://www.agid.gov.it).
