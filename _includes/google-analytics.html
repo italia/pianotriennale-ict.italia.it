@@ -17,10 +17,6 @@
           ga("set", "anonymizeIp", true);
           ga('send', 'pageview');
       };
-      if ($.cookieBar && $.cookieBar.isAccepted()) {
-          sendGaPageview();
-      } else {
-          $(document).on('accept.cookiebar', sendGaPageview);
-      }
+      sendGaPageview();
   });
 </script>
