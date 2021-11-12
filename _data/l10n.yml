@@ -3,9 +3,6 @@ it:
   name: italiano
   t:
     active_lang: lingua attiva
-    cookiebar_accept: Accetto
-    cookiebar_msg: Questo sito utilizza cookie tecnici, analytics e di terze parti. Proseguendo nella navigazione accetti l’utilizzo dei cookie.
-    cookiebar_privacy_policy: Privacy policy
     follow_us: seguici su
     header_link_pt: Piano Triennale
     header_link_developers: Developers
@@ -255,9 +252,6 @@ en:
   name: english
   t:
     active_lang: active language
-    cookiebar_accept: I accept
-    cookiebar_msg: This site uses technical cookies, analytics and third-party cookies. By continuing to browse, you accept the use of cookies.
-    cookiebar_privacy_policy: Privacy Policy
     follow_us: Follow us on
     header_link_pt: The Three-Year Plan
     header_link_developers: Developers
