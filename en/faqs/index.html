@@ -26,9 +26,9 @@
 <meta property="og:url" content="https://pianotriennale-ict.italia.it/en/faqs/" />
 <meta property="og:site_name" content="Trasformazione Digitale" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2021-11-11T22:21:57+00:00" />
+<meta property="article:published_time" content="2021-11-12T08:33:14+00:00" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","url":"https://pianotriennale-ict.italia.it/en/faqs/","headline":"FAQs","dateModified":"2021-11-11T22:21:57+00:00","datePublished":"2021-11-11T22:21:57+00:00","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://pianotriennale-ict.italia.it/assets/images/logo-it.svg"},"name":"AGID e Dipartimento per la Trasformazione Digitale"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://pianotriennale-ict.italia.it/en/faqs/"},"author":{"@type":"Person","name":"AGID e Dipartimento per la Trasformazione Digitale"},"description":"The three-year plan has recently been updated.","@context":"https://schema.org"}</script>
+{"@type":"BlogPosting","url":"https://pianotriennale-ict.italia.it/en/faqs/","headline":"FAQs","dateModified":"2021-11-12T08:33:14+00:00","datePublished":"2021-11-12T08:33:14+00:00","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://pianotriennale-ict.italia.it/assets/images/logo-it.svg"},"name":"AGID e Dipartimento per la Trasformazione Digitale"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://pianotriennale-ict.italia.it/en/faqs/"},"author":{"@type":"Person","name":"AGID e Dipartimento per la Trasformazione Digitale"},"description":"The three-year plan has recently been updated.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -82,17 +82,6 @@
     aria-label="go to the site navigation" title="go to the site navigation">
     go to the site navigation</a></li>
 </ul>
-
-
-<div id="cookie-bar" class="CookieBar js-CookieBar u-background-95 u-padding-r-all" aria-hidden="true">
-  <p class="u-color-white u-text-r-xs u-lineHeight-m u-padding-r-bottom">
-    This site uses technical cookies, analytics and third-party cookies. By continuing to browse, you accept the use of cookies.<br>
-  </p>
-  <p>
-    <button class="Button Button--default u-text-r-xxs js-cookieBarAccept u-inlineBlock u-margin-r-all">I accept</button>
-    <a href="https://developers.italia.it/it/privacy-policy" class="u-text-r-xs u-color-teal-50">Privacy Policy</a>
-  </p>
-</div>
 
 
 
@@ -817,11 +806,7 @@ AgID and the Digital Transformation Team will also work to collect, construct an
           ga("set", "anonymizeIp", true);
           ga('send', 'pageview');
       };
-      if ($.cookieBar && $.cookieBar.isAccepted()) {
-          sendGaPageview();
-      } else {
-          $(document).on('accept.cookiebar', sendGaPageview);
-      }
+      sendGaPageview();
   });
 </script>
  
