@@ -1,4 +1,4 @@
-# PIANO TRIENNALE PER L’INFORMATICA NELLA PUBBLICA AMMINISTRAZIONE 2019 - 2021
+# PIANO TRIENNALE PER L’INFORMATICA NELLA PUBBLICA AMMINISTRAZIONE 2020 - 2022
 
 [![CircleCI](https://circleci.com/gh/italia/pianotriennale-ict.italia.it.svg?style=svg)](https://circleci.com/gh/italia/pianotriennale-ict.italia.it)
 
