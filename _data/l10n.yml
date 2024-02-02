@@ -120,7 +120,7 @@ it:
             label: partecipa
             href: 'https://forum.italia.it/c/piano-triennale'
             target_blank: true
-    home_pt_dpcm_download_title: DPCM 17 Luglio 2020
+    home_pt_dpcm_download_title: DPCM 17 Luglio 2020.
     home_pt_dpcm_download:
       - text: |
           Approvazione Piano Triennale per l'informatica nella PA 2020-2022
