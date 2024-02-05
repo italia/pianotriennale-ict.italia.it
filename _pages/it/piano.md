@@ -4,56 +4,48 @@ layout: piano
 lang: it
 separator: ascending
 title-alignment: left
-quotes: 2020
+quotes: 2024
 chapters: []
 ref: piano
 redirect_from:
   - /principi-per-lo-sviluppo-di-progetti-digitali
   - /principi-per-lo-sviluppo-di-progetti-digitali/
 ---
-Gli obiettivi del Piano sono basati sulle indicazioni che emergono dalla nuova
-programmazione europea 2021-2027, sui principi dell'eGovernment Action Plan
-2016-2020 e sulle azioni previste dalla eGovernment Declaration di Tallinn
-(2017-2021), i cui indicatori misurano il livello di digitalizzazione in tutta
-l’UE e rilevano l’effettiva presenza e l’uso dei servizi digitali da parte dei
-cittadini e imprese.
+Il Piano Triennale per l'informatica nella Pubblica Amministrazione 2024-2026 si
+inserisce nel più ampio contesto di riferimento definito dal programma
+strategico "Decennio Digitale 2030", istituito dalla Decisione (UE) 2022/2481
+del Parlamento Europeo e del Consiglio del 14 dicembre 2022, i cui obiettivi
+sono articolati in quattro dimensioni: competenze digitali, servizi pubblici
+digitali, digitalizzazione delle imprese e infrastrutture digitali sicure e
+sostenibili.
 
-Pur nella continuità con i precedenti Piani, il Piano triennale 2020-2022
-introduce un'importante innovazione con riferimento ai destinatari degli
-obiettivi individuati per ciascuna delle tematiche affrontate. Saranno infatti
-le singole amministrazioni a dover realizzare le azioni per il raggiungimento
-degli obiettivi contenuti nel Piano. Il Piano si caratterizza inoltre per un
-forte accento sulla misurazione dei risultati. La cultura della misurazione, e
-conseguentemente della qualità dei dati, diventa uno dei motivi portanti di
-questo approccio.
+In una logica di miglioramento continuo, il modello strategico del nuovo Piano
+propone un'architettura organizzativa e tecnologica che ha l'obiettivo di
+fornire una visione complessiva della Pubblica Amministrazione digitale che
+parte dal "sistema informativo" del singolo ente per arrivare a definire le
+relazioni con i servizi, le piattaforme e le infrastrutture nazionali erogate a
+livello centrale.
 
-I principi guida del Piano sono: 
+Il modello strategico classifica le sfide organizzative e tecnologiche che le
+amministrazioni devono affrontare in tre macroaree:
 
-- *digital & mobile first* per i servizi, che devono essere accessibili in via
-  esclusiva con sistemi di identità digitale definiti dalla normativa
-  assicurando almeno l’accesso tramite SPID;
-- *cloud first* (cloud come prima opzione): le pubbliche amministrazioni, in fase
-  di definizione di un nuovo progetto e di sviluppo di nuovi servizi, adottano
-  primariamente il paradigma cloud, tenendo conto della necessità di prevenire
-  il rischio di lock-in;
-- servizi inclusivi e accessibili che vengano incontro alle diverse esigenze
-  delle persone e dei singoli territori e siano interoperabili by design in modo
-  da poter funzionare in modalità integrata e senza interruzioni in tutto il
-  mercato unico esponendo le opportune API;
-- sicurezza e *privacy by design*: i servizi digitali devono essere progettati ed
-  erogati in modo sicuro e garantire la protezione dei dati personali;
-- *user-centric*, *data driven* e agile: le amministrazioni sviluppano i servizi
-  digitali, prevedendo modalità agili di miglioramento continuo, partendo
-  dall’esperienza dell'utente e basandosi sulla continua misurazione di
-  prestazioni e utilizzo e rendono disponibili a livello transfrontaliero i
-  servizi pubblici digitali rilevanti secondo il principio transfrontaliero by
-  design;
-- *once only*: le pubbliche amministrazioni devono evitare di chiedere ai
-  cittadini e alle imprese informazioni già fornite;
-- dati pubblici un bene comune: il patrimonio informativo della pubblica
-  amministrazione è un bene fondamentale per lo sviluppo del Paese e deve essere
-  valorizzato e reso disponibile ai cittadini e alle imprese, in forma aperta e
-  interoperabile;
-- codice aperto: le pubbliche amministrazioni devono prediligere l’utilizzo di
-  software con codice aperto e, nel caso di software sviluppato per loro conto,
-  deve essere reso disponibile il codice sorgente.
+- processi
+- applicazioni
+- tecnologie.
+
+Il Piano è strutturato in tre parti:
+
+- Parte prima – Componenti strategiche per la trasformazione digitale: descrive
+  le leve strategiche su cui investire per accelerare il processo di
+  trasformazione digitale delle PA, focalizzando l'attenzione su un approccio
+  innovativo che affronti, in maniera sistematica, tutti gli aspetti legati a
+  organizzazione, processi, regole, dati e tecnologie.
+
+- Parte seconda – Componenti tecnologiche: è relativa a Servizi, Piattaforme,
+  Dati e intelligenza artificiale, Infrastrutture, Sicurezza; il tema
+  dell'interoperabilità diventa trasversale a tutte le componenti.
+
+- Parte terza – Strumenti: rappresenta un'importante novità di questo Piano e
+  riporta una sezione verticale dedicata agli strumenti che le amministrazioni
+  possono prendere a riferimento come modelli di supporto, esempi di buone
+  pratiche, check-list per pianificare i propri interventi.

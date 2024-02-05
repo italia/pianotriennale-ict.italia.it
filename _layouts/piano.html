@@ -29,29 +29,6 @@ layout: default
     <div class="Grid-cell u-sizeFull u-md-size6of12 u-lg-size6of12">
       <div class="Prose">
         {{ content }}
-        {% if page.lang == 'it' %}
-        {% comment %}
-        <h4>{{ t.temi_title }}</h4>
-        <p>{{ t.modello_intro }}</p>
-        {% include modello.html %}
-        {% endcomment %}
-
-        <p>{{ t.forum_intro }}</p>
-        {% assign buttonUrl = site.data.ext_links[page.lang].piano-triennale-index.forum %}
-        {% include button.html label = 'goto_forum' url = buttonUrl  icon = 'forum' target_blank = true %}
-
-        {% comment %}
-        <h4>{{ t.capitoli_title }}</h4>
-         <div class="Grid Grid--withGutter">
-           {% for chapter in page.chapters %}
-           <div class="Grid-cell u-size1of1">
-             {% assign rtdUrl = site.data.ext_links[page.lang][chapter].rtd %}
-             {% include button.html  chapter_lang = page.lang label = 'goto_chapter' label_extra = chapter url = rtdUrl target_blank = true classes = 'Chapter' %}
-           </div>
-          {% endfor %}
-         </div>
-         {% endcomment %}
-         {% endif %}
       </div>
     </div>
     <div class="Grid-cell u-sizeFull u-md-before2of12 u-md-size4of12 u-lg-before2of12 u-lg-size4of12">

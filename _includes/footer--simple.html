@@ -6,33 +6,20 @@
         <div class="u-inlineBlock">
           <a href="{{ t.gov_link }}" title="{{ t.gov_full | escape }}">
           <img class="Footer-logo u-alignMiddle" src="{{ t.gov_logo | relative_url }}"
-          alt="" style="height: 4em; max-width: 100%"></a>
+          alt="{{ t.gov_full }}" style="height: 4em; max-width: 100%"></a>
         </div>
         <p class="Grid-cell u-size8of12 u-md-size7of12 Footer-siteName u-padding-top-xxs u-text-r-m">
           <a href="{{ t.gov_link }}" title="{{ t.gov_full | escape }}" class="u-color-white u-textClean">{{ t.gov_full | escape }}</a>
         </p>
       </div>
     </div>
-    
-    <!-- <div class="Owner Grid-cell u-sm-size1of2 u-md-size1of5 u-lg-size1of5 u-padding-r-bottom">
-      <div class="Grid"> 
-         <div class="u-inlineBlock">
-          <a href="{{ t.dfp_link }}" title="{{ t.dfp_full | escape }}">
-          <img class="Footer-logo u-alignMiddle" src="{{ t.dfp_logo | relative_url }}"
-          alt="" style="height: 4em; max-width: 100%"></a>
-        </div>
-        <p class="Grid-cell u-size8of12 u-md-size7of12 Footer-siteName u-padding-top-xxs u-text-r-m">
-          <a href="{{ t.dfp_link }}" title="{{ t.dfp_full | escape }}" class="u-color-white u-textClean">{{ t.dfp_full | escape }}</a>
-        </p>
-      </div>
-    </div> -->
-    
+
     <div class="Owner Grid-cell u-sm-size1of2 u-md-size1of3 u-lg-size1of3 u-padding-r-bottom">
       <div class="Grid">     
         <div class="u-inlineBlock">
           <a href="{{ t.owner_link }}" title="{{ t.owner_full | escape }}">
           <img class="Footer-logo u-alignMiddle" src="{{ t.owner_logo | relative_url }}"
-          alt="" style="height: 4em; max-width: 100%"></a>
+          alt="{{ t.owner_full }}" style="height: 4em; max-width: 100%"></a>
         </div>
       </div>
     </div>
@@ -40,8 +27,9 @@
     <div class="Partner Grid-cell u-sm-size1of2 u-md-size1of3 u-lg-size1of3 u-padding-r-bottom td-footer">
       <div class="Grid">
         <div class="u-inlineBlock">
-            <a href="{{ t.partner_link }}" title="{{ t.owner_full | escape }}"><img class="u-padding-right-xxs" src="{{ t.partner_logo | relative_url }}" alt=""
-            style="height: 4em; max-width: 100%"></a>
+            <a href="{{ t.partner_link }}" title="{{ t.owner_full | escape }}">
+            <img class="u-padding-right-xxs" src="{{ t.partner_logo | relative_url }}"
+            alt="{{ t.partner_full }}" style="height: 4em; max-width: 100%"></a>
         </div>
         <div class="Grid-cell u-size1of12 u-padding-left-none team-bar"></div>
         <p class="Grid-cell u-size6of12 Footer-siteName u-padding-left-xs u-text-r-xs">
@@ -73,10 +61,6 @@
       <li><a href="{{ link[1].url | relative_url }}">{{ t[link_name] | default: link_name | capitalize }}</a></li>
     {% endfor %}
     </ul>
-    <ul class="Footer-notes u-floatRight">
-      <li class="u-color-grey-50 u-textWeight-200">{{ t.footer_note | markdownify }}</li>
-      <li class="u-color-white"><span class="Icon Icon-cc0 u-margin-right-xs u-alignMiddle u-text-r-m u-alignMiddle"></span>{{ t.footer_public_domain }}</li>
-    </ul>
   </div>
 
   <div class="Footer-space u-sm-hidden u-md-hidden u-lg-hidden"></div>
@@ -85,5 +69,4 @@
 
 {% include scripts.html %}
 
-{% if jekyll.environment == 'production' and site.google_analytics %} {% include google-analytics.html %} {% endif %}
-{% comment %}{% if jekyll.environment == 'production' and site.piwik %} {% include piwik.html %} {% endif %}{% endcomment %}
+{% if jekyll.environment == 'production' and site.wai %} {% include wai.html %} {% endif %}

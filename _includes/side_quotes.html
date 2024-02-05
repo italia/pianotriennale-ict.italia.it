@@ -7,7 +7,7 @@
     {{ quote[1].author_name }}
   </div>
   <div class="Side-quote-text u-text-r-xxs">
-    {{ quote[1].author_role }}
+    {{ quote[1].author_role | newline_to_br }}
   </div>
 </div>
 {% endfor %}

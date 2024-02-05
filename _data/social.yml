@@ -1,54 +1,30 @@
 it:
+  - name: x
+    owner: agid
+    link: https://x.com/AgidGov
+    header: true
+    footer: true
   - name: facebook
     owner: agid
     link: https://www.facebook.com/AgIDGovIT/
     header: true
     footer: true
-  - name: twitter
-    owner: agid
-    link: https://twitter.com/AgidGov
-    sharelink: https://twitter.com/intent/tweet?url=<url>
-    header: true
-    footer: true
   - name: medium
     owner: agid
     link: https://medium.com/@AgidGov
-  - name: twitter
-    owner: mid
-    link: https://twitter.com/InnovazioneGov
-  - name: medium
-    owner: mid
-    link: https://medium.com/blog-per-la-trasformazione-digitale
-  - name: facebook
-    owner: mid
-    link: https://www.facebook.com/MinisteroInnovazione/
   - name: linkedin
-    owner: mid
-    link: https://www.linkedin.com/company/ministeroinnovazione/
+    owner: agid
+    link: https://www.linkedin.com/company/agenzia-italia-digitale/
+  - name: x
+    owner: dtd
+    link: https://x.com/InnovazioneGov
+  - name: facebook
+    owner: dtd
+    link: https://www.facebook.com/DipartimentoTrasformazioneDigitale/
+  - name: medium
+    owner: dtd
+    link: https://medium.com/blog-per-la-trasformazione-digitale
+  - name: linkedin
+    owner: dtd
+    link: https://www.linkedin.com/company/dipartimentotrasformazionedigitale/
 en:
-  - name: facebook
-    owner: agid
-    link: https://www.facebook.com/AgIDGovIT/
-    header: true
-    footer: true
-  - name: twitter
-    owner: agid
-    link: https://twitter.com/AgidGov
-    sharelink: https://twitter.com/intent/tweet?url=<url>
-    header: true
-    footer: true
-  - name: medium
-    owner: agid
-    link: https://medium.com/@AgidGov
-  - name: twitter
-    owner: mid
-    link: https://twitter.com/InnovazioneGov
-  - name: medium
-    owner: mid
-    link: https://medium.com/blog-per-la-trasformazione-digitale
-  - name: facebook
-    owner: mid
-    link: https://www.facebook.com/MinisteroInnovazione/
-  - name: linkedin
-    owner: mid
-    link: https://www.linkedin.com/company/ministeroinnovazione/

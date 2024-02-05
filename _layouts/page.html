@@ -34,45 +34,6 @@ layout: default
       <div class="Prose">
         {{ content }}
       </div>
-      {% if page.cta-buttons %}
-      {% assign chapter = page.subchapter | default: page.chapter %}
-      <div>
-        {% assign pdfUrl = site.data.ext_links[page.lang][chapter].pdf %}
-        <a href="{{ pdfUrl }}" class="u-textWeight-600 u-linkClean u-color-teal-70 u-block" target="_blank">
-          <span class="Icon Icon-download-alt u-margin-left-xs u-alignMiddle u-text-r-l"></span>
-          <span class="u-text-r-xxs u-textClean">{{ t.download_chapter | upcase }}</span>
-        </a>
-      </div>
-      <div class="Grid Grid--withGutter u-margin-bottom-xl">
-        <div class="Grid-cell u-sizeFull u-md-size1of2 u-lg-size1of2 u-margin-top-l">
-          <div class="Prose u-textCenter">
-            <div class="u-margin-r-bottom">{{ t.deepen | capitalize }}</div>
-            <div class="Grid Grid--withGutter">
-              <div class="Grid-cell u-size1of1">
-              {% assign rtdUrl = site.data.ext_links[page.lang][chapter].rtd %}
-              {% include button.html label = 'goto_chapter' url = rtdUrl icon = 'read' align = 'center' target_blank = true %}
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="Grid-cell u-sizeFull u-md-size1of2 u-lg-size1of2 u-margin-top-l">
-          <div class="Prose u-textCenter">
-            <div class="u-margin-r-bottom">{{ t.discuss | capitalize }}</div>
-            {% assign forumUrl = site.data.ext_links[page.lang][chapter].forum %}
-            {% include button.html label = 'goto_forum' url = forumUrl icon = 'forum' align = 'center' target_blank = true %}
-          </div>
-        </div>
-      </div>
-      {% endif %}
-      {% if page.linee-azione %}
-      <div class="Prose u-margin-top-xl u-margin-bottom-xl">
-        {% assign title = page.title | downcase %}
-        {% if title != t.actions %}
-        <h4>{{ t.actions | capitalize }}</h4>
-        {% endif %}
-        {% include actions_tabs.html %}
-      </div>
-      {% endif %}
     </div>
   </div>
 </div>

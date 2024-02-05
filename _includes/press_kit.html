@@ -1,9 +1,0 @@
-<h4>Media</h4>
-{% assign press-releases = site.press-releases | where: 'lang', active_lang %}
-{% for press-release in press-releases %}
-  <div class="Press-release u-sizeFull">
-    <a href="{{ press-release.href }}" title="{{ press-release.title | escape }}" class="u-linkClean" target="_blank">
-      <span class="Title u-sizeFull u-textClean">{{ press-release.title }}</span><span class="Icon Icon-chevron-right u-color-50 u-alignBottom"></span>
-    </a>
-  </div>
-{% endfor %}

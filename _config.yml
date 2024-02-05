@@ -16,12 +16,12 @@
 
 title: Trasformazione Digitale
 description: "Piano Triennale per l'informatica nella Pubblica Amministrazione"
-author: AGID e Dipartimento per la Trasformazione Digitale
+author: AGID e Dipartimento per la trasformazione digitale
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://pianotriennale-ict.italia.it"
-piwik: 3
-google_analytics: 'UA-96140462-4'
+wai: VQ0Qnry3dY
+
 # Build settings
 markdown: kramdown
 plugins:
@@ -52,12 +52,12 @@ owner_link: https://www.agid.gov.it
 logo: /assets/images/logo-it.svg
 owner_logo: /assets/images/agid-logo.svg
 owner_logo_alt: /assets/images/agid-logo-alt.svg
-partner_short: MID
-partner_full: Ministro per l’Innovazione tecnologica e la digitalizzazione
+partner_short: DTD
+partner_full: Dipartimento per la trasformazione digitale
 partner_link: https://innovazione.gov.it/
 privacy_link: https://developers.italia.it/it/privacy-policy
-partner_logo: /assets/images/logo-mid-white.svg
-partner_logo_alt: /assets/images/logo-mid-white-alt.svg
+partner_logo: /assets/images/logo-dtd-white.svg
+partner_logo_alt: /assets/images/logo-dtd-white-alt.svg
 gov_full: Presidenza del Consiglio dei Ministri
 gov_link: http://www.governo.it
 gov_logo: /assets/images/governo.svg
@@ -67,7 +67,7 @@ dfp_link: http://www.funzionepubblica.gov.it
 dfp_logo: /assets/images/governo.svg
 dfp_logo_alt: /assets/images/governo-alt.svg
 
-pill: 2020-2022
+pill: 2024-2026
 
 collections:
   pages:
