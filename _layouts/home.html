@@ -8,6 +8,7 @@ layout: default
   <div class="Home-background rellax" data-rellax-speed="6"></div>
   <div class="Home-content">
 
+    {% comment %}
     <!--<div class="u-textCenter u-padding-r-all u-textCenter u-padding-bottom-xxl u-posRelative">
        <div class="Home-hero u-layoutCenter u-margin-bottom-l">
       <h2 class="u-text-r-xl u-textWeight-300 u-color-white u-margin-top-l u-lineHeight-l">
@@ -20,6 +21,7 @@ layout: default
       </div>
           </div>
     </div>-->
+    {% endcomment %}
 
     <section class="u-layout-r-withGutter u-padding-top-xxl u-padding-bottom-xxl">
 
@@ -47,9 +49,9 @@ layout: default
 
           <div class="Grid-cell u-md-size5of12 u-md-before2of12 u-lg-size5of12 u-lg-before2of12 u-margin-r-bottom u-posRelative">
             <div class="u-padding-bottom-xxl">
-            {% assign authorName = t.quotes[2020].pisano.author_name %}
-            {% assign authorRole = t.quotes[2020].pisano.author_role %}
-            {% assign text = t.quotes[2020].pisano.text | newline_to_br %}
+            {% assign authorName = t.quotes[2024].butti.author_name %}
+            {% assign authorRole = t.quotes[2024].butti.author_role | newline_to_br %}
+            {% assign text = t.quotes[2024].butti.text | newline_to_br %}
             {%
               include card.html
               authorName = authorName
@@ -77,13 +79,7 @@ layout: default
 
     <div class="Sticky-bottom Grid Grid--alignMiddle u-sm-hidden u-md-hidden u-lg-hidden u-background-50">
       <div class="Grid-cell u-size1of2 u-padding-r-all">
-        <a role="button" href="{{ site.data.ext_links[page.lang].piano-triennale-index.forum }}"
-        class="u-textCenter u-text-r-xxs u-textWeight-600 u-linkClean u-color-white u-block u-padding-r-all u-block">
-          <span class="u-text-r-xxs u-textClean">{{ t.goto_forum | upcase }}</span>
-        </a>
-      </div>
-      <div class="Grid-cell u-size1of2 u-padding-r-all">
-        <a role="button" href="{{ site.data.ext_links[page.lang].piano-triennale-index.rtd }}"
+        <a role="button" href="{{ site.data.ext_links[page.lang].piano-triennale-index.docs }}"
         class="Button Button--default Button--shadow-dark Button--round u-text-r-xxs u-padding-r-all u-sizeFull">
           {{ t.home_header_button_text | upcase }}
         </a>

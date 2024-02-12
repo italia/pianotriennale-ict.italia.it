@@ -1,4 +1,0 @@
----
-permalink: en/actions/actions.json
----
-{{ site.data.linee_azione.en | sort: "numero" | jsonify }}

@@ -29,15 +29,10 @@ layout: default
 <div class="Content u-background-grey-15 u-layout-r-withGutter u-padding-r-top u-padding-bottom-xxl u-posRelative u-zindex-30">
   <div class="Grid">
     <div class="Grid-cell u-sizeFull u-md-size6of12 u-lg-size6of12">
-      <div class="Prose u-margin-bottom-xxl">
-        {{content}}
-        {% assign buttonUrl = site.data.ext_links[page.lang].piano-triennale-index.forum %}
-        {% include button.html label = 'goto_forum' url = buttonUrl target_blank = true %}
-      </div>
       <div class="u-margin-bottom-xxl">
          <div class="u-margin-top-xxl u-margin-bottom-xs u-inlineBlock">
            <a class="u-linkClean" href="{{ site.owner_link }}" title="{{ site.owner_full | escape }}">
-             <img class="u-alignTop" src="{{ site.owner_logo_alt | relative_url }}" alt="" style="height: 4em; max-width: 100%">
+             <img class="u-alignTop" src="{{ site.owner_logo_alt | relative_url }}" alt="{{ site.owner_full | escape }}" style="height: 4em; max-width: 100%">
            </a>
          </div>
          <div class="Prose">
@@ -55,16 +50,16 @@ layout: default
            </ul>
            <a href="{{site.data.contacts[page.lang].owner.site}}" title="{{ site.owner_full | escape }}" class="u-textWeight-600 u-linkClean u-color-teal-70">
            <span class="Icon Icon-arrow-right u-margin-left-xs u-alignMiddle"></span>
-           <span class="u-textClean">{{site.data.contacts[page.lang].owner.site}}</span>
+           <span class="u-textClean">{{ t.institutional_site }}: {{ site.data.contacts[page.lang].owner.site }}</span>
            </a>
          </div>
       </div>
       <div class="u-margin-bottom-xxl u-padding-top-xxl">
          <div class="Grid u-margin-top-xxl u-margin-bottom-xs ">
            <div class="u-inlineBlock">
-             <a href="{{ site.partner_link }}" title="{{ site.partner_full | escape }}"><img class="u-padding-right-xs" src="{{ site.gov_logo_alt | relative_url }}" alt=""
+             <a href="{{ site.partner_link }}" title="{{ site.partner_full | escape }}"><img class="u-padding-right-xs" src="{{ site.gov_logo_alt | relative_url }}" alt="{{ site.gov_full }}"
                style="height: 4em; max-width: 100%"></a>
-             <a href="{{ site.partner_link }}" title="{{ site.partner_full | escape }}"><img class="u-padding-right-xxs" src="{{ site.partner_logo_alt | relative_url }}" alt=""
+             <a href="{{ site.partner_link }}" title="{{ site.partner_full | escape }}"><img class="u-padding-right-xxs" src="{{ site.partner_logo_alt | relative_url }}" alt="{{ site.partner_full }}"
                style="height: 4em; max-width: 100%"></a>
            </div>
            <div class="Grid-cell u-size1of12 u-padding-left-none team-bar-alt"></div>
@@ -77,7 +72,7 @@ layout: default
          </div>
          <div>
             <ul class="Footer-socialIcons u-margin-r-bottom">
-            {% assign socials = site.data.social[page.lang] | where: 'owner', 'mid' %}
+            {% assign socials = site.data.social[page.lang] | where: 'owner', 'dtd' %}
             {% for social in socials %}
                <li>
                   <a href="{{ social.link }}" title="{{ social.name }}" target="_blank"><span class="Icon-{{ social.name }}"></span>
@@ -87,7 +82,7 @@ layout: default
             </ul>
             <a href="{{site.data.contacts[page.lang].partner.site}}" title="{{ site.partner_full | escape }}" class="u-textWeight-600 u-linkClean u-color-teal-70">
                <span class="Icon Icon-arrow-right u-margin-left-xs u-alignMiddle"></span>
-               <span class="u-textClean">{{site.data.contacts[page.lang].partner.site}}</span>
+               <span class="u-textClean">{{ t.institutional_site }}: {{ site.data.contacts[page.lang].partner.site }}</span>
             </a>
          </div>
       </div>

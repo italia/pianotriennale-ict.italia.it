@@ -13,7 +13,7 @@ Il sito contiene informazioni sul Piano Triennale per l'informatica nella PA ed 
 La titolarità di tutti i documenti e contenuti (testi, presentazioni, immagini, foto, video, ecc.) è dell'Agenzia per l'Italia Digitale.
 La visualizzazione, il download e qualunque utilizzo dei dati pubblicati sul Sito comporta accettazione delle presenti note legali e delle condizioni della licenza con cui sono pubblicati.
 
-Salvo ove diversamente indicato, i contenuti pubblicati sul presente sito sono messi a disposizione con licenza CC-BY 3.0, il cui testo integrale è disponibile al seguente indirizzo: [http://creativecommons.org/licenses/by/3.0/it/legalcode](http://creativecommons.org/licenses/by/3.0/it/legalcode){:target="_blank"}
+Salvo ove diversamente indicato, i dati pubblicati sul presente sito sono messi a disposizione con licenza CC-BY 4.0, il cui testo integrale è disponibile al seguente indirizzo: [https://creativecommons.org/licenses/by/4.0/legalcode.it](https://creativecommons.org/licenses/by/4.0/legalcode.it){:target="_blank"}
 {: .u-textBreak }
 
 Questo significa che, ove non diversamente specificato, i contenuti di questo sito sono liberamente distribuibili e riutilizzabili, a patto che sia sempre citata la fonte e – ove possibile - riportato l'indirizzo web della pagina originale.

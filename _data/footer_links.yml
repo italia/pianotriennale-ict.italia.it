@@ -7,14 +7,5 @@ it:
     url: '/note-legali'
   a11y:
     title: footer_link_accessibility_statement
-    url: 'https://form.agid.gov.it/view/083b58e0-aac3-4edb-8ebf-b17ac112a227/'
+    url: 'https://form.agid.gov.it/view/62df5760-c771-11ee-83ea-c7a40c5a9188'
 en:
-  privacy:
-    title: footer_link_privacy_policy
-    url: '/en/privacy-policy'
-  legal:
-    title: footer_link_legal_notes
-    url: '/en/legal-notices'
-  a11y:
-    title: footer_link_accessibility_statement
-    url: 'https://form.agid.gov.it/view/083b58e0-aac3-4edb-8ebf-b17ac112a227/'

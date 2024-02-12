@@ -16,11 +16,6 @@ it:
     class: delimiter
     li_markup_pre: '<span class="u-block u-padding-all-s u-margin-top-xs u-color-grey-50">I DESIGNER</span>'
     external: true
-  forum:
-    title: header_link_forum
-    url: 'https://forum.italia.it/'
-    li_markup_pre: '<span class="u-block u-padding-all-s u-margin-top-xs u-color-grey-50">GLI STRUMENTI</span>'
-    external: true
   docs:
     title: header_link_docs
     url: 'https://docs.italia.it/'
@@ -30,33 +25,3 @@ it:
     url: 'https://github.com/italia/'
     external: true
 en:
-  piano-triennale:
-    title: header_link_pt
-    url: 'https://pianotriennale-ict.italia.it/en'
-    class: current delimiter
-    li_markup_pre: '<span class="u-block u-padding-all-s u-margin-top-xs u-color-grey-50">THE PROGRAM</span>'
-  developers:
-    title: header_link_developers
-    url: 'https://developers.italia.it/'
-    class: delimiter
-    li_markup_pre: '<span class="u-block u-padding-all-s u-margin-top-xs u-color-grey-50">THE COMMUNITIES</span>'
-    external: true
-  design:
-    title: header_link_design
-    url: 'https://designers.italia.it'
-    class: delimiter
-    li_markup_pre: '<span class="u-block u-padding-all-s u-margin-top-xs u-color-grey-50">THE DESIGNERS</span>'
-    external: true
-  forum:
-    title: header_link_forum
-    url: 'https://forum.italia.it/'
-    li_markup_pre: '<span class="u-block u-padding-all-s u-margin-top-xs u-color-grey-50">THE TOOLS</span>'
-    external: true
-  docs:
-    title: header_link_docs
-    url: 'https://docs.italia.it/'
-    external: true
-  github:
-    title: header_link_github
-    url: 'https://github.com/italia/'
-    external: true

@@ -1,15 +1,9 @@
 it:
   owner: 
-    desc: L’Agenzia per l’Italia Digitale (AGID) è l’agenzia di governo che coordina l’attuazione dell’Agenda Digitale Italiana, promuove la diffusione dell'utilizzo delle tecnologie ICT favorendo l'innovazione e la crescita economica sociale e culturale del Paese.
+    desc: L'Agenzia per l'Italia Digitale (AGID) è l'agenzia di governo che coordina l'attuazione dell'Agenda Digitale Italiana, promuove la diffusione dell'utilizzo delle tecnologie ICT favorendo l'innovazione e la crescita economica sociale e culturale del Paese.
     site: https://www.agid.gov.it/
   partner: 
-    desc: Il Dipartimento per la Trasformazione Digitale lavora a supporto del Presidente del consiglio dei ministri, con l’obiettivo di realizzare la cosiddetta “agenda digitale”, con lo scopo di offrire ai cittadini, alla Pubblica Amministrazione e alle imprese servizi digitali sempre più efficienti, semplici e progettati sui loro reali bisogni.
+    desc: Il Dipartimento per la Trasformazione Digitale svolge funzioni di indirizzo, coordinamento e impulso nella definizione ed attuazione di programmi e progetti, con lo scopo di offrire ai cittadini, alla Pubblica Amministrazione e alle imprese servizi digitali sempre più efficienti, semplici e progettati sui loro reali bisogni.
     site: https://innovazione.gov.it/
 en:
-  owner: 
-    desc: The Agency for Digital Italy (AGID) is the government agency that coordinates the implementation of the Italian Digital Agenda. AGID facilitates the use of ICTs, while promoting innovation and helping Italy's economic and social growth.
-    site: https://www.agid.gov.it/en
-  partner: 
-    desc: The Digital Transformation Team was born to build the "operating system" of the country, a series of fundamental components on top of which we ca build simpler and more efficient services for the citizens, the Public Administration and businesses, through innovative digital products.
-          The [team of the Commissioner](http://presidenza.governo.it/AmministrazioneTrasparente/DisposizioniGenerali/AttiGenerali/DpcmOrganismiCollegiali/DPCM_20160916_CommStraord_AgendaDigitale.pdf "Prime-Ministerial Decree of Digital agenda commissarial structure") has been created on September 16, 2016 and will last until September 16, 2018.
-    site: https://innovazione.gov.it/
+

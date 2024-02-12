@@ -1,0 +1,19 @@
+<!-- WAI -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  $(document).ready(function() {
+    var startTracking = function() {
+      _paq.push(['trackPageView']);
+      _paq.push(['enableLinkTracking']);
+      var u="//ingestion.webanalytics.italia.it/";
+      _paq.push(['setTrackerUrl', u+'matomo.php']);
+      _paq.push(['setSiteId', '{{ site.wai }}']);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+    }
+    startTracking();
+  });
+</script>
+<!-- End WAI Code -->
+
+
